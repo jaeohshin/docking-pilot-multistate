@@ -1,0 +1,139 @@
+{
+ "main": {
+  "cases": 13,
+  "with_multiple_states": 12,
+  "holo_single": {
+   "mean_rmsd_top": 3.007,
+   "median_rmsd_top": 2.023,
+   "success_top": 6,
+   "mean_rmsd_oracle": 1.296
+  },
+  "holo_multi": {
+   "mean_rmsd_top": 2.75,
+   "median_rmsd_top": 2.088,
+   "success_top": 6,
+   "mean_rmsd_oracle": 1.288
+  },
+  "apo_single": {
+   "mean_rmsd_top": 5.892,
+   "median_rmsd_top": 6.008,
+   "success_top": 0,
+   "mean_rmsd_oracle": 3.147
+  },
+  "apo_multi": {
+   "mean_rmsd_top": 5.328,
+   "median_rmsd_top": 4.691,
+   "success_top": 1,
+   "mean_rmsd_oracle": 2.694
+  },
+  "apo_multi_minus_single": {
+   "mean": 0.5645,
+   "ci95": [
+    -0.0932,
+    1.4342
+   ],
+   "n": 13
+  },
+  "holo_multi_minus_single": {
+   "mean": 0.2576,
+   "ci95": [
+    -0.0181,
+    0.7883
+   ],
+   "n": 13
+  },
+  "apo_minus_holo_single": {
+   "mean": 2.8851,
+   "ci95": [
+    1.4336,
+    4.5391
+   ],
+   "n": 13
+  },
+  "interaction": {
+   "mean": 0.3069,
+   "ci95": [
+    -0.6004,
+    1.3183
+   ],
+   "n": 13
+  },
+  "apo_multi_minus_single_states_only": {
+   "mean": 0.6116,
+   "ci95": [
+    -0.1039,
+    1.5232
+   ],
+   "n": 12
+  }
+ },
+ "backbone_change": {
+  "cases": 4,
+  "with_multiple_states": 4,
+  "holo_single": {
+   "mean_rmsd_top": 1.141,
+   "median_rmsd_top": 1.009,
+   "success_top": 3,
+   "mean_rmsd_oracle": 0.627
+  },
+  "holo_multi": {
+   "mean_rmsd_top": 1.172,
+   "median_rmsd_top": 1.072,
+   "success_top": 3,
+   "mean_rmsd_oracle": 0.696
+  },
+  "apo_single": {
+   "mean_rmsd_top": 4.403,
+   "median_rmsd_top": 3.831,
+   "success_top": 0,
+   "mean_rmsd_oracle": 3.162
+  },
+  "apo_multi": {
+   "mean_rmsd_top": 4.423,
+   "median_rmsd_top": 3.877,
+   "success_top": 0,
+   "mean_rmsd_oracle": 3.157
+  },
+  "apo_multi_minus_single": {
+   "mean": -0.0198,
+   "ci95": [
+    -0.069,
+    0.0103
+   ],
+   "n": 4
+  },
+  "holo_multi_minus_single": {
+   "mean": -0.0315,
+   "ci95": [
+    -0.0915,
+    0.0
+   ],
+   "n": 4
+  },
+  "apo_minus_holo_single": {
+   "mean": 3.2625,
+   "ci95": [
+    1.1205,
+    5.4045
+   ],
+   "n": 4
+  },
+  "interaction": {
+   "mean": 0.0118,
+   "ci95": [
+    -0.0625,
+    0.0907
+   ],
+   "n": 4
+  },
+  "apo_multi_minus_single_states_only": {
+   "mean": -0.0198,
+   "ci95": [
+    -0.069,
+    0.0103
+   ],
+   "n": 4
+  }
+ },
+ "note": "Positive gain means the multiple-state receptor gave a lower RMSD. Primary: apo_multi_minus_single in stratum main, decided by the CI lower bound above zero."
+}

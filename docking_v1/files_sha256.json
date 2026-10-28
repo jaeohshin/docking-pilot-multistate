@@ -1,0 +1,18 @@
+{
+ "ANALYSIS_PLAN.md": "8ce86fcc7da6221f515822c7b7b9cfbdd60b2d338c688f85ca7cead4ba719688",
+ "RESULTS.md": "884d97fbac6d9741c21cab161b90b611926eff6364675ebff9b6dc89c89d970f",
+ "code/analyse_docking.py": "270a2169b28068424d11f632a9b40861a14e656362f885ce8a1ab508fc98625d",
+ "code/dock.sbatch": "f870ec969560b716c08ee7ea49a601cfcee88cb2effc5a17f4fcae96bb6c50b6",
+ "code/install_env.sbatch": "4e295e0595f39c0ef0666f3251194a8b6ef56581a328e891987bfbf9b3b4a7b8",
+ "code/install_pqr.sbatch": "ce04ccd2f24c549583267d79885bbb785b4284065a84f4ae304e8145a5014bc3",
+ "code/make_tasks.py": "2f7eef05e690cdd775885bb973842f9c8f2b70c0c4f22cf2368295841f0d3093",
+ "code/prepare.sbatch": "c8ae6d53d5356f969961c2937ee06aa973332b0e69a10206844c6260705496d3",
+ "code/prepare_inputs.py": "3d86bcc2c43ead994c254efee7558898d4954f4b80b77535347fd298f494213d",
+ "code/run_docking.py": "1e6e0f0d4b1514d58adbcbf8c869abdc752ec437e5cfdf093dc61a61fef684c2",
+ "dock-vina_env.txt": "7f73ea6d1c300a9f98d082eb7dfa0ccdc4d7cf36acd6b2612758b2da28ec45bc",
+ "docked_tasks.txt": "cb4888f55c7847ecd1256290c0fa133cb1d36eb3fda008254b926987fbc9428f",
+ "docking_results.tsv": "9cfb7b729bb947b59ddf26ee850617c2e45293209f23ecf92e0b2c35772c150b",
+ "docking_summary.json": "12adbc5811086d4a2f3559ef9bf787443cdb537bf55ed9b050e19249c67a520a",
+ "inputs_manifest.json": "5d17cc6146c60f02b4a079c381647bfd1f565247fbecd6f4058d1e8797d6e307",
+ "submit_docking.sh": "581df028d89e97a7d55354230b2bbdceabc61f8b126c2e6b4472c6d11cf42e8a"
+}

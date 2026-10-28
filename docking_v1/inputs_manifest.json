@@ -1,6 +1,159 @@
 {
  "cases": [
   {
+   "case_id": "97ea259b19814c3e",
+   "smiles": "NC(=O)c1cccnc1",
+   "holo": {
+    "box_center": [
+     26.007,
+     14.977,
+     -7.391
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1954,
+      "heavy_out": 1955,
+      "heavy_common": 1954,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A57:SER:OG",
+       "A109:TYR:OH",
+       "A111:LYS:NZ",
+       "A134:SER:OG",
+       "A141:SER:OG",
+       "A169:THR:OG1",
+       "A183:LEU:CD1",
+       "A193:THR:OG1"
+      ],
+      "close_hydrogens": [
+       "A8:HD1-A9:H",
+       "A9:H-A8:HD1"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1954,
+      "heavy_out": 1955,
+      "heavy_common": 1954,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A57:SER:OG",
+       "A109:TYR:OH",
+       "A111:LYS:NZ",
+       "A134:SER:OG",
+       "A141:SER:OG",
+       "A169:THR:OG1",
+       "A183:LEU:CD1",
+       "A193:THR:OG1"
+      ],
+      "close_hydrogens": [
+       "A8:HD1-A9:H",
+       "A9:H-A8:HD1"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "HIP",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     25.952,
+     14.952,
+     -7.375
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1952,
+      "heavy_out": 1953,
+      "heavy_common": 1952,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A41:GLH:OE2",
+       "A57:SER:OG",
+       "A94:ILE:CG2",
+       "A105:VAL:CG2",
+       "A109:TYR:OH",
+       "A111:LYS:NZ",
+       "A141:SER:OG",
+       "A169:THR:OG1",
+       "A171:LEU:CD2",
+       "A183:LEU:CD1",
+       "A193:THR:CG2",
+       "A212:SER:OG"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1952,
+      "heavy_out": 1953,
+      "heavy_common": 1952,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A41:GLH:OE2",
+       "A57:SER:OG",
+       "A94:ILE:CG2",
+       "A105:VAL:CG2",
+       "A109:TYR:OH",
+       "A111:LYS:NZ",
+       "A141:SER:OG",
+       "A169:THR:OG1",
+       "A171:LEU:CD2",
+       "A183:LEU:CD1",
+       "A193:THR:CG2",
+       "A212:SER:OG"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLH",
+     "GLU",
+     "HID",
+     "HIP",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
    "case_id": "8b520349f920f468",
    "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)Cc3ccccc3)C(=O)N2[C@H]1C(O)=O",
    "holo": {
@@ -34,10 +187,17 @@
       "heavy_out": 1939,
       "heavy_common": 1938,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A40:SER:OG",
+       "A73:LYS:NZ",
+       "A98:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -45,10 +205,17 @@
       "heavy_out": 1939,
       "heavy_common": 1938,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A40:SER:OG",
+       "A73:LYS:NZ",
+       "A98:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -56,10 +223,17 @@
       "heavy_out": 1939,
       "heavy_common": 1938,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A40:SER:OG",
+       "A73:LYS:NZ",
+       "A98:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -67,10 +241,17 @@
       "heavy_out": 1939,
       "heavy_common": 1938,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A40:SER:OG",
+       "A73:LYS:NZ",
+       "A98:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -78,10 +259,17 @@
       "heavy_out": 1939,
       "heavy_common": 1938,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A40:SER:OG",
+       "A73:LYS:NZ",
+       "A98:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -135,13 +323,18 @@
       "heavy_out": 1961,
       "heavy_common": 1960,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HG",
-       "A40:HG",
-       "A118:HG1",
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A27:SER:OG",
+       "A40:SER:OG",
+       "A60:TYR:OH",
+       "A73:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -149,13 +342,18 @@
       "heavy_out": 1961,
       "heavy_common": 1960,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HG",
-       "A40:HG",
-       "A118:HG1",
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A27:SER:OG",
+       "A40:SER:OG",
+       "A60:TYR:OH",
+       "A73:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -163,13 +361,18 @@
       "heavy_out": 1961,
       "heavy_common": 1960,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HG",
-       "A40:HG",
-       "A118:HG1",
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A27:SER:OG",
+       "A40:SER:OG",
+       "A60:TYR:OH",
+       "A73:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -177,13 +380,18 @@
       "heavy_out": 1961,
       "heavy_common": 1960,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HG",
-       "A40:HG",
-       "A118:HG1",
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A27:SER:OG",
+       "A40:SER:OG",
+       "A60:TYR:OH",
+       "A73:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -191,13 +399,18 @@
       "heavy_out": 1961,
       "heavy_common": 1960,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HG",
-       "A40:HG",
-       "A118:HG1",
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A27:SER:OG",
+       "A40:SER:OG",
+       "A60:TYR:OH",
+       "A73:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -205,13 +418,18 @@
       "heavy_out": 1961,
       "heavy_common": 1960,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HG",
-       "A40:HG",
-       "A118:HG1",
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A27:SER:OG",
+       "A40:SER:OG",
+       "A60:TYR:OH",
+       "A73:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -219,13 +437,18 @@
       "heavy_out": 1961,
       "heavy_common": 1960,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HG",
-       "A40:HG",
-       "A118:HG1",
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A27:SER:OG",
+       "A40:SER:OG",
+       "A60:TYR:OH",
+       "A73:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -233,13 +456,18 @@
       "heavy_out": 1961,
       "heavy_common": 1960,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HG",
-       "A40:HG",
-       "A118:HG1",
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A27:SER:OG",
+       "A40:SER:OG",
+       "A60:TYR:OH",
+       "A73:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -247,13 +475,18 @@
       "heavy_out": 1961,
       "heavy_common": 1960,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HG",
-       "A40:HG",
-       "A118:HG1",
-       "A181:HG1",
-       "A216:HG1"
+      "rotated_hydrogens": [
+       "A27:SER:OG",
+       "A40:SER:OG",
+       "A60:TYR:OH",
+       "A73:LYS:NZ",
+       "A118:THR:OG1",
+       "A181:THR:OG1",
+       "A216:THR:OG1",
+       "A234:LYN:NZ",
+       "A266:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -307,7 +540,12 @@
       "heavy_out": 1242,
       "heavy_common": 1241,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A29:THR:CG2",
+       "A36:MET:CE",
+       "A54:ALA:CB"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -315,7 +553,12 @@
       "heavy_out": 1242,
       "heavy_common": 1241,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A29:THR:CG2",
+       "A36:MET:CE",
+       "A54:ALA:CB"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -323,7 +566,12 @@
       "heavy_out": 1242,
       "heavy_common": 1241,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A29:THR:CG2",
+       "A36:MET:CE",
+       "A54:ALA:CB"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -331,7 +579,13 @@
       "heavy_out": 1242,
       "heavy_common": 1241,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A29:THR:CG2",
+       "A36:MET:CE",
+       "A54:ALA:CB",
+       "A60:LEU:CD1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -339,7 +593,13 @@
       "heavy_out": 1242,
       "heavy_common": 1241,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A29:THR:CG2",
+       "A36:MET:CE",
+       "A54:ALA:CB",
+       "A60:LEU:CD1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -347,7 +607,12 @@
       "heavy_out": 1242,
       "heavy_common": 1241,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A29:THR:CG2",
+       "A36:MET:CE",
+       "A54:ALA:CB"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -355,7 +620,12 @@
       "heavy_out": 1242,
       "heavy_common": 1241,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A29:THR:CG2",
+       "A36:MET:CE",
+       "A54:ALA:CB"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -395,7 +665,10 @@
       "heavy_out": 1242,
       "heavy_common": 1241,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A76:LYS:NZ"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -403,7 +676,10 @@
       "heavy_out": 1242,
       "heavy_common": 1241,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A76:LYS:NZ"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -411,7 +687,10 @@
       "heavy_out": 1242,
       "heavy_common": 1241,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A76:LYS:NZ"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -461,11 +740,15 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A22:THR:OG1",
+       "A57:SER:OG",
+       "A181:TYR:OH",
+       "A192:LYS:NZ",
+       "A248:TYR:OH",
+       "A274:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -473,11 +756,15 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A22:THR:OG1",
+       "A57:SER:OG",
+       "A181:TYR:OH",
+       "A192:LYS:NZ",
+       "A248:TYR:OH",
+       "A274:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -485,11 +772,15 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A22:THR:OG1",
+       "A57:SER:OG",
+       "A181:TYR:OH",
+       "A192:LYS:NZ",
+       "A248:TYR:OH",
+       "A274:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -497,11 +788,15 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A22:THR:OG1",
+       "A57:SER:OG",
+       "A181:TYR:OH",
+       "A192:LYS:NZ",
+       "A248:TYR:OH",
+       "A274:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -509,11 +804,15 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A22:THR:OG1",
+       "A57:SER:OG",
+       "A181:TYR:OH",
+       "A192:LYS:NZ",
+       "A248:TYR:OH",
+       "A274:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -521,11 +820,15 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A22:THR:OG1",
+       "A57:SER:OG",
+       "A181:TYR:OH",
+       "A192:LYS:NZ",
+       "A248:TYR:OH",
+       "A274:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -571,11 +874,16 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A11:LYS:NZ",
+       "A15:LYS:NZ",
+       "A181:TYR:OH",
+       "A248:TYR:OH",
+       "A274:SER:OG",
+       "A291:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -583,11 +891,16 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A11:LYS:NZ",
+       "A15:LYS:NZ",
+       "A181:TYR:OH",
+       "A248:TYR:OH",
+       "A274:SER:OG",
+       "A291:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -595,11 +908,16 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A11:LYS:NZ",
+       "A15:LYS:NZ",
+       "A181:TYR:OH",
+       "A248:TYR:OH",
+       "A274:SER:OG",
+       "A291:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -607,11 +925,16 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A11:LYS:NZ",
+       "A15:LYS:NZ",
+       "A181:TYR:OH",
+       "A248:TYR:OH",
+       "A274:SER:OG",
+       "A291:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -619,11 +942,16 @@
       "heavy_out": 2286,
       "heavy_common": 2285,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A181:HH",
-       "A248:HH",
-       "A274:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A11:LYS:NZ",
+       "A15:LYS:NZ",
+       "A181:TYR:OH",
+       "A248:TYR:OH",
+       "A274:SER:OG",
+       "A291:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -671,11 +999,18 @@
       "heavy_out": 1872,
       "heavy_common": 1870,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B5:HG1",
-       "B70:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A484:ALA:CB",
+       "A485:LYS:NZ",
+       "B5:THR:OG1",
+       "B9:ILE:CD1",
+       "B28:THR:OG1",
+       "B44:THR:OG1",
+       "B70:THR:OG1",
+       "B73:ALA:CB",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -683,11 +1018,18 @@
       "heavy_out": 1872,
       "heavy_common": 1870,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B5:HG1",
-       "B70:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A484:ALA:CB",
+       "A485:LYS:NZ",
+       "B5:THR:OG1",
+       "B9:ILE:CD1",
+       "B28:THR:OG1",
+       "B44:THR:OG1",
+       "B70:THR:OG1",
+       "B73:ALA:CB",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -695,11 +1037,20 @@
       "heavy_out": 1872,
       "heavy_common": 1870,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B5:HG1",
-       "B70:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A484:ALA:CB",
+       "A485:LYS:NZ",
+       "B5:THR:OG1",
+       "B9:ILE:CD1",
+       "B28:THR:OG1",
+       "B44:THR:OG1",
+       "B48:LEU:CD2",
+       "B51:MET:CE",
+       "B70:THR:OG1",
+       "B73:ALA:CB",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -707,11 +1058,21 @@
       "heavy_out": 1872,
       "heavy_common": 1870,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B5:HG1",
-       "B70:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A483:LEU:CD2",
+       "A484:ALA:CB",
+       "A485:LYS:NZ",
+       "B5:THR:OG1",
+       "B9:ILE:CD1",
+       "B28:THR:OG1",
+       "B44:THR:OG1",
+       "B48:LEU:CD2",
+       "B51:MET:CE",
+       "B70:THR:OG1",
+       "B73:ALA:CB",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -762,10 +1123,18 @@
       "heavy_out": 1892,
       "heavy_common": 1890,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B117:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A480:LEU:CD2",
+       "A483:LEU:CD2",
+       "B18:LEU:CD1",
+       "B32:LEU:CD1",
+       "B32:LEU:CD2",
+       "B44:THR:OG1",
+       "B55:VAL:CG1",
+       "B117:THR:OG1",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -773,10 +1142,18 @@
       "heavy_out": 1892,
       "heavy_common": 1890,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B117:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A480:LEU:CD2",
+       "A483:LEU:CD2",
+       "B18:LEU:CD1",
+       "B32:LEU:CD1",
+       "B32:LEU:CD2",
+       "B44:THR:OG1",
+       "B55:VAL:CG1",
+       "B117:THR:OG1",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -784,10 +1161,17 @@
       "heavy_out": 1892,
       "heavy_common": 1890,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B117:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A480:LEU:CD2",
+       "B18:LEU:CD1",
+       "B32:LEU:CD1",
+       "B32:LEU:CD2",
+       "B44:THR:OG1",
+       "B55:VAL:CG1",
+       "B117:THR:OG1",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -795,10 +1179,15 @@
       "heavy_out": 1892,
       "heavy_common": 1890,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B117:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A480:LEU:CD2",
+       "B18:LEU:CD1",
+       "B44:THR:OG1",
+       "B55:VAL:CG1",
+       "B117:THR:OG1",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -806,10 +1195,15 @@
       "heavy_out": 1892,
       "heavy_common": 1890,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B117:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A483:LEU:CD2",
+       "B18:LEU:CD1",
+       "B44:THR:OG1",
+       "B55:VAL:CG1",
+       "B117:THR:OG1",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -817,10 +1211,17 @@
       "heavy_out": 1892,
       "heavy_common": 1890,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B117:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A480:LEU:CD2",
+       "A483:LEU:CD2",
+       "B18:LEU:CD1",
+       "B32:LEU:CD1",
+       "B44:THR:OG1",
+       "B55:VAL:CG1",
+       "B117:THR:OG1",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -828,10 +1229,16 @@
       "heavy_out": 1892,
       "heavy_common": 1890,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B117:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A480:LEU:CD2",
+       "B18:LEU:CD1",
+       "B32:LEU:CD1",
+       "B44:THR:OG1",
+       "B55:VAL:CG1",
+       "B117:THR:OG1",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -839,10 +1246,14 @@
       "heavy_out": 1892,
       "heavy_common": 1890,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B117:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "B18:LEU:CD1",
+       "B44:THR:OG1",
+       "B55:VAL:CG1",
+       "B117:THR:OG1",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -850,10 +1261,16 @@
       "heavy_out": 1892,
       "heavy_common": 1890,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B117:HG1",
-       "B138:HH"
+      "rotated_hydrogens": [
+       "A480:LEU:CD2",
+       "A483:LEU:CD2",
+       "B18:LEU:CD1",
+       "B44:THR:OG1",
+       "B55:VAL:CG1",
+       "B117:THR:OG1",
+       "B138:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -862,6 +1279,432 @@
      "GLU",
      "HID",
      "HIP",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "172d7da9c683ce21",
+   "smiles": "Nc1ncnc2n(cnc12)[C@@H]3O[C@H](CO[P](O)(=O)O[P](O)(=O)OC[C@H]4O[C@H](O)[C@H](O)[C@@H]4O)[C@@H](O)[C@H]3O",
+   "holo": {
+    "box_center": [
+     27.51,
+     5.113,
+     10.916
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.509
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A98:ILE:CG2",
+       "A174:THR:OG1",
+       "A194:SER:OG",
+       "A196:ALA:CB",
+       "A260:VAL:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A98:ILE:CG2",
+       "A174:THR:OG1",
+       "A194:SER:OG",
+       "A196:ALA:CB",
+       "A260:VAL:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A98:ILE:CG2",
+       "A174:THR:OG1",
+       "A194:SER:OG",
+       "A196:ALA:CB",
+       "A260:VAL:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A98:ILE:CG2",
+       "A174:THR:OG1",
+       "A194:SER:OG",
+       "A196:ALA:CB",
+       "A260:VAL:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A98:ILE:CG2",
+       "A174:THR:OG1",
+       "A194:SER:OG",
+       "A196:ALA:CB",
+       "A260:VAL:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A98:ILE:CG2",
+       "A174:THR:OG1",
+       "A194:SER:OG",
+       "A196:ALA:CB",
+       "A260:VAL:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A98:ILE:CG2",
+       "A174:THR:OG1",
+       "A194:SER:OG",
+       "A196:ALA:CB",
+       "A260:VAL:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A98:ILE:CG2",
+       "A174:THR:OG1",
+       "A194:SER:OG",
+       "A196:ALA:CB",
+       "A260:VAL:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A98:ILE:CG2",
+       "A174:THR:OG1",
+       "A194:SER:OG",
+       "A196:ALA:CB",
+       "A260:VAL:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYM",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     27.559,
+     5.009,
+     10.894
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A66:LEU:CD1",
+       "A105:TYR:OH",
+       "A162:LYS:NZ",
+       "A171:VAL:CG1",
+       "A174:THR:CG2",
+       "A175:VAL:CG2",
+       "A192:ILE:CD1",
+       "A203:SER:OG",
+       "A216:TYR:OH",
+       "A240:LEU:CD2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A66:LEU:CD1",
+       "A105:TYR:OH",
+       "A162:LYS:NZ",
+       "A171:VAL:CG1",
+       "A174:THR:CG2",
+       "A175:VAL:CG2",
+       "A192:ILE:CD1",
+       "A203:SER:OG",
+       "A216:TYR:OH",
+       "A240:LEU:CD2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A66:LEU:CD1",
+       "A105:TYR:OH",
+       "A162:LYS:NZ",
+       "A171:VAL:CG1",
+       "A174:THR:CG2",
+       "A175:VAL:CG2",
+       "A192:ILE:CD1",
+       "A203:SER:OG",
+       "A216:TYR:OH",
+       "A240:LEU:CD2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A66:LEU:CD1",
+       "A105:TYR:OH",
+       "A162:LYS:NZ",
+       "A171:VAL:CG1",
+       "A174:THR:CG2",
+       "A175:VAL:CG2",
+       "A192:ILE:CD1",
+       "A203:SER:OG",
+       "A216:TYR:OH",
+       "A240:LEU:CD2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A66:LEU:CD1",
+       "A105:TYR:OH",
+       "A162:LYS:NZ",
+       "A171:VAL:CG1",
+       "A174:THR:CG2",
+       "A175:VAL:CG2",
+       "A192:ILE:CD1",
+       "A203:SER:OG",
+       "A216:TYR:OH",
+       "A240:LEU:CD2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A66:LEU:CD1",
+       "A105:TYR:OH",
+       "A162:LYS:NZ",
+       "A171:VAL:CG1",
+       "A174:THR:CG2",
+       "A175:VAL:CG2",
+       "A192:ILE:CD1",
+       "A203:SER:OG",
+       "A216:TYR:OH",
+       "A240:LEU:CD2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A66:LEU:CD1",
+       "A105:TYR:OH",
+       "A162:LYS:NZ",
+       "A171:VAL:CG1",
+       "A174:THR:CG2",
+       "A175:VAL:CG2",
+       "A192:ILE:CD1",
+       "A203:SER:OG",
+       "A216:TYR:OH",
+       "A240:LEU:CD2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A66:LEU:CD1",
+       "A105:TYR:OH",
+       "A162:LYS:NZ",
+       "A171:VAL:CG1",
+       "A174:THR:CG2",
+       "A175:VAL:CG2",
+       "A192:ILE:CD1",
+       "A203:SER:OG",
+       "A216:TYR:OH",
+       "A240:LEU:CD2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 1780,
+      "heavy_out": 1781,
+      "heavy_common": 1780,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A51:SER:OG",
+       "A66:LEU:CD1",
+       "A105:TYR:OH",
+       "A162:LYS:NZ",
+       "A171:VAL:CG1",
+       "A174:THR:CG2",
+       "A175:VAL:CG2",
+       "A192:ILE:CD1",
+       "A203:SER:OG",
+       "A216:TYR:OH",
+       "A240:LEU:CD2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
      "LYS"
     ],
     "max_nonpocket_difference_vs_single": 0.0
@@ -901,19 +1744,37 @@
       "heavy_out": 3564,
       "heavy_common": 3562,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A108:HG1",
-       "A113:HG",
-       "A160:HH",
-       "A186:HH",
-       "B27:HH",
-       "B108:HG1",
-       "B113:HG",
-       "B160:HH",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A15:SER:OG",
+       "A27:TYR:OH",
+       "A51:THR:OG1",
+       "A94:ILE:CG2",
+       "A99:LYS:NZ",
+       "A108:THR:OG1",
+       "A111:THR:OG1",
+       "A113:SER:OG",
+       "A135:LYS:NZ",
+       "A158:VAL:CG1",
+       "A160:TYR:OH",
+       "A191:LYS:NZ",
+       "A208:THR:OG1",
+       "A227:ILE:CG2",
+       "B15:SER:OG",
+       "B27:TYR:OH",
+       "B51:THR:OG1",
+       "B93:ALA:CB",
+       "B94:ILE:CG2",
+       "B94:ILE:CD1",
+       "B108:THR:OG1",
+       "B111:THR:OG1",
+       "B113:SER:OG",
+       "B158:VAL:CG1",
+       "B160:TYR:OH",
+       "B163:SER:OG",
+       "B208:THR:OG1",
+       "B227:ILE:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -921,19 +1782,37 @@
       "heavy_out": 3564,
       "heavy_common": 3562,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A108:HG1",
-       "A113:HG",
-       "A160:HH",
-       "A186:HH",
-       "B27:HH",
-       "B108:HG1",
-       "B113:HG",
-       "B160:HH",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A15:SER:OG",
+       "A27:TYR:OH",
+       "A51:THR:OG1",
+       "A94:ILE:CG2",
+       "A99:LYS:NZ",
+       "A108:THR:OG1",
+       "A111:THR:OG1",
+       "A113:SER:OG",
+       "A135:LYS:NZ",
+       "A158:VAL:CG1",
+       "A160:TYR:OH",
+       "A191:LYS:NZ",
+       "A208:THR:OG1",
+       "A227:ILE:CG2",
+       "B15:SER:OG",
+       "B27:TYR:OH",
+       "B51:THR:OG1",
+       "B93:ALA:CB",
+       "B94:ILE:CG2",
+       "B94:ILE:CD1",
+       "B108:THR:OG1",
+       "B111:THR:OG1",
+       "B113:SER:OG",
+       "B158:VAL:CG1",
+       "B160:TYR:OH",
+       "B163:SER:OG",
+       "B208:THR:OG1",
+       "B227:ILE:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -941,19 +1820,39 @@
       "heavy_out": 3564,
       "heavy_common": 3562,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A108:HG1",
-       "A113:HG",
-       "A160:HH",
-       "A186:HH",
-       "B27:HH",
-       "B108:HG1",
-       "B113:HG",
-       "B160:HH",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A15:SER:OG",
+       "A27:TYR:OH",
+       "A51:THR:OG1",
+       "A94:ILE:CG2",
+       "A94:ILE:CD1",
+       "A99:LYS:NZ",
+       "A108:THR:OG1",
+       "A111:THR:OG1",
+       "A113:SER:OG",
+       "A135:LYS:NZ",
+       "A158:VAL:CG1",
+       "A160:TYR:OH",
+       "A191:LYS:NZ",
+       "A206:ILE:CD1",
+       "A208:THR:OG1",
+       "A227:ILE:CG2",
+       "B15:SER:OG",
+       "B27:TYR:OH",
+       "B51:THR:OG1",
+       "B93:ALA:CB",
+       "B94:ILE:CG2",
+       "B94:ILE:CD1",
+       "B108:THR:OG1",
+       "B111:THR:OG1",
+       "B113:SER:OG",
+       "B158:VAL:CG1",
+       "B160:TYR:OH",
+       "B163:SER:OG",
+       "B208:THR:OG1",
+       "B227:ILE:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -961,19 +1860,39 @@
       "heavy_out": 3564,
       "heavy_common": 3562,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A108:HG1",
-       "A113:HG",
-       "A160:HH",
-       "A186:HH",
-       "B27:HH",
-       "B108:HG1",
-       "B113:HG",
-       "B160:HH",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A15:SER:OG",
+       "A27:TYR:OH",
+       "A51:THR:OG1",
+       "A94:ILE:CG2",
+       "A99:LYS:NZ",
+       "A108:THR:OG1",
+       "A111:THR:OG1",
+       "A113:SER:OG",
+       "A135:LYS:NZ",
+       "A158:VAL:CG1",
+       "A160:TYR:OH",
+       "A178:VAL:CG1",
+       "A191:LYS:NZ",
+       "A206:ILE:CD1",
+       "A208:THR:OG1",
+       "A227:ILE:CG2",
+       "B15:SER:OG",
+       "B27:TYR:OH",
+       "B51:THR:OG1",
+       "B93:ALA:CB",
+       "B94:ILE:CG2",
+       "B94:ILE:CD1",
+       "B108:THR:OG1",
+       "B111:THR:OG1",
+       "B113:SER:OG",
+       "B158:VAL:CG1",
+       "B160:TYR:OH",
+       "B163:SER:OG",
+       "B208:THR:OG1",
+       "B227:ILE:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -981,19 +1900,39 @@
       "heavy_out": 3564,
       "heavy_common": 3562,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A108:HG1",
-       "A113:HG",
-       "A160:HH",
-       "A186:HH",
-       "B27:HH",
-       "B108:HG1",
-       "B113:HG",
-       "B160:HH",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A15:SER:OG",
+       "A27:TYR:OH",
+       "A51:THR:OG1",
+       "A94:ILE:CG2",
+       "A94:ILE:CD1",
+       "A99:LYS:NZ",
+       "A108:THR:OG1",
+       "A111:THR:OG1",
+       "A113:SER:OG",
+       "A135:LYS:NZ",
+       "A158:VAL:CG1",
+       "A160:TYR:OH",
+       "A191:LYS:NZ",
+       "A206:ILE:CD1",
+       "A208:THR:OG1",
+       "A227:ILE:CG2",
+       "B15:SER:OG",
+       "B27:TYR:OH",
+       "B51:THR:OG1",
+       "B93:ALA:CB",
+       "B94:ILE:CG2",
+       "B94:ILE:CD1",
+       "B108:THR:OG1",
+       "B111:THR:OG1",
+       "B113:SER:OG",
+       "B158:VAL:CG1",
+       "B160:TYR:OH",
+       "B163:SER:OG",
+       "B208:THR:OG1",
+       "B227:ILE:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -1046,17 +1985,18 @@
       "heavy_out": 3478,
       "heavy_common": 3476,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A160:HH",
-       "A163:HG",
-       "A186:HH",
-       "B27:HH",
-       "B160:HH",
-       "B163:HG",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A27:TYR:OH",
+       "A55:LYS:NZ",
+       "A160:TYR:OH",
+       "A163:SER:OG",
+       "B27:TYR:OH",
+       "B55:LYS:NZ",
+       "B135:LYS:NZ",
+       "B160:TYR:OH",
+       "B163:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -1064,17 +2004,18 @@
       "heavy_out": 3478,
       "heavy_common": 3476,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A160:HH",
-       "A163:HG",
-       "A186:HH",
-       "B27:HH",
-       "B160:HH",
-       "B163:HG",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A27:TYR:OH",
+       "A55:LYS:NZ",
+       "A160:TYR:OH",
+       "A163:SER:OG",
+       "B27:TYR:OH",
+       "B55:LYS:NZ",
+       "B135:LYS:NZ",
+       "B160:TYR:OH",
+       "B163:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -1082,17 +2023,20 @@
       "heavy_out": 3478,
       "heavy_common": 3476,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A160:HH",
-       "A163:HG",
-       "A186:HH",
-       "B27:HH",
-       "B160:HH",
-       "B163:HG",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A27:TYR:OH",
+       "A55:LYS:NZ",
+       "A94:ILE:CG2",
+       "A160:TYR:OH",
+       "A163:SER:OG",
+       "A206:ILE:CD1",
+       "B27:TYR:OH",
+       "B55:LYS:NZ",
+       "B135:LYS:NZ",
+       "B160:TYR:OH",
+       "B163:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -1100,17 +2044,18 @@
       "heavy_out": 3478,
       "heavy_common": 3476,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A160:HH",
-       "A163:HG",
-       "A186:HH",
-       "B27:HH",
-       "B160:HH",
-       "B163:HG",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A27:TYR:OH",
+       "A55:LYS:NZ",
+       "A160:TYR:OH",
+       "A163:SER:OG",
+       "B27:TYR:OH",
+       "B55:LYS:NZ",
+       "B135:LYS:NZ",
+       "B160:TYR:OH",
+       "B163:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -1118,17 +2063,20 @@
       "heavy_out": 3478,
       "heavy_common": 3476,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A160:HH",
-       "A163:HG",
-       "A186:HH",
-       "B27:HH",
-       "B160:HH",
-       "B163:HG",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A27:TYR:OH",
+       "A55:LYS:NZ",
+       "A94:ILE:CG2",
+       "A160:TYR:OH",
+       "A163:SER:OG",
+       "A206:ILE:CD1",
+       "B27:TYR:OH",
+       "B55:LYS:NZ",
+       "B135:LYS:NZ",
+       "B160:TYR:OH",
+       "B163:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -1136,17 +2084,18 @@
       "heavy_out": 3478,
       "heavy_common": 3476,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A160:HH",
-       "A163:HG",
-       "A186:HH",
-       "B27:HH",
-       "B160:HH",
-       "B163:HG",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A27:TYR:OH",
+       "A55:LYS:NZ",
+       "A160:TYR:OH",
+       "A163:SER:OG",
+       "B27:TYR:OH",
+       "B55:LYS:NZ",
+       "B135:LYS:NZ",
+       "B160:TYR:OH",
+       "B163:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -1154,17 +2103,20 @@
       "heavy_out": 3478,
       "heavy_common": 3476,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A160:HH",
-       "A163:HG",
-       "A186:HH",
-       "B27:HH",
-       "B160:HH",
-       "B163:HG",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A27:TYR:OH",
+       "A55:LYS:NZ",
+       "A94:ILE:CG2",
+       "A160:TYR:OH",
+       "A163:SER:OG",
+       "A206:ILE:CD1",
+       "B27:TYR:OH",
+       "B55:LYS:NZ",
+       "B135:LYS:NZ",
+       "B160:TYR:OH",
+       "B163:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -1172,17 +2124,18 @@
       "heavy_out": 3478,
       "heavy_common": 3476,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A160:HH",
-       "A163:HG",
-       "A186:HH",
-       "B27:HH",
-       "B160:HH",
-       "B163:HG",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A27:TYR:OH",
+       "A55:LYS:NZ",
+       "A160:TYR:OH",
+       "A163:SER:OG",
+       "B27:TYR:OH",
+       "B55:LYS:NZ",
+       "B135:LYS:NZ",
+       "B160:TYR:OH",
+       "B163:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -1190,17 +2143,20 @@
       "heavy_out": 3478,
       "heavy_common": 3476,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A27:HH",
-       "A80:HH",
-       "A160:HH",
-       "A163:HG",
-       "A186:HH",
-       "B27:HH",
-       "B160:HH",
-       "B163:HG",
-       "B186:HH"
+      "rotated_hydrogens": [
+       "A27:TYR:OH",
+       "A55:LYS:NZ",
+       "A94:ILE:CG2",
+       "A160:TYR:OH",
+       "A163:SER:OG",
+       "A206:ILE:CD1",
+       "B27:TYR:OH",
+       "B55:LYS:NZ",
+       "B135:LYS:NZ",
+       "B160:TYR:OH",
+       "B163:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -1249,24 +2205,39 @@
       "heavy_out": 5516,
       "heavy_common": 5514,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A14:HG1",
-       "A29:HG",
-       "A107:HG",
-       "A215:HG",
-       "A294:HH",
-       "A298:HG",
-       "A301:HH",
-       "A302:HG1",
-       "B14:HG1",
-       "B29:HG",
-       "B107:HG",
-       "B215:HG",
-       "B294:HH",
-       "B298:HG",
-       "B301:HH",
-       "B302:HG1"
+      "rotated_hydrogens": [
+       "A14:THR:OG1",
+       "A29:SER:OG",
+       "A105:THR:OG1",
+       "A107:SER:OG",
+       "A167:THR:OG1",
+       "A215:SER:OG",
+       "A240:SER:OG",
+       "A264:THR:OG1",
+       "A294:TYR:OH",
+       "A298:SER:OG",
+       "A301:TYR:OH",
+       "A302:THR:OG1",
+       "A309:LYS:NZ",
+       "A343:LYS:NZ",
+       "A349:SER:OG",
+       "B14:THR:OG1",
+       "B29:SER:OG",
+       "B105:THR:OG1",
+       "B107:SER:OG",
+       "B167:THR:OG1",
+       "B215:SER:OG",
+       "B240:SER:OG",
+       "B264:THR:OG1",
+       "B267:LYS:NZ",
+       "B294:TYR:OH",
+       "B298:SER:OG",
+       "B301:TYR:OH",
+       "B302:THR:OG1",
+       "B309:LYS:NZ",
+       "B349:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -1274,24 +2245,39 @@
       "heavy_out": 5516,
       "heavy_common": 5514,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A14:HG1",
-       "A29:HG",
-       "A107:HG",
-       "A215:HG",
-       "A294:HH",
-       "A298:HG",
-       "A301:HH",
-       "A302:HG1",
-       "B14:HG1",
-       "B29:HG",
-       "B107:HG",
-       "B215:HG",
-       "B294:HH",
-       "B298:HG",
-       "B301:HH",
-       "B302:HG1"
+      "rotated_hydrogens": [
+       "A14:THR:OG1",
+       "A29:SER:OG",
+       "A105:THR:OG1",
+       "A107:SER:OG",
+       "A167:THR:OG1",
+       "A215:SER:OG",
+       "A240:SER:OG",
+       "A264:THR:OG1",
+       "A294:TYR:OH",
+       "A298:SER:OG",
+       "A301:TYR:OH",
+       "A302:THR:OG1",
+       "A309:LYS:NZ",
+       "A343:LYS:NZ",
+       "A349:SER:OG",
+       "B14:THR:OG1",
+       "B29:SER:OG",
+       "B105:THR:OG1",
+       "B107:SER:OG",
+       "B167:THR:OG1",
+       "B215:SER:OG",
+       "B240:SER:OG",
+       "B264:THR:OG1",
+       "B267:LYS:NZ",
+       "B294:TYR:OH",
+       "B298:SER:OG",
+       "B301:TYR:OH",
+       "B302:THR:OG1",
+       "B309:LYS:NZ",
+       "B349:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -1299,24 +2285,39 @@
       "heavy_out": 5516,
       "heavy_common": 5514,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A14:HG1",
-       "A29:HG",
-       "A107:HG",
-       "A215:HG",
-       "A294:HH",
-       "A298:HG",
-       "A301:HH",
-       "A302:HG1",
-       "B14:HG1",
-       "B29:HG",
-       "B107:HG",
-       "B215:HG",
-       "B294:HH",
-       "B298:HG",
-       "B301:HH",
-       "B302:HG1"
+      "rotated_hydrogens": [
+       "A14:THR:OG1",
+       "A29:SER:OG",
+       "A105:THR:OG1",
+       "A107:SER:OG",
+       "A167:THR:OG1",
+       "A215:SER:OG",
+       "A240:SER:OG",
+       "A264:THR:OG1",
+       "A294:TYR:OH",
+       "A298:SER:OG",
+       "A301:TYR:OH",
+       "A302:THR:OG1",
+       "A309:LYS:NZ",
+       "A343:LYS:NZ",
+       "A349:SER:OG",
+       "B14:THR:OG1",
+       "B29:SER:OG",
+       "B105:THR:OG1",
+       "B107:SER:OG",
+       "B167:THR:OG1",
+       "B215:SER:OG",
+       "B240:SER:OG",
+       "B264:THR:OG1",
+       "B267:LYS:NZ",
+       "B294:TYR:OH",
+       "B298:SER:OG",
+       "B301:TYR:OH",
+       "B302:THR:OG1",
+       "B309:LYS:NZ",
+       "B349:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -1324,24 +2325,39 @@
       "heavy_out": 5516,
       "heavy_common": 5514,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A14:HG1",
-       "A29:HG",
-       "A107:HG",
-       "A215:HG",
-       "A294:HH",
-       "A298:HG",
-       "A301:HH",
-       "A302:HG1",
-       "B14:HG1",
-       "B29:HG",
-       "B107:HG",
-       "B215:HG",
-       "B294:HH",
-       "B298:HG",
-       "B301:HH",
-       "B302:HG1"
+      "rotated_hydrogens": [
+       "A14:THR:OG1",
+       "A29:SER:OG",
+       "A105:THR:OG1",
+       "A107:SER:OG",
+       "A167:THR:OG1",
+       "A215:SER:OG",
+       "A240:SER:OG",
+       "A264:THR:OG1",
+       "A294:TYR:OH",
+       "A298:SER:OG",
+       "A301:TYR:OH",
+       "A302:THR:OG1",
+       "A309:LYS:NZ",
+       "A343:LYS:NZ",
+       "A349:SER:OG",
+       "B14:THR:OG1",
+       "B29:SER:OG",
+       "B105:THR:OG1",
+       "B107:SER:OG",
+       "B167:THR:OG1",
+       "B215:SER:OG",
+       "B240:SER:OG",
+       "B264:THR:OG1",
+       "B267:LYS:NZ",
+       "B294:TYR:OH",
+       "B298:SER:OG",
+       "B301:TYR:OH",
+       "B302:THR:OG1",
+       "B309:LYS:NZ",
+       "B349:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -1349,24 +2365,39 @@
       "heavy_out": 5516,
       "heavy_common": 5514,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A14:HG1",
-       "A29:HG",
-       "A107:HG",
-       "A215:HG",
-       "A294:HH",
-       "A298:HG",
-       "A301:HH",
-       "A302:HG1",
-       "B14:HG1",
-       "B29:HG",
-       "B107:HG",
-       "B215:HG",
-       "B294:HH",
-       "B298:HG",
-       "B301:HH",
-       "B302:HG1"
+      "rotated_hydrogens": [
+       "A14:THR:OG1",
+       "A29:SER:OG",
+       "A105:THR:OG1",
+       "A107:SER:OG",
+       "A167:THR:OG1",
+       "A215:SER:OG",
+       "A240:SER:OG",
+       "A264:THR:OG1",
+       "A294:TYR:OH",
+       "A298:SER:OG",
+       "A301:TYR:OH",
+       "A302:THR:OG1",
+       "A309:LYS:NZ",
+       "A343:LYS:NZ",
+       "A349:SER:OG",
+       "B14:THR:OG1",
+       "B29:SER:OG",
+       "B105:THR:OG1",
+       "B107:SER:OG",
+       "B167:THR:OG1",
+       "B215:SER:OG",
+       "B240:SER:OG",
+       "B264:THR:OG1",
+       "B267:LYS:NZ",
+       "B294:TYR:OH",
+       "B298:SER:OG",
+       "B301:TYR:OH",
+       "B302:THR:OG1",
+       "B309:LYS:NZ",
+       "B349:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -1406,22 +2437,42 @@
       "heavy_out": 5516,
       "heavy_common": 5514,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A14:HG1",
-       "A107:HG",
-       "A215:HG",
-       "A264:HG1",
-       "A301:HH",
-       "A302:HG1",
-       "A349:HG",
-       "B14:HG1",
-       "B107:HG",
-       "B215:HG",
-       "B264:HG1",
-       "B301:HH",
-       "B302:HG1",
-       "B349:HG"
+      "rotated_hydrogens": [
+       "A14:THR:OG1",
+       "A29:SER:OG",
+       "A107:SER:OG",
+       "A150:ILE:CD1",
+       "A167:THR:OG1",
+       "A205:THR:OG1",
+       "A215:SER:OG",
+       "A230:THR:OG1",
+       "A240:SER:OG",
+       "A264:THR:OG1",
+       "A267:LYS:NZ",
+       "A296:SER:OG",
+       "A301:TYR:OH",
+       "A302:THR:OG1",
+       "A303:SER:OG",
+       "A309:LYS:NZ",
+       "A349:SER:OG",
+       "B14:THR:OG1",
+       "B29:SER:OG",
+       "B107:SER:OG",
+       "B150:ILE:CD1",
+       "B167:THR:OG1",
+       "B205:THR:OG1",
+       "B215:SER:OG",
+       "B230:THR:OG1",
+       "B240:SER:OG",
+       "B264:THR:OG1",
+       "B296:SER:OG",
+       "B301:TYR:OH",
+       "B302:THR:OG1",
+       "B303:SER:OG",
+       "B316:VAL:CG1",
+       "B349:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -1429,22 +2480,42 @@
       "heavy_out": 5516,
       "heavy_common": 5514,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A14:HG1",
-       "A107:HG",
-       "A215:HG",
-       "A264:HG1",
-       "A301:HH",
-       "A302:HG1",
-       "A349:HG",
-       "B14:HG1",
-       "B107:HG",
-       "B215:HG",
-       "B264:HG1",
-       "B301:HH",
-       "B302:HG1",
-       "B349:HG"
+      "rotated_hydrogens": [
+       "A14:THR:OG1",
+       "A29:SER:OG",
+       "A107:SER:OG",
+       "A150:ILE:CD1",
+       "A167:THR:OG1",
+       "A205:THR:OG1",
+       "A215:SER:OG",
+       "A230:THR:OG1",
+       "A240:SER:OG",
+       "A264:THR:OG1",
+       "A267:LYS:NZ",
+       "A296:SER:OG",
+       "A301:TYR:OH",
+       "A302:THR:OG1",
+       "A303:SER:OG",
+       "A309:LYS:NZ",
+       "A349:SER:OG",
+       "B14:THR:OG1",
+       "B29:SER:OG",
+       "B107:SER:OG",
+       "B150:ILE:CD1",
+       "B167:THR:OG1",
+       "B205:THR:OG1",
+       "B215:SER:OG",
+       "B230:THR:OG1",
+       "B240:SER:OG",
+       "B264:THR:OG1",
+       "B296:SER:OG",
+       "B301:TYR:OH",
+       "B302:THR:OG1",
+       "B303:SER:OG",
+       "B316:VAL:CG1",
+       "B349:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -1501,12 +2572,18 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A56:HG",
-       "A123:HG1",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A27:LYS:NZ",
+       "A33:VAL:CG2",
+       "A56:SER:OG",
+       "A68:ILE:CG2",
+       "A123:THR:OG1",
+       "A148:THR:OG1",
+       "A156:SER:OG",
+       "A160:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -1514,12 +2591,18 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A56:HG",
-       "A123:HG1",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A27:LYS:NZ",
+       "A33:VAL:CG2",
+       "A56:SER:OG",
+       "A68:ILE:CG2",
+       "A123:THR:OG1",
+       "A148:THR:OG1",
+       "A156:SER:OG",
+       "A160:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -1527,12 +2610,18 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A56:HG",
-       "A123:HG1",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A27:LYS:NZ",
+       "A33:VAL:CG2",
+       "A56:SER:OG",
+       "A68:ILE:CG2",
+       "A123:THR:OG1",
+       "A148:THR:OG1",
+       "A156:SER:OG",
+       "A160:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -1540,12 +2629,18 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A56:HG",
-       "A123:HG1",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A27:LYS:NZ",
+       "A33:VAL:CG2",
+       "A56:SER:OG",
+       "A68:ILE:CG2",
+       "A123:THR:OG1",
+       "A148:THR:OG1",
+       "A156:SER:OG",
+       "A160:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -1553,12 +2648,18 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A56:HG",
-       "A123:HG1",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A27:LYS:NZ",
+       "A33:VAL:CG2",
+       "A56:SER:OG",
+       "A68:ILE:CG2",
+       "A123:THR:OG1",
+       "A148:THR:OG1",
+       "A156:SER:OG",
+       "A160:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -1566,12 +2667,18 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A56:HG",
-       "A123:HG1",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A27:LYS:NZ",
+       "A33:VAL:CG2",
+       "A56:SER:OG",
+       "A68:ILE:CG2",
+       "A123:THR:OG1",
+       "A148:THR:OG1",
+       "A156:SER:OG",
+       "A160:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -1579,12 +2686,18 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A56:HG",
-       "A123:HG1",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A27:LYS:NZ",
+       "A33:VAL:CG2",
+       "A56:SER:OG",
+       "A68:ILE:CG2",
+       "A123:THR:OG1",
+       "A148:THR:OG1",
+       "A156:SER:OG",
+       "A160:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -1592,12 +2705,18 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A56:HG",
-       "A123:HG1",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A27:LYS:NZ",
+       "A33:VAL:CG2",
+       "A56:SER:OG",
+       "A68:ILE:CG2",
+       "A123:THR:OG1",
+       "A148:THR:OG1",
+       "A156:SER:OG",
+       "A160:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -1605,12 +2724,18 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A56:HG",
-       "A123:HG1",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A27:LYS:NZ",
+       "A33:VAL:CG2",
+       "A56:SER:OG",
+       "A68:ILE:CG2",
+       "A123:THR:OG1",
+       "A148:THR:OG1",
+       "A156:SER:OG",
+       "A160:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -1654,13 +2779,27 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A112:HH",
-       "A123:HG1",
-       "A127:HG",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A18:VAL:CG2",
+       "A29:TYR:OH",
+       "A34:LEU:CD2",
+       "A40:THR:CG2",
+       "A59:ALA:CB",
+       "A81:LEU:CD1",
+       "A87:LEU:CD1",
+       "A91:ILE:CD1",
+       "A95:VAL:CG2",
+       "A109:SER:OG",
+       "A112:TYR:OH",
+       "A120:LEU:CD1",
+       "A123:THR:OG1",
+       "A127:SER:OG",
+       "A148:THR:OG1",
+       "A153:VAL:CG1",
+       "A156:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -1668,13 +2807,27 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A112:HH",
-       "A123:HG1",
-       "A127:HG",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A18:VAL:CG2",
+       "A29:TYR:OH",
+       "A34:LEU:CD2",
+       "A40:THR:CG2",
+       "A59:ALA:CB",
+       "A81:LEU:CD1",
+       "A87:LEU:CD1",
+       "A91:ILE:CD1",
+       "A95:VAL:CG2",
+       "A109:SER:OG",
+       "A112:TYR:OH",
+       "A120:LEU:CD1",
+       "A123:THR:OG1",
+       "A127:SER:OG",
+       "A148:THR:OG1",
+       "A153:VAL:CG1",
+       "A156:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -1682,13 +2835,27 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A112:HH",
-       "A123:HG1",
-       "A127:HG",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A18:VAL:CG2",
+       "A29:TYR:OH",
+       "A34:LEU:CD2",
+       "A40:THR:CG2",
+       "A59:ALA:CB",
+       "A81:LEU:CD1",
+       "A87:LEU:CD1",
+       "A91:ILE:CD1",
+       "A95:VAL:CG2",
+       "A109:SER:OG",
+       "A112:TYR:OH",
+       "A120:LEU:CD1",
+       "A123:THR:OG1",
+       "A127:SER:OG",
+       "A148:THR:OG1",
+       "A153:VAL:CG1",
+       "A156:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -1696,13 +2863,27 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A112:HH",
-       "A123:HG1",
-       "A127:HG",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A18:VAL:CG2",
+       "A29:TYR:OH",
+       "A34:LEU:CD2",
+       "A40:THR:CG2",
+       "A59:ALA:CB",
+       "A81:LEU:CD1",
+       "A87:LEU:CD1",
+       "A91:ILE:CD1",
+       "A95:VAL:CG2",
+       "A109:SER:OG",
+       "A112:TYR:OH",
+       "A120:LEU:CD1",
+       "A123:THR:OG1",
+       "A127:SER:OG",
+       "A148:THR:OG1",
+       "A153:VAL:CG1",
+       "A156:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -1710,13 +2891,27 @@
       "heavy_out": 1243,
       "heavy_common": 1242,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A12:HG1",
-       "A112:HH",
-       "A123:HG1",
-       "A127:HG",
-       "A156:HG"
+      "rotated_hydrogens": [
+       "A12:THR:OG1",
+       "A18:VAL:CG2",
+       "A29:TYR:OH",
+       "A34:LEU:CD2",
+       "A40:THR:CG2",
+       "A59:ALA:CB",
+       "A81:LEU:CD1",
+       "A87:LEU:CD1",
+       "A91:ILE:CD1",
+       "A95:VAL:CG2",
+       "A109:SER:OG",
+       "A112:TYR:OH",
+       "A120:LEU:CD1",
+       "A123:THR:OG1",
+       "A127:SER:OG",
+       "A148:THR:OG1",
+       "A153:VAL:CG1",
+       "A156:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -1760,9 +2955,15 @@
       "heavy_out": 2282,
       "heavy_common": 2280,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B52:HG"
+      "rotated_hydrogens": [
+       "A10:LEU:CD1",
+       "A68:LEU:CD2",
+       "A135:THR:OG1",
+       "B26:SER:OG",
+       "B52:SER:OG",
+       "B142:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -1770,9 +2971,15 @@
       "heavy_out": 2282,
       "heavy_common": 2280,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B52:HG"
+      "rotated_hydrogens": [
+       "A10:LEU:CD1",
+       "A68:LEU:CD2",
+       "A135:THR:OG1",
+       "B26:SER:OG",
+       "B52:SER:OG",
+       "B142:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -1780,9 +2987,15 @@
       "heavy_out": 2282,
       "heavy_common": 2280,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "B52:HG"
+      "rotated_hydrogens": [
+       "A10:LEU:CD1",
+       "A68:LEU:CD2",
+       "A135:THR:OG1",
+       "B26:SER:OG",
+       "B52:SER:OG",
+       "B142:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -1832,9 +3045,14 @@
       "heavy_out": 1141,
       "heavy_common": 1140,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A26:SER:OG",
+       "A72:LYS:NZ",
+       "A98:SER:OG",
+       "A135:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -1842,9 +3060,14 @@
       "heavy_out": 1141,
       "heavy_common": 1140,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A26:SER:OG",
+       "A72:LYS:NZ",
+       "A98:SER:OG",
+       "A135:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -1852,9 +3075,14 @@
       "heavy_out": 1141,
       "heavy_common": 1140,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A26:SER:OG",
+       "A72:LYS:NZ",
+       "A98:SER:OG",
+       "A135:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -1862,9 +3090,15 @@
       "heavy_out": 1141,
       "heavy_common": 1140,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A26:SER:OG",
+       "A72:LYS:NZ",
+       "A98:SER:OG",
+       "A126:LEU:CD2",
+       "A135:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -1872,9 +3106,15 @@
       "heavy_out": 1141,
       "heavy_common": 1140,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A26:SER:OG",
+       "A72:LYS:NZ",
+       "A98:SER:OG",
+       "A126:LEU:CD2",
+       "A135:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -1882,9 +3122,14 @@
       "heavy_out": 1141,
       "heavy_common": 1140,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A26:SER:OG",
+       "A72:LYS:NZ",
+       "A98:SER:OG",
+       "A135:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -1892,9 +3137,14 @@
       "heavy_out": 1141,
       "heavy_common": 1140,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A26:SER:OG",
+       "A72:LYS:NZ",
+       "A98:SER:OG",
+       "A135:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -1902,9 +3152,15 @@
       "heavy_out": 1141,
       "heavy_common": 1140,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A26:SER:OG",
+       "A72:LYS:NZ",
+       "A98:SER:OG",
+       "A126:LEU:CD2",
+       "A135:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -1912,9 +3168,15 @@
       "heavy_out": 1141,
       "heavy_common": 1140,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG"
+      "rotated_hydrogens": [
+       "A3:ALA:CB",
+       "A26:SER:OG",
+       "A72:LYS:NZ",
+       "A98:SER:OG",
+       "A126:LEU:CD2",
+       "A135:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -1968,12 +3230,15 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A10:HH",
-       "A72:HG",
-       "A75:HG",
-       "A115:HH"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A96:LYS:NZ",
+       "A100:THR:CG2",
+       "A115:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -1981,12 +3246,15 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A10:HH",
-       "A72:HG",
-       "A75:HG",
-       "A115:HH"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A96:LYS:NZ",
+       "A100:THR:CG2",
+       "A115:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -1994,12 +3262,15 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A10:HH",
-       "A72:HG",
-       "A75:HG",
-       "A115:HH"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A96:LYS:NZ",
+       "A100:THR:CG2",
+       "A115:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -2007,12 +3278,15 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A10:HH",
-       "A17:HH",
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A17:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A96:LYS:NZ",
+       "A100:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -2020,12 +3294,16 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A10:HH",
-       "A17:HH",
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A17:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A96:LYS:NZ",
+       "A100:THR:CG2",
+       "A115:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -2033,12 +3311,15 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A10:HH",
-       "A72:HG",
-       "A75:HG",
-       "A115:HH"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A96:LYS:NZ",
+       "A100:THR:CG2",
+       "A115:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -2046,12 +3327,15 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A10:HH",
-       "A72:HG",
-       "A75:HG",
-       "A115:HH"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A96:LYS:NZ",
+       "A100:THR:CG2",
+       "A115:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -2059,12 +3343,15 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A10:HH",
-       "A17:HH",
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A17:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A96:LYS:NZ",
+       "A100:THR:CG2"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -2072,12 +3359,16 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A10:HH",
-       "A17:HH",
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A17:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A96:LYS:NZ",
+       "A100:THR:CG2",
+       "A115:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -2129,11 +3420,14 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A17:HH",
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A17:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A77:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -2141,11 +3435,14 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A17:HH",
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A17:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A77:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -2153,11 +3450,14 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A17:HH",
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A17:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A77:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -2165,11 +3465,14 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A17:HH",
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A17:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A77:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -2177,11 +3480,14 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A17:HH",
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A17:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A77:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -2189,10 +3495,13 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A77:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -2200,10 +3509,13 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A77:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -2211,10 +3523,13 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A77:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -2222,10 +3537,13 @@
       "heavy_out": 1899,
       "heavy_common": 1898,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A72:HG",
-       "A75:HG"
+      "rotated_hydrogens": [
+       "A10:TYR:OH",
+       "A72:SER:OG",
+       "A75:SER:OG",
+       "A77:LYS:NZ"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -2281,15 +3599,24 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A62:HG",
-       "A98:HG1",
-       "A116:HH",
-       "B62:HG",
-       "B98:HG1",
-       "B116:HH",
-       "B179:HH"
+      "rotated_hydrogens": [
+       "A62:SER:OG",
+       "A65:LEU:CD2",
+       "A98:THR:OG1",
+       "A116:TYR:OH",
+       "A118:ASH:OD2",
+       "A178:MET:CE",
+       "A237:SER:OG",
+       "A244:THR:CG2",
+       "B62:SER:OG",
+       "B65:LEU:CD2",
+       "B98:THR:OG1",
+       "B116:TYR:OH",
+       "B118:ASH:OD2",
+       "B178:MET:CE",
+       "B237:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -2297,15 +3624,24 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A62:HG",
-       "A98:HG1",
-       "A116:HH",
-       "B62:HG",
-       "B98:HG1",
-       "B116:HH",
-       "B179:HH"
+      "rotated_hydrogens": [
+       "A62:SER:OG",
+       "A65:LEU:CD2",
+       "A98:THR:OG1",
+       "A116:TYR:OH",
+       "A118:ASH:OD2",
+       "A178:MET:CE",
+       "A237:SER:OG",
+       "A244:THR:CG2",
+       "B62:SER:OG",
+       "B65:LEU:CD2",
+       "B98:THR:OG1",
+       "B116:TYR:OH",
+       "B118:ASH:OD2",
+       "B178:MET:CE",
+       "B237:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -2313,15 +3649,24 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A62:HG",
-       "A98:HG1",
-       "A116:HH",
-       "B62:HG",
-       "B98:HG1",
-       "B116:HH",
-       "B179:HH"
+      "rotated_hydrogens": [
+       "A62:SER:OG",
+       "A65:LEU:CD2",
+       "A98:THR:OG1",
+       "A116:TYR:OH",
+       "A118:ASH:OD2",
+       "A178:MET:CE",
+       "A237:SER:OG",
+       "A244:THR:CG2",
+       "B62:SER:OG",
+       "B65:LEU:CD2",
+       "B98:THR:OG1",
+       "B116:TYR:OH",
+       "B118:ASH:OD2",
+       "B178:MET:CE",
+       "B237:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -2329,15 +3674,24 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A62:HG",
-       "A98:HG1",
-       "A116:HH",
-       "B62:HG",
-       "B98:HG1",
-       "B116:HH",
-       "B179:HH"
+      "rotated_hydrogens": [
+       "A62:SER:OG",
+       "A65:LEU:CD2",
+       "A98:THR:OG1",
+       "A116:TYR:OH",
+       "A118:ASH:OD2",
+       "A178:MET:CE",
+       "A237:SER:OG",
+       "A244:THR:CG2",
+       "B62:SER:OG",
+       "B65:LEU:CD2",
+       "B98:THR:OG1",
+       "B116:TYR:OH",
+       "B118:ASH:OD2",
+       "B178:MET:CE",
+       "B237:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -2345,15 +3699,24 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A62:HG",
-       "A98:HG1",
-       "A116:HH",
-       "B62:HG",
-       "B98:HG1",
-       "B116:HH",
-       "B179:HH"
+      "rotated_hydrogens": [
+       "A62:SER:OG",
+       "A65:LEU:CD2",
+       "A98:THR:OG1",
+       "A116:TYR:OH",
+       "A118:ASH:OD2",
+       "A178:MET:CE",
+       "A237:SER:OG",
+       "A244:THR:CG2",
+       "B62:SER:OG",
+       "B65:LEU:CD2",
+       "B98:THR:OG1",
+       "B116:TYR:OH",
+       "B118:ASH:OD2",
+       "B178:MET:CE",
+       "B237:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -2361,15 +3724,24 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A62:HG",
-       "A98:HG1",
-       "A116:HH",
-       "B62:HG",
-       "B98:HG1",
-       "B116:HH",
-       "B179:HH"
+      "rotated_hydrogens": [
+       "A62:SER:OG",
+       "A65:LEU:CD2",
+       "A98:THR:OG1",
+       "A116:TYR:OH",
+       "A118:ASH:OD2",
+       "A178:MET:CE",
+       "A237:SER:OG",
+       "A244:THR:CG2",
+       "B62:SER:OG",
+       "B65:LEU:CD2",
+       "B98:THR:OG1",
+       "B116:TYR:OH",
+       "B118:ASH:OD2",
+       "B178:MET:CE",
+       "B237:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -2377,15 +3749,24 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A62:HG",
-       "A98:HG1",
-       "A116:HH",
-       "B62:HG",
-       "B98:HG1",
-       "B116:HH",
-       "B179:HH"
+      "rotated_hydrogens": [
+       "A62:SER:OG",
+       "A65:LEU:CD2",
+       "A98:THR:OG1",
+       "A116:TYR:OH",
+       "A118:ASH:OD2",
+       "A178:MET:CE",
+       "A237:SER:OG",
+       "A244:THR:CG2",
+       "B62:SER:OG",
+       "B65:LEU:CD2",
+       "B98:THR:OG1",
+       "B116:TYR:OH",
+       "B118:ASH:OD2",
+       "B178:MET:CE",
+       "B237:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -2393,15 +3774,24 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A62:HG",
-       "A98:HG1",
-       "A116:HH",
-       "B62:HG",
-       "B98:HG1",
-       "B116:HH",
-       "B179:HH"
+      "rotated_hydrogens": [
+       "A62:SER:OG",
+       "A65:LEU:CD2",
+       "A98:THR:OG1",
+       "A116:TYR:OH",
+       "A118:ASH:OD2",
+       "A178:MET:CE",
+       "A237:SER:OG",
+       "A244:THR:CG2",
+       "B62:SER:OG",
+       "B65:LEU:CD2",
+       "B98:THR:OG1",
+       "B116:TYR:OH",
+       "B118:ASH:OD2",
+       "B178:MET:CE",
+       "B237:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -2409,15 +3799,24 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A62:HG",
-       "A98:HG1",
-       "A116:HH",
-       "B62:HG",
-       "B98:HG1",
-       "B116:HH",
-       "B179:HH"
+      "rotated_hydrogens": [
+       "A62:SER:OG",
+       "A65:LEU:CD2",
+       "A98:THR:OG1",
+       "A116:TYR:OH",
+       "A118:ASH:OD2",
+       "A178:MET:CE",
+       "A237:SER:OG",
+       "A244:THR:CG2",
+       "B62:SER:OG",
+       "B65:LEU:CD2",
+       "B98:THR:OG1",
+       "B116:TYR:OH",
+       "B118:ASH:OD2",
+       "B178:MET:CE",
+       "B237:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -2466,16 +3865,28 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG1",
-       "A180:HG",
-       "A231:HH",
-       "A281:HG",
-       "B98:HG1",
-       "B180:HG",
-       "B231:HH",
-       "B281:HG"
+      "rotated_hydrogens": [
+       "A9:THR:OG1",
+       "A22:ALA:CB",
+       "A98:THR:OG1",
+       "A180:SER:OG",
+       "A211:LEU:CD1",
+       "A231:TYR:OH",
+       "A237:SER:OG",
+       "A238:LEU:CD2",
+       "A281:SER:OG",
+       "B9:THR:OG1",
+       "B22:ALA:CB",
+       "B98:THR:OG1",
+       "B114:THR:CG2",
+       "B180:SER:OG",
+       "B220:LYS:NZ",
+       "B231:TYR:OH",
+       "B237:SER:OG",
+       "B242:VAL:CG2",
+       "B281:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -2483,16 +3894,28 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG1",
-       "A180:HG",
-       "A231:HH",
-       "A281:HG",
-       "B98:HG1",
-       "B180:HG",
-       "B231:HH",
-       "B281:HG"
+      "rotated_hydrogens": [
+       "A9:THR:OG1",
+       "A22:ALA:CB",
+       "A98:THR:OG1",
+       "A180:SER:OG",
+       "A211:LEU:CD1",
+       "A231:TYR:OH",
+       "A237:SER:OG",
+       "A238:LEU:CD2",
+       "A281:SER:OG",
+       "B9:THR:OG1",
+       "B22:ALA:CB",
+       "B98:THR:OG1",
+       "B114:THR:CG2",
+       "B180:SER:OG",
+       "B220:LYS:NZ",
+       "B231:TYR:OH",
+       "B237:SER:OG",
+       "B242:VAL:CG2",
+       "B281:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -2500,16 +3923,28 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG1",
-       "A180:HG",
-       "A231:HH",
-       "A281:HG",
-       "B98:HG1",
-       "B180:HG",
-       "B231:HH",
-       "B281:HG"
+      "rotated_hydrogens": [
+       "A9:THR:OG1",
+       "A22:ALA:CB",
+       "A98:THR:OG1",
+       "A180:SER:OG",
+       "A211:LEU:CD1",
+       "A231:TYR:OH",
+       "A237:SER:OG",
+       "A238:LEU:CD2",
+       "A281:SER:OG",
+       "B9:THR:OG1",
+       "B22:ALA:CB",
+       "B98:THR:OG1",
+       "B114:THR:CG2",
+       "B180:SER:OG",
+       "B220:LYS:NZ",
+       "B231:TYR:OH",
+       "B237:SER:OG",
+       "B242:VAL:CG2",
+       "B281:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -2517,16 +3952,28 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG1",
-       "A180:HG",
-       "A231:HH",
-       "A281:HG",
-       "B98:HG1",
-       "B180:HG",
-       "B231:HH",
-       "B281:HG"
+      "rotated_hydrogens": [
+       "A9:THR:OG1",
+       "A22:ALA:CB",
+       "A98:THR:OG1",
+       "A180:SER:OG",
+       "A211:LEU:CD1",
+       "A231:TYR:OH",
+       "A237:SER:OG",
+       "A238:LEU:CD2",
+       "A281:SER:OG",
+       "B9:THR:OG1",
+       "B22:ALA:CB",
+       "B98:THR:OG1",
+       "B114:THR:CG2",
+       "B180:SER:OG",
+       "B220:LYS:NZ",
+       "B231:TYR:OH",
+       "B237:SER:OG",
+       "B242:VAL:CG2",
+       "B281:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -2534,16 +3981,28 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG1",
-       "A180:HG",
-       "A231:HH",
-       "A281:HG",
-       "B98:HG1",
-       "B180:HG",
-       "B231:HH",
-       "B281:HG"
+      "rotated_hydrogens": [
+       "A9:THR:OG1",
+       "A22:ALA:CB",
+       "A98:THR:OG1",
+       "A180:SER:OG",
+       "A211:LEU:CD1",
+       "A231:TYR:OH",
+       "A237:SER:OG",
+       "A238:LEU:CD2",
+       "A281:SER:OG",
+       "B9:THR:OG1",
+       "B22:ALA:CB",
+       "B98:THR:OG1",
+       "B114:THR:CG2",
+       "B180:SER:OG",
+       "B220:LYS:NZ",
+       "B231:TYR:OH",
+       "B237:SER:OG",
+       "B242:VAL:CG2",
+       "B281:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -2551,16 +4010,28 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG1",
-       "A180:HG",
-       "A231:HH",
-       "A281:HG",
-       "B98:HG1",
-       "B180:HG",
-       "B231:HH",
-       "B281:HG"
+      "rotated_hydrogens": [
+       "A9:THR:OG1",
+       "A22:ALA:CB",
+       "A98:THR:OG1",
+       "A180:SER:OG",
+       "A211:LEU:CD1",
+       "A231:TYR:OH",
+       "A237:SER:OG",
+       "A238:LEU:CD2",
+       "A281:SER:OG",
+       "B9:THR:OG1",
+       "B22:ALA:CB",
+       "B98:THR:OG1",
+       "B114:THR:CG2",
+       "B180:SER:OG",
+       "B220:LYS:NZ",
+       "B231:TYR:OH",
+       "B237:SER:OG",
+       "B242:VAL:CG2",
+       "B281:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -2568,16 +4039,28 @@
       "heavy_out": 4224,
       "heavy_common": 4222,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A98:HG1",
-       "A180:HG",
-       "A231:HH",
-       "A281:HG",
-       "B98:HG1",
-       "B180:HG",
-       "B231:HH",
-       "B281:HG"
+      "rotated_hydrogens": [
+       "A9:THR:OG1",
+       "A22:ALA:CB",
+       "A98:THR:OG1",
+       "A180:SER:OG",
+       "A211:LEU:CD1",
+       "A231:TYR:OH",
+       "A237:SER:OG",
+       "A238:LEU:CD2",
+       "A281:SER:OG",
+       "B9:THR:OG1",
+       "B22:ALA:CB",
+       "B98:THR:OG1",
+       "B114:THR:CG2",
+       "B180:SER:OG",
+       "B220:LYS:NZ",
+       "B231:TYR:OH",
+       "B237:SER:OG",
+       "B242:VAL:CG2",
+       "B281:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -2621,19 +4104,39 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A54:HG",
-       "A76:HH",
-       "A93:HG",
-       "B54:HG",
-       "B64:HH",
-       "B74:HH",
-       "B76:HH",
-       "B93:HG",
-       "B148:HG",
-       "B175:HG1",
-       "B189:HG1"
+      "rotated_hydrogens": [
+       "A25:LEU:CD2",
+       "A53:MET:CE",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A93:SER:OG",
+       "A95:THR:OG1",
+       "A103:LEU:CD1",
+       "A129:THR:OG1",
+       "A130:VAL:CG2",
+       "A174:ILE:CD1",
+       "B25:LEU:CD2",
+       "B28:LEU:CD1",
+       "B28:LEU:CD2",
+       "B49:THR:OG1",
+       "B53:MET:CE",
+       "B54:SER:OG",
+       "B64:TYR:OH",
+       "B74:TYR:OH",
+       "B76:TYR:OH",
+       "B93:SER:OG",
+       "B95:THR:CG2",
+       "B104:MET:CE",
+       "B113:TYR:OH",
+       "B114:LEU:CD1",
+       "B139:TYR:OH",
+       "B148:SER:OG",
+       "B153:ALA:CB",
+       "B154:LEU:CD1",
+       "B175:THR:OG1",
+       "B189:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -2641,19 +4144,39 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A54:HG",
-       "A76:HH",
-       "A93:HG",
-       "B54:HG",
-       "B64:HH",
-       "B74:HH",
-       "B76:HH",
-       "B93:HG",
-       "B148:HG",
-       "B175:HG1",
-       "B189:HG1"
+      "rotated_hydrogens": [
+       "A25:LEU:CD2",
+       "A53:MET:CE",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A93:SER:OG",
+       "A95:THR:OG1",
+       "A103:LEU:CD1",
+       "A129:THR:OG1",
+       "A130:VAL:CG2",
+       "A174:ILE:CD1",
+       "B25:LEU:CD2",
+       "B28:LEU:CD1",
+       "B28:LEU:CD2",
+       "B49:THR:OG1",
+       "B53:MET:CE",
+       "B54:SER:OG",
+       "B64:TYR:OH",
+       "B74:TYR:OH",
+       "B76:TYR:OH",
+       "B93:SER:OG",
+       "B95:THR:CG2",
+       "B104:MET:CE",
+       "B113:TYR:OH",
+       "B114:LEU:CD1",
+       "B139:TYR:OH",
+       "B148:SER:OG",
+       "B153:ALA:CB",
+       "B154:LEU:CD1",
+       "B175:THR:OG1",
+       "B189:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -2661,19 +4184,39 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A54:HG",
-       "A76:HH",
-       "A93:HG",
-       "B54:HG",
-       "B64:HH",
-       "B74:HH",
-       "B76:HH",
-       "B93:HG",
-       "B148:HG",
-       "B175:HG1",
-       "B189:HG1"
+      "rotated_hydrogens": [
+       "A25:LEU:CD2",
+       "A53:MET:CE",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A93:SER:OG",
+       "A95:THR:OG1",
+       "A103:LEU:CD1",
+       "A129:THR:OG1",
+       "A130:VAL:CG2",
+       "A174:ILE:CD1",
+       "B25:LEU:CD2",
+       "B28:LEU:CD1",
+       "B28:LEU:CD2",
+       "B49:THR:OG1",
+       "B53:MET:CE",
+       "B54:SER:OG",
+       "B64:TYR:OH",
+       "B74:TYR:OH",
+       "B76:TYR:OH",
+       "B93:SER:OG",
+       "B95:THR:CG2",
+       "B104:MET:CE",
+       "B113:TYR:OH",
+       "B114:LEU:CD1",
+       "B139:TYR:OH",
+       "B148:SER:OG",
+       "B153:ALA:CB",
+       "B154:LEU:CD1",
+       "B175:THR:OG1",
+       "B189:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -2725,16 +4268,21 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A76:HH",
-       "A93:HG",
-       "A113:HH",
-       "A133:HH",
-       "A167:HG",
-       "B54:HG",
-       "B76:HH",
-       "B113:HH"
+      "rotated_hydrogens": [
+       "A49:THR:OG1",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A83:MET:CE",
+       "A93:SER:OG",
+       "A113:TYR:OH",
+       "A133:TYR:OH",
+       "A167:SER:OG",
+       "B49:THR:OG1",
+       "B54:SER:OG",
+       "B76:TYR:OH",
+       "B113:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -2742,16 +4290,21 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A76:HH",
-       "A93:HG",
-       "A113:HH",
-       "A133:HH",
-       "A167:HG",
-       "B54:HG",
-       "B76:HH",
-       "B113:HH"
+      "rotated_hydrogens": [
+       "A49:THR:OG1",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A83:MET:CE",
+       "A93:SER:OG",
+       "A113:TYR:OH",
+       "A133:TYR:OH",
+       "A167:SER:OG",
+       "B49:THR:OG1",
+       "B54:SER:OG",
+       "B76:TYR:OH",
+       "B113:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -2759,16 +4312,22 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A76:HH",
-       "A93:HG",
-       "A113:HH",
-       "A133:HH",
-       "A167:HG",
-       "B54:HG",
-       "B76:HH",
-       "B113:HH"
+      "rotated_hydrogens": [
+       "A49:THR:OG1",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A83:MET:CE",
+       "A93:SER:OG",
+       "A113:TYR:OH",
+       "A133:TYR:OH",
+       "A141:THR:OG1",
+       "A167:SER:OG",
+       "B49:THR:OG1",
+       "B54:SER:OG",
+       "B76:TYR:OH",
+       "B113:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -2776,16 +4335,22 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A76:HH",
-       "A93:HG",
-       "A113:HH",
-       "A133:HH",
-       "A167:HG",
-       "B54:HG",
-       "B76:HH",
-       "B113:HH"
+      "rotated_hydrogens": [
+       "A49:THR:OG1",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A83:MET:CE",
+       "A93:SER:OG",
+       "A113:TYR:OH",
+       "A133:TYR:OH",
+       "A141:THR:OG1",
+       "A167:SER:OG",
+       "B49:THR:OG1",
+       "B54:SER:OG",
+       "B76:TYR:OH",
+       "B113:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -2793,16 +4358,22 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A76:HH",
-       "A93:HG",
-       "A113:HH",
-       "A133:HH",
-       "A167:HG",
-       "B54:HG",
-       "B76:HH",
-       "B113:HH"
+      "rotated_hydrogens": [
+       "A49:THR:OG1",
+       "A50:ILE:CD1",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A83:MET:CE",
+       "A93:SER:OG",
+       "A113:TYR:OH",
+       "A133:TYR:OH",
+       "A167:SER:OG",
+       "B49:THR:OG1",
+       "B54:SER:OG",
+       "B76:TYR:OH",
+       "B113:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -2810,16 +4381,22 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A76:HH",
-       "A93:HG",
-       "A113:HH",
-       "A133:HH",
-       "A167:HG",
-       "B54:HG",
-       "B76:HH",
-       "B113:HH"
+      "rotated_hydrogens": [
+       "A49:THR:OG1",
+       "A50:ILE:CD1",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A83:MET:CE",
+       "A93:SER:OG",
+       "A113:TYR:OH",
+       "A133:TYR:OH",
+       "A167:SER:OG",
+       "B49:THR:OG1",
+       "B54:SER:OG",
+       "B76:TYR:OH",
+       "B113:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -2827,16 +4404,21 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A76:HH",
-       "A93:HG",
-       "A113:HH",
-       "A133:HH",
-       "A167:HG",
-       "B54:HG",
-       "B76:HH",
-       "B113:HH"
+      "rotated_hydrogens": [
+       "A49:THR:OG1",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A83:MET:CE",
+       "A93:SER:OG",
+       "A113:TYR:OH",
+       "A133:TYR:OH",
+       "A167:SER:OG",
+       "B49:THR:OG1",
+       "B54:SER:OG",
+       "B76:TYR:OH",
+       "B113:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -2844,16 +4426,21 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A76:HH",
-       "A93:HG",
-       "A113:HH",
-       "A133:HH",
-       "A167:HG",
-       "B54:HG",
-       "B76:HH",
-       "B113:HH"
+      "rotated_hydrogens": [
+       "A49:THR:OG1",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A83:MET:CE",
+       "A93:SER:OG",
+       "A113:TYR:OH",
+       "A133:TYR:OH",
+       "A167:SER:OG",
+       "B49:THR:OG1",
+       "B54:SER:OG",
+       "B76:TYR:OH",
+       "B113:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -2861,22 +4448,545 @@
       "heavy_out": 3119,
       "heavy_common": 3117,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A76:HH",
-       "A93:HG",
-       "A113:HH",
-       "A133:HH",
-       "A167:HG",
-       "B54:HG",
-       "B76:HH",
-       "B113:HH"
+      "rotated_hydrogens": [
+       "A49:THR:OG1",
+       "A54:SER:OG",
+       "A76:TYR:OH",
+       "A83:MET:CE",
+       "A93:SER:OG",
+       "A113:TYR:OH",
+       "A133:TYR:OH",
+       "A167:SER:OG",
+       "B49:THR:OG1",
+       "B54:SER:OG",
+       "B76:TYR:OH",
+       "B113:TYR:OH"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
     "titration_states": [
      "ASP",
      "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "2248260e300938dd",
+   "smiles": "O[C@H]1[C@@H](O)[C@@H](O[C@@H]1CO[P](O)(O)=O)N2C=CC(=O)NC2=O",
+   "holo": {
+    "box_center": [
+     20.868,
+     -0.81,
+     8.919
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 3299,
+      "heavy_out": 3301,
+      "heavy_common": 3299,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A105:SER:OG",
+       "A139:ALA:CB",
+       "B124:THR:OG1",
+       "B152:LYS:NZ",
+       "B221:SER:OG"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 3299,
+      "heavy_out": 3301,
+      "heavy_common": 3299,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A105:SER:OG",
+       "A139:ALA:CB",
+       "B124:THR:OG1",
+       "B152:LYS:NZ",
+       "B221:SER:OG"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     8.32,
+     1.084,
+     3.078
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 3136,
+      "heavy_out": 3138,
+      "heavy_common": 3136,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A48:VAL:CG1",
+       "A72:LYS:NZ",
+       "B11:VAL:CG1",
+       "B22:MET:CE",
+       "B40:THR:CG2",
+       "B47:LEU:CD1",
+       "B48:VAL:CG1",
+       "B72:LYS:NZ",
+       "B139:ALA:CB",
+       "B178:ILE:CD1",
+       "B192:THR:CG2",
+       "B199:ILE:CD1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 3136,
+      "heavy_out": 3138,
+      "heavy_common": 3136,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A48:VAL:CG1",
+       "A72:LYS:NZ",
+       "B11:VAL:CG1",
+       "B22:MET:CE",
+       "B40:THR:CG2",
+       "B47:LEU:CD1",
+       "B48:VAL:CG1",
+       "B72:LYS:NZ",
+       "B139:ALA:CB",
+       "B178:ILE:CD1",
+       "B192:THR:CG2",
+       "B199:ILE:CD1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 3136,
+      "heavy_out": 3138,
+      "heavy_common": 3136,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A48:VAL:CG1",
+       "A72:LYS:NZ",
+       "B11:VAL:CG1",
+       "B22:MET:CE",
+       "B40:THR:CG2",
+       "B47:LEU:CD1",
+       "B48:VAL:CG1",
+       "B72:LYS:NZ",
+       "B139:ALA:CB",
+       "B178:ILE:CD1",
+       "B192:THR:CG2",
+       "B199:ILE:CD1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 3136,
+      "heavy_out": 3138,
+      "heavy_common": 3136,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A15:LEU:CD1",
+       "A48:VAL:CG1",
+       "A72:LYS:NZ",
+       "A201:VAL:CG2",
+       "B11:VAL:CG1",
+       "B22:MET:CE",
+       "B40:THR:CG2",
+       "B47:LEU:CD1",
+       "B48:VAL:CG1",
+       "B72:LYS:NZ",
+       "B139:ALA:CB",
+       "B178:ILE:CD1",
+       "B192:THR:CG2",
+       "B199:ILE:CD1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 3136,
+      "heavy_out": 3138,
+      "heavy_common": 3136,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A15:LEU:CD1",
+       "A48:VAL:CG1",
+       "A72:LYS:NZ",
+       "A201:VAL:CG2",
+       "B11:VAL:CG1",
+       "B22:MET:CE",
+       "B40:THR:CG2",
+       "B47:LEU:CD1",
+       "B48:VAL:CG1",
+       "B72:LYS:NZ",
+       "B139:ALA:CB",
+       "B178:ILE:CD1",
+       "B192:THR:CG2",
+       "B199:ILE:CD1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 3136,
+      "heavy_out": 3138,
+      "heavy_common": 3136,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A48:VAL:CG1",
+       "A72:LYS:NZ",
+       "B11:VAL:CG1",
+       "B22:MET:CE",
+       "B40:THR:CG2",
+       "B47:LEU:CD1",
+       "B48:VAL:CG1",
+       "B72:LYS:NZ",
+       "B139:ALA:CB",
+       "B178:ILE:CD1",
+       "B192:THR:CG2",
+       "B199:ILE:CD1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 3136,
+      "heavy_out": 3138,
+      "heavy_common": 3136,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A48:VAL:CG1",
+       "A72:LYS:NZ",
+       "B11:VAL:CG1",
+       "B22:MET:CE",
+       "B40:THR:CG2",
+       "B47:LEU:CD1",
+       "B48:VAL:CG1",
+       "B72:LYS:NZ",
+       "B139:ALA:CB",
+       "B178:ILE:CD1",
+       "B192:THR:CG2",
+       "B199:ILE:CD1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 3136,
+      "heavy_out": 3138,
+      "heavy_common": 3136,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A15:LEU:CD1",
+       "A48:VAL:CG1",
+       "A72:LYS:NZ",
+       "A201:VAL:CG2",
+       "B11:VAL:CG1",
+       "B22:MET:CE",
+       "B40:THR:CG2",
+       "B47:LEU:CD1",
+       "B48:VAL:CG1",
+       "B72:LYS:NZ",
+       "B139:ALA:CB",
+       "B178:ILE:CD1",
+       "B192:THR:CG2",
+       "B199:ILE:CD1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 3136,
+      "heavy_out": 3138,
+      "heavy_common": 3136,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A15:LEU:CD1",
+       "A48:VAL:CG1",
+       "A72:LYS:NZ",
+       "A201:VAL:CG2",
+       "B11:VAL:CG1",
+       "B22:MET:CE",
+       "B40:THR:CG2",
+       "B47:LEU:CD1",
+       "B48:VAL:CG1",
+       "B72:LYS:NZ",
+       "B139:ALA:CB",
+       "B178:ILE:CD1",
+       "B192:THR:CG2",
+       "B199:ILE:CD1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "3501c3c7d181fc13",
+   "smiles": "OC[C@H]1O[C@@H]2[C@@H](OC3=NC(=O)C=CN23)[C@@H]1O",
+   "holo": {
+    "box_center": [
+     11.655,
+     0.1,
+     92.209
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 3612,
+      "heavy_out": 3614,
+      "heavy_common": 3612,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A6004:SER:OG",
+       "A6046:SER:OG",
+       "A6095:THR:OG1",
+       "A6159:SER:OG",
+       "A6160:ASH:OD2",
+       "A6163:TYR:OH",
+       "A6169:TYR:OH",
+       "A6171:THR:OG1",
+       "A6181:LYS:NZ",
+       "A6201:THR:OG1",
+       "B3004:SER:OG",
+       "B3012:THR:OG1",
+       "B3040:LYS:NZ",
+       "B3049:GLH:OE2",
+       "B3066:SER:OG",
+       "B3095:THR:CG2",
+       "B3111:THR:OG1",
+       "B3160:ASH:OD2",
+       "B3201:THR:OG1",
+       "B3220:ILE:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 3612,
+      "heavy_out": 3614,
+      "heavy_common": 3612,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A6004:SER:OG",
+       "A6046:SER:OG",
+       "A6095:THR:OG1",
+       "A6159:SER:OG",
+       "A6160:ASH:OD2",
+       "A6163:TYR:OH",
+       "A6169:TYR:OH",
+       "A6171:THR:OG1",
+       "A6181:LYS:NZ",
+       "A6201:THR:OG1",
+       "B3004:SER:OG",
+       "B3012:THR:OG1",
+       "B3040:LYS:NZ",
+       "B3049:GLH:OE2",
+       "B3066:SER:OG",
+       "B3095:THR:CG2",
+       "B3111:THR:OG1",
+       "B3160:ASH:OD2",
+       "B3201:THR:OG1",
+       "B3220:ILE:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 3612,
+      "heavy_out": 3614,
+      "heavy_common": 3612,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A6004:SER:OG",
+       "A6046:SER:OG",
+       "A6095:THR:OG1",
+       "A6159:SER:OG",
+       "A6160:ASH:OD2",
+       "A6163:TYR:OH",
+       "A6169:TYR:OH",
+       "A6171:THR:OG1",
+       "A6181:LYS:NZ",
+       "A6201:THR:OG1",
+       "B3004:SER:OG",
+       "B3012:THR:OG1",
+       "B3040:LYS:NZ",
+       "B3049:GLH:OE2",
+       "B3066:SER:OG",
+       "B3095:THR:CG2",
+       "B3111:THR:OG1",
+       "B3160:ASH:OD2",
+       "B3201:THR:OG1",
+       "B3220:ILE:CG2"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASH",
+     "ASP",
+     "CYS",
+     "GLH",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     48.359,
+     46.703,
+     -10.876
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 3551,
+      "heavy_out": 3553,
+      "heavy_common": 3551,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A1012:THR:OG1",
+       "A1075:SER:OG",
+       "A1094:THR:CG2",
+       "A1159:SER:OG",
+       "A1163:TYR:OH",
+       "A1169:TYR:OH",
+       "A1181:LYS:NZ",
+       "B2012:THR:OG1",
+       "B2066:SER:OG",
+       "B2160:ASH:OD2",
+       "B2201:THR:OG1",
+       "B2224:THR:OG1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 3551,
+      "heavy_out": 3553,
+      "heavy_common": 3551,
+      "max_heavy_shift": 0.0,
+      "rotated_hydrogens": [
+       "A1012:THR:OG1",
+       "A1075:SER:OG",
+       "A1094:THR:CG2",
+       "A1159:SER:OG",
+       "A1163:TYR:OH",
+       "A1169:TYR:OH",
+       "A1181:LYS:NZ",
+       "B2012:THR:OG1",
+       "B2066:SER:OG",
+       "B2160:ASH:OD2",
+       "B2201:THR:OG1",
+       "B2224:THR:OG1"
+      ],
+      "close_hydrogens": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASH",
+     "ASP",
+     "CYS",
+     "GLH",
      "GLU",
      "HID",
      "LYS"
@@ -2914,10 +5024,17 @@
       "heavy_out": 3532,
       "heavy_common": 3530,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A74:HG1",
-       "B14:HG1"
+      "rotated_hydrogens": [
+       "A49:LYS:NZ",
+       "A74:THR:OG1",
+       "A157:LYS:NZ",
+       "A197:LYS:NZ",
+       "B14:THR:OG1",
+       "B52:LYS:NZ",
+       "B56:THR:OG1",
+       "B74:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -2925,10 +5042,17 @@
       "heavy_out": 3532,
       "heavy_common": 3530,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A74:HG1",
-       "B14:HG1"
+      "rotated_hydrogens": [
+       "A49:LYS:NZ",
+       "A74:THR:OG1",
+       "A157:LYS:NZ",
+       "A197:LYS:NZ",
+       "B14:THR:OG1",
+       "B52:LYS:NZ",
+       "B56:THR:OG1",
+       "B74:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -2936,10 +5060,17 @@
       "heavy_out": 3532,
       "heavy_common": 3530,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A74:HG1",
-       "B14:HG1"
+      "rotated_hydrogens": [
+       "A49:LYS:NZ",
+       "A74:THR:OG1",
+       "A157:LYS:NZ",
+       "A197:LYS:NZ",
+       "B14:THR:OG1",
+       "B52:LYS:NZ",
+       "B56:THR:OG1",
+       "B74:THR:OG1"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -2979,7 +5110,20 @@
       "heavy_out": 3536,
       "heavy_common": 3534,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A2:LYS:NZ",
+       "A52:LYS:NZ",
+       "A93:THR:OG1",
+       "A223:LYS:NZ",
+       "B33:TYR:OH",
+       "B52:LYS:NZ",
+       "B56:THR:OG1",
+       "B138:ILE:CD1",
+       "B157:LYS:NZ",
+       "B197:LYS:NZ",
+       "B227:LYS:NZ"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -2987,7 +5131,20 @@
       "heavy_out": 3536,
       "heavy_common": 3534,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A2:LYS:NZ",
+       "A52:LYS:NZ",
+       "A93:THR:OG1",
+       "A223:LYS:NZ",
+       "B33:TYR:OH",
+       "B52:LYS:NZ",
+       "B56:THR:OG1",
+       "B138:ILE:CD1",
+       "B157:LYS:NZ",
+       "B197:LYS:NZ",
+       "B227:LYS:NZ"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -2995,7 +5152,20 @@
       "heavy_out": 3536,
       "heavy_common": 3534,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A2:LYS:NZ",
+       "A52:LYS:NZ",
+       "A93:THR:OG1",
+       "A223:LYS:NZ",
+       "B33:TYR:OH",
+       "B52:LYS:NZ",
+       "B56:THR:OG1",
+       "B138:ILE:CD1",
+       "B157:LYS:NZ",
+       "B197:LYS:NZ",
+       "B227:LYS:NZ"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -3052,10 +5222,13 @@
       "heavy_out": 1257,
       "heavy_common": 1256,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A84:HG",
-       "A113:HH"
+      "rotated_hydrogens": [
+       "A31:LYS:NZ",
+       "A84:SER:OG",
+       "A113:TYR:OH",
+       "A166:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -3063,10 +5236,13 @@
       "heavy_out": 1257,
       "heavy_common": 1256,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A84:HG",
-       "A113:HH"
+      "rotated_hydrogens": [
+       "A31:LYS:NZ",
+       "A84:SER:OG",
+       "A113:TYR:OH",
+       "A166:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -3074,10 +5250,14 @@
       "heavy_out": 1257,
       "heavy_common": 1256,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A84:HG",
-       "A113:HH"
+      "rotated_hydrogens": [
+       "A31:LYS:NZ",
+       "A44:LYS:NZ",
+       "A84:SER:OG",
+       "A113:TYR:OH",
+       "A166:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -3085,10 +5265,14 @@
       "heavy_out": 1257,
       "heavy_common": 1256,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A84:HG",
-       "A113:HH"
+      "rotated_hydrogens": [
+       "A31:LYS:NZ",
+       "A44:LYS:NZ",
+       "A84:SER:OG",
+       "A113:TYR:OH",
+       "A166:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -3096,10 +5280,13 @@
       "heavy_out": 1257,
       "heavy_common": 1256,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A84:HG",
-       "A113:HH"
+      "rotated_hydrogens": [
+       "A31:LYS:NZ",
+       "A84:SER:OG",
+       "A113:TYR:OH",
+       "A166:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -3107,10 +5294,14 @@
       "heavy_out": 1257,
       "heavy_common": 1256,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A84:HG",
-       "A113:HH"
+      "rotated_hydrogens": [
+       "A31:LYS:NZ",
+       "A44:LYS:NZ",
+       "A84:SER:OG",
+       "A113:TYR:OH",
+       "A166:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -3118,10 +5309,13 @@
       "heavy_out": 1257,
       "heavy_common": 1256,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A84:HG",
-       "A113:HH"
+      "rotated_hydrogens": [
+       "A31:LYS:NZ",
+       "A84:SER:OG",
+       "A113:TYR:OH",
+       "A166:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -3129,10 +5323,13 @@
       "heavy_out": 1257,
       "heavy_common": 1256,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A84:HG",
-       "A113:HH"
+      "rotated_hydrogens": [
+       "A31:LYS:NZ",
+       "A84:SER:OG",
+       "A113:TYR:OH",
+       "A166:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -3140,10 +5337,13 @@
       "heavy_out": 1257,
       "heavy_common": 1256,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [
-       "A84:HG",
-       "A113:HH"
+      "rotated_hydrogens": [
+       "A31:LYS:NZ",
+       "A84:SER:OG",
+       "A113:TYR:OH",
+       "A166:SER:OG"
       ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -3195,7 +5395,12 @@
       "heavy_out": 1264,
       "heavy_common": 1263,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A19:LYS:NZ",
+       "A44:LYS:NZ",
+       "A147:VAL:CG1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_0": {
@@ -3203,7 +5408,12 @@
       "heavy_out": 1264,
       "heavy_common": 1263,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A19:LYS:NZ",
+       "A44:LYS:NZ",
+       "A147:VAL:CG1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_1": {
@@ -3211,7 +5421,12 @@
       "heavy_out": 1264,
       "heavy_common": 1263,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A19:LYS:NZ",
+       "A44:LYS:NZ",
+       "A147:VAL:CG1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_2": {
@@ -3219,7 +5434,12 @@
       "heavy_out": 1264,
       "heavy_common": 1263,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A19:LYS:NZ",
+       "A44:LYS:NZ",
+       "A147:VAL:CG1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_3": {
@@ -3227,7 +5447,11 @@
       "heavy_out": 1264,
       "heavy_common": 1263,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A19:LYS:NZ",
+       "A147:VAL:CG1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_4": {
@@ -3235,7 +5459,12 @@
       "heavy_out": 1264,
       "heavy_common": 1263,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A19:LYS:NZ",
+       "A44:LYS:NZ",
+       "A147:VAL:CG1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_5": {
@@ -3243,7 +5472,11 @@
       "heavy_out": 1264,
       "heavy_common": 1263,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A19:LYS:NZ",
+       "A147:VAL:CG1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_6": {
@@ -3251,7 +5484,12 @@
       "heavy_out": 1264,
       "heavy_common": 1263,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A19:LYS:NZ",
+       "A44:LYS:NZ",
+       "A147:VAL:CG1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      },
      "multi_7": {
@@ -3259,7 +5497,11 @@
       "heavy_out": 1264,
       "heavy_common": 1263,
       "max_heavy_shift": 0.0,
-      "hydroxyl_rotated": [],
+      "rotated_hydrogens": [
+       "A19:LYS:NZ",
+       "A147:VAL:CG1"
+      ],
+      "close_hydrogens": [],
       "moved_residues": []
      }
     },
@@ -3274,25 +5516,8 @@
    }
   }
  ],
- "failures": [
-  {
-   "case_id": "97ea259b19814c3e",
-   "error": "AssertionError(\"hydrogens too close to another residue in /gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/docking_v1/inputs/97ea259b19814c3e/holo_single_0.H.pdb: ['A8:HD1-A9:H', 'A9:H-A8:HD1']\")"
-  },
-  {
-   "case_id": "172d7da9c683ce21",
-   "error": "RuntimeError('mk_prepare_receptor.py failed:  receptor failed. | Details: | Bad res A:175 is within radius of box edge (0.0000 <= delete_bad_res_from_box_radius=8.0000 A). | These residues can be ignored with option --delete_bad_res or --delete_bad_res_from_box_radius. | Recommendations: | 1. (for batch processing) Use -a/--allow_bad_res to automatically remove residues | that do not match templates, and --default_altloc to set | a default altloc variant. Use these at your own risk. | 2. (processing individual structure) Inspecting and fixing the input structure is recommended. | Use --wanted_altloc to set variants for specific residues.')"
-  },
-  {
-   "case_id": "2248260e300938dd",
-   "error": "AssertionError(\"hydrogens too close to another residue in /gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/docking_v1/inputs/2248260e300938dd/apo_single_0.H.pdb: ['B192:HG23-B199:HD13', 'B199:HD13-B192:HG23']\")"
-  },
-  {
-   "case_id": "3501c3c7d181fc13",
-   "error": "AssertionError(\"hydrogens too close to another residue in /gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/docking_v1/inputs/3501c3c7d181fc13/holo_single_0.H.pdb: ['A6069:H-B3049:HE2', 'B3049:HE2-A6069:H']\")"
-  }
- ],
+ "failures": [],
  "seed": 20261028,
  "pH": 7.4,
- "code_sha256": "8d0783c93ea2d7691bd6f42a2c48bc43e595e409a27b554a25cc688001b33a3c"
+ "code_sha256": "3d86bcc2c43ead994c254efee7558898d4954f4b80b77535347fd298f494213d"
 }
