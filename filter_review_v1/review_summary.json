@@ -1,0 +1,253 @@
+{
+  "status": "sensitivity_audit_complete_preparation_review_pending",
+  "rdkit_version": "2025.09.3",
+  "initial": {
+    "cases": 443,
+    "pairs": 197,
+    "source_groups": 136,
+    "homology_components": 78,
+    "apo_mc_cases": 139,
+    "selected_state_cases": 45
+  },
+  "sequential_original_attrition": [
+    {
+      "stage": "mapping",
+      "excluded_cases": 23,
+      "remaining": {
+        "cases": 420,
+        "pairs": 190,
+        "source_groups": 133,
+        "homology_components": 76,
+        "apo_mc_cases": 133,
+        "selected_state_cases": 40
+      }
+    },
+    {
+      "stage": "size_or_occupancy",
+      "excluded_cases": 142,
+      "remaining": {
+        "cases": 278,
+        "pairs": 134,
+        "source_groups": 101,
+        "homology_components": 58,
+        "apo_mc_cases": 94,
+        "selected_state_cases": 29
+      }
+    },
+    {
+      "stage": "ccd_type_or_atom_completeness",
+      "excluded_cases": 69,
+      "remaining": {
+        "cases": 209,
+        "pairs": 109,
+        "source_groups": 85,
+        "homology_components": 46,
+        "apo_mc_cases": 77,
+        "selected_state_cases": 26
+      }
+    },
+    {
+      "stage": "pocket_mapping",
+      "excluded_cases": 21,
+      "remaining": {
+        "cases": 188,
+        "pairs": 102,
+        "source_groups": 79,
+        "homology_components": 42,
+        "apo_mc_cases": 69,
+        "selected_state_cases": 21
+      }
+    },
+    {
+      "stage": "backbone_or_junction_or_box",
+      "excluded_cases": 41,
+      "remaining": {
+        "cases": 147,
+        "pairs": 86,
+        "source_groups": 68,
+        "homology_components": 37,
+        "apo_mc_cases": 49,
+        "selected_state_cases": 13
+      }
+    },
+    {
+      "stage": "environment",
+      "excluded_cases": 123,
+      "remaining": {
+        "cases": 24,
+        "pairs": 17,
+        "source_groups": 16,
+        "homology_components": 7,
+        "apo_mc_cases": 12,
+        "selected_state_cases": 1
+      }
+    },
+    {
+      "stage": "deposition_covalence_chemistry",
+      "excluded_cases": 12,
+      "remaining": {
+        "cases": 12,
+        "pairs": 8,
+        "source_groups": 7,
+        "homology_components": 2,
+        "apo_mc_cases": 6,
+        "selected_state_cases": 0
+      }
+    }
+  ],
+  "scenarios": {
+    "strict": {
+      "cases": 12,
+      "pairs": 8,
+      "source_groups": 7,
+      "homology_components": 2,
+      "apo_mc_cases": 6,
+      "selected_state_cases": 0
+    },
+    "crystal_only": {
+      "cases": 25,
+      "pairs": 21,
+      "source_groups": 18,
+      "homology_components": 9,
+      "apo_mc_cases": 10,
+      "selected_state_cases": 1
+    },
+    "other_chain_only": {
+      "cases": 27,
+      "pairs": 16,
+      "source_groups": 13,
+      "homology_components": 8,
+      "apo_mc_cases": 9,
+      "selected_state_cases": 1
+    },
+    "other_hetero_only": {
+      "cases": 23,
+      "pairs": 14,
+      "source_groups": 12,
+      "homology_components": 7,
+      "apo_mc_cases": 11,
+      "selected_state_cases": 0
+    },
+    "metal_proximity_only": {
+      "cases": 12,
+      "pairs": 8,
+      "source_groups": 7,
+      "homology_components": 2,
+      "apo_mc_cases": 6,
+      "selected_state_cases": 0
+    },
+    "occupancy_only": {
+      "cases": 13,
+      "pairs": 9,
+      "source_groups": 8,
+      "homology_components": 3,
+      "apo_mc_cases": 6,
+      "selected_state_cases": 0
+    },
+    "size_only": {
+      "cases": 14,
+      "pairs": 9,
+      "source_groups": 8,
+      "homology_components": 3,
+      "apo_mc_cases": 7,
+      "selected_state_cases": 0
+    },
+    "rmsd_only": {
+      "cases": 12,
+      "pairs": 8,
+      "source_groups": 7,
+      "homology_components": 2,
+      "apo_mc_cases": 6,
+      "selected_state_cases": 0
+    },
+    "environment_no_metal": {
+      "cases": 66,
+      "pairs": 38,
+      "source_groups": 32,
+      "homology_components": 21,
+      "apo_mc_cases": 21,
+      "selected_state_cases": 3
+    },
+    "environment_all": {
+      "cases": 67,
+      "pairs": 39,
+      "source_groups": 33,
+      "homology_components": 22,
+      "apo_mc_cases": 21,
+      "selected_state_cases": 3
+    },
+    "environment_occ": {
+      "cases": 75,
+      "pairs": 44,
+      "source_groups": 37,
+      "homology_components": 24,
+      "apo_mc_cases": 22,
+      "selected_state_cases": 4
+    },
+    "environment_occ_size": {
+      "cases": 83,
+      "pairs": 48,
+      "source_groups": 39,
+      "homology_components": 25,
+      "apo_mc_cases": 23,
+      "selected_state_cases": 4
+    },
+    "environment_occ_size_rmsd": {
+      "cases": 87,
+      "pairs": 50,
+      "source_groups": 41,
+      "homology_components": 25,
+      "apo_mc_cases": 24,
+      "selected_state_cases": 4
+    },
+    "environment_occ_size_rmsd_ccdtype": {
+      "cases": 89,
+      "pairs": 51,
+      "source_groups": 42,
+      "homology_components": 26,
+      "apo_mc_cases": 24,
+      "selected_state_cases": 4
+    },
+    "simple_occ_size_rmsd": {
+      "cases": 16,
+      "pairs": 11,
+      "source_groups": 9,
+      "homology_components": 4,
+      "apo_mc_cases": 7,
+      "selected_state_cases": 0
+    },
+    "no_metal_occ_size_rmsd": {
+      "cases": 83,
+      "pairs": 48,
+      "source_groups": 39,
+      "homology_components": 23,
+      "apo_mc_cases": 24,
+      "selected_state_cases": 4
+    },
+    "no_metal_occ_size": {
+      "cases": 79,
+      "pairs": 46,
+      "source_groups": 37,
+      "homology_components": 23,
+      "apo_mc_cases": 23,
+      "selected_state_cases": 4
+    },
+    "expanded_exclude_candidate_additives": {
+      "cases": 82,
+      "pairs": 47,
+      "source_groups": 38,
+      "homology_components": 23,
+      "apo_mc_cases": 23,
+      "selected_state_cases": 3
+    }
+  },
+  "chemistry_reasons": {
+    "not_evaluated_hard_geometry_failure": 330,
+    "glutathione_cofactor_family": 8
+  },
+  "inputs_sha256": {
+    "/tmp/sidechain-filter-review-20261028/sensitivity_candidates.json": "a59d782d8bf7a969d696891c7e0e5a21c9d2afd8698a8f7f85e23c753b57fc00",
+    "/data/work/sidechain-multistate/experiments/docking_pilot_20261028/selection_v3/all_records.json": "db7b679650a8f567418ec2f1f924110f39bfd5b46314431135658500d4fcbde5",
+    "/data/work/sidechain-multistate/experiments/docking_pilot_20261028/remote_results_v3/homology.json": "6a2b6aeee8ae3eef6b290658176ab912dfb5bf00b9ced7af669aab6fb3e7b422"
+  }
+}

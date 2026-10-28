@@ -1,0 +1,35 @@
+{
+  "remote_git_head": "0f26be84d9b9fab59ccc7c85551a677afdb3bf63",
+  "total_cpu_seconds": 856.729,
+  "sum_job_elapsed_seconds": 367,
+  "jobs": [
+    {
+      "id": 438408,
+      "state": "COMPLETED"
+    },
+    {
+      "id": 438424,
+      "state": "FAILED_serialization_fixed_in_next_version"
+    },
+    {
+      "id": 438425,
+      "state": "COMPLETED"
+    },
+    {
+      "id": 438426,
+      "state": "COMPLETED"
+    },
+    {
+      "id": 438430,
+      "state": "COMPLETED"
+    },
+    {
+      "id": 438431,
+      "state": "COMPLETED"
+    }
+  ],
+  "training": false,
+  "inference": false,
+  "docking": false,
+  "gpu_requested": false
+}

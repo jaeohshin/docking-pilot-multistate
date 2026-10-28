@@ -1,0 +1,106 @@
+{
+ "status": {
+  "accept": 51,
+  "exclude": 16,
+  "defer": 12
+ },
+ "reasons": {
+  "eligible": 51,
+  "ligand role: extra copy, secondary site": 4,
+  "ligand role: extra copy, surface": 3,
+  "needs absent FAD (0.82 of ligand atoms <= 4 A)": 3,
+  "ligand role: buffer": 4,
+  "crystal-context dependent: 0.13 of protein contact atoms and up to 0.42 of ligand atoms from non-assembly copies": 1,
+  "ligand role: unverified": 1,
+  "crystal-context dependent: 0.11 of protein contact atoms and up to 0.27 of ligand atoms from non-assembly copies": 1,
+  "crystal-context dependent: 0.35 of protein contact atoms and up to 0.60 of ligand atoms from non-assembly copies": 1,
+  "ligand role: crystallisation additive": 1,
+  "needs absent GSH (0.18 of ligand atoms <= 4 A)": 1,
+  "needs absent NAD (0.65 of ligand atoms <= 4 A)": 4,
+  "needs absent CFF (0.64 of ligand atoms <= 4 A)": 1,
+  "needs absent CFF (0.21 of ligand atoms <= 4 A)": 1,
+  "crystal-context dependent: 0.15 of protein contact atoms and up to 0.38 of ligand atoms from non-assembly copies": 2
+ },
+ "all_79": {
+  "cases": 79,
+  "components": 23,
+  "minor_state_cases": 4,
+  "minor_state_components": 4,
+  "minor_state_residues": 8,
+  "minor_state_case_ids": [
+   "fe0893e9d4e1f863",
+   "475fd70298075f1c",
+   "8c7d7558c0c71f80",
+   "fe02a159def13cce"
+  ]
+ },
+ "eligible": {
+  "cases": 51,
+  "components": 15,
+  "minor_state_cases": 1,
+  "minor_state_components": 1,
+  "minor_state_residues": 3,
+  "minor_state_case_ids": [
+   "fe02a159def13cce"
+  ]
+ },
+ "pilot_representatives": {
+  "cases": 15,
+  "components": 15,
+  "minor_state_cases": 1,
+  "minor_state_components": 1,
+  "minor_state_residues": 3,
+  "minor_state_case_ids": [
+   "fe02a159def13cce"
+  ]
+ },
+ "representatives": {
+  "Q071e2319538cf827": "97ea259b19814c3e",
+  "Q0d511715f969df6f": "0c2914f1336e5905",
+  "Q244ca05b311c4e65": "a55370d81109dc3b",
+  "Q31b796f7552d4625": "2248260e300938dd",
+  "Q403d6c2f54b32f0f": "172d7da9c683ce21",
+  "Q4357fad1fd6385d8": "274d968ed2de6c64",
+  "Q4819d46ca698b01c": "2a61e70b2504eba1",
+  "Q836548e7a7df94aa": "6a0fb1f5b4c558d2",
+  "Q92b4b8ac3490e160": "fe02a159def13cce",
+  "Qb658135f14f2b435": "02232eaff63e6f6a",
+  "Qc50f788b8b4c3247": "1aa414d8b85e516d",
+  "Qc73cfcfab42ac422": "8b5a09ff83941c82",
+  "Q0f7156008b35f535": "35e1ea353db1a647",
+  "Qf44483b2d65dea51": "8ec051785e59eb5b",
+  "Q2e938254667ffc06": "4e2004374c441952"
+ },
+ "representative_sensitivity_holo_only_tier": {
+  "same": false,
+  "changed": {
+   "Q92b4b8ac3490e160": [
+    "fe02a159def13cce",
+    "49e6f53ebc0b9814"
+   ],
+   "Qf44483b2d65dea51": [
+    "8ec051785e59eb5b",
+    "2a6070389276a7a4"
+   ]
+  }
+ },
+ "components_all": 23,
+ "components_without_eligible": [
+  "Q06d8f0a1f5ae8603",
+  "Q18854647e014fdb5",
+  "Q2cf9871b35d95d27",
+  "Q5908f5eb64851452",
+  "Q664a4fbcd0ed5242",
+  "Q806f11f1df0d798c",
+  "Q94771a75c08826ac",
+  "Qee1463f68f4452fc"
+ ],
+ "inputs_sha256": {
+  "assembly_contact_audit.json": "9bdf24dff18dd94adff1b6619028fa0a81692cb23fd394d5fe6f25308d76d44a",
+  "minor_state_residues.tsv": "5f9471328e8d7863bee73075950cbb5054323c454e224c43f264744b82ad78e9",
+  "minor_state_check.json": "8cbbf4e69dcacb88a3d18b81e7046c8aaa74ffe852402630621cce12daaebd42",
+  "../final_review_v1/candidates79.json": "1d6984b8d27fc8936f707ba0cf8d88459f9decfc870a6bea77ee2c8080e48ee6",
+  "code/ligand_roles.py": "9e17850c06d626b262ed3c0219e65abba576285bdaa75bd4b7102456693de7b9",
+  "code/select_pilot.py": "a11c78a0a988a1cdfbe5290026058523d91a88e28ac3c3e03acf7459d4741452"
+ }
+}

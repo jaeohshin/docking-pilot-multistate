@@ -1,0 +1,3298 @@
+{
+ "cases": [
+  {
+   "case_id": "8b520349f920f468",
+   "smiles": "CC1(C)S[C@@H]2[C@H](NC(=O)Cc3ccccc3)C(=O)N2[C@H]1C(O)=O",
+   "holo": {
+    "box_center": [
+     28.403,
+     19.713,
+     -7.107
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1938,
+      "heavy_out": 1939,
+      "heavy_common": 1938,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1938,
+      "heavy_out": 1939,
+      "heavy_common": 1938,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1938,
+      "heavy_out": 1939,
+      "heavy_common": 1938,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1938,
+      "heavy_out": 1939,
+      "heavy_common": 1938,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1938,
+      "heavy_out": 1939,
+      "heavy_common": 1938,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASH",
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYN",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     22.884,
+     -17.083,
+     11.376
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1960,
+      "heavy_out": 1961,
+      "heavy_common": 1960,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HG",
+       "A40:HG",
+       "A118:HG1",
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1960,
+      "heavy_out": 1961,
+      "heavy_common": 1960,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HG",
+       "A40:HG",
+       "A118:HG1",
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1960,
+      "heavy_out": 1961,
+      "heavy_common": 1960,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HG",
+       "A40:HG",
+       "A118:HG1",
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1960,
+      "heavy_out": 1961,
+      "heavy_common": 1960,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HG",
+       "A40:HG",
+       "A118:HG1",
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1960,
+      "heavy_out": 1961,
+      "heavy_common": 1960,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HG",
+       "A40:HG",
+       "A118:HG1",
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1960,
+      "heavy_out": 1961,
+      "heavy_common": 1960,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HG",
+       "A40:HG",
+       "A118:HG1",
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1960,
+      "heavy_out": 1961,
+      "heavy_common": 1960,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HG",
+       "A40:HG",
+       "A118:HG1",
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 1960,
+      "heavy_out": 1961,
+      "heavy_common": 1960,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HG",
+       "A40:HG",
+       "A118:HG1",
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 1960,
+      "heavy_out": 1961,
+      "heavy_common": 1960,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HG",
+       "A40:HG",
+       "A118:HG1",
+       "A181:HG1",
+       "A216:HG1"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASH",
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYN",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "35e1ea353db1a647",
+   "smiles": "Oc1ccccc1c2ccccc2O",
+   "holo": {
+    "box_center": [
+     12.62,
+     9.357,
+     110.792
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1241,
+      "heavy_out": 1242,
+      "heavy_common": 1241,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1241,
+      "heavy_out": 1242,
+      "heavy_common": 1241,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1241,
+      "heavy_out": 1242,
+      "heavy_common": 1241,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1241,
+      "heavy_out": 1242,
+      "heavy_common": 1241,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1241,
+      "heavy_out": 1242,
+      "heavy_common": 1241,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1241,
+      "heavy_out": 1242,
+      "heavy_common": 1241,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1241,
+      "heavy_out": 1242,
+      "heavy_common": 1241,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     56.271,
+     11.496,
+     3.4
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1241,
+      "heavy_out": 1242,
+      "heavy_common": 1241,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1241,
+      "heavy_out": 1242,
+      "heavy_common": 1241,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1241,
+      "heavy_out": 1242,
+      "heavy_common": 1241,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "a55370d81109dc3b",
+   "smiles": "[O-][N+](=O)c1ccc2nn[nH]c2c1",
+   "holo": {
+    "box_center": [
+     -3.104,
+     1.339,
+     11.328
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASH",
+     "ASP",
+     "CYS",
+     "CYX",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     -3.152,
+     1.417,
+     11.288
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 2285,
+      "heavy_out": 2286,
+      "heavy_common": 2285,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A181:HH",
+       "A248:HH",
+       "A274:HG"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASH",
+     "ASP",
+     "CYS",
+     "CYX",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "4e2004374c441952",
+   "smiles": "NC(=O)Nc1ccccc1",
+   "holo": {
+    "box_center": [
+     34.732,
+     51.276,
+     50.741
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1870,
+      "heavy_out": 1872,
+      "heavy_common": 1870,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B5:HG1",
+       "B70:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1870,
+      "heavy_out": 1872,
+      "heavy_common": 1870,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B5:HG1",
+       "B70:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1870,
+      "heavy_out": 1872,
+      "heavy_common": 1870,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B5:HG1",
+       "B70:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1870,
+      "heavy_out": 1872,
+      "heavy_common": 1870,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B5:HG1",
+       "B70:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     34.29,
+     51.339,
+     50.324
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1890,
+      "heavy_out": 1892,
+      "heavy_common": 1890,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B117:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1890,
+      "heavy_out": 1892,
+      "heavy_common": 1890,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B117:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1890,
+      "heavy_out": 1892,
+      "heavy_common": 1890,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B117:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1890,
+      "heavy_out": 1892,
+      "heavy_common": 1890,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B117:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1890,
+      "heavy_out": 1892,
+      "heavy_common": 1890,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B117:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1890,
+      "heavy_out": 1892,
+      "heavy_common": 1890,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B117:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1890,
+      "heavy_out": 1892,
+      "heavy_common": 1890,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B117:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 1890,
+      "heavy_out": 1892,
+      "heavy_common": 1890,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B117:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 1890,
+      "heavy_out": 1892,
+      "heavy_common": 1890,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B117:HG1",
+       "B138:HH"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "GLU",
+     "HID",
+     "HIP",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "274d968ed2de6c64",
+   "smiles": "Nc1ncnc2n(cnc12)[C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O",
+   "holo": {
+    "box_center": [
+     43.386,
+     16.805,
+     41.472
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 3562,
+      "heavy_out": 3564,
+      "heavy_common": 3562,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A108:HG1",
+       "A113:HG",
+       "A160:HH",
+       "A186:HH",
+       "B27:HH",
+       "B108:HG1",
+       "B113:HG",
+       "B160:HH",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 3562,
+      "heavy_out": 3564,
+      "heavy_common": 3562,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A108:HG1",
+       "A113:HG",
+       "A160:HH",
+       "A186:HH",
+       "B27:HH",
+       "B108:HG1",
+       "B113:HG",
+       "B160:HH",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 3562,
+      "heavy_out": 3564,
+      "heavy_common": 3562,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A108:HG1",
+       "A113:HG",
+       "A160:HH",
+       "A186:HH",
+       "B27:HH",
+       "B108:HG1",
+       "B113:HG",
+       "B160:HH",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 3562,
+      "heavy_out": 3564,
+      "heavy_common": 3562,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A108:HG1",
+       "A113:HG",
+       "A160:HH",
+       "A186:HH",
+       "B27:HH",
+       "B108:HG1",
+       "B113:HG",
+       "B160:HH",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 3562,
+      "heavy_out": 3564,
+      "heavy_common": 3562,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A108:HG1",
+       "A113:HG",
+       "A160:HH",
+       "A186:HH",
+       "B27:HH",
+       "B108:HG1",
+       "B113:HG",
+       "B160:HH",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASH",
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     43.715,
+     16.907,
+     42.048
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 3476,
+      "heavy_out": 3478,
+      "heavy_common": 3476,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A160:HH",
+       "A163:HG",
+       "A186:HH",
+       "B27:HH",
+       "B160:HH",
+       "B163:HG",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 3476,
+      "heavy_out": 3478,
+      "heavy_common": 3476,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A160:HH",
+       "A163:HG",
+       "A186:HH",
+       "B27:HH",
+       "B160:HH",
+       "B163:HG",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 3476,
+      "heavy_out": 3478,
+      "heavy_common": 3476,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A160:HH",
+       "A163:HG",
+       "A186:HH",
+       "B27:HH",
+       "B160:HH",
+       "B163:HG",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 3476,
+      "heavy_out": 3478,
+      "heavy_common": 3476,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A160:HH",
+       "A163:HG",
+       "A186:HH",
+       "B27:HH",
+       "B160:HH",
+       "B163:HG",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 3476,
+      "heavy_out": 3478,
+      "heavy_common": 3476,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A160:HH",
+       "A163:HG",
+       "A186:HH",
+       "B27:HH",
+       "B160:HH",
+       "B163:HG",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 3476,
+      "heavy_out": 3478,
+      "heavy_common": 3476,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A160:HH",
+       "A163:HG",
+       "A186:HH",
+       "B27:HH",
+       "B160:HH",
+       "B163:HG",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 3476,
+      "heavy_out": 3478,
+      "heavy_common": 3476,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A160:HH",
+       "A163:HG",
+       "A186:HH",
+       "B27:HH",
+       "B160:HH",
+       "B163:HG",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 3476,
+      "heavy_out": 3478,
+      "heavy_common": 3476,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A160:HH",
+       "A163:HG",
+       "A186:HH",
+       "B27:HH",
+       "B160:HH",
+       "B163:HG",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 3476,
+      "heavy_out": 3478,
+      "heavy_common": 3476,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A27:HH",
+       "A80:HH",
+       "A160:HH",
+       "A163:HG",
+       "A186:HH",
+       "B27:HH",
+       "B160:HH",
+       "B163:HG",
+       "B186:HH"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASH",
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "2a61e70b2504eba1",
+   "smiles": "C[C@@](O)(CCO)CC([O-])=O",
+   "holo": {
+    "box_center": [
+     19.314,
+     20.967,
+     25.077
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 5514,
+      "heavy_out": 5516,
+      "heavy_common": 5514,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A14:HG1",
+       "A29:HG",
+       "A107:HG",
+       "A215:HG",
+       "A294:HH",
+       "A298:HG",
+       "A301:HH",
+       "A302:HG1",
+       "B14:HG1",
+       "B29:HG",
+       "B107:HG",
+       "B215:HG",
+       "B294:HH",
+       "B298:HG",
+       "B301:HH",
+       "B302:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 5514,
+      "heavy_out": 5516,
+      "heavy_common": 5514,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A14:HG1",
+       "A29:HG",
+       "A107:HG",
+       "A215:HG",
+       "A294:HH",
+       "A298:HG",
+       "A301:HH",
+       "A302:HG1",
+       "B14:HG1",
+       "B29:HG",
+       "B107:HG",
+       "B215:HG",
+       "B294:HH",
+       "B298:HG",
+       "B301:HH",
+       "B302:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 5514,
+      "heavy_out": 5516,
+      "heavy_common": 5514,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A14:HG1",
+       "A29:HG",
+       "A107:HG",
+       "A215:HG",
+       "A294:HH",
+       "A298:HG",
+       "A301:HH",
+       "A302:HG1",
+       "B14:HG1",
+       "B29:HG",
+       "B107:HG",
+       "B215:HG",
+       "B294:HH",
+       "B298:HG",
+       "B301:HH",
+       "B302:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 5514,
+      "heavy_out": 5516,
+      "heavy_common": 5514,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A14:HG1",
+       "A29:HG",
+       "A107:HG",
+       "A215:HG",
+       "A294:HH",
+       "A298:HG",
+       "A301:HH",
+       "A302:HG1",
+       "B14:HG1",
+       "B29:HG",
+       "B107:HG",
+       "B215:HG",
+       "B294:HH",
+       "B298:HG",
+       "B301:HH",
+       "B302:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 5514,
+      "heavy_out": 5516,
+      "heavy_common": 5514,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A14:HG1",
+       "A29:HG",
+       "A107:HG",
+       "A215:HG",
+       "A294:HH",
+       "A298:HG",
+       "A301:HH",
+       "A302:HG1",
+       "B14:HG1",
+       "B29:HG",
+       "B107:HG",
+       "B215:HG",
+       "B294:HH",
+       "B298:HG",
+       "B301:HH",
+       "B302:HG1"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASH",
+     "ASP",
+     "CYS",
+     "GLH",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     -8.515,
+     27.286,
+     25.073
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 5514,
+      "heavy_out": 5516,
+      "heavy_common": 5514,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A14:HG1",
+       "A107:HG",
+       "A215:HG",
+       "A264:HG1",
+       "A301:HH",
+       "A302:HG1",
+       "A349:HG",
+       "B14:HG1",
+       "B107:HG",
+       "B215:HG",
+       "B264:HG1",
+       "B301:HH",
+       "B302:HG1",
+       "B349:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 5514,
+      "heavy_out": 5516,
+      "heavy_common": 5514,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A14:HG1",
+       "A107:HG",
+       "A215:HG",
+       "A264:HG1",
+       "A301:HH",
+       "A302:HG1",
+       "A349:HG",
+       "B14:HG1",
+       "B107:HG",
+       "B215:HG",
+       "B264:HG1",
+       "B301:HH",
+       "B302:HG1",
+       "B349:HG"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLH",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "fe02a159def13cce",
+   "smiles": "Nc1ncnc2n(cnc12)[C@@H]3O[C@H](CO[P@@](O)(=O)O[P@@](O)(=O)OC[C@H]4O[C@@H](O)[C@H](O)[C@@H]4O)[C@@H](O)[C@H]3O",
+   "holo": {
+    "box_center": [
+     -3.974,
+     4.925,
+     20.634
+    ],
+    "box_size": [
+     22.5,
+     24.347,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A56:HG",
+       "A123:HG1",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A56:HG",
+       "A123:HG1",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A56:HG",
+       "A123:HG1",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A56:HG",
+       "A123:HG1",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A56:HG",
+       "A123:HG1",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A56:HG",
+       "A123:HG1",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A56:HG",
+       "A123:HG1",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A56:HG",
+       "A123:HG1",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A56:HG",
+       "A123:HG1",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     -19.637,
+     4.313,
+     -24.599
+    ],
+    "box_size": [
+     22.5,
+     24.229,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A112:HH",
+       "A123:HG1",
+       "A127:HG",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A112:HH",
+       "A123:HG1",
+       "A127:HG",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A112:HH",
+       "A123:HG1",
+       "A127:HG",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A112:HH",
+       "A123:HG1",
+       "A127:HG",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1242,
+      "heavy_out": 1243,
+      "heavy_common": 1242,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A12:HG1",
+       "A112:HH",
+       "A123:HG1",
+       "A127:HG",
+       "A156:HG"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "3defdfd8f936876e",
+   "smiles": "CNCc1ccc(cc1)c2oc3c(cc(F)cc3C(N)=O)c2",
+   "holo": {
+    "box_center": [
+     -14.297,
+     33.515,
+     -9.483
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 2280,
+      "heavy_out": 2282,
+      "heavy_common": 2280,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B52:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 2280,
+      "heavy_out": 2282,
+      "heavy_common": 2280,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B52:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 2280,
+      "heavy_out": 2282,
+      "heavy_common": 2280,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "B52:HG"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "GLU",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     24.055,
+     27.138,
+     -9.405
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1140,
+      "heavy_out": 1141,
+      "heavy_common": 1140,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1140,
+      "heavy_out": 1141,
+      "heavy_common": 1140,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1140,
+      "heavy_out": 1141,
+      "heavy_common": 1140,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1140,
+      "heavy_out": 1141,
+      "heavy_common": 1140,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1140,
+      "heavy_out": 1141,
+      "heavy_common": 1140,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1140,
+      "heavy_out": 1141,
+      "heavy_common": 1140,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1140,
+      "heavy_out": 1141,
+      "heavy_common": 1140,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 1140,
+      "heavy_out": 1141,
+      "heavy_common": 1140,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 1140,
+      "heavy_out": 1141,
+      "heavy_common": 1140,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "GLU",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "d1ef3ccf4bf68009",
+   "smiles": "Oc1ccc(c(O)c1)C(=O)c2ccccc2",
+   "holo": {
+    "box_center": [
+     -10.226,
+     -11.844,
+     31.63
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A10:HH",
+       "A72:HG",
+       "A75:HG",
+       "A115:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A10:HH",
+       "A72:HG",
+       "A75:HG",
+       "A115:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A10:HH",
+       "A72:HG",
+       "A75:HG",
+       "A115:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A10:HH",
+       "A17:HH",
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A10:HH",
+       "A17:HH",
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A10:HH",
+       "A72:HG",
+       "A75:HG",
+       "A115:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A10:HH",
+       "A72:HG",
+       "A75:HG",
+       "A115:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A10:HH",
+       "A17:HH",
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A10:HH",
+       "A17:HH",
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     -10.161,
+     -11.712,
+     31.692
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A17:HH",
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A17:HH",
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A17:HH",
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A17:HH",
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A17:HH",
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 1898,
+      "heavy_out": 1899,
+      "heavy_common": 1898,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A72:HG",
+       "A75:HG"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "8b5a09ff83941c82",
+   "smiles": "C[C@H]1NCCc2ccccc12",
+   "holo": {
+    "box_center": [
+     2.879,
+     11.773,
+     34.371
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A62:HG",
+       "A98:HG1",
+       "A116:HH",
+       "B62:HG",
+       "B98:HG1",
+       "B116:HH",
+       "B179:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A62:HG",
+       "A98:HG1",
+       "A116:HH",
+       "B62:HG",
+       "B98:HG1",
+       "B116:HH",
+       "B179:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A62:HG",
+       "A98:HG1",
+       "A116:HH",
+       "B62:HG",
+       "B98:HG1",
+       "B116:HH",
+       "B179:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A62:HG",
+       "A98:HG1",
+       "A116:HH",
+       "B62:HG",
+       "B98:HG1",
+       "B116:HH",
+       "B179:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A62:HG",
+       "A98:HG1",
+       "A116:HH",
+       "B62:HG",
+       "B98:HG1",
+       "B116:HH",
+       "B179:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A62:HG",
+       "A98:HG1",
+       "A116:HH",
+       "B62:HG",
+       "B98:HG1",
+       "B116:HH",
+       "B179:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A62:HG",
+       "A98:HG1",
+       "A116:HH",
+       "B62:HG",
+       "B98:HG1",
+       "B116:HH",
+       "B179:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A62:HG",
+       "A98:HG1",
+       "A116:HH",
+       "B62:HG",
+       "B98:HG1",
+       "B116:HH",
+       "B179:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A62:HG",
+       "A98:HG1",
+       "A116:HH",
+       "B62:HG",
+       "B98:HG1",
+       "B116:HH",
+       "B179:HH"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASH",
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     3.383,
+     33.081,
+     -34.295
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG1",
+       "A180:HG",
+       "A231:HH",
+       "A281:HG",
+       "B98:HG1",
+       "B180:HG",
+       "B231:HH",
+       "B281:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG1",
+       "A180:HG",
+       "A231:HH",
+       "A281:HG",
+       "B98:HG1",
+       "B180:HG",
+       "B231:HH",
+       "B281:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG1",
+       "A180:HG",
+       "A231:HH",
+       "A281:HG",
+       "B98:HG1",
+       "B180:HG",
+       "B231:HH",
+       "B281:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG1",
+       "A180:HG",
+       "A231:HH",
+       "A281:HG",
+       "B98:HG1",
+       "B180:HG",
+       "B231:HH",
+       "B281:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG1",
+       "A180:HG",
+       "A231:HH",
+       "A281:HG",
+       "B98:HG1",
+       "B180:HG",
+       "B231:HH",
+       "B281:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG1",
+       "A180:HG",
+       "A231:HH",
+       "A281:HG",
+       "B98:HG1",
+       "B180:HG",
+       "B231:HH",
+       "B281:HG"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 4222,
+      "heavy_out": 4224,
+      "heavy_common": 4222,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A98:HG1",
+       "A180:HG",
+       "A231:HH",
+       "A281:HG",
+       "B98:HG1",
+       "B180:HG",
+       "B231:HH",
+       "B281:HG"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "8ec051785e59eb5b",
+   "smiles": "CC1=CN([C@H]2C[C@H](O)[C@@H](CO[P](O)(O)=O)O2)C(=O)NC1=O",
+   "holo": {
+    "box_center": [
+     14.129,
+     13.623,
+     12.507
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A54:HG",
+       "A76:HH",
+       "A93:HG",
+       "B54:HG",
+       "B64:HH",
+       "B74:HH",
+       "B76:HH",
+       "B93:HG",
+       "B148:HG",
+       "B175:HG1",
+       "B189:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A54:HG",
+       "A76:HH",
+       "A93:HG",
+       "B54:HG",
+       "B64:HH",
+       "B74:HH",
+       "B76:HH",
+       "B93:HG",
+       "B148:HG",
+       "B175:HG1",
+       "B189:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A54:HG",
+       "A76:HH",
+       "A93:HG",
+       "B54:HG",
+       "B64:HH",
+       "B74:HH",
+       "B76:HH",
+       "B93:HG",
+       "B148:HG",
+       "B175:HG1",
+       "B189:HG1"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     14.151,
+     13.729,
+     12.478
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A76:HH",
+       "A93:HG",
+       "A113:HH",
+       "A133:HH",
+       "A167:HG",
+       "B54:HG",
+       "B76:HH",
+       "B113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A76:HH",
+       "A93:HG",
+       "A113:HH",
+       "A133:HH",
+       "A167:HG",
+       "B54:HG",
+       "B76:HH",
+       "B113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A76:HH",
+       "A93:HG",
+       "A113:HH",
+       "A133:HH",
+       "A167:HG",
+       "B54:HG",
+       "B76:HH",
+       "B113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A76:HH",
+       "A93:HG",
+       "A113:HH",
+       "A133:HH",
+       "A167:HG",
+       "B54:HG",
+       "B76:HH",
+       "B113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A76:HH",
+       "A93:HG",
+       "A113:HH",
+       "A133:HH",
+       "A167:HG",
+       "B54:HG",
+       "B76:HH",
+       "B113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A76:HH",
+       "A93:HG",
+       "A113:HH",
+       "A133:HH",
+       "A167:HG",
+       "B54:HG",
+       "B76:HH",
+       "B113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A76:HH",
+       "A93:HG",
+       "A113:HH",
+       "A133:HH",
+       "A167:HG",
+       "B54:HG",
+       "B76:HH",
+       "B113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A76:HH",
+       "A93:HG",
+       "A113:HH",
+       "A133:HH",
+       "A167:HG",
+       "B54:HG",
+       "B76:HH",
+       "B113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 3117,
+      "heavy_out": 3119,
+      "heavy_common": 3117,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A76:HH",
+       "A93:HG",
+       "A113:HH",
+       "A133:HH",
+       "A167:HG",
+       "B54:HG",
+       "B76:HH",
+       "B113:HH"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "c58ec64e1ac75a51",
+   "smiles": "CSC[C@H]1CN(C[C@@H]1O)Cc2c[nH]c3c(N)ncnc23",
+   "holo": {
+    "box_center": [
+     1.479,
+     -9.534,
+     53.793
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 3530,
+      "heavy_out": 3532,
+      "heavy_common": 3530,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A74:HG1",
+       "B14:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 3530,
+      "heavy_out": 3532,
+      "heavy_common": 3530,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A74:HG1",
+       "B14:HG1"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 3530,
+      "heavy_out": 3532,
+      "heavy_common": 3530,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A74:HG1",
+       "B14:HG1"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     -21.573,
+     10.292,
+     -50.722
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 3534,
+      "heavy_out": 3536,
+      "heavy_common": 3534,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 3534,
+      "heavy_out": 3536,
+      "heavy_common": 3534,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 3534,
+      "heavy_out": 3536,
+      "heavy_common": 3534,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLH",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  },
+  {
+   "case_id": "95ffd089bd47d70a",
+   "smiles": "Nc1ncnc2n(cnc12)[C@@H]3O[C@H](CO[P@@](O)(=O)O[P@@](O)(=O)OC[C@H]4O[C@@H](O)[C@H](O)[C@@H]4O)[C@@H](O)[C@H]3O",
+   "holo": {
+    "box_center": [
+     20.225,
+     12.668,
+     9.323
+    ],
+    "box_size": [
+     24.168,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "single_0": "holo_single_0.pdbqt",
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1256,
+      "heavy_out": 1257,
+      "heavy_common": 1256,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A84:HG",
+       "A113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1256,
+      "heavy_out": 1257,
+      "heavy_common": 1256,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A84:HG",
+       "A113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1256,
+      "heavy_out": 1257,
+      "heavy_common": 1256,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A84:HG",
+       "A113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1256,
+      "heavy_out": 1257,
+      "heavy_common": 1256,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A84:HG",
+       "A113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1256,
+      "heavy_out": 1257,
+      "heavy_common": 1256,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A84:HG",
+       "A113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1256,
+      "heavy_out": 1257,
+      "heavy_common": 1256,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A84:HG",
+       "A113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1256,
+      "heavy_out": 1257,
+      "heavy_common": 1256,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A84:HG",
+       "A113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 1256,
+      "heavy_out": 1257,
+      "heavy_common": 1256,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A84:HG",
+       "A113:HH"
+      ],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 1256,
+      "heavy_out": 1257,
+      "heavy_common": 1256,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [
+       "A84:HG",
+       "A113:HH"
+      ],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   },
+   "apo": {
+    "box_center": [
+     9.221,
+     -12.832,
+     9.804
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     23.357
+    ],
+    "receptors": {
+     "single_0": "apo_single_0.pdbqt",
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt"
+    },
+    "meeko_deleted": {
+     "single_0": [],
+     "multi_0": [],
+     "multi_1": [],
+     "multi_2": [],
+     "multi_3": [],
+     "multi_4": [],
+     "multi_5": [],
+     "multi_6": [],
+     "multi_7": []
+    },
+    "protonation_check": {
+     "single_0": {
+      "heavy_in": 1263,
+      "heavy_out": 1264,
+      "heavy_common": 1263,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_0": {
+      "heavy_in": 1263,
+      "heavy_out": 1264,
+      "heavy_common": 1263,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_1": {
+      "heavy_in": 1263,
+      "heavy_out": 1264,
+      "heavy_common": 1263,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_2": {
+      "heavy_in": 1263,
+      "heavy_out": 1264,
+      "heavy_common": 1263,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_3": {
+      "heavy_in": 1263,
+      "heavy_out": 1264,
+      "heavy_common": 1263,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_4": {
+      "heavy_in": 1263,
+      "heavy_out": 1264,
+      "heavy_common": 1263,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_5": {
+      "heavy_in": 1263,
+      "heavy_out": 1264,
+      "heavy_common": 1263,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_6": {
+      "heavy_in": 1263,
+      "heavy_out": 1264,
+      "heavy_common": 1263,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     },
+     "multi_7": {
+      "heavy_in": 1263,
+      "heavy_out": 1264,
+      "heavy_common": 1263,
+      "max_heavy_shift": 0.0,
+      "hydroxyl_rotated": [],
+      "moved_residues": []
+     }
+    },
+    "titration_states": [
+     "ASP",
+     "CYS",
+     "GLU",
+     "HID",
+     "LYS"
+    ],
+    "max_nonpocket_difference_vs_single": 0.0
+   }
+  }
+ ],
+ "failures": [
+  {
+   "case_id": "97ea259b19814c3e",
+   "error": "AssertionError(\"hydrogens too close to another residue in /gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/docking_v1/inputs/97ea259b19814c3e/holo_single_0.H.pdb: ['A8:HD1-A9:H', 'A9:H-A8:HD1']\")"
+  },
+  {
+   "case_id": "172d7da9c683ce21",
+   "error": "RuntimeError('mk_prepare_receptor.py failed:  receptor failed. | Details: | Bad res A:175 is within radius of box edge (0.0000 <= delete_bad_res_from_box_radius=8.0000 A). | These residues can be ignored with option --delete_bad_res or --delete_bad_res_from_box_radius. | Recommendations: | 1. (for batch processing) Use -a/--allow_bad_res to automatically remove residues | that do not match templates, and --default_altloc to set | a default altloc variant. Use these at your own risk. | 2. (processing individual structure) Inspecting and fixing the input structure is recommended. | Use --wanted_altloc to set variants for specific residues.')"
+  },
+  {
+   "case_id": "2248260e300938dd",
+   "error": "AssertionError(\"hydrogens too close to another residue in /gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/docking_v1/inputs/2248260e300938dd/apo_single_0.H.pdb: ['B192:HG23-B199:HD13', 'B199:HD13-B192:HG23']\")"
+  },
+  {
+   "case_id": "3501c3c7d181fc13",
+   "error": "AssertionError(\"hydrogens too close to another residue in /gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/docking_v1/inputs/3501c3c7d181fc13/holo_single_0.H.pdb: ['A6069:H-B3049:HE2', 'B3049:HE2-A6069:H']\")"
+  }
+ ],
+ "seed": 20261028,
+ "pH": 7.4,
+ "code_sha256": "8d0783c93ea2d7691bd6f42a2c48bc43e595e409a27b554a25cc688001b33a3c"
+}

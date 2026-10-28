@@ -1,0 +1,9 @@
+case_id	homology_component	apo	holo	ligand	source_index_0based	apo_index_0based	resname	holo_residue	apo_residue	holo_qfit_chain	apo_qfit_chain	candidate_apo_chain	holo_chi1_wells	apo_chi1_wells	holo_major	apo_major	apo_minor_matching_holo_major
+fe0893e9d4e1f863	Q0d511715f969df6f	3hre	3huo	PNN:A:302	161	162	GLN	A:GLN188	A:GLN188	A	A	A	"{""t"": 1.0}"	"{""m"": 0.51, ""t"": 0.49}"	t	m	0.49
+475fd70298075f1c	Q5908f5eb64851452	6qo5	6qo9	BTB:B:401	74	74	VAL	B:VAL75	B:VAL75	B	B	A	"{""t"": 1.0}"	"{""p"": 0.51, ""t"": 0.49}"	t	p	0.49
+475fd70298075f1c	Q5908f5eb64851452	6qo5	6qo9	BTB:B:401	76	76	LEU	B:LEU77	B:LEU77	B	B	A	"{""t"": 1.0}"	"{""m"": 0.51, ""t"": 0.49}"	t	m	0.49
+475fd70298075f1c	Q5908f5eb64851452	6qo5	6qo9	BTB:B:401	82	82	LYS	B:LYS83	B:LYS83	B	B	A	"{""t"": 1.0}"	"{""m"": 0.51, ""t"": 0.49}"	t	m	0.49
+8c7d7558c0c71f80	Q806f11f1df0d798c	8ftp	8tav	ZKR:A:303	65	66	LYS	A:LYS70	A:LYS70	A	A	A	"{""m"": 0.52, ""t"": 0.48}"	"{""m"": 0.49, ""t"": 0.51}"	m	t	0.49
+fe02a159def13cce	Q92b4b8ac3490e160	5hih	5hol	APR:A:201	127	127	SER	A:SER127	A:SER127	A	A	A	"{""m"": 0.879, ""p"": 0.121}"	"{""m"": 0.25, ""p"": 0.75}"	m	p	0.25
+fe02a159def13cce	Q92b4b8ac3490e160	5hih	5hol	APR:A:201	130	130	ILE	A:ILE130	A:ILE130	A	A	A	"{""m"": 0.596, ""p"": 0.404}"	"{""m"": 0.38, ""p"": 0.62}"	m	p	0.38
+fe02a159def13cce	Q92b4b8ac3490e160	5hih	5hol	APR:A:201	154	154	VAL	A:VAL154	A:VAL154	A	A	A	"{""m"": 1.0}"	"{""m"": 0.25, ""p"": 0.51, ""t"": 0.24}"	m	p	0.25

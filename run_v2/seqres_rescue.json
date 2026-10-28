@@ -1,0 +1,164 @@
+[
+  {
+    "pdb": "2okz",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/2okz.cif.gz",
+    "sha256": "8d200615c0da822326cc81805a0460986186ddba08d6b0f208b7e2639ef8d7e3",
+    "added": []
+  },
+  {
+    "pdb": "5ng7",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/5ng7.cif.gz",
+    "sha256": "5b18c8449cf4717fbe844eb33deb993b265c824595df4cc5b55fa7750611ef06",
+    "added": []
+  },
+  {
+    "pdb": "6keq",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/6keq.cif.gz",
+    "sha256": "6f906dba2689935d945b91fdaf726d70e94096940722d3402dda0aab869c9cca",
+    "added": []
+  },
+  {
+    "pdb": "6ker",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/6ker.cif.gz",
+    "sha256": "c46f01dd9bac1a20c1b894945eb6d5b3c8476cabbb777613a2b2a6a1f0f77127",
+    "added": []
+  },
+  {
+    "pdb": "6tai",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/6tai.cif.gz",
+    "sha256": "5129dafc138dda6ec6206f1ca9998ebb8a01e0e9b31d0af2714b679b6e41d1c4",
+    "added": []
+  },
+  {
+    "pdb": "6taj",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/6taj.cif.gz",
+    "sha256": "78dd83b57adca1ef9494a111edada682114c79be16be068e74f8c3c817b98fa5",
+    "added": []
+  },
+  {
+    "pdb": "6tak",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/6tak.cif.gz",
+    "sha256": "d4b8c73c3aa5042d6d970685d7189b48bb1a22ff3304ab7b316d3edf61db7e2b",
+    "added": []
+  },
+  {
+    "pdb": "6two",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/6two.cif.gz",
+    "sha256": "d3fafd918845ffb3d783b0b680fcf6cee3c4a139e22798630df881bdb834848a",
+    "added": []
+  },
+  {
+    "pdb": "7o5w",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7o5w.cif.gz",
+    "sha256": "f67c0daab73b8f3a723c10188270678cab9386932c82c47467da25773b9c7674",
+    "added": []
+  },
+  {
+    "pdb": "7o87",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7o87.cif.gz",
+    "sha256": "a00e10007defa95248567f90592a03c21028ff158f70690d180543b485296e2c",
+    "added": []
+  },
+  {
+    "pdb": "7pwh",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7pwh.cif.gz",
+    "sha256": "b7d1777bbf85df76d4736d6e8912275f496f11b0fb80f444351056afdad0df6f",
+    "added": []
+  },
+  {
+    "pdb": "7pwi",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7pwi.cif.gz",
+    "sha256": "990954cb703eb348c8c7811cd7b8af370a37e143bc02065390db5fcc2283e876",
+    "added": []
+  },
+  {
+    "pdb": "7q17",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7q17.cif.gz",
+    "sha256": "e6b6a4d0c64a8338031fb597670ec8bca12393d00fb40966bf539d5cd770d0b4",
+    "added": []
+  },
+  {
+    "pdb": "7q19",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7q19.cif.gz",
+    "sha256": "e394c07258aec4d8735c6959cd4ada76db255608d6c7dbd5f467add8674ce5a6",
+    "added": []
+  },
+  {
+    "pdb": "7q2o",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7q2o.cif.gz",
+    "sha256": "1629fc5b3b496cd9b7e74233db5c4aaf7352130e489e7eb95c1e5409430b4026",
+    "added": []
+  },
+  {
+    "pdb": "7q2p",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7q2p.cif.gz",
+    "sha256": "416c50bf66194494bc775264bc3358b8e3d60eaa8d48ba30f67841300ffe637f",
+    "added": []
+  },
+  {
+    "pdb": "7q31",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7q31.cif.gz",
+    "sha256": "950effb1b01fa96ffe5976fbb70b518414c6b6e2e8c368193f44ee221a10f8c0",
+    "added": []
+  },
+  {
+    "pdb": "7q32",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7q32.cif.gz",
+    "sha256": "f28b5b44b686aa05f218984a83d342b289a14840735a31c75a05f03ad329751d",
+    "added": []
+  },
+  {
+    "pdb": "7zuh",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7zuh.cif.gz",
+    "sha256": "65df821f926f0783040931587432f36e382c819f3a78636b93f2d5ad74a1deaf",
+    "added": []
+  },
+  {
+    "pdb": "7zui",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7zui.cif.gz",
+    "sha256": "745cc329824c42d9162ac0ec0b200344320826cf18fe53d8c36d6fb0e5538a08",
+    "added": []
+  },
+  {
+    "pdb": "7zuj",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7zuj.cif.gz",
+    "sha256": "0918b19b667e703112f95ad59cb4c9293a5ef9560ed646f0176f2c91072ac6be",
+    "added": []
+  },
+  {
+    "pdb": "7zuk",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/7zuk.cif.gz",
+    "sha256": "b938138db6bebab50d06bfc8aeeac96ecb677fff295a0bf7cb6d34c744905ab9",
+    "added": []
+  },
+  {
+    "pdb": "8agk",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/8agk.cif.gz",
+    "sha256": "9e645d39c637f3ed68956c5ecb0a0052e6a9a40ba105b8a9c916478ddc6bd34f",
+    "added": []
+  },
+  {
+    "pdb": "8agn",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/8agn.cif.gz",
+    "sha256": "5c035a81a9fe10cc09498b9e71614c97ba069cee4b0a77ea00997ce95ceae5ad",
+    "added": []
+  },
+  {
+    "pdb": "8agp",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/8agp.cif.gz",
+    "sha256": "7d9f3a51a2b01b6c5734fcbf7ae4eadb599ba99b0049b89f4eabc8e8b1e8910e",
+    "added": []
+  },
+  {
+    "pdb": "8ags",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/8ags.cif.gz",
+    "sha256": "9cfd2f07ac2e485f242ba41e3bedbdb3de5fd1e987f7b6b201bbce92ba0ba4c1",
+    "added": []
+  },
+  {
+    "pdb": "8t84",
+    "path": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028/run_v2/seqres_cache/8t84.cif.gz",
+    "sha256": "52a328f51461b1e9995a37d26357d7d321488dd7ffddd2ec8bdc01fcd2ca81a6",
+    "added": []
+  }
+]

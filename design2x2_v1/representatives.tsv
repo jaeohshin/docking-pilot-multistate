@@ -1,0 +1,18 @@
+stratum	homology_component	case_id	apo	holo	ligand	ligand_name	ligand_role	treated	holo_multi_chi12	apo_multi_chi12	whole_pocket_rmsd	rscc	res_apo	res_holo	holo_crystal_dependence	apo_crystal_dependence	previous_representative	candidates_in_component
+main	Q071e2319538cf827	97ea259b19814c3e	5nxz	5ny7	NCA:A:302	NICOTINAMIDE	substrate	0	0	0	0.117	0.97	1.21	1.31	none	none	1	3
+main	Q0d511715f969df6f	8b520349f920f468	3hre	3huo	PNN:B:301	PENICILLIN G	substrate	1	2	3	0.146	0.926	1.45	1.5	minor	minor	0	5
+main	Q0f7156008b35f535	35e1ea353db1a647	5f6e	5f6v	5VL:A:201	2-(2-hydroxyphenyl)phenol	validated allosteric fragment	1	2	1	0.077	0.86	1.12	1.49	minor	none	1	1
+main	Q244ca05b311c4e65	a55370d81109dc3b	8usg	8ush	6NT:A:401	6-NITROBENZOTRIAZOLE	TS analogue	1	4	3	0.203	0.982	1.37	1.32	none	none	1	9
+main	Q2e938254667ffc06	4e2004374c441952	4j9y	4g27	PHU:R:1006	1-phenylurea	weak modulator / pocket fragment	1	5	5	0.461	0.917	1.51	1.65	none	none	1	1
+main	Q403d6c2f54b32f0f	172d7da9c683ce21	5fsv	5fsy	AR6:A:1262	[(2R,3S,4R,5R)-5-(6-AMINOPURIN-9-YL)-3,4-DIHYDROXY-OXOLAN-2-YL]METHYL[HYDROXY-[[(2R,3S,4R,5S)-3,4,5-TRIHYDROXYOXOLAN-2-YL]METHOXY]PHOSPHORYL] HYDROGEN PHOSPHATE	substrate/product	1	6	7	0.588	0.974	1.2	1.7	none	none	1	1
+main	Q4357fad1fd6385d8	274d968ed2de6c64	3uav	3uaw	ADN:A:236	ADENOSINE	substrate	1	2	3	0.2	0.984	1.4	1.2	none	none	1	5
+main	Q4819d46ca698b01c	2a61e70b2504eba1	6eeu	6eev	MEV:A:501	(R)-MEVALONATE	product	0	2	0	0.055	0.918	1.93	1.49	none	none	1	1
+main	Q92b4b8ac3490e160	fe02a159def13cce	5hih	5hol	APR:A:201	ADENOSINE-5-DIPHOSPHORIBOSE	substrate/product	1	7	12	0.48	0.968	1.66	1.59	minor	minor	1	2
+main	Qb658135f14f2b435	3defdfd8f936876e	8tn1	8tnb	IQM:A:201	5-fluoro-2-{4-[(methylamino)methyl]phenyl}-1-benzofuran-7-carboxamide	designed-binder ligand	1	1	2	0.253	0.918	1.61	1.4	none	none	0	8
+main	Qc50f788b8b4c3247	d1ef3ccf4bf68009	6f43	6f66	CUT:A:300	[2,4-bis(oxidanyl)phenyl]-phenyl-methanone	substrate analogue	1	3	3	0.116	0.915	1.35	1.75	none	none	0	2
+main	Qc73cfcfab42ac422	8b5a09ff83941c82	5a9r	5a9t	YLG:A:1291	(1R)-1-methyl-1,2,3,4-tetrahydroisoquinoline	product	1	3	3	0.286	0.853	1.55	1.43	none	none	1	1
+main	Qf44483b2d65dea51	8ec051785e59eb5b	1ofn	1oi6	TMP:A:1204	THYMIDINE-5'-PHOSPHATE	substrate fragment	1	1	4	0.098	0.941	1.5	1.4	none	none	1	2
+backbone_change	Q31b796f7552d4625	2248260e300938dd	3g1y	3g22	U5P:A:229	URIDINE-5'-MONOPHOSPHATE	product	1	1	4	0.898	0.98	1.4	1.4	none	minor	1	2
+backbone_change	Q4357fad1fd6385d8	3501c3c7d181fc13	3dps	2pga	ANU:B:7016	2,2'-Anhydro-(1-beta-D-arabinofuranosyl)uracil	inhibitor	0	1	0	4.495	0.948	1.8	1.74	none	none	0	3
+backbone_change	Q836548e7a7df94aa	c58ec64e1ac75a51	6aym	6ayq	TDI:B:301	(3R,4S)-1-[(4-AMINO-5H-PYRROLO[3,2-D]PYRIMIDIN-7-YL)METHYL]-4-[(METHYLSULFANYL)METHYL]PYRROLIDIN-3-OL	TS analogue	1	1	1	2.191	0.968	1.25	1.42	none	none	0	4
+backbone_change	Q92b4b8ac3490e160	95ffd089bd47d70a	7tx4	7tx5	APR:A:201	ADENOSINE-5-DIPHOSPHORIBOSE	substrate/product	1	4	3	0.761		1.9	1.94	minor	minor	0	1

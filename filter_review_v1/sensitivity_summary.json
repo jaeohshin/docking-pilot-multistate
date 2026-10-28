@@ -1,0 +1,32 @@
+{
+  "status": "sensitivity_flags_complete_rdkit_pending",
+  "cases": 443,
+  "passed_cases": 12,
+  "passed_groups": 7,
+  "reasons": {
+    "apo_crystal_mate_pocket": 81,
+    "apo_multichain_pocket": 94,
+    "holo_crystal_mate_pocket": 71,
+    "holo_multichain_pocket": 95,
+    "pocket_backbone_rmsd_above_0_75": 44,
+    "ccd_not_nonpolymer": 105,
+    "holo_pocket_junction_gap_or_distortion": 12,
+    "deposited_covalent_or_metal_link": 67,
+    "holo_nearby_other_heterocomponent": 62,
+    "ligand_heavy_atom_names_incomplete_or_extra": 115,
+    "heavy_atom_count_outside_10_50": 77,
+    "ligand_occupancy_below_0_8": 78,
+    "possible_unannotated_covalent_contact": 42,
+    "qfit_deposited_ligand_frame_mismatch": 99,
+    "pocket_coverage_below_95pct": 21,
+    "apo_pocket_junction_gap_or_distortion": 8,
+    "apo_nearby_other_heterocomponent": 31,
+    "insufficient_pocket_atoms": 7,
+    "qfit_cache_sequence_mismatch": 23,
+    "contact_backbone_mapping_or_atoms_missing": 20,
+    "holo_nearby_metal": 32,
+    "apo_nearby_metal": 30,
+    "deposited_ligand_not_nonpolymer": 4
+  },
+  "exceptions": []
+}

@@ -1,0 +1,13 @@
+{
+  "development_manifest.tsv": "6f2c305bb8f2fb5f9387370f6fb9878fa761418c8d2ee6460c8c07ea59c3887e",
+  "all_records.json": "db7b679650a8f567418ec2f1f924110f39bfd5b46314431135658500d4fcbde5",
+  "RESULTS.md": "bd894ebea214ace28e0d4e1582ac930c793c44418aa499359eb11a109d65a3ba",
+  "eligible_cases.tsv": "73c7af503c52b815114bbbd217d785dd90378f789ee30c92c8a7fbde0dc59d49",
+  "summary.json": "166cde819f476c801a0d236024291a8a447566267dbabb53f32adf3d68f7cab0",
+  "selected_geometry.json": "d92f4c6b21f1fcd7e564a5bd1cceaa526301b3a19c926a0c065026a6e573a466",
+  "execution.json": "016f5c03a51c77b7d3484d163d720a6e84c0b6e22c36296f311ccc322774b833",
+  "reserve_manifest.tsv": "6f2c305bb8f2fb5f9387370f6fb9878fa761418c8d2ee6460c8c07ea59c3887e",
+  "same_family_diagnostic.json": "3511ba4e6eaa4f6abe175901daa91c6318c2371e49b00881836ae2a447d908dc",
+  "pilot_manifest.tsv": "ccefd88c60c0d1ce183d9782089166f71599e1dd8eb3ccc0fa02717a2b198c44",
+  "exclusions.tsv": "f10bcb6cd3f1e6012d497d46fd1675c54e1a673dd73e92970bc16567e627b88b"
+}

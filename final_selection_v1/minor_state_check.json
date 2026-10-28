@@ -1,0 +1,747 @@
+{
+ "cases": 79,
+ "all_match": true,
+ "positive_cases": [
+  "475fd70298075f1c",
+  "8c7d7558c0c71f80",
+  "fe02a159def13cce",
+  "fe0893e9d4e1f863"
+ ],
+ "checks": [
+  {
+   "case_id": "84a6cc4cec17be6f",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 10,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "97ea259b19814c3e",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 7,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "223bcc6ed7796669",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 4,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "1df758496479cfac",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 1,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "60e537d07177c7f6",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 8,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "3cb6f9e6ad8d8368",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 2,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "75c6cb1919e3410c",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 3,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "4bc0799f7dadd332",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 6,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "0c2914f1336e5905",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 14,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "2f558d042f16f4f7",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 5,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "fe0893e9d4e1f863",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 6,
+   "recomputed_selected": [
+    161
+   ],
+   "candidate_selected": [
+    161
+   ],
+   "match": true
+  },
+  {
+   "case_id": "cd901008b90ffbd4",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 6,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "af5b3fa499286445",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 5,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "8b520349f920f468",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 13,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "01100dcbf8cafc35",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 13,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ce8f0e29cd1dca59",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 2,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "2248260e300938dd",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 2,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "e71ec1febb7d05e2",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 8,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "85dc1e77a1cdb21d",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 7,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "129663a7f774bc71",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 12,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "172d7da9c683ce21",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 14,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "db219b9e4c93bafe",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 3,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ccec5c8aea863078",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 3,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "3501c3c7d181fc13",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 3,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "2a61e70b2504eba1",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 5,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "7ef4c23f14dbfb0c",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 7,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "28cfc7bf72ea90b1",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 8,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ac718cff8957d4c8",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 7,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ad802dab0efb57b5",
+   "source_apo_chain": "B",
+   "candidate_apo_chain": "A",
+   "source_rows": 4,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "475fd70298075f1c",
+   "source_apo_chain": "B",
+   "candidate_apo_chain": "A",
+   "source_rows": 7,
+   "recomputed_selected": [
+    74,
+    76,
+    82
+   ],
+   "candidate_selected": [
+    74,
+    76,
+    82
+   ],
+   "match": true
+  },
+  {
+   "case_id": "827d8b35f26be3bf",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 5,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ca403edcbb1150e0",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 10,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "fd5e7dc6163d1398",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 4,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "3d14b6f21e8b903c",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 8,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "8c7d7558c0c71f80",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 6,
+   "recomputed_selected": [
+    65
+   ],
+   "candidate_selected": [
+    65
+   ],
+   "match": true
+  },
+  {
+   "case_id": "b3a33fcc7a7495b2",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 2,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "d965c9e63efef324",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 7,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ae557f538c35d329",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 2,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "c58ec64e1ac75a51",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 2,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "6a0fb1f5b4c558d2",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 2,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "9d217113b12c58ef",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 3,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ea2aa0effa40a210",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 3,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "d044697c9b260b63",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 12,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "274d968ed2de6c64",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 12,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "f103150d4318d464",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 11,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "709de94af951aa44",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 5,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "95ffd089bd47d70a",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 15,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "cc74cee67640cfef",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 3,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ce056305803760d9",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 8,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "e3f6b2caa033ba2b",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 5,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "c34cfe62e60dc71d",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "C",
+   "source_rows": 10,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "3e4042944ebec322",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 14,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "2554c2e878337eda",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 14,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ab769351ccfcd8b9",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "C",
+   "source_rows": 14,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "3defdfd8f936876e",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 13,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "69bd5aa33dfdd4f3",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 13,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "02232eaff63e6f6a",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "C",
+   "source_rows": 13,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "eb0590317573e173",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 14,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "7d46addf82382500",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "C",
+   "source_rows": 14,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "a55370d81109dc3b",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 13,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "f6bc7e3de3c6c8f1",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 13,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "d1ef3ccf4bf68009",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 12,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "1aa414d8b85e516d",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 12,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ff4d22e8ce445a8b",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "B",
+   "source_rows": 12,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "8b5a09ff83941c82",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 3,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "ac4609eed42760d7",
+   "source_apo_chain": "C",
+   "candidate_apo_chain": "C",
+   "source_rows": 11,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "169e40ddaed42efc",
+   "source_apo_chain": "C",
+   "candidate_apo_chain": "C",
+   "source_rows": 11,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "cdb554d7c5589c57",
+   "source_apo_chain": "C",
+   "candidate_apo_chain": "C",
+   "source_rows": 11,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "b18fd2e3f40c1574",
+   "source_apo_chain": "C",
+   "candidate_apo_chain": "C",
+   "source_rows": 11,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "35e1ea353db1a647",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 7,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "fe02a159def13cce",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 13,
+   "recomputed_selected": [
+    127,
+    130,
+    154
+   ],
+   "candidate_selected": [
+    127,
+    130,
+    154
+   ],
+   "match": true
+  },
+  {
+   "case_id": "7968c75e320af942",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 9,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "28df252a153e6e16",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 6,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "49e6f53ebc0b9814",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 15,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "8ec051785e59eb5b",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 7,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "06f8ca4f58af2891",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 3,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "2a6070389276a7a4",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 3,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "3f291c9437c562a0",
+   "source_apo_chain": "A",
+   "candidate_apo_chain": "A",
+   "source_rows": 6,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  },
+  {
+   "case_id": "4e2004374c441952",
+   "source_apo_chain": "B",
+   "candidate_apo_chain": "B",
+   "source_rows": 1,
+   "recomputed_selected": [],
+   "candidate_selected": [],
+   "match": true
+  }
+ ]
+}

@@ -1,0 +1,545 @@
+[
+  {
+    "group": "550747e05420db0f",
+    "apo": "5rg6",
+    "holo": "5rgc",
+    "holo_chain": "A",
+    "ligand_id": "6NT:A:401",
+    "cofactor": false,
+    "res_apo": "1.35",
+    "res_holo": "1.39",
+    "residues": [
+      "123",
+      "168",
+      "232",
+      "261",
+      "41",
+      "42",
+      "80",
+      "83"
+    ],
+    "apo_mc_residues": [
+      "232",
+      "261"
+    ],
+    "selected_residues": [],
+    "changed_residues": [],
+    "case_id": "28cfc7bf72ea90b1",
+    "apo_chain": "A",
+    "equivalent_apo_chains": [
+      "A",
+      "B"
+    ],
+    "query_id": "Q550747e05420db0f",
+    "holo_deposited_chain": "A",
+    "apo_deposited_chain": "A",
+    "ligand_deposited_chain": "A",
+    "sequence_status": "full_seqres_pair_verified",
+    "homology_status": "no_qualifying_trainval_hit",
+    "geometry_reasons": [],
+    "ligand_icode": "",
+    "ligand_altloc": "\u0000",
+    "ligand_heavy_atoms": 12,
+    "ligand_min_occupancy": 0.8600000143051147,
+    "ccd": {
+      "id": "6NT",
+      "type": "non-polymer",
+      "name": "6-NITROBENZOTRIAZOLE",
+      "parent": "",
+      "atoms": [
+        [
+          "O21",
+          "O"
+        ],
+        [
+          "NO1",
+          "N"
+        ],
+        [
+          "O11",
+          "O"
+        ],
+        [
+          "C5",
+          "C"
+        ],
+        [
+          "C6",
+          "C"
+        ],
+        [
+          "C7",
+          "C"
+        ],
+        [
+          "C7A",
+          "C"
+        ],
+        [
+          "N1",
+          "N"
+        ],
+        [
+          "C3A",
+          "C"
+        ],
+        [
+          "C4",
+          "C"
+        ],
+        [
+          "N3",
+          "N"
+        ],
+        [
+          "N2",
+          "N"
+        ],
+        [
+          "H6",
+          "H"
+        ],
+        [
+          "H4",
+          "H"
+        ],
+        [
+          "H7",
+          "H"
+        ],
+        [
+          "H3",
+          "H"
+        ]
+      ],
+      "descriptors": [
+        [
+          "SMILES",
+          "ACDLabs",
+          "\"[O-][N+](=O)c1ccc2nnnc2c1\""
+        ],
+        [
+          "InChI",
+          "InChI",
+          "\"InChI=1S/C6H4N4O2/c11-10(12)4-1-2-5-6(3-4)8-9-7-5/h1-3H,(H,7,8,9)\""
+        ],
+        [
+          "InChIKey",
+          "InChI",
+          "AOCDQWRMYHJTMY-UHFFFAOYSA-N"
+        ],
+        [
+          "SMILES_CANONICAL",
+          "CACTVS",
+          "\"[O-][N+](=O)c1ccc2nn[nH]c2c1\""
+        ],
+        [
+          "SMILES",
+          "CACTVS",
+          "\"[O-][N+](=O)c1ccc2nn[nH]c2c1\""
+        ],
+        [
+          "SMILES_CANONICAL",
+          "\"OpenEye OEToolkits\"",
+          "\"c1cc2c(cc1[N+](=O)[O-])[nH]nn2\""
+        ],
+        [
+          "SMILES",
+          "\"OpenEye OEToolkits\"",
+          "\"c1cc2c(cc1[N+](=O)[O-])[nH]nn2\""
+        ]
+      ],
+      "sha256": "480df95c839bf74a4493c9251cab2198a6b936c47668e424b90e5f0f429c32ef"
+    },
+    "pocket_residues": 24,
+    "contact_residues": 16,
+    "mapped_pocket_residues": 24,
+    "pocket_coverage": 1.0,
+    "pocket_backbone_rmsd": 0.2609792768765943,
+    "pocket_ca_rmsd": 0.2132106954797102,
+    "rotation_holo_to_apo": [
+      [
+        0.9999729742553112,
+        0.0072090886317173865,
+        0.0014421512014015279
+      ],
+      [
+        -0.007202937374890908,
+        0.9999651286997018,
+        -0.004226000208716112
+      ],
+      [
+        -0.0014725665217759471,
+        0.004215498273124285,
+        0.999990030511379
+      ]
+    ],
+    "translation_holo_to_apo": [
+      0.05867669314505797,
+      -0.2829216246773847,
+      -0.040660361260304256
+    ],
+    "residue_map": [
+      {
+        "holo_index": 16,
+        "apo_index": 16,
+        "holo_key": [
+          20,
+          "",
+          "VAL"
+        ],
+        "apo_key": [
+          20,
+          "",
+          "VAL"
+        ]
+      },
+      {
+        "holo_index": 17,
+        "apo_index": 17,
+        "holo_key": [
+          21,
+          "",
+          "ALA"
+        ],
+        "apo_key": [
+          21,
+          "",
+          "ALA"
+        ]
+      },
+      {
+        "holo_index": 40,
+        "apo_index": 40,
+        "holo_key": [
+          44,
+          "",
+          "TRP"
+        ],
+        "apo_key": [
+          44,
+          "",
+          "TRP"
+        ]
+      },
+      {
+        "holo_index": 41,
+        "apo_index": 41,
+        "holo_key": [
+          45,
+          "",
+          "PRO"
+        ],
+        "apo_key": [
+          45,
+          "",
+          "PRO"
+        ]
+      },
+      {
+        "holo_index": 42,
+        "apo_index": 42,
+        "holo_key": [
+          46,
+          "",
+          "GLU"
+        ],
+        "apo_key": [
+          46,
+          "",
+          "GLU"
+        ]
+      },
+      {
+        "holo_index": 43,
+        "apo_index": 43,
+        "holo_key": [
+          47,
+          "",
+          "ASN"
+        ],
+        "apo_key": [
+          47,
+          "",
+          "ASN"
+        ]
+      },
+      {
+        "holo_index": 46,
+        "apo_index": 46,
+        "holo_key": [
+          50,
+          "",
+          "GLN"
+        ],
+        "apo_key": [
+          50,
+          "",
+          "GLN"
+        ]
+      },
+      {
+        "holo_index": 77,
+        "apo_index": 77,
+        "holo_key": [
+          81,
+          "",
+          "GLY"
+        ],
+        "apo_key": [
+          81,
+          "",
+          "GLY"
+        ]
+      },
+      {
+        "holo_index": 78,
+        "apo_index": 78,
+        "holo_key": [
+          82,
+          "",
+          "GLY"
+        ],
+        "apo_key": [
+          82,
+          "",
+          "GLY"
+        ]
+      },
+      {
+        "holo_index": 79,
+        "apo_index": 79,
+        "holo_key": [
+          83,
+          "",
+          "GLY"
+        ],
+        "apo_key": [
+          83,
+          "",
+          "GLY"
+        ]
+      },
+      {
+        "holo_index": 80,
+        "apo_index": 80,
+        "holo_key": [
+          84,
+          "",
+          "CYS"
+        ],
+        "apo_key": [
+          84,
+          "",
+          "CYS"
+        ]
+      },
+      {
+        "holo_index": 81,
+        "apo_index": 81,
+        "holo_key": [
+          85,
+          "",
+          "LEU"
+        ],
+        "apo_key": [
+          85,
+          "",
+          "LEU"
+        ]
+      },
+      {
+        "holo_index": 83,
+        "apo_index": 83,
+        "holo_key": [
+          87,
+          "",
+          "TRP"
+        ],
+        "apo_key": [
+          87,
+          "",
+          "TRP"
+        ]
+      },
+      {
+        "holo_index": 123,
+        "apo_index": 123,
+        "holo_key": [
+          127,
+          "",
+          "ASP"
+        ],
+        "apo_key": [
+          127,
+          "",
+          "ASP"
+        ]
+      },
+      {
+        "holo_index": 168,
+        "apo_index": 168,
+        "holo_key": [
+          172,
+          "",
+          "MET"
+        ],
+        "apo_key": [
+          172,
+          "",
+          "MET"
+        ]
+      },
+      {
+        "holo_index": 203,
+        "apo_index": 203,
+        "holo_key": [
+          207,
+          "",
+          "GLN"
+        ],
+        "apo_key": [
+          207,
+          "",
+          "GLN"
+        ]
+      },
+      {
+        "holo_index": 231,
+        "apo_index": 231,
+        "holo_key": [
+          235,
+          "",
+          "ILE"
+        ],
+        "apo_key": [
+          235,
+          "",
+          "ILE"
+        ]
+      },
+      {
+        "holo_index": 232,
+        "apo_index": 232,
+        "holo_key": [
+          236,
+          "",
+          "LEU"
+        ],
+        "apo_key": [
+          236,
+          "",
+          "LEU"
+        ]
+      },
+      {
+        "holo_index": 233,
+        "apo_index": 233,
+        "holo_key": [
+          237,
+          "",
+          "MET"
+        ],
+        "apo_key": [
+          237,
+          "",
+          "MET"
+        ]
+      },
+      {
+        "holo_index": 234,
+        "apo_index": 234,
+        "holo_key": [
+          238,
+          "",
+          "LEU"
+        ],
+        "apo_key": [
+          238,
+          "",
+          "LEU"
+        ]
+      },
+      {
+        "holo_index": 261,
+        "apo_index": 261,
+        "holo_key": [
+          265,
+          "",
+          "THR"
+        ],
+        "apo_key": [
+          265,
+          "",
+          "THR"
+        ]
+      },
+      {
+        "holo_index": 262,
+        "apo_index": 262,
+        "holo_key": [
+          266,
+          "",
+          "VAL"
+        ],
+        "apo_key": [
+          266,
+          "",
+          "VAL"
+        ]
+      },
+      {
+        "holo_index": 263,
+        "apo_index": 263,
+        "holo_key": [
+          267,
+          "",
+          "PHE"
+        ],
+        "apo_key": [
+          267,
+          "",
+          "PHE"
+        ]
+      },
+      {
+        "holo_index": 264,
+        "apo_index": 264,
+        "holo_key": [
+          268,
+          "",
+          "GLY"
+        ],
+        "apo_key": [
+          268,
+          "",
+          "GLY"
+        ]
+      }
+    ],
+    "box_size": [
+      20.0,
+      20.0,
+      20.0
+    ],
+    "box_center": [
+      15.296691920509126,
+      1.1573995686457308,
+      27.5748521710736
+    ],
+    "deposited_cif_sha256": "301ff11853002e114ffe813626b89a966b3cbd4e00b12dba07242cebecef8a4b",
+    "qfit_vs_deposited_ligand_rmsd": 0.05552551965838179,
+    "reused_from": "run_v1/geometry_v2_candidates.json",
+    "homology_component": "Q244ca05b311c4e65",
+    "smiles": "[O-][N+](=O)c1ccc2nn[nH]c2c1",
+    "smiles_program": "CACTVS",
+    "rdkit_heavy_atoms": 12,
+    "rotatable_bonds": 1,
+    "formal_charge": 0,
+    "molecular_formula": "C6H4N4O2",
+    "ligand_name": "6-NITROBENZOTRIAZOLE",
+    "chemistry_reasons": [],
+    "eligible": true,
+    "allocation": "not_selected"
+  }
+]

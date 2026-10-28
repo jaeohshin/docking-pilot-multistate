@@ -1,0 +1,828 @@
+[
+  {
+    "case_id": "2f558d042f16f4f7",
+    "apo": "7k4t",
+    "apo_chain": "A",
+    "holo": "7k4z",
+    "holo_chain": "A",
+    "ligand_id": "6NT:A:402",
+    "residue_map": [
+      {
+        "holo_index": 17,
+        "apo_index": 18,
+        "holo_key": [
+          20,
+          "",
+          "VAL"
+        ],
+        "apo_key": [
+          20,
+          "",
+          "VAL"
+        ]
+      },
+      {
+        "holo_index": 18,
+        "apo_index": 19,
+        "holo_key": [
+          21,
+          "",
+          "ALA"
+        ],
+        "apo_key": [
+          21,
+          "",
+          "ALA"
+        ]
+      },
+      {
+        "holo_index": 41,
+        "apo_index": 42,
+        "holo_key": [
+          44,
+          "",
+          "TRP"
+        ],
+        "apo_key": [
+          44,
+          "",
+          "TRP"
+        ]
+      },
+      {
+        "holo_index": 42,
+        "apo_index": 43,
+        "holo_key": [
+          45,
+          "",
+          "PRO"
+        ],
+        "apo_key": [
+          45,
+          "",
+          "PRO"
+        ]
+      },
+      {
+        "holo_index": 43,
+        "apo_index": 44,
+        "holo_key": [
+          46,
+          "",
+          "GLU"
+        ],
+        "apo_key": [
+          46,
+          "",
+          "GLU"
+        ]
+      },
+      {
+        "holo_index": 44,
+        "apo_index": 45,
+        "holo_key": [
+          47,
+          "",
+          "ASN"
+        ],
+        "apo_key": [
+          47,
+          "",
+          "ASN"
+        ]
+      },
+      {
+        "holo_index": 47,
+        "apo_index": 48,
+        "holo_key": [
+          50,
+          "",
+          "GLN"
+        ],
+        "apo_key": [
+          50,
+          "",
+          "GLN"
+        ]
+      },
+      {
+        "holo_index": 78,
+        "apo_index": 79,
+        "holo_key": [
+          81,
+          "",
+          "GLY"
+        ],
+        "apo_key": [
+          81,
+          "",
+          "GLY"
+        ]
+      },
+      {
+        "holo_index": 79,
+        "apo_index": 80,
+        "holo_key": [
+          82,
+          "",
+          "ALA"
+        ],
+        "apo_key": [
+          82,
+          "",
+          "ALA"
+        ]
+      },
+      {
+        "holo_index": 80,
+        "apo_index": 81,
+        "holo_key": [
+          83,
+          "",
+          "GLY"
+        ],
+        "apo_key": [
+          83,
+          "",
+          "GLY"
+        ]
+      },
+      {
+        "holo_index": 81,
+        "apo_index": 82,
+        "holo_key": [
+          84,
+          "",
+          "CYS"
+        ],
+        "apo_key": [
+          84,
+          "",
+          "CYS"
+        ]
+      },
+      {
+        "holo_index": 82,
+        "apo_index": 83,
+        "holo_key": [
+          85,
+          "",
+          "LEU"
+        ],
+        "apo_key": [
+          85,
+          "",
+          "LEU"
+        ]
+      },
+      {
+        "holo_index": 84,
+        "apo_index": 85,
+        "holo_key": [
+          87,
+          "",
+          "TRP"
+        ],
+        "apo_key": [
+          87,
+          "",
+          "TRP"
+        ]
+      },
+      {
+        "holo_index": 124,
+        "apo_index": 125,
+        "holo_key": [
+          127,
+          "",
+          "ASP"
+        ],
+        "apo_key": [
+          127,
+          "",
+          "ASP"
+        ]
+      },
+      {
+        "holo_index": 169,
+        "apo_index": 170,
+        "holo_key": [
+          172,
+          "",
+          "MET"
+        ],
+        "apo_key": [
+          172,
+          "",
+          "MET"
+        ]
+      },
+      {
+        "holo_index": 204,
+        "apo_index": 205,
+        "holo_key": [
+          207,
+          "",
+          "GLN"
+        ],
+        "apo_key": [
+          207,
+          "",
+          "GLN"
+        ]
+      },
+      {
+        "holo_index": 232,
+        "apo_index": 233,
+        "holo_key": [
+          235,
+          "",
+          "ILE"
+        ],
+        "apo_key": [
+          235,
+          "",
+          "ILE"
+        ]
+      },
+      {
+        "holo_index": 233,
+        "apo_index": 234,
+        "holo_key": [
+          236,
+          "",
+          "LEU"
+        ],
+        "apo_key": [
+          236,
+          "",
+          "LEU"
+        ]
+      },
+      {
+        "holo_index": 234,
+        "apo_index": 235,
+        "holo_key": [
+          237,
+          "",
+          "MET"
+        ],
+        "apo_key": [
+          237,
+          "",
+          "MET"
+        ]
+      },
+      {
+        "holo_index": 235,
+        "apo_index": 236,
+        "holo_key": [
+          238,
+          "",
+          "LEU"
+        ],
+        "apo_key": [
+          238,
+          "",
+          "LEU"
+        ]
+      },
+      {
+        "holo_index": 262,
+        "apo_index": 263,
+        "holo_key": [
+          265,
+          "",
+          "THR"
+        ],
+        "apo_key": [
+          265,
+          "",
+          "THR"
+        ]
+      },
+      {
+        "holo_index": 263,
+        "apo_index": 264,
+        "holo_key": [
+          266,
+          "",
+          "VAL"
+        ],
+        "apo_key": [
+          266,
+          "",
+          "VAL"
+        ]
+      },
+      {
+        "holo_index": 264,
+        "apo_index": 265,
+        "holo_key": [
+          267,
+          "",
+          "MET"
+        ],
+        "apo_key": [
+          267,
+          "",
+          "MET"
+        ]
+      },
+      {
+        "holo_index": 265,
+        "apo_index": 266,
+        "holo_key": [
+          268,
+          "",
+          "GLY"
+        ],
+        "apo_key": [
+          268,
+          "",
+          "GLY"
+        ]
+      }
+    ],
+    "rotation_holo_to_apo": [
+      [
+        0.9998053479071807,
+        -0.01948430672430657,
+        -0.0031029159954190674
+      ],
+      [
+        0.019482045185487455,
+        0.9998099200565329,
+        -0.0007574113413350954
+      ],
+      [
+        0.0031170838282127728,
+        0.0006968127600028556,
+        0.9999948991071831
+      ]
+    ],
+    "translation_holo_to_apo": [
+      0.19309879078225833,
+      0.3973796719425291,
+      0.12376179758170203
+    ],
+    "box_center": [
+      11.88889991937905,
+      4.2494001769858585,
+      11.959956997350476
+    ],
+    "box_size": [
+      20.0,
+      20.0,
+      20.0
+    ]
+  },
+  {
+    "case_id": "3defdfd8f936876e",
+    "apo": "8tn1",
+    "apo_chain": "A",
+    "holo": "8tnb",
+    "holo_chain": "A",
+    "ligand_id": "IQM:A:201",
+    "residue_map": [
+      {
+        "holo_index": 20,
+        "apo_index": 20,
+        "holo_key": [
+          21,
+          "",
+          "ILE"
+        ],
+        "apo_key": [
+          21,
+          "",
+          "ILE"
+        ]
+      },
+      {
+        "holo_index": 23,
+        "apo_index": 23,
+        "holo_key": [
+          24,
+          "",
+          "LEU"
+        ],
+        "apo_key": [
+          24,
+          "",
+          "LEU"
+        ]
+      },
+      {
+        "holo_index": 24,
+        "apo_index": 24,
+        "holo_key": [
+          25,
+          "",
+          "ALA"
+        ],
+        "apo_key": [
+          25,
+          "",
+          "ALA"
+        ]
+      },
+      {
+        "holo_index": 25,
+        "apo_index": 25,
+        "holo_key": [
+          26,
+          "",
+          "SER"
+        ],
+        "apo_key": [
+          26,
+          "",
+          "SER"
+        ]
+      },
+      {
+        "holo_index": 27,
+        "apo_index": 27,
+        "holo_key": [
+          28,
+          "",
+          "THR"
+        ],
+        "apo_key": [
+          28,
+          "",
+          "THR"
+        ]
+      },
+      {
+        "holo_index": 28,
+        "apo_index": 28,
+        "holo_key": [
+          29,
+          "",
+          "ASP"
+        ],
+        "apo_key": [
+          29,
+          "",
+          "ASP"
+        ]
+      },
+      {
+        "holo_index": 31,
+        "apo_index": 31,
+        "holo_key": [
+          32,
+          "",
+          "GLU"
+        ],
+        "apo_key": [
+          32,
+          "",
+          "GLU"
+        ]
+      },
+      {
+        "holo_index": 53,
+        "apo_index": 53,
+        "holo_key": [
+          54,
+          "",
+          "GLN"
+        ],
+        "apo_key": [
+          54,
+          "",
+          "GLN"
+        ]
+      },
+      {
+        "holo_index": 56,
+        "apo_index": 56,
+        "holo_key": [
+          57,
+          "",
+          "VAL"
+        ],
+        "apo_key": [
+          57,
+          "",
+          "VAL"
+        ]
+      },
+      {
+        "holo_index": 57,
+        "apo_index": 57,
+        "holo_key": [
+          58,
+          "",
+          "ASP"
+        ],
+        "apo_key": [
+          58,
+          "",
+          "ASP"
+        ]
+      },
+      {
+        "holo_index": 89,
+        "apo_index": 89,
+        "holo_key": [
+          90,
+          "",
+          "LEU"
+        ],
+        "apo_key": [
+          90,
+          "",
+          "LEU"
+        ]
+      },
+      {
+        "holo_index": 92,
+        "apo_index": 92,
+        "holo_key": [
+          93,
+          "",
+          "THR"
+        ],
+        "apo_key": [
+          93,
+          "",
+          "THR"
+        ]
+      },
+      {
+        "holo_index": 93,
+        "apo_index": 93,
+        "holo_key": [
+          94,
+          "",
+          "VAL"
+        ],
+        "apo_key": [
+          94,
+          "",
+          "VAL"
+        ]
+      },
+      {
+        "holo_index": 94,
+        "apo_index": 94,
+        "holo_key": [
+          95,
+          "",
+          "GLN"
+        ],
+        "apo_key": [
+          95,
+          "",
+          "GLN"
+        ]
+      },
+      {
+        "holo_index": 96,
+        "apo_index": 96,
+        "holo_key": [
+          97,
+          "",
+          "ALA"
+        ],
+        "apo_key": [
+          97,
+          "",
+          "ALA"
+        ]
+      },
+      {
+        "holo_index": 97,
+        "apo_index": 97,
+        "holo_key": [
+          98,
+          "",
+          "SER"
+        ],
+        "apo_key": [
+          98,
+          "",
+          "SER"
+        ]
+      },
+      {
+        "holo_index": 119,
+        "apo_index": 119,
+        "holo_key": [
+          120,
+          "",
+          "PHE"
+        ],
+        "apo_key": [
+          120,
+          "",
+          "PHE"
+        ]
+      },
+      {
+        "holo_index": 122,
+        "apo_index": 122,
+        "holo_key": [
+          123,
+          "",
+          "PHE"
+        ],
+        "apo_key": [
+          123,
+          "",
+          "PHE"
+        ]
+      },
+      {
+        "holo_index": 123,
+        "apo_index": 123,
+        "holo_key": [
+          124,
+          "",
+          "VAL"
+        ],
+        "apo_key": [
+          124,
+          "",
+          "VAL"
+        ]
+      },
+      {
+        "holo_index": 125,
+        "apo_index": 125,
+        "holo_key": [
+          126,
+          "",
+          "LEU"
+        ],
+        "apo_key": [
+          126,
+          "",
+          "LEU"
+        ]
+      },
+      {
+        "holo_index": 126,
+        "apo_index": 126,
+        "holo_key": [
+          127,
+          "",
+          "GLY"
+        ],
+        "apo_key": [
+          127,
+          "",
+          "GLY"
+        ]
+      },
+      {
+        "holo_index": 127,
+        "apo_index": 127,
+        "holo_key": [
+          128,
+          "",
+          "ASN"
+        ],
+        "apo_key": [
+          128,
+          "",
+          "ASN"
+        ]
+      },
+      {
+        "holo_index": 128,
+        "apo_index": 128,
+        "holo_key": [
+          129,
+          "",
+          "GLN"
+        ],
+        "apo_key": [
+          129,
+          "",
+          "GLN"
+        ]
+      },
+      {
+        "holo_index": 129,
+        "apo_index": 129,
+        "holo_key": [
+          130,
+          "",
+          "ALA"
+        ],
+        "apo_key": [
+          130,
+          "",
+          "ALA"
+        ]
+      },
+      {
+        "holo_index": 130,
+        "apo_index": 130,
+        "holo_key": [
+          131,
+          "",
+          "ASP"
+        ],
+        "apo_key": [
+          131,
+          "",
+          "ASP"
+        ]
+      },
+      {
+        "holo_index": 131,
+        "apo_index": 131,
+        "holo_key": [
+          132,
+          "",
+          "THR"
+        ],
+        "apo_key": [
+          132,
+          "",
+          "THR"
+        ]
+      },
+      {
+        "holo_index": 132,
+        "apo_index": 132,
+        "holo_key": [
+          133,
+          "",
+          "LEU"
+        ],
+        "apo_key": [
+          133,
+          "",
+          "LEU"
+        ]
+      },
+      {
+        "holo_index": 133,
+        "apo_index": 133,
+        "holo_key": [
+          134,
+          "",
+          "PHE"
+        ],
+        "apo_key": [
+          134,
+          "",
+          "PHE"
+        ]
+      },
+      {
+        "holo_index": 134,
+        "apo_index": 134,
+        "holo_key": [
+          135,
+          "",
+          "THR"
+        ],
+        "apo_key": [
+          135,
+          "",
+          "THR"
+        ]
+      }
+    ],
+    "rotation_holo_to_apo": [
+      [
+        0.5092686275174506,
+        -0.8606057952272557,
+        -0.001769250619464215
+      ],
+      [
+        0.857568905340407,
+        0.5076419915941811,
+        -0.08291671100295757
+      ],
+      [
+        0.07225674791842276,
+        0.04070962529373051,
+        0.9965549100720424
+      ]
+    ],
+    "translation_holo_to_apo": [
+      3.2663701335198603,
+      -1.8019304455303278,
+      2.826577173635828
+    ],
+    "box_center": [
+      23.14811799159365,
+      27.0587891953759,
+      -9.078431884454666
+    ],
+    "box_size": [
+      20.0,
+      20.0,
+      20.0
+    ]
+  }
+]

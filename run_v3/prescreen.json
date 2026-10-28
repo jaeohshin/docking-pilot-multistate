@@ -1,0 +1,39 @@
+{
+  "stages": {
+    "pocket_ligand_rows": {
+      "ligand_chain_cases": 4127,
+      "pdb_pairs": 1942,
+      "identical_sequence_groups": 1262
+    },
+    "noncofactor": {
+      "ligand_chain_cases": 3529,
+      "pdb_pairs": 1692,
+      "identical_sequence_groups": 1119
+    },
+    "resolution_both_le_2_5": {
+      "ligand_chain_cases": 3527,
+      "pdb_pairs": 1691,
+      "identical_sequence_groups": 1118
+    },
+    "exclude_train_identical_group": {
+      "ligand_chain_cases": 1376,
+      "pdb_pairs": 663,
+      "identical_sequence_groups": 433
+    },
+    "exclude_validation_identical_group": {
+      "ligand_chain_cases": 1209,
+      "pdb_pairs": 598,
+      "identical_sequence_groups": 385
+    },
+    "exclude_trainval_entry_overlap": {
+      "ligand_chain_cases": 1209,
+      "pdb_pairs": 598,
+      "identical_sequence_groups": 385
+    }
+  },
+  "sequence_status": {
+    "full_seqres_pair_verified": 1209
+  },
+  "query_sequences": 392,
+  "source_rows": 460438
+}

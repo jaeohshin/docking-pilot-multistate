@@ -1,0 +1,37 @@
+# Regenerable data and intermediates (reproduce with the code + inputs recorded in each folder's files_sha256.json)
+**/cifs/
+**/validation_xml/
+**/download_cache/
+**/seqres_cache/
+**/*_tmp/
+**/receptors/
+**/receptors_v0_superseded/
+**/inputs/
+**/logs/
+*.log
+*.pqr
+*.in.pdb
+__pycache__/
+# individual large files (>1 MB)
+/filter_review_v1/review_records.json
+/filter_review_v1/sensitivity_candidates.json
+/run_v1/candidate_vs_trainval.tsv
+/run_v1/clean_cache.json
+/run_v1/geometry_v2_candidates.json
+/run_v1/train_validation.fasta
+/run_v1/trainval_vs_candidate.tsv
+/run_v2/candidate_vs_trainval.tsv
+/run_v2/clean_cache.json
+/run_v2/train_validation.fasta
+/run_v2/trainval_vs_candidate.tsv
+/run_v3/candidate_vs_trainval.tsv
+/run_v3/clean_cache.json
+/run_v3/geometry_v3_candidates.json
+/run_v3/train_validation.fasta
+/run_v3/trainval_vs_candidate.tsv
+/selection_v3/all_records.json
+**/docked/
+**/validation_xml/
+**/*.pdbqt
+**/*.meeko.pdb
+**/*.H.pdb

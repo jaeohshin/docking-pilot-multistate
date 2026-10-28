@@ -1,0 +1,3741 @@
+{
+ "cases": [
+  {
+   "stratum": "main",
+   "homology_component": "Q071e2319538cf827",
+   "case_id": "97ea259b19814c3e",
+   "apo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:GLU41",
+     "A0:TYR47",
+     "A0:LYS111",
+     "A0:TYR115",
+     "A0:GLU119",
+     "A0:ALA145",
+     "A0:TYR146",
+     "A0:GLU149",
+     "A0:ALA170",
+     "A0:LEU171"
+    ],
+    "multi_state_residues": {},
+    "combinations_total": 1,
+    "multi_receptors": 1,
+    "rejected_for_clash": 0,
+    "combos": [
+     {}
+    ],
+    "max_graft_chi_deviation_deg": 0.0,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:GLU41",
+     "A0:TYR47",
+     "A0:LYS111",
+     "A0:TYR115",
+     "A0:GLU119",
+     "A0:ALA145",
+     "A0:TYR146",
+     "A0:GLU149",
+     "A0:ALA170",
+     "A0:LEU171"
+    ],
+    "multi_state_residues": {},
+    "combinations_total": 1,
+    "multi_receptors": 1,
+    "rejected_for_clash": 0,
+    "combos": [
+     {}
+    ],
+    "max_graft_chi_deviation_deg": 0.0,
+    "single_clashes": []
+   },
+   "ligand": "NCA:A:302",
+   "ligand_name": "NICOTINAMIDE",
+   "ligand_role": "substrate",
+   "treated": "0",
+   "holo_multi_chi12": "0",
+   "apo_multi_chi12": "0",
+   "whole_pocket_rmsd": "0.117",
+   "rscc": "0.97",
+   "res_apo": "1.21",
+   "res_holo": "1.31",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "1",
+   "candidates_in_component": "3"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Q0d511715f969df6f",
+   "case_id": "8b520349f920f468",
+   "apo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:CYS69",
+     "A0:GLY70",
+     "A0:LYS73",
+     "A0:ASN104",
+     "A0:TYR105",
+     "A0:SER130",
+     "A0:ASN132",
+     "A0:ASN170",
+     "A0:LYS234",
+     "A0:THR235",
+     "A0:GLY236",
+     "A0:SER237",
+     "A0:GLY238",
+     "A0:ASP240",
+     "A0:ARG276"
+    ],
+    "multi_state_residues": {
+     "A0:TYR105": [
+      [
+       "tb0",
+       0.53,
+       "A"
+      ],
+      [
+       "tb1",
+       0.47,
+       "B"
+      ]
+     ],
+     "A0:ASN170": [
+      [
+       "mb5",
+       0.51,
+       "B"
+      ],
+      [
+       "mb4",
+       0.49,
+       "A"
+      ]
+     ],
+     "A0:ASP240": [
+      [
+       "mb0",
+       0.51,
+       "B"
+      ],
+      [
+       "mb2",
+       0.49,
+       "A"
+      ]
+     ]
+    },
+    "combinations_total": 8,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:TYR105": "tb0",
+      "A0:ASN170": "mb5",
+      "A0:ASP240": "mb0"
+     },
+     {
+      "A0:TYR105": "tb0",
+      "A0:ASN170": "mb5",
+      "A0:ASP240": "mb2"
+     },
+     {
+      "A0:TYR105": "tb0",
+      "A0:ASN170": "mb4",
+      "A0:ASP240": "mb0"
+     },
+     {
+      "A0:TYR105": "tb0",
+      "A0:ASN170": "mb4",
+      "A0:ASP240": "mb2"
+     },
+     {
+      "A0:TYR105": "tb1",
+      "A0:ASN170": "mb5",
+      "A0:ASP240": "mb0"
+     },
+     {
+      "A0:TYR105": "tb1",
+      "A0:ASN170": "mb5",
+      "A0:ASP240": "mb2"
+     },
+     {
+      "A0:TYR105": "tb1",
+      "A0:ASN170": "mb4",
+      "A0:ASP240": "mb0"
+     },
+     {
+      "A0:TYR105": "tb1",
+      "A0:ASN170": "mb4",
+      "A0:ASP240": "mb2"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.69,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "B0"
+    ],
+    "chain_names_in_pdb": {
+     "B0": "A"
+    },
+    "pocket_residues": [
+     "B0:CYS69",
+     "B0:GLY70",
+     "B0:LYS73",
+     "B0:ASN104",
+     "B0:TYR105",
+     "B0:SER130",
+     "B0:ASN132",
+     "B0:ASN170",
+     "B0:THR216",
+     "B0:LYS234",
+     "B0:THR235",
+     "B0:GLY236",
+     "B0:SER237",
+     "B0:GLY238",
+     "B0:ASP240",
+     "B0:ARG276"
+    ],
+    "multi_state_residues": {
+     "B0:SER237": [
+      [
+       "m",
+       0.75,
+       "C"
+      ],
+      [
+       "t",
+       0.25,
+       "A"
+      ]
+     ],
+     "B0:ASP240": [
+      [
+       "mb2",
+       0.52,
+       "A"
+      ],
+      [
+       "mb0",
+       0.48,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 4,
+    "multi_receptors": 4,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "B0:SER237": "m",
+      "B0:ASP240": "mb2"
+     },
+     {
+      "B0:SER237": "m",
+      "B0:ASP240": "mb0"
+     },
+     {
+      "B0:SER237": "t",
+      "B0:ASP240": "mb2"
+     },
+     {
+      "B0:SER237": "t",
+      "B0:ASP240": "mb0"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.43,
+    "single_clashes": []
+   },
+   "ligand": "PNN:B:301",
+   "ligand_name": "PENICILLIN G",
+   "ligand_role": "substrate",
+   "treated": "1",
+   "holo_multi_chi12": "2",
+   "apo_multi_chi12": "3",
+   "whole_pocket_rmsd": "0.146",
+   "rscc": "0.926",
+   "res_apo": "1.45",
+   "res_holo": "1.5",
+   "holo_crystal_dependence": "minor",
+   "apo_crystal_dependence": "minor",
+   "previous_representative": "0",
+   "candidates_in_component": "5"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Q0f7156008b35f535",
+   "case_id": "35e1ea353db1a647",
+   "apo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:VAL25",
+     "A0:GLU42",
+     "A0:CYS43",
+     "A0:ALA44",
+     "A0:LYS59",
+     "A0:LEU60",
+     "A0:ARG61",
+     "A0:GLU78"
+    ],
+    "multi_state_residues": {
+     "A0:LEU60": [
+      [
+       "pt",
+       0.5,
+       "C"
+      ],
+      [
+       "pp",
+       0.5,
+       "A"
+      ]
+     ]
+    },
+    "combinations_total": 2,
+    "multi_receptors": 2,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:LEU60": "pt"
+     },
+     {
+      "A0:LEU60": "pp"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.96,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:VAL25",
+     "A0:GLU42",
+     "A0:CYS43",
+     "A0:ALA44",
+     "A0:LYS59",
+     "A0:LEU60",
+     "A0:ARG61",
+     "A0:GLU78"
+    ],
+    "multi_state_residues": {
+     "A0:LEU60": [
+      [
+       "pp",
+       0.42,
+       "D"
+      ],
+      [
+       "tt",
+       0.35,
+       "C"
+      ],
+      [
+       "pt",
+       0.23,
+       "A"
+      ]
+     ],
+     "A0:GLU78": [
+      [
+       "mt",
+       0.77,
+       "A"
+      ],
+      [
+       "pt",
+       0.23,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 6,
+    "multi_receptors": 6,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:LEU60": "pp",
+      "A0:GLU78": "mt"
+     },
+     {
+      "A0:LEU60": "pp",
+      "A0:GLU78": "pt"
+     },
+     {
+      "A0:LEU60": "tt",
+      "A0:GLU78": "mt"
+     },
+     {
+      "A0:LEU60": "tt",
+      "A0:GLU78": "pt"
+     },
+     {
+      "A0:LEU60": "pt",
+      "A0:GLU78": "mt"
+     },
+     {
+      "A0:LEU60": "pt",
+      "A0:GLU78": "pt"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 1.67,
+    "single_clashes": []
+   },
+   "ligand": "5VL:A:201",
+   "ligand_name": "2-(2-hydroxyphenyl)phenol",
+   "ligand_role": "validated allosteric fragment",
+   "treated": "1",
+   "holo_multi_chi12": "2",
+   "apo_multi_chi12": "1",
+   "whole_pocket_rmsd": "0.077",
+   "rscc": "0.86",
+   "res_apo": "1.12",
+   "res_holo": "1.49",
+   "holo_crystal_dependence": "minor",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "1",
+   "candidates_in_component": "1"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Q244ca05b311c4e65",
+   "case_id": "a55370d81109dc3b",
+   "apo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:ALA21",
+     "A0:TRP44",
+     "A0:PRO45",
+     "A0:GLU46",
+     "A0:GLN50",
+     "A0:GLY82",
+     "A0:GLY83",
+     "A0:CYS84",
+     "A0:ASP127",
+     "A0:MET172",
+     "A0:LEU236",
+     "A0:MET237",
+     "A0:THR265",
+     "A0:VAL266"
+    ],
+    "multi_state_residues": {
+     "A0:MET172": [
+      [
+       "tm",
+       0.7,
+       "B"
+      ],
+      [
+       "pt",
+       0.3,
+       "A"
+      ]
+     ],
+     "A0:LEU236": [
+      [
+       "mp",
+       0.54,
+       "C"
+      ],
+      [
+       "tp",
+       0.46,
+       "A"
+      ]
+     ]
+    },
+    "combinations_total": 4,
+    "multi_receptors": 4,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:MET172": "tm",
+      "A0:LEU236": "mp"
+     },
+     {
+      "A0:MET172": "tm",
+      "A0:LEU236": "tp"
+     },
+     {
+      "A0:MET172": "pt",
+      "A0:LEU236": "mp"
+     },
+     {
+      "A0:MET172": "pt",
+      "A0:LEU236": "tp"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 1.05,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:ALA21",
+     "A0:TRP44",
+     "A0:PRO45",
+     "A0:GLU46",
+     "A0:GLN50",
+     "A0:GLY82",
+     "A0:GLY83",
+     "A0:CYS84",
+     "A0:TRP87",
+     "A0:ASP127",
+     "A0:MET172",
+     "A0:LEU236",
+     "A0:MET237",
+     "A0:THR265",
+     "A0:VAL266",
+     "A0:MET267"
+    ],
+    "multi_state_residues": {
+     "A0:TRP87": [
+      [
+       "tb0",
+       0.56,
+       "B"
+      ],
+      [
+       "tb5",
+       0.44,
+       "C"
+      ]
+     ],
+     "A0:MET172": [
+      [
+       "tm",
+       0.54,
+       "C"
+      ],
+      [
+       "pt",
+       0.46,
+       "B"
+      ]
+     ],
+     "A0:LEU236": [
+      [
+       "mt",
+       0.56,
+       "B"
+      ],
+      [
+       "pt",
+       0.44,
+       "C"
+      ]
+     ],
+     "A0:MET267": [
+      [
+       "tp",
+       0.78,
+       "D"
+      ],
+      [
+       "tt",
+       0.22,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 16,
+    "multi_receptors": 5,
+    "rejected_for_clash": 3,
+    "combos": [
+     {},
+     {
+      "A0:TRP87": "tb0",
+      "A0:MET172": "tm",
+      "A0:LEU236": "mt",
+      "A0:MET267": "tt"
+     },
+     {
+      "A0:TRP87": "tb5",
+      "A0:MET172": "pt",
+      "A0:LEU236": "mt",
+      "A0:MET267": "tt"
+     },
+     {
+      "A0:TRP87": "tb5",
+      "A0:MET172": "tm",
+      "A0:LEU236": "mt",
+      "A0:MET267": "tp"
+     },
+     {
+      "A0:TRP87": "tb0",
+      "A0:MET172": "pt",
+      "A0:LEU236": "mt",
+      "A0:MET267": "tp"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.94,
+    "single_clashes": []
+   },
+   "ligand": "6NT:A:401",
+   "ligand_name": "6-NITROBENZOTRIAZOLE",
+   "ligand_role": "TS analogue",
+   "treated": "1",
+   "holo_multi_chi12": "4",
+   "apo_multi_chi12": "3",
+   "whole_pocket_rmsd": "0.203",
+   "rscc": "0.982",
+   "res_apo": "1.37",
+   "res_holo": "1.32",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "1",
+   "candidates_in_component": "9"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Q2e938254667ffc06",
+   "case_id": "4e2004374c441952",
+   "apo": {
+    "chains": [
+     "B0",
+     "R1"
+    ],
+    "chain_names_in_pdb": {
+     "B0": "A",
+     "R1": "B"
+    },
+    "pocket_residues": [
+     "B0:ALA477",
+     "B0:LEU480",
+     "R1:PHE19",
+     "R1:ILE27",
+     "R1:LEU32",
+     "R1:MET51",
+     "R1:GLU54",
+     "R1:VAL55",
+     "R1:ILE63",
+     "R1:PHE68",
+     "R1:MET71"
+    ],
+    "multi_state_residues": {
+     "B0:LEU480": [
+      [
+       "tp",
+       0.53,
+       "D"
+      ],
+      [
+       "tt",
+       0.47,
+       "C"
+      ]
+     ],
+     "R1:PHE19": [
+      [
+       "mb2",
+       0.58,
+       "B"
+      ],
+      [
+       "mb1",
+       0.42,
+       "A"
+      ]
+     ],
+     "R1:LEU32": [
+      [
+       "tp",
+       0.55,
+       "C"
+      ],
+      [
+       "mt",
+       0.45,
+       "A"
+      ]
+     ],
+     "R1:MET51": [
+      [
+       "tt",
+       0.51,
+       "B"
+      ],
+      [
+       "mt",
+       0.49,
+       "A"
+      ]
+     ],
+     "R1:GLU54": [
+      [
+       "tp",
+       0.81,
+       "A"
+      ],
+      [
+       "mt",
+       0.19,
+       "C"
+      ]
+     ]
+    },
+    "combinations_total": 32,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {},
+     {
+      "B0:LEU480": "tt",
+      "R1:PHE19": "mb1",
+      "R1:LEU32": "tp",
+      "R1:MET51": "tt",
+      "R1:GLU54": "mt"
+     },
+     {
+      "B0:LEU480": "tt",
+      "R1:PHE19": "mb1",
+      "R1:LEU32": "mt",
+      "R1:MET51": "mt",
+      "R1:GLU54": "tp"
+     },
+     {
+      "B0:LEU480": "tp",
+      "R1:PHE19": "mb2",
+      "R1:LEU32": "tp",
+      "R1:MET51": "mt",
+      "R1:GLU54": "tp"
+     },
+     {
+      "B0:LEU480": "tp",
+      "R1:PHE19": "mb2",
+      "R1:LEU32": "mt",
+      "R1:MET51": "tt",
+      "R1:GLU54": "tp"
+     },
+     {
+      "B0:LEU480": "tp",
+      "R1:PHE19": "mb1",
+      "R1:LEU32": "mt",
+      "R1:MET51": "tt",
+      "R1:GLU54": "tp"
+     },
+     {
+      "B0:LEU480": "tp",
+      "R1:PHE19": "mb1",
+      "R1:LEU32": "tp",
+      "R1:MET51": "mt",
+      "R1:GLU54": "tp"
+     },
+     {
+      "B0:LEU480": "tt",
+      "R1:PHE19": "mb2",
+      "R1:LEU32": "tp",
+      "R1:MET51": "mt",
+      "R1:GLU54": "tp"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 2.32,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "B0",
+     "R1"
+    ],
+    "chain_names_in_pdb": {
+     "B0": "A",
+     "R1": "B"
+    },
+    "pocket_residues": [
+     "B0:ALA477",
+     "B0:LEU480",
+     "B0:VAL481",
+     "R1:PHE19",
+     "R1:ILE27",
+     "R1:LEU32",
+     "R1:MET51",
+     "R1:GLU54",
+     "R1:VAL55",
+     "R1:ILE63",
+     "R1:PHE68",
+     "R1:MET71",
+     "R1:LYS75"
+    ],
+    "multi_state_residues": {
+     "B0:LEU480": [
+      [
+       "mt",
+       0.66,
+       "C"
+      ],
+      [
+       "mp",
+       0.34,
+       "B"
+      ]
+     ],
+     "R1:PHE19": [
+      [
+       "mb1",
+       0.88,
+       "A"
+      ],
+      [
+       "mb2",
+       0.12,
+       "C"
+      ]
+     ],
+     "R1:MET51": [
+      [
+       "mt",
+       0.65,
+       "A"
+      ],
+      [
+       "pt",
+       0.24,
+       "B"
+      ],
+      [
+       "tt",
+       0.11,
+       "D"
+      ]
+     ],
+     "R1:GLU54": [
+      [
+       "tp",
+       0.61,
+       "B"
+      ],
+      [
+       "tt",
+       0.39,
+       "A"
+      ]
+     ],
+     "R1:VAL55": [
+      [
+       "m",
+       0.75,
+       "A"
+      ],
+      [
+       "p",
+       0.25,
+       "B"
+      ]
+     ],
+     "R1:LYS75": [
+      [
+       "mt",
+       0.76,
+       "A"
+      ],
+      [
+       "pt",
+       0.24,
+       "C"
+      ]
+     ]
+    },
+    "combinations_total": 96,
+    "multi_receptors": 3,
+    "rejected_for_clash": 5,
+    "combos": [
+     {},
+     {
+      "B0:LEU480": "mt",
+      "R1:PHE19": "mb1",
+      "R1:MET51": "pt",
+      "R1:GLU54": "tp",
+      "R1:VAL55": "m",
+      "R1:LYS75": "mt"
+     },
+     {
+      "B0:LEU480": "mt",
+      "R1:PHE19": "mb2",
+      "R1:MET51": "pt",
+      "R1:GLU54": "tp",
+      "R1:VAL55": "m",
+      "R1:LYS75": "mt"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 2.61,
+    "single_clashes": []
+   },
+   "ligand": "PHU:R:1006",
+   "ligand_name": "1-phenylurea",
+   "ligand_role": "weak modulator / pocket fragment",
+   "treated": "1",
+   "holo_multi_chi12": "5",
+   "apo_multi_chi12": "5",
+   "whole_pocket_rmsd": "0.461",
+   "rscc": "0.917",
+   "res_apo": "1.51",
+   "res_holo": "1.65",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "1",
+   "candidates_in_component": "1"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Q403d6c2f54b32f0f",
+   "case_id": "172d7da9c683ce21",
+   "apo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:PRO108",
+     "A0:ALA120",
+     "A0:ALA121",
+     "A0:ASN122",
+     "A0:GLY127",
+     "A0:GLY128",
+     "A0:GLY129",
+     "A0:GLY130",
+     "A0:VAL131",
+     "A0:ASP132",
+     "A0:ALA134",
+     "A0:ARG137",
+     "A0:CYS207",
+     "A0:CYS208",
+     "A0:VAL209",
+     "A0:SER210",
+     "A0:THR211",
+     "A0:GLY212",
+     "A0:VAL213",
+     "A0:TYR214",
+     "A0:PHE248",
+     "A0:GLN249",
+     "A0:GLU252"
+    ],
+    "multi_state_residues": {
+     "A0:ASN122": [
+      [
+       "pb0",
+       0.72,
+       "C"
+      ],
+      [
+       "pb1",
+       0.28,
+       "A"
+      ]
+     ],
+     "A0:VAL131": [
+      [
+       "p",
+       0.69,
+       "A"
+      ],
+      [
+       "m",
+       0.31,
+       "D"
+      ]
+     ],
+     "A0:ASP132": [
+      [
+       "tb0",
+       0.6,
+       "D"
+      ],
+      [
+       "tb2",
+       0.4,
+       "C"
+      ]
+     ],
+     "A0:ARG137": [
+      [
+       "mt",
+       0.69,
+       "A"
+      ],
+      [
+       "tt",
+       0.31,
+       "D"
+      ]
+     ],
+     "A0:VAL213": [
+      [
+       "t",
+       0.46,
+       "C"
+      ],
+      [
+       "m",
+       0.28,
+       "D"
+      ],
+      [
+       "p",
+       0.26,
+       "A"
+      ]
+     ],
+     "A0:TYR214": [
+      [
+       "mb0",
+       0.74,
+       "D"
+      ],
+      [
+       "mb2",
+       0.26,
+       "A"
+      ]
+     ],
+     "A0:GLN249": [
+      [
+       "mm",
+       0.53,
+       "C"
+      ],
+      [
+       "mt",
+       0.47,
+       "A"
+      ]
+     ]
+    },
+    "combinations_total": 192,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {},
+     {
+      "A0:ASN122": "pb0",
+      "A0:VAL131": "p",
+      "A0:ASP132": "tb0",
+      "A0:ARG137": "mt",
+      "A0:VAL213": "m",
+      "A0:TYR214": "mb2",
+      "A0:GLN249": "mt"
+     },
+     {
+      "A0:ASN122": "pb1",
+      "A0:VAL131": "p",
+      "A0:ASP132": "tb0",
+      "A0:ARG137": "tt",
+      "A0:VAL213": "p",
+      "A0:TYR214": "mb0",
+      "A0:GLN249": "mt"
+     },
+     {
+      "A0:ASN122": "pb0",
+      "A0:VAL131": "p",
+      "A0:ASP132": "tb0",
+      "A0:ARG137": "mt",
+      "A0:VAL213": "m",
+      "A0:TYR214": "mb2",
+      "A0:GLN249": "mm"
+     },
+     {
+      "A0:ASN122": "pb0",
+      "A0:VAL131": "p",
+      "A0:ASP132": "tb2",
+      "A0:ARG137": "mt",
+      "A0:VAL213": "t",
+      "A0:TYR214": "mb0",
+      "A0:GLN249": "mt"
+     },
+     {
+      "A0:ASN122": "pb0",
+      "A0:VAL131": "p",
+      "A0:ASP132": "tb0",
+      "A0:ARG137": "mt",
+      "A0:VAL213": "p",
+      "A0:TYR214": "mb0",
+      "A0:GLN249": "mt"
+     },
+     {
+      "A0:ASN122": "pb0",
+      "A0:VAL131": "m",
+      "A0:ASP132": "tb0",
+      "A0:ARG137": "mt",
+      "A0:VAL213": "m",
+      "A0:TYR214": "mb2",
+      "A0:GLN249": "mt"
+     },
+     {
+      "A0:ASN122": "pb1",
+      "A0:VAL131": "p",
+      "A0:ASP132": "tb2",
+      "A0:ARG137": "mt",
+      "A0:VAL213": "m",
+      "A0:TYR214": "mb0",
+      "A0:GLN249": "mm"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 2.76,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:PRO108",
+     "A0:ALA120",
+     "A0:ALA121",
+     "A0:ASN122",
+     "A0:GLY127",
+     "A0:GLY128",
+     "A0:GLY129",
+     "A0:GLY130",
+     "A0:VAL131",
+     "A0:ASP132",
+     "A0:ALA134",
+     "A0:ARG137",
+     "A0:CYS207",
+     "A0:CYS208",
+     "A0:VAL209",
+     "A0:SER210",
+     "A0:THR211",
+     "A0:GLY212",
+     "A0:VAL213",
+     "A0:TYR214",
+     "A0:GLY215",
+     "A0:PHE248",
+     "A0:GLN249",
+     "A0:GLU252"
+    ],
+    "multi_state_residues": {
+     "A0:ASN122": [
+      [
+       "pb1",
+       0.84,
+       "A"
+      ],
+      [
+       "pb0",
+       0.16,
+       "C"
+      ]
+     ],
+     "A0:ASP132": [
+      [
+       "tb0",
+       0.57,
+       "A"
+      ],
+      [
+       "tb2",
+       0.43,
+       "D"
+      ]
+     ],
+     "A0:ARG137": [
+      [
+       "mt",
+       0.43,
+       "D"
+      ],
+      [
+       "tt",
+       0.31,
+       "A"
+      ],
+      [
+       "pt",
+       0.26,
+       "B"
+      ]
+     ],
+     "A0:VAL213": [
+      [
+       "t",
+       0.44,
+       "B"
+      ],
+      [
+       "m",
+       0.32,
+       "C"
+      ],
+      [
+       "p",
+       0.24,
+       "A"
+      ]
+     ],
+     "A0:TYR214": [
+      [
+       "mb0",
+       0.76,
+       "B"
+      ],
+      [
+       "mb2",
+       0.24,
+       "A"
+      ]
+     ],
+     "A0:PHE248": [
+      [
+       "tb1",
+       0.72,
+       "B"
+      ],
+      [
+       "tb0",
+       0.28,
+       "C"
+      ]
+     ]
+    },
+    "combinations_total": 144,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {},
+     {
+      "A0:ASN122": "pb1",
+      "A0:ASP132": "tb0",
+      "A0:ARG137": "tt",
+      "A0:VAL213": "t",
+      "A0:TYR214": "mb0",
+      "A0:PHE248": "tb1"
+     },
+     {
+      "A0:ASN122": "pb1",
+      "A0:ASP132": "tb2",
+      "A0:ARG137": "mt",
+      "A0:VAL213": "t",
+      "A0:TYR214": "mb0",
+      "A0:PHE248": "tb0"
+     },
+     {
+      "A0:ASN122": "pb1",
+      "A0:ASP132": "tb0",
+      "A0:ARG137": "tt",
+      "A0:VAL213": "t",
+      "A0:TYR214": "mb2",
+      "A0:PHE248": "tb0"
+     },
+     {
+      "A0:ASN122": "pb1",
+      "A0:ASP132": "tb2",
+      "A0:ARG137": "pt",
+      "A0:VAL213": "t",
+      "A0:TYR214": "mb0",
+      "A0:PHE248": "tb1"
+     },
+     {
+      "A0:ASN122": "pb1",
+      "A0:ASP132": "tb0",
+      "A0:ARG137": "mt",
+      "A0:VAL213": "m",
+      "A0:TYR214": "mb0",
+      "A0:PHE248": "tb0"
+     },
+     {
+      "A0:ASN122": "pb1",
+      "A0:ASP132": "tb0",
+      "A0:ARG137": "tt",
+      "A0:VAL213": "p",
+      "A0:TYR214": "mb0",
+      "A0:PHE248": "tb0"
+     },
+     {
+      "A0:ASN122": "pb1",
+      "A0:ASP132": "tb0",
+      "A0:ARG137": "tt",
+      "A0:VAL213": "m",
+      "A0:TYR214": "mb0",
+      "A0:PHE248": "tb1"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.91,
+    "single_clashes": []
+   },
+   "ligand": "AR6:A:1262",
+   "ligand_name": "[(2R,3S,4R,5R)-5-(6-AMINOPURIN-9-YL)-3,4-DIHYDROXY-OXOLAN-2-YL]METHYL[HYDROXY-[[(2R,3S,4R,5S)-3,4,5-TRIHYDROXYOXOLAN-2-YL]METHOXY]PHOSPHORYL] HYDROGEN PHOSPHATE",
+   "ligand_role": "substrate/product",
+   "treated": "1",
+   "holo_multi_chi12": "6",
+   "apo_multi_chi12": "7",
+   "whole_pocket_rmsd": "0.588",
+   "rscc": "0.974",
+   "res_apo": "1.2",
+   "res_holo": "1.7",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "1",
+   "candidates_in_component": "1"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Q4357fad1fd6385d8",
+   "case_id": "274d968ed2de6c64",
+   "apo": {
+    "chains": [
+     "A0",
+     "A1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "A1": "B"
+    },
+    "pocket_residues": [
+     "A0:MET64",
+     "A0:ARG87",
+     "A0:THR90",
+     "A0:CYS91",
+     "A0:GLY92",
+     "A0:PHE159",
+     "A0:VAL178",
+     "A0:GLU179",
+     "A0:MET180",
+     "A0:GLU181",
+     "A0:SER203",
+     "A0:ASP204",
+     "A0:ILE206",
+     "A1:HIS4",
+     "A1:ARG43",
+     "A1:ILE71"
+    ],
+    "multi_state_residues": {
+     "A0:VAL178": [
+      [
+       "t",
+       0.703,
+       "A"
+      ],
+      [
+       "p",
+       0.297,
+       "D"
+      ]
+     ],
+     "A0:SER203": [
+      [
+       "p",
+       0.56,
+       "C"
+      ],
+      [
+       "m",
+       0.44,
+       "A"
+      ]
+     ],
+     "A0:ILE206": [
+      [
+       "mp",
+       0.51,
+       "A"
+      ],
+      [
+       "pt",
+       0.49,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 8,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:VAL178": "t",
+      "A0:SER203": "p",
+      "A0:ILE206": "mp"
+     },
+     {
+      "A0:VAL178": "t",
+      "A0:SER203": "p",
+      "A0:ILE206": "pt"
+     },
+     {
+      "A0:VAL178": "t",
+      "A0:SER203": "m",
+      "A0:ILE206": "mp"
+     },
+     {
+      "A0:VAL178": "t",
+      "A0:SER203": "m",
+      "A0:ILE206": "pt"
+     },
+     {
+      "A0:VAL178": "p",
+      "A0:SER203": "p",
+      "A0:ILE206": "mp"
+     },
+     {
+      "A0:VAL178": "p",
+      "A0:SER203": "p",
+      "A0:ILE206": "pt"
+     },
+     {
+      "A0:VAL178": "p",
+      "A0:SER203": "m",
+      "A0:ILE206": "mp"
+     },
+     {
+      "A0:VAL178": "p",
+      "A0:SER203": "m",
+      "A0:ILE206": "pt"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.5,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0",
+     "A1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "A1": "B"
+    },
+    "pocket_residues": [
+     "A0:MET64",
+     "A0:ARG87",
+     "A0:THR90",
+     "A0:CYS91",
+     "A0:GLY92",
+     "A0:PHE159",
+     "A0:VAL178",
+     "A0:GLU179",
+     "A0:MET180",
+     "A0:GLU181",
+     "A0:SER203",
+     "A0:ASP204",
+     "A0:ILE206",
+     "A1:HIS4",
+     "A1:ARG43",
+     "A1:ILE71"
+    ],
+    "multi_state_residues": {
+     "A0:VAL178": [
+      [
+       "t",
+       0.51,
+       "D"
+      ],
+      [
+       "p",
+       0.49,
+       "A"
+      ]
+     ],
+     "A0:ILE206": [
+      [
+       "mt",
+       0.53,
+       "B"
+      ],
+      [
+       "pt",
+       0.47,
+       "A"
+      ]
+     ]
+    },
+    "combinations_total": 4,
+    "multi_receptors": 4,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:VAL178": "t",
+      "A0:ILE206": "mt"
+     },
+     {
+      "A0:VAL178": "t",
+      "A0:ILE206": "pt"
+     },
+     {
+      "A0:VAL178": "p",
+      "A0:ILE206": "mt"
+     },
+     {
+      "A0:VAL178": "p",
+      "A0:ILE206": "pt"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.93,
+    "single_clashes": []
+   },
+   "ligand": "ADN:A:236",
+   "ligand_name": "ADENOSINE",
+   "ligand_role": "substrate",
+   "treated": "1",
+   "holo_multi_chi12": "2",
+   "apo_multi_chi12": "3",
+   "whole_pocket_rmsd": "0.2",
+   "rscc": "0.984",
+   "res_apo": "1.4",
+   "res_holo": "1.2",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "1",
+   "candidates_in_component": "5"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Q4819d46ca698b01c",
+   "case_id": "2a61e70b2504eba1",
+   "apo": {
+    "chains": [
+     "A0",
+     "A1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "A1": "B"
+    },
+    "pocket_residues": [
+     "A0:GLU83",
+     "A0:ARG261",
+     "A0:THR264",
+     "A0:HIS265",
+     "A0:LYS267",
+     "A0:GLY268",
+     "A0:ASN271",
+     "A0:ALA368",
+     "A0:LEU369",
+     "A0:LEU372",
+     "A1:ILE213",
+     "A1:LEU214"
+    ],
+    "multi_state_residues": {},
+    "combinations_total": 1,
+    "multi_receptors": 1,
+    "rejected_for_clash": 0,
+    "combos": [
+     {}
+    ],
+    "max_graft_chi_deviation_deg": 0.0,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0",
+     "A1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "A1": "B"
+    },
+    "pocket_residues": [
+     "A0:GLU83",
+     "A0:ARG261",
+     "A0:THR264",
+     "A0:HIS265",
+     "A0:LYS267",
+     "A0:GLY268",
+     "A0:ASN271",
+     "A0:ALA368",
+     "A0:LEU369",
+     "A0:LEU372",
+     "A1:ILE213",
+     "A1:LEU214"
+    ],
+    "multi_state_residues": {
+     "A0:LEU369": [
+      [
+       "mp",
+       0.845,
+       "D"
+      ],
+      [
+       "mt",
+       0.155,
+       "C"
+      ]
+     ],
+     "A0:LEU372": [
+      [
+       "mt",
+       0.845,
+       "D"
+      ],
+      [
+       "mp",
+       0.155,
+       "C"
+      ]
+     ]
+    },
+    "combinations_total": 4,
+    "multi_receptors": 4,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:LEU369": "mp",
+      "A0:LEU372": "mt"
+     },
+     {
+      "A0:LEU369": "mp",
+      "A0:LEU372": "mp"
+     },
+     {
+      "A0:LEU369": "mt",
+      "A0:LEU372": "mt"
+     },
+     {
+      "A0:LEU369": "mt",
+      "A0:LEU372": "mp"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.6,
+    "single_clashes": []
+   },
+   "ligand": "MEV:A:501",
+   "ligand_name": "(R)-MEVALONATE",
+   "ligand_role": "product",
+   "treated": "0",
+   "holo_multi_chi12": "2",
+   "apo_multi_chi12": "0",
+   "whole_pocket_rmsd": "0.055",
+   "rscc": "0.918",
+   "res_apo": "1.93",
+   "res_holo": "1.49",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "1",
+   "candidates_in_component": "1"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Q92b4b8ac3490e160",
+   "case_id": "fe02a159def13cce",
+   "apo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:GLY20",
+     "A0:ASP21",
+     "A0:ALA22",
+     "A0:ILE23",
+     "A0:ALA37",
+     "A0:ALA38",
+     "A0:ASN39",
+     "A0:LYS43",
+     "A0:HIS44",
+     "A0:GLY45",
+     "A0:GLY46",
+     "A0:GLY47",
+     "A0:ILE48",
+     "A0:ALA49",
+     "A0:PRO124",
+     "A0:LEU125",
+     "A0:VAL126",
+     "A0:SER127",
+     "A0:ALA128",
+     "A0:GLY129",
+     "A0:ILE130",
+     "A0:PHE131",
+     "A0:VAL153",
+     "A0:VAL154",
+     "A0:ASN155"
+    ],
+    "multi_state_residues": {
+     "A0:ASP21": [
+      [
+       "tb2",
+       0.61,
+       "B"
+      ],
+      [
+       "tb0",
+       0.24,
+       "A"
+      ],
+      [
+       "pb2",
+       0.15,
+       "C"
+      ]
+     ],
+     "A0:ILE23": [
+      [
+       "mt",
+       0.76,
+       "B"
+      ],
+      [
+       "pt",
+       0.24,
+       "A"
+      ]
+     ],
+     "A0:ASN39": [
+      [
+       "pb0",
+       0.54,
+       "A"
+      ],
+      [
+       "mb0",
+       0.31,
+       "D"
+      ],
+      [
+       "pb5",
+       0.15,
+       "E"
+      ]
+     ],
+     "A0:LYS43": [
+      [
+       "mm",
+       0.54,
+       "A"
+      ],
+      [
+       "tp",
+       0.31,
+       "D"
+      ],
+      [
+       "pt",
+       0.15,
+       "E"
+      ]
+     ],
+     "A0:HIS44": [
+      [
+       "mb5",
+       0.54,
+       "A"
+      ],
+      [
+       "tb1",
+       0.16,
+       "D"
+      ],
+      [
+       "tb5",
+       0.15,
+       "B"
+      ],
+      [
+       "mb4",
+       0.15,
+       "E"
+      ]
+     ],
+     "A0:ILE48": [
+      [
+       "tt",
+       0.81,
+       "C"
+      ],
+      [
+       "tp",
+       0.19,
+       "A"
+      ]
+     ],
+     "A0:LEU125": [
+      [
+       "mt",
+       0.65,
+       "A"
+      ],
+      [
+       "mm",
+       0.24,
+       "C"
+      ],
+      [
+       "pp",
+       0.11,
+       "D"
+      ]
+     ],
+     "A0:VAL126": [
+      [
+       "t",
+       0.75,
+       "A"
+      ],
+      [
+       "p",
+       0.14,
+       "B"
+      ],
+      [
+       "m",
+       0.11,
+       "D"
+      ]
+     ],
+     "A0:SER127": [
+      [
+       "p",
+       0.75,
+       "A"
+      ],
+      [
+       "m",
+       0.25,
+       "B"
+      ]
+     ],
+     "A0:ILE130": [
+      [
+       "pt",
+       0.62,
+       "A"
+      ],
+      [
+       "mm",
+       0.38,
+       "C"
+      ]
+     ],
+     "A0:PHE131": [
+      [
+       "mb0",
+       0.51,
+       "A"
+      ],
+      [
+       "mb2",
+       0.35,
+       "C"
+      ],
+      [
+       "tb1",
+       0.14,
+       "B"
+      ]
+     ],
+     "A0:VAL154": [
+      [
+       "p",
+       0.51,
+       "A"
+      ],
+      [
+       "m",
+       0.25,
+       "B"
+      ],
+      [
+       "t",
+       0.24,
+       "C"
+      ]
+     ],
+     "A0:ASN155": [
+      [
+       "tb1",
+       0.62,
+       "A"
+      ],
+      [
+       "pb0",
+       0.38,
+       "C"
+      ]
+     ]
+    },
+    "combinations_total": 279936,
+    "multi_receptors": 4,
+    "rejected_for_clash": 4,
+    "combos": [
+     {},
+     {
+      "A0:ASP21": "tb0",
+      "A0:ILE23": "mt",
+      "A0:ASN39": "pb0",
+      "A0:LYS43": "mm",
+      "A0:HIS44": "mb5",
+      "A0:ILE48": "tp",
+      "A0:LEU125": "mt",
+      "A0:VAL126": "t",
+      "A0:SER127": "p",
+      "A0:ILE130": "mm",
+      "A0:PHE131": "mb0",
+      "A0:VAL154": "p",
+      "A0:ASN155": "tb1"
+     },
+     {
+      "A0:ASP21": "tb0",
+      "A0:ILE23": "mt",
+      "A0:ASN39": "pb0",
+      "A0:LYS43": "mm",
+      "A0:HIS44": "mb5",
+      "A0:ILE48": "tt",
+      "A0:LEU125": "mt",
+      "A0:VAL126": "t",
+      "A0:SER127": "p",
+      "A0:ILE130": "mm",
+      "A0:PHE131": "mb0",
+      "A0:VAL154": "p",
+      "A0:ASN155": "tb1"
+     },
+     {
+      "A0:ASP21": "tb2",
+      "A0:ILE23": "mt",
+      "A0:ASN39": "pb0",
+      "A0:LYS43": "pt",
+      "A0:HIS44": "mb5",
+      "A0:ILE48": "tt",
+      "A0:LEU125": "mt",
+      "A0:VAL126": "t",
+      "A0:SER127": "p",
+      "A0:ILE130": "pt",
+      "A0:PHE131": "mb2",
+      "A0:VAL154": "m",
+      "A0:ASN155": "tb1"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 3.93,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:GLY20",
+     "A0:ASP21",
+     "A0:ALA22",
+     "A0:ALA37",
+     "A0:ALA38",
+     "A0:ASN39",
+     "A0:LYS43",
+     "A0:HIS44",
+     "A0:GLY45",
+     "A0:GLY46",
+     "A0:GLY47",
+     "A0:ILE48",
+     "A0:ALA49",
+     "A0:GLY50",
+     "A0:PRO124",
+     "A0:LEU125",
+     "A0:VAL126",
+     "A0:SER127",
+     "A0:ALA128",
+     "A0:GLY129",
+     "A0:ILE130",
+     "A0:PHE131",
+     "A0:VAL153",
+     "A0:VAL154",
+     "A0:ASN155"
+    ],
+    "multi_state_residues": {
+     "A0:ASP21": [
+      [
+       "tb2",
+       0.545,
+       "B"
+      ],
+      [
+       "tb0",
+       0.188,
+       "C"
+      ],
+      [
+       "pb1",
+       0.139,
+       "D"
+      ],
+      [
+       "mb1",
+       0.129,
+       "A"
+      ]
+     ],
+     "A0:HIS44": [
+      [
+       "mb5",
+       0.602,
+       "B"
+      ],
+      [
+       "mb1",
+       0.296,
+       "A"
+      ],
+      [
+       "pb1",
+       0.102,
+       "D"
+      ]
+     ],
+     "A0:ILE48": [
+      [
+       "tt",
+       0.856,
+       "D"
+      ],
+      [
+       "tm",
+       0.144,
+       "B"
+      ]
+     ],
+     "A0:VAL126": [
+      [
+       "t",
+       0.862,
+       "A"
+      ],
+      [
+       "m",
+       0.138,
+       "B"
+      ]
+     ],
+     "A0:SER127": [
+      [
+       "m",
+       0.897,
+       "A"
+      ],
+      [
+       "p",
+       0.103,
+       "D"
+      ]
+     ],
+     "A0:ILE130": [
+      [
+       "mm",
+       0.596,
+       "A"
+      ],
+      [
+       "pt",
+       0.404,
+       "D"
+      ]
+     ],
+     "A0:ASN155": [
+      [
+       "tb0",
+       0.584,
+       "A"
+      ],
+      [
+       "pb5",
+       0.416,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 384,
+    "multi_receptors": 7,
+    "rejected_for_clash": 1,
+    "combos": [
+     {},
+     {
+      "A0:ASP21": "tb2",
+      "A0:HIS44": "mb5",
+      "A0:ILE48": "tt",
+      "A0:VAL126": "t",
+      "A0:SER127": "m",
+      "A0:ILE130": "mm",
+      "A0:ASN155": "pb5"
+     },
+     {
+      "A0:ASP21": "tb0",
+      "A0:HIS44": "mb5",
+      "A0:ILE48": "tt",
+      "A0:VAL126": "t",
+      "A0:SER127": "m",
+      "A0:ILE130": "mm",
+      "A0:ASN155": "tb0"
+     },
+     {
+      "A0:ASP21": "tb0",
+      "A0:HIS44": "mb5",
+      "A0:ILE48": "tm",
+      "A0:VAL126": "m",
+      "A0:SER127": "m",
+      "A0:ILE130": "pt",
+      "A0:ASN155": "pb5"
+     },
+     {
+      "A0:ASP21": "pb1",
+      "A0:HIS44": "mb5",
+      "A0:ILE48": "tt",
+      "A0:VAL126": "t",
+      "A0:SER127": "m",
+      "A0:ILE130": "mm",
+      "A0:ASN155": "pb5"
+     },
+     {
+      "A0:ASP21": "tb2",
+      "A0:HIS44": "mb5",
+      "A0:ILE48": "tt",
+      "A0:VAL126": "t",
+      "A0:SER127": "m",
+      "A0:ILE130": "pt",
+      "A0:ASN155": "pb5"
+     },
+     {
+      "A0:ASP21": "pb1",
+      "A0:HIS44": "mb5",
+      "A0:ILE48": "tt",
+      "A0:VAL126": "m",
+      "A0:SER127": "p",
+      "A0:ILE130": "pt",
+      "A0:ASN155": "pb5"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 1.36,
+    "single_clashes": []
+   },
+   "ligand": "APR:A:201",
+   "ligand_name": "ADENOSINE-5-DIPHOSPHORIBOSE",
+   "ligand_role": "substrate/product",
+   "treated": "1",
+   "holo_multi_chi12": "7",
+   "apo_multi_chi12": "12",
+   "whole_pocket_rmsd": "0.48",
+   "rscc": "0.968",
+   "res_apo": "1.66",
+   "res_holo": "1.59",
+   "holo_crystal_dependence": "minor",
+   "apo_crystal_dependence": "minor",
+   "previous_representative": "1",
+   "candidates_in_component": "2"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Qb658135f14f2b435",
+   "case_id": "3defdfd8f936876e",
+   "apo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:TRP18",
+     "A0:ILE21",
+     "A0:LEU24",
+     "A0:ALA25",
+     "A0:THR28",
+     "A0:ASP29",
+     "A0:GLN54",
+     "A0:VAL57",
+     "A0:LEU90",
+     "A0:VAL94",
+     "A0:ALA97",
+     "A0:PHE123",
+     "A0:VAL124",
+     "A0:LEU126",
+     "A0:GLY127",
+     "A0:ASN128",
+     "A0:ALA130",
+     "A0:ASP131",
+     "A0:PHE134"
+    ],
+    "multi_state_residues": {
+     "A0:TRP18": [
+      [
+       "tb4",
+       0.88,
+       "C"
+      ],
+      [
+       "tb1",
+       0.12,
+       "B"
+      ]
+     ],
+     "A0:LEU126": [
+      [
+       "mt",
+       0.83,
+       "B"
+      ],
+      [
+       "mm",
+       0.17,
+       "A"
+      ]
+     ],
+     "A0:ASN128": [
+      [
+       "mb5",
+       0.83,
+       "B"
+      ],
+      [
+       "mb2",
+       0.17,
+       "A"
+      ]
+     ]
+    },
+    "combinations_total": 8,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:TRP18": "tb4",
+      "A0:LEU126": "mt",
+      "A0:ASN128": "mb5"
+     },
+     {
+      "A0:TRP18": "tb4",
+      "A0:LEU126": "mt",
+      "A0:ASN128": "mb2"
+     },
+     {
+      "A0:TRP18": "tb4",
+      "A0:LEU126": "mm",
+      "A0:ASN128": "mb5"
+     },
+     {
+      "A0:TRP18": "tb4",
+      "A0:LEU126": "mm",
+      "A0:ASN128": "mb2"
+     },
+     {
+      "A0:TRP18": "tb1",
+      "A0:LEU126": "mt",
+      "A0:ASN128": "mb5"
+     },
+     {
+      "A0:TRP18": "tb1",
+      "A0:LEU126": "mt",
+      "A0:ASN128": "mb2"
+     },
+     {
+      "A0:TRP18": "tb1",
+      "A0:LEU126": "mm",
+      "A0:ASN128": "mb5"
+     },
+     {
+      "A0:TRP18": "tb1",
+      "A0:LEU126": "mm",
+      "A0:ASN128": "mb2"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.88,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0",
+     "C1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "C1": "B"
+    },
+    "pocket_residues": [
+     "A0:ILE21",
+     "A0:LEU24",
+     "A0:ALA25",
+     "A0:THR28",
+     "A0:ASP29",
+     "A0:GLU32",
+     "A0:GLN54",
+     "A0:VAL57",
+     "A0:LEU90",
+     "A0:VAL94",
+     "A0:ALA97",
+     "A0:PHE123",
+     "A0:VAL124",
+     "A0:GLY127",
+     "A0:ALA130",
+     "A0:ASP131",
+     "A0:PHE134"
+    ],
+    "multi_state_residues": {
+     "A0:ASP131": [
+      [
+       "tb1",
+       0.61,
+       "A"
+      ],
+      [
+       "tb2",
+       0.39,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 2,
+    "multi_receptors": 2,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:ASP131": "tb1"
+     },
+     {
+      "A0:ASP131": "tb2"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.07,
+    "single_clashes": []
+   },
+   "ligand": "IQM:A:201",
+   "ligand_name": "5-fluoro-2-{4-[(methylamino)methyl]phenyl}-1-benzofuran-7-carboxamide",
+   "ligand_role": "designed-binder ligand",
+   "treated": "1",
+   "holo_multi_chi12": "1",
+   "apo_multi_chi12": "2",
+   "whole_pocket_rmsd": "0.253",
+   "rscc": "0.918",
+   "res_apo": "1.61",
+   "res_holo": "1.4",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "0",
+   "candidates_in_component": "8"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Qc50f788b8b4c3247",
+   "case_id": "d1ef3ccf4bf68009",
+   "apo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:PRO16",
+     "A0:TYR17",
+     "A0:ASN120",
+     "A0:PHE123",
+     "A0:ARG124",
+     "A0:TRP127",
+     "A0:PHE128",
+     "A0:PHE168",
+     "A0:ARG171",
+     "A0:MET172",
+     "A0:TYR175"
+    ],
+    "multi_state_residues": {
+     "A0:ASN120": [
+      [
+       "tb0",
+       0.51,
+       "A"
+      ],
+      [
+       "tb3",
+       0.49,
+       "B"
+      ]
+     ],
+     "A0:PHE123": [
+      [
+       "mb2",
+       0.51,
+       "A"
+      ],
+      [
+       "mb1",
+       0.49,
+       "B"
+      ]
+     ],
+     "A0:PHE128": [
+      [
+       "mb2",
+       0.51,
+       "A"
+      ],
+      [
+       "mb1",
+       0.49,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 8,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:ASN120": "tb0",
+      "A0:PHE123": "mb2",
+      "A0:PHE128": "mb2"
+     },
+     {
+      "A0:ASN120": "tb0",
+      "A0:PHE123": "mb2",
+      "A0:PHE128": "mb1"
+     },
+     {
+      "A0:ASN120": "tb0",
+      "A0:PHE123": "mb1",
+      "A0:PHE128": "mb2"
+     },
+     {
+      "A0:ASN120": "tb0",
+      "A0:PHE123": "mb1",
+      "A0:PHE128": "mb1"
+     },
+     {
+      "A0:ASN120": "tb3",
+      "A0:PHE123": "mb2",
+      "A0:PHE128": "mb2"
+     },
+     {
+      "A0:ASN120": "tb3",
+      "A0:PHE123": "mb2",
+      "A0:PHE128": "mb1"
+     },
+     {
+      "A0:ASN120": "tb3",
+      "A0:PHE123": "mb1",
+      "A0:PHE128": "mb2"
+     },
+     {
+      "A0:ASN120": "tb3",
+      "A0:PHE123": "mb1",
+      "A0:PHE128": "mb1"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.69,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:PHE14",
+     "A0:PRO16",
+     "A0:TYR17",
+     "A0:ASN120",
+     "A0:PHE123",
+     "A0:ARG124",
+     "A0:TRP127",
+     "A0:PHE128",
+     "A0:PHE168",
+     "A0:ARG171",
+     "A0:MET172",
+     "A0:TYR175"
+    ],
+    "multi_state_residues": {
+     "A0:PRO16": [
+      [
+       "p",
+       0.76,
+       "B"
+      ],
+      [
+       "m",
+       0.24,
+       "A"
+      ]
+     ],
+     "A0:ASN120": [
+      [
+       "tb4",
+       0.5,
+       "A"
+      ],
+      [
+       "tb0",
+       0.5,
+       "B"
+      ]
+     ],
+     "A0:PHE123": [
+      [
+       "mb2",
+       0.51,
+       "B"
+      ],
+      [
+       "mb1",
+       0.49,
+       "A"
+      ]
+     ]
+    },
+    "combinations_total": 8,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:PRO16": "p",
+      "A0:ASN120": "tb4",
+      "A0:PHE123": "mb2"
+     },
+     {
+      "A0:PRO16": "p",
+      "A0:ASN120": "tb4",
+      "A0:PHE123": "mb1"
+     },
+     {
+      "A0:PRO16": "p",
+      "A0:ASN120": "tb0",
+      "A0:PHE123": "mb2"
+     },
+     {
+      "A0:PRO16": "p",
+      "A0:ASN120": "tb0",
+      "A0:PHE123": "mb1"
+     },
+     {
+      "A0:PRO16": "m",
+      "A0:ASN120": "tb4",
+      "A0:PHE123": "mb2"
+     },
+     {
+      "A0:PRO16": "m",
+      "A0:ASN120": "tb4",
+      "A0:PHE123": "mb1"
+     },
+     {
+      "A0:PRO16": "m",
+      "A0:ASN120": "tb0",
+      "A0:PHE123": "mb2"
+     },
+     {
+      "A0:PRO16": "m",
+      "A0:ASN120": "tb0",
+      "A0:PHE123": "mb1"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.34,
+    "single_clashes": []
+   },
+   "ligand": "CUT:A:300",
+   "ligand_name": "[2,4-bis(oxidanyl)phenyl]-phenyl-methanone",
+   "ligand_role": "substrate analogue",
+   "treated": "1",
+   "holo_multi_chi12": "3",
+   "apo_multi_chi12": "3",
+   "whole_pocket_rmsd": "0.116",
+   "rscc": "0.915",
+   "res_apo": "1.35",
+   "res_holo": "1.75",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "0",
+   "candidates_in_component": "2"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Qc73cfcfab42ac422",
+   "case_id": "8b5a09ff83941c82",
+   "apo": {
+    "chains": [
+     "A0",
+     "A1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "A1": "B"
+    },
+    "pocket_residues": [
+     "A0:ILE218",
+     "A0:ASN241",
+     "A0:TYR282",
+     "A0:TYR283",
+     "A1:LEU175",
+     "A1:MET178",
+     "A1:TYR179",
+     "A1:MET182"
+    ],
+    "multi_state_residues": {
+     "A0:ASN241": [
+      [
+       "mb4",
+       0.71,
+       "B"
+      ],
+      [
+       "mb1",
+       0.29,
+       "C"
+      ]
+     ],
+     "A0:TYR283": [
+      [
+       "mb1",
+       0.54,
+       "C"
+      ],
+      [
+       "mb0",
+       0.46,
+       "A"
+      ]
+     ],
+     "A1:MET182": [
+      [
+       "mt",
+       0.73,
+       "A"
+      ],
+      [
+       "tp",
+       0.27,
+       "D"
+      ]
+     ]
+    },
+    "combinations_total": 8,
+    "multi_receptors": 6,
+    "rejected_for_clash": 2,
+    "combos": [
+     {
+      "A0:ASN241": "mb4",
+      "A0:TYR283": "mb1",
+      "A1:MET182": "mt"
+     },
+     {
+      "A0:ASN241": "mb4",
+      "A0:TYR283": "mb1",
+      "A1:MET182": "tp"
+     },
+     {
+      "A0:ASN241": "mb4",
+      "A0:TYR283": "mb0",
+      "A1:MET182": "mt"
+     },
+     {
+      "A0:ASN241": "mb1",
+      "A0:TYR283": "mb1",
+      "A1:MET182": "mt"
+     },
+     {
+      "A0:ASN241": "mb1",
+      "A0:TYR283": "mb1",
+      "A1:MET182": "tp"
+     },
+     {
+      "A0:ASN241": "mb1",
+      "A0:TYR283": "mb0",
+      "A1:MET182": "mt"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.84,
+    "single_clashes": [
+     "A0:ASN241",
+     "A1:TYR179"
+    ]
+   },
+   "holo": {
+    "chains": [
+     "A0",
+     "A1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "A1": "B"
+    },
+    "pocket_residues": [
+     "A0:ASN241",
+     "A0:TYR282",
+     "A0:TYR283",
+     "A1:LEU175",
+     "A1:MET178",
+     "A1:TYR179",
+     "A1:MET182"
+    ],
+    "multi_state_residues": {
+     "A0:ASN241": [
+      [
+       "mb4",
+       0.57,
+       "C"
+      ],
+      [
+       "mb1",
+       0.43,
+       "B"
+      ]
+     ],
+     "A1:LEU175": [
+      [
+       "mt",
+       0.74,
+       "B"
+      ],
+      [
+       "mp",
+       0.26,
+       "A"
+      ]
+     ],
+     "A1:MET182": [
+      [
+       "tp",
+       0.68,
+       "B"
+      ],
+      [
+       "mm",
+       0.32,
+       "D"
+      ]
+     ]
+    },
+    "combinations_total": 8,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:ASN241": "mb4",
+      "A1:LEU175": "mt",
+      "A1:MET182": "tp"
+     },
+     {
+      "A0:ASN241": "mb4",
+      "A1:LEU175": "mt",
+      "A1:MET182": "mm"
+     },
+     {
+      "A0:ASN241": "mb4",
+      "A1:LEU175": "mp",
+      "A1:MET182": "tp"
+     },
+     {
+      "A0:ASN241": "mb4",
+      "A1:LEU175": "mp",
+      "A1:MET182": "mm"
+     },
+     {
+      "A0:ASN241": "mb1",
+      "A1:LEU175": "mt",
+      "A1:MET182": "tp"
+     },
+     {
+      "A0:ASN241": "mb1",
+      "A1:LEU175": "mt",
+      "A1:MET182": "mm"
+     },
+     {
+      "A0:ASN241": "mb1",
+      "A1:LEU175": "mp",
+      "A1:MET182": "tp"
+     },
+     {
+      "A0:ASN241": "mb1",
+      "A1:LEU175": "mp",
+      "A1:MET182": "mm"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 3.51,
+    "single_clashes": []
+   },
+   "ligand": "YLG:A:1291",
+   "ligand_name": "(1R)-1-methyl-1,2,3,4-tetrahydroisoquinoline",
+   "ligand_role": "product",
+   "treated": "1",
+   "holo_multi_chi12": "3",
+   "apo_multi_chi12": "3",
+   "whole_pocket_rmsd": "0.286",
+   "rscc": "0.853",
+   "res_apo": "1.55",
+   "res_holo": "1.43",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "1",
+   "candidates_in_component": "1"
+  },
+  {
+   "stratum": "main",
+   "homology_component": "Qf44483b2d65dea51",
+   "case_id": "8ec051785e59eb5b",
+   "apo": {
+    "chains": [
+     "A0",
+     "B1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "B1": "B"
+    },
+    "pocket_residues": [
+     "A0:GLN48",
+     "A0:ILE50",
+     "A0:ARG60",
+     "A0:HIS63",
+     "A0:TYR139",
+     "A0:THR141",
+     "A0:ARG169",
+     "B1:ARG23",
+     "B1:LEU26",
+     "B1:LEU28"
+    ],
+    "multi_state_residues": {
+     "A0:ILE50": [
+      [
+       "mt",
+       0.69,
+       "D"
+      ],
+      [
+       "mm",
+       0.31,
+       "C"
+      ]
+     ],
+     "A0:HIS63": [
+      [
+       "mb2",
+       0.72,
+       "D"
+      ],
+      [
+       "mb5",
+       0.28,
+       "C"
+      ]
+     ],
+     "A0:THR141": [
+      [
+       "m",
+       0.51,
+       "B"
+      ],
+      [
+       "p",
+       0.49,
+       "D"
+      ]
+     ],
+     "B1:LEU28": [
+      [
+       "mp",
+       0.55,
+       "A"
+      ],
+      [
+       "mt",
+       0.45,
+       "D"
+      ]
+     ]
+    },
+    "combinations_total": 16,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {},
+     {
+      "A0:ILE50": "mt",
+      "A0:HIS63": "mb2",
+      "A0:THR141": "p",
+      "B1:LEU28": "mp"
+     },
+     {
+      "A0:ILE50": "mt",
+      "A0:HIS63": "mb2",
+      "A0:THR141": "p",
+      "B1:LEU28": "mt"
+     },
+     {
+      "A0:ILE50": "mm",
+      "A0:HIS63": "mb5",
+      "A0:THR141": "m",
+      "B1:LEU28": "mt"
+     },
+     {
+      "A0:ILE50": "mm",
+      "A0:HIS63": "mb2",
+      "A0:THR141": "m",
+      "B1:LEU28": "mt"
+     },
+     {
+      "A0:ILE50": "mt",
+      "A0:HIS63": "mb5",
+      "A0:THR141": "m",
+      "B1:LEU28": "mp"
+     },
+     {
+      "A0:ILE50": "mt",
+      "A0:HIS63": "mb5",
+      "A0:THR141": "m",
+      "B1:LEU28": "mt"
+     },
+     {
+      "A0:ILE50": "mm",
+      "A0:HIS63": "mb5",
+      "A0:THR141": "m",
+      "B1:LEU28": "mp"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 1.21,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0",
+     "B1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "B1": "B"
+    },
+    "pocket_residues": [
+     "A0:GLN48",
+     "A0:ILE50",
+     "A0:ARG60",
+     "A0:HIS63",
+     "A0:TYR139",
+     "A0:THR141",
+     "A0:SER167",
+     "A0:ARG169",
+     "B1:PHE19",
+     "B1:ARG23",
+     "B1:LEU26",
+     "B1:LEU28"
+    ],
+    "multi_state_residues": {
+     "A0:ARG169": [
+      [
+       "pt",
+       0.76,
+       "B"
+      ],
+      [
+       "tt",
+       0.24,
+       "D"
+      ]
+     ]
+    },
+    "combinations_total": 2,
+    "multi_receptors": 2,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "A0:ARG169": "pt"
+     },
+     {
+      "A0:ARG169": "tt"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.67,
+    "single_clashes": [
+     "B1:PHE19"
+    ]
+   },
+   "ligand": "TMP:A:1204",
+   "ligand_name": "THYMIDINE-5'-PHOSPHATE",
+   "ligand_role": "substrate fragment",
+   "treated": "1",
+   "holo_multi_chi12": "1",
+   "apo_multi_chi12": "4",
+   "whole_pocket_rmsd": "0.098",
+   "rscc": "0.941",
+   "res_apo": "1.5",
+   "res_holo": "1.4",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "1",
+   "candidates_in_component": "2"
+  },
+  {
+   "stratum": "backbone_change",
+   "homology_component": "Q31b796f7552d4625",
+   "case_id": "2248260e300938dd",
+   "apo": {
+    "chains": [
+     "A0",
+     "B1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "B1": "B"
+    },
+    "pocket_residues": [
+     "A0:ALA18",
+     "A0:ASP20",
+     "A0:LYS42",
+     "A0:ASN70",
+     "A0:LYS72",
+     "A0:LEU123",
+     "A0:GLU125",
+     "A0:MET126",
+     "A0:SER127",
+     "A0:VAL201",
+     "A0:GLY202",
+     "A0:ARG203",
+     "A0:TYR206",
+     "B1:ASP75",
+     "B1:ILE76",
+     "B1:THR79"
+    ],
+    "multi_state_residues": {
+     "A0:ASN70": [
+      [
+       "tb0",
+       0.66,
+       "D"
+      ],
+      [
+       "tb5",
+       0.34,
+       "C"
+      ]
+     ],
+     "A0:GLU125": [
+      [
+       "tt",
+       0.64,
+       "A"
+      ],
+      [
+       "pt",
+       0.36,
+       "D"
+      ]
+     ],
+     "A0:SER127": [
+      [
+       "m",
+       0.65,
+       "D"
+      ],
+      [
+       "p",
+       0.35,
+       "A"
+      ]
+     ],
+     "A0:VAL201": [
+      [
+       "t",
+       0.7,
+       "A"
+      ],
+      [
+       "m",
+       0.3,
+       "C"
+      ]
+     ]
+    },
+    "combinations_total": 16,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {},
+     {
+      "A0:ASN70": "tb0",
+      "A0:GLU125": "tt",
+      "A0:SER127": "p",
+      "A0:VAL201": "t"
+     },
+     {
+      "A0:ASN70": "tb0",
+      "A0:GLU125": "tt",
+      "A0:SER127": "m",
+      "A0:VAL201": "m"
+     },
+     {
+      "A0:ASN70": "tb5",
+      "A0:GLU125": "pt",
+      "A0:SER127": "m",
+      "A0:VAL201": "m"
+     },
+     {
+      "A0:ASN70": "tb5",
+      "A0:GLU125": "tt",
+      "A0:SER127": "m",
+      "A0:VAL201": "t"
+     },
+     {
+      "A0:ASN70": "tb0",
+      "A0:GLU125": "pt",
+      "A0:SER127": "m",
+      "A0:VAL201": "t"
+     },
+     {
+      "A0:ASN70": "tb0",
+      "A0:GLU125": "pt",
+      "A0:SER127": "m",
+      "A0:VAL201": "m"
+     },
+     {
+      "A0:ASN70": "tb0",
+      "A0:GLU125": "tt",
+      "A0:SER127": "p",
+      "A0:VAL201": "m"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 1.43,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0",
+     "B1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "B1": "B"
+    },
+    "pocket_residues": [
+     "A0:ALA18",
+     "A0:ASP20",
+     "A0:LYS42",
+     "A0:ASN70",
+     "A0:LYS72",
+     "A0:LEU123",
+     "A0:GLU125",
+     "A0:MET126",
+     "A0:SER127",
+     "A0:PRO180",
+     "A0:GLY181",
+     "A0:VAL182",
+     "A0:ALA184",
+     "A0:GLN185",
+     "A0:ILE200",
+     "A0:VAL201",
+     "A0:GLY202",
+     "A0:ARG203",
+     "A0:TYR206",
+     "B1:ASP75",
+     "B1:ILE76",
+     "B1:THR79"
+    ],
+    "multi_state_residues": {
+     "A0:LYS72": [
+      [
+       "mm",
+       0.4,
+       "D"
+      ],
+      [
+       "pt",
+       0.37,
+       "C"
+      ],
+      [
+       "mt",
+       0.23,
+       "A"
+      ]
+     ]
+    },
+    "combinations_total": 3,
+    "multi_receptors": 1,
+    "rejected_for_clash": 2,
+    "combos": [
+     {
+      "A0:LYS72": "mm"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.36,
+    "single_clashes": []
+   },
+   "ligand": "U5P:A:229",
+   "ligand_name": "URIDINE-5'-MONOPHOSPHATE",
+   "ligand_role": "product",
+   "treated": "1",
+   "holo_multi_chi12": "1",
+   "apo_multi_chi12": "4",
+   "whole_pocket_rmsd": "0.898",
+   "rscc": "0.98",
+   "res_apo": "1.4",
+   "res_holo": "1.4",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "minor",
+   "previous_representative": "1",
+   "candidates_in_component": "2"
+  },
+  {
+   "stratum": "backbone_change",
+   "homology_component": "Q4357fad1fd6385d8",
+   "case_id": "3501c3c7d181fc13",
+   "apo": {
+    "chains": [
+     "A0",
+     "F1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "F1": "B"
+    },
+    "pocket_residues": [
+     "F1:ARG2091",
+     "F1:THR2094",
+     "F1:THR2095",
+     "F1:GLY2096",
+     "F1:PHE2162",
+     "F1:TYR2195",
+     "F1:GLU2196",
+     "F1:MET2197",
+     "F1:GLU2198"
+    ],
+    "multi_state_residues": {},
+    "combinations_total": 1,
+    "multi_receptors": 1,
+    "rejected_for_clash": 0,
+    "combos": [
+     {}
+    ],
+    "max_graft_chi_deviation_deg": 0.0,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "B0",
+     "D1"
+    ],
+    "chain_names_in_pdb": {
+     "B0": "A",
+     "D1": "B"
+    },
+    "pocket_residues": [
+     "B0:ILE6069",
+     "B0:ARG6091",
+     "B0:THR6094",
+     "B0:THR6095",
+     "B0:GLY6096",
+     "B0:PHE6162",
+     "B0:GLN6166",
+     "B0:ARG6168",
+     "B0:TYR6195",
+     "B0:GLU6196",
+     "B0:MET6197",
+     "B0:GLU6198",
+     "B0:ILE6220",
+     "B0:VAL6221",
+     "D1:PHE3007",
+     "D1:HIS3008",
+     "D1:ARG3048"
+    ],
+    "multi_state_residues": {
+     "D1:PHE3007": [
+      [
+       "tb1",
+       0.6,
+       "A"
+      ],
+      [
+       "tb0",
+       0.4,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 2,
+    "multi_receptors": 2,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "D1:PHE3007": "tb1"
+     },
+     {
+      "D1:PHE3007": "tb0"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.58,
+    "single_clashes": []
+   },
+   "ligand": "ANU:B:7016",
+   "ligand_name": "2,2'-Anhydro-(1-beta-D-arabinofuranosyl)uracil",
+   "ligand_role": "inhibitor",
+   "treated": "0",
+   "holo_multi_chi12": "1",
+   "apo_multi_chi12": "0",
+   "whole_pocket_rmsd": "4.495",
+   "rscc": "0.948",
+   "res_apo": "1.8",
+   "res_holo": "1.74",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "0",
+   "candidates_in_component": "3"
+  },
+  {
+   "stratum": "backbone_change",
+   "homology_component": "Q836548e7a7df94aa",
+   "case_id": "c58ec64e1ac75a51",
+   "apo": {
+    "chains": [
+     "A0",
+     "B1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "B1": "B"
+    },
+    "pocket_residues": [
+     "A0:ILE102",
+     "A0:PHE105",
+     "B1:ALA8",
+     "B1:MET9",
+     "B1:ILE50",
+     "B1:VAL76",
+     "B1:ALA77",
+     "B1:GLY78",
+     "B1:GLU150",
+     "B1:PHE151",
+     "B1:ILE152",
+     "B1:LYS158",
+     "B1:CYS170",
+     "B1:GLU171",
+     "B1:MET172",
+     "B1:GLU173",
+     "B1:SER195",
+     "B1:ASP196"
+    ],
+    "multi_state_residues": {
+     "B1:CYS170": [
+      [
+       "p",
+       0.54,
+       "A"
+      ],
+      [
+       "t",
+       0.46,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 2,
+    "multi_receptors": 2,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "B1:CYS170": "p"
+     },
+     {
+      "B1:CYS170": "t"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.39,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0",
+     "B1"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A",
+     "B1": "B"
+    },
+    "pocket_residues": [
+     "A0:ILE102",
+     "A0:PHE105",
+     "B1:ALA8",
+     "B1:MET9",
+     "B1:GLU12",
+     "B1:ILE50",
+     "B1:VAL76",
+     "B1:ALA77",
+     "B1:GLY78",
+     "B1:GLU150",
+     "B1:PHE151",
+     "B1:ILE152",
+     "B1:CYS170",
+     "B1:GLU171",
+     "B1:MET172",
+     "B1:GLU173",
+     "B1:ARG192",
+     "B1:SER195",
+     "B1:ASP196",
+     "B1:ALA198",
+     "B1:PHE206"
+    ],
+    "multi_state_residues": {
+     "B1:ILE152": [
+      [
+       "mm",
+       0.56,
+       "A"
+      ],
+      [
+       "mt",
+       0.44,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 2,
+    "multi_receptors": 2,
+    "rejected_for_clash": 0,
+    "combos": [
+     {
+      "B1:ILE152": "mm"
+     },
+     {
+      "B1:ILE152": "mt"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.21,
+    "single_clashes": []
+   },
+   "ligand": "TDI:B:301",
+   "ligand_name": "(3R,4S)-1-[(4-AMINO-5H-PYRROLO[3,2-D]PYRIMIDIN-7-YL)METHYL]-4-[(METHYLSULFANYL)METHYL]PYRROLIDIN-3-OL",
+   "ligand_role": "TS analogue",
+   "treated": "1",
+   "holo_multi_chi12": "1",
+   "apo_multi_chi12": "1",
+   "whole_pocket_rmsd": "2.191",
+   "rscc": "0.968",
+   "res_apo": "1.25",
+   "res_holo": "1.42",
+   "holo_crystal_dependence": "none",
+   "apo_crystal_dependence": "none",
+   "previous_representative": "0",
+   "candidates_in_component": "4"
+  },
+  {
+   "stratum": "backbone_change",
+   "homology_component": "Q92b4b8ac3490e160",
+   "case_id": "95ffd089bd47d70a",
+   "apo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:ALA21",
+     "A0:ASP22",
+     "A0:ILE23",
+     "A0:VAL24",
+     "A0:ALA38",
+     "A0:ALA39",
+     "A0:ASN40",
+     "A0:LYS44",
+     "A0:HIS45",
+     "A0:GLY46",
+     "A0:GLY47",
+     "A0:GLY48",
+     "A0:VAL49",
+     "A0:ALA50",
+     "A0:GLY51",
+     "A0:ALA52",
+     "A0:PRO125",
+     "A0:LEU126",
+     "A0:LEU127",
+     "A0:SER128",
+     "A0:ALA129",
+     "A0:GLY130",
+     "A0:ILE131",
+     "A0:PHE132",
+     "A0:ALA154",
+     "A0:PHE156",
+     "A0:LEU160"
+    ],
+    "multi_state_residues": {
+     "A0:ASP22": [
+      [
+       "tb0",
+       0.561,
+       "B"
+      ],
+      [
+       "tb2",
+       0.439,
+       "A"
+      ]
+     ],
+     "A0:VAL24": [
+      [
+       "t",
+       0.67,
+       "A"
+      ],
+      [
+       "m",
+       0.33,
+       "B"
+      ]
+     ],
+     "A0:LYS44": [
+      [
+       "mm",
+       0.64,
+       "A"
+      ],
+      [
+       "tp",
+       0.36,
+       "B"
+      ]
+     ],
+     "A0:ILE131": [
+      [
+       "tt",
+       0.5,
+       "A"
+      ],
+      [
+       "pt",
+       0.5,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 16,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {},
+     {
+      "A0:ASP22": "tb0",
+      "A0:VAL24": "m",
+      "A0:LYS44": "mm",
+      "A0:ILE131": "tt"
+     },
+     {
+      "A0:ASP22": "tb2",
+      "A0:VAL24": "m",
+      "A0:LYS44": "mm",
+      "A0:ILE131": "pt"
+     },
+     {
+      "A0:ASP22": "tb0",
+      "A0:VAL24": "t",
+      "A0:LYS44": "tp",
+      "A0:ILE131": "pt"
+     },
+     {
+      "A0:ASP22": "tb2",
+      "A0:VAL24": "m",
+      "A0:LYS44": "mm",
+      "A0:ILE131": "tt"
+     },
+     {
+      "A0:ASP22": "tb2",
+      "A0:VAL24": "m",
+      "A0:LYS44": "tp",
+      "A0:ILE131": "pt"
+     },
+     {
+      "A0:ASP22": "tb2",
+      "A0:VAL24": "t",
+      "A0:LYS44": "mm",
+      "A0:ILE131": "tt"
+     },
+     {
+      "A0:ASP22": "tb0",
+      "A0:VAL24": "t",
+      "A0:LYS44": "tp",
+      "A0:ILE131": "tt"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 0.63,
+    "single_clashes": []
+   },
+   "holo": {
+    "chains": [
+     "A0"
+    ],
+    "chain_names_in_pdb": {
+     "A0": "A"
+    },
+    "pocket_residues": [
+     "A0:ALA21",
+     "A0:ASP22",
+     "A0:ILE23",
+     "A0:ALA38",
+     "A0:ALA39",
+     "A0:ASN40",
+     "A0:LYS44",
+     "A0:HIS45",
+     "A0:GLY46",
+     "A0:GLY47",
+     "A0:GLY48",
+     "A0:VAL49",
+     "A0:ALA50",
+     "A0:ALA52",
+     "A0:PRO125",
+     "A0:LEU126",
+     "A0:LEU127",
+     "A0:SER128",
+     "A0:ALA129",
+     "A0:GLY130",
+     "A0:ILE131",
+     "A0:PHE132",
+     "A0:GLY133",
+     "A0:ALA154",
+     "A0:VAL155",
+     "A0:PHE156",
+     "A0:LEU160"
+    ],
+    "multi_state_residues": {
+     "A0:ASP22": [
+      [
+       "tb0",
+       0.53,
+       "B"
+      ],
+      [
+       "tb2",
+       0.47,
+       "A"
+      ]
+     ],
+     "A0:ASN40": [
+      [
+       "pb1",
+       0.59,
+       "B"
+      ],
+      [
+       "pb0",
+       0.41,
+       "A"
+      ]
+     ],
+     "A0:LYS44": [
+      [
+       "mt",
+       0.59,
+       "B"
+      ],
+      [
+       "mm",
+       0.41,
+       "A"
+      ]
+     ],
+     "A0:LEU126": [
+      [
+       "mt",
+       0.6,
+       "A"
+      ],
+      [
+       "tp",
+       0.4,
+       "B"
+      ]
+     ]
+    },
+    "combinations_total": 16,
+    "multi_receptors": 8,
+    "rejected_for_clash": 0,
+    "combos": [
+     {},
+     {
+      "A0:ASP22": "tb0",
+      "A0:ASN40": "pb1",
+      "A0:LYS44": "mm",
+      "A0:LEU126": "mt"
+     },
+     {
+      "A0:ASP22": "tb2",
+      "A0:ASN40": "pb1",
+      "A0:LYS44": "mm",
+      "A0:LEU126": "tp"
+     },
+     {
+      "A0:ASP22": "tb0",
+      "A0:ASN40": "pb1",
+      "A0:LYS44": "mt",
+      "A0:LEU126": "tp"
+     },
+     {
+      "A0:ASP22": "tb2",
+      "A0:ASN40": "pb1",
+      "A0:LYS44": "mm",
+      "A0:LEU126": "mt"
+     },
+     {
+      "A0:ASP22": "tb2",
+      "A0:ASN40": "pb0",
+      "A0:LYS44": "mt",
+      "A0:LEU126": "tp"
+     },
+     {
+      "A0:ASP22": "tb2",
+      "A0:ASN40": "pb1",
+      "A0:LYS44": "mt",
+      "A0:LEU126": "mt"
+     },
+     {
+      "A0:ASP22": "tb2",
+      "A0:ASN40": "pb1",
+      "A0:LYS44": "mt",
+      "A0:LEU126": "tp"
+     }
+    ],
+    "max_graft_chi_deviation_deg": 1.06,
+    "single_clashes": []
+   },
+   "ligand": "APR:A:201",
+   "ligand_name": "ADENOSINE-5-DIPHOSPHORIBOSE",
+   "ligand_role": "substrate/product",
+   "treated": "1",
+   "holo_multi_chi12": "4",
+   "apo_multi_chi12": "3",
+   "whole_pocket_rmsd": "0.761",
+   "rscc": "",
+   "res_apo": "1.9",
+   "res_holo": "1.94",
+   "holo_crystal_dependence": "minor",
+   "apo_crystal_dependence": "minor",
+   "previous_representative": "0",
+   "candidates_in_component": "1"
+  }
+ ],
+ "K": 8,
+ "seed": 20261028,
+ "clash": 2.2,
+ "pocket": 4.5,
+ "code_sha256": "e7f75be7a55f948694a649ab04303a4ca4ac7cca70d85bda7a697b3111e4bd3c"
+}

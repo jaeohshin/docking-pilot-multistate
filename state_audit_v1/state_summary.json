@@ -1,0 +1,160 @@
+{
+ "status_2x2": {
+  "exclude": 16,
+  "accept": 41,
+  "defer": 12,
+  "backbone_change": 10
+ },
+ "backbone_change_cases": [
+  [
+   "2248260e300938dd",
+   "3g22",
+   "U5P:A:229",
+   0.898
+  ],
+  [
+   "ce8f0e29cd1dca59",
+   "3g22",
+   "U5P:B:229",
+   0.937
+  ],
+  [
+   "3501c3c7d181fc13",
+   "2pga",
+   "ANU:B:7016",
+   4.495
+  ],
+  [
+   "ccec5c8aea863078",
+   "2pga",
+   "ANU:D:7013",
+   2.468
+  ],
+  [
+   "db219b9e4c93bafe",
+   "2pga",
+   "ANU:F:7014",
+   2.431
+  ],
+  [
+   "6a0fb1f5b4c558d2",
+   "6ayq",
+   "TDI:A:301",
+   2.258
+  ],
+  [
+   "ae557f538c35d329",
+   "6ayo",
+   "C1Y:A:301",
+   2.166
+  ],
+  [
+   "b3a33fcc7a7495b2",
+   "6ayo",
+   "C1Y:B:301",
+   2.217
+  ],
+  [
+   "c58ec64e1ac75a51",
+   "6ayq",
+   "TDI:B:301",
+   2.191
+  ],
+  [
+   "95ffd089bd47d70a",
+   "7tx5",
+   "APR:A:201",
+   0.761
+  ]
+ ],
+ "eligible_chi1": {
+  "cases": 41,
+  "components": 13,
+  "holo_multi": [
+   24,
+   11
+  ],
+  "apo_multi": [
+   21,
+   9
+  ],
+  "both": [
+   19,
+   7
+  ],
+  "either": [
+   26,
+   11
+  ]
+ },
+ "eligible_chi12": {
+  "cases": 41,
+  "components": 13,
+  "holo_multi": [
+   32,
+   12
+  ],
+  "apo_multi": [
+   29,
+   12
+  ],
+  "both": [
+   26,
+   11
+  ],
+  "either": [
+   35,
+   13
+  ]
+ },
+ "representatives_still_eligible": 13,
+ "representatives_chi1": {
+  "cases": 13,
+  "components": 13,
+  "holo_multi": [
+   9,
+   9
+  ],
+  "apo_multi": [
+   7,
+   7
+  ],
+  "both": [
+   7,
+   7
+  ],
+  "either": [
+   9,
+   9
+  ]
+ },
+ "representatives_chi12": {
+  "cases": 13,
+  "components": 13,
+  "holo_multi": [
+   11,
+   11
+  ],
+  "apo_multi": [
+   8,
+   8
+  ],
+  "both": [
+   8,
+   8
+  ],
+  "either": [
+   11,
+   11
+  ]
+ },
+ "components_lost_to_backbone_change": [
+  "Q31b796f7552d4625",
+  "Q836548e7a7df94aa"
+ ],
+ "backbone_altloc_spread_gt_0p5": {
+  "holo": 31,
+  "apo": 38,
+  "of": 41
+ }
+}
