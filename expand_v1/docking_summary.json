@@ -1,0 +1,151 @@
+{
+ "accept": {
+  "cases": 128,
+  "components": 39,
+  "with_multiple_states": 116,
+  "holo_single": {
+   "mean_rmsd_top": 3.662,
+   "median_rmsd_top": 2.598,
+   "success_top": 56,
+   "mean_rmsd_oracle": 1.319
+  },
+  "holo_multi": {
+   "mean_rmsd_top": 3.518,
+   "median_rmsd_top": 2.481,
+   "success_top": 58,
+   "mean_rmsd_oracle": 1.321
+  },
+  "apo_single": {
+   "mean_rmsd_top": 5.687,
+   "median_rmsd_top": 6.154,
+   "success_top": 19,
+   "mean_rmsd_oracle": 3.194
+  },
+  "apo_multi": {
+   "mean_rmsd_top": 5.712,
+   "median_rmsd_top": 6.252,
+   "success_top": 19,
+   "mean_rmsd_oracle": 2.879
+  },
+  "apo_multi_minus_single": {
+   "mean_of_component_means": -0.0835,
+   "ci95": [
+    -0.3833,
+    0.2401
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "holo_multi_minus_single": {
+   "mean_of_component_means": 0.3008,
+   "ci95": [
+    -0.1091,
+    0.9282
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "apo_oracle": {
+   "mean_of_component_means": 0.3637,
+   "ci95": [
+    0.1288,
+    0.6568
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "holo_oracle": {
+   "mean_of_component_means": -0.0093,
+   "ci95": [
+    -0.0497,
+    0.0233
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "apo_multi_minus_single_states_only": {
+   "mean_of_component_means": -0.0864,
+   "ci95": [
+    -0.4032,
+    0.2552
+   ],
+   "components": 37,
+   "cases": 116
+  }
+ },
+ "backbone_change": {
+  "cases": 15,
+  "components": 7,
+  "with_multiple_states": 12,
+  "holo_single": {
+   "mean_rmsd_top": 1.15,
+   "median_rmsd_top": 0.648,
+   "success_top": 12,
+   "mean_rmsd_oracle": 0.735
+  },
+  "holo_multi": {
+   "mean_rmsd_top": 1.162,
+   "median_rmsd_top": 0.648,
+   "success_top": 12,
+   "mean_rmsd_oracle": 0.748
+  },
+  "apo_single": {
+   "mean_rmsd_top": 4.675,
+   "median_rmsd_top": 5.138,
+   "success_top": 3,
+   "mean_rmsd_oracle": 3.266
+  },
+  "apo_multi": {
+   "mean_rmsd_top": 4.687,
+   "median_rmsd_top": 5.138,
+   "success_top": 3,
+   "mean_rmsd_oracle": 3.046
+  },
+  "apo_multi_minus_single": {
+   "mean_of_component_means": -0.0209,
+   "ci95": [
+    -0.0661,
+    0.0073
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "holo_multi_minus_single": {
+   "mean_of_component_means": -0.025,
+   "ci95": [
+    -0.0597,
+    -0.0017
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "apo_oracle": {
+   "mean_of_component_means": 0.4603,
+   "ci95": [
+    0.0034,
+    1.3356
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "holo_oracle": {
+   "mean_of_component_means": -0.0283,
+   "ci95": [
+    -0.1233,
+    0.0443
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "apo_multi_minus_single_states_only": {
+   "mean_of_component_means": -0.0209,
+   "ci95": [
+    -0.0661,
+    0.007
+   ],
+   "components": 7,
+   "cases": 12
+  }
+ },
+ "note": "Positive gain means the multiple-state receptor gave a lower RMSD. Bootstrap unit is the homology component, not the case. Primary: apo_multi_minus_single in stratum accept, decided by the CI lower bound above zero."
+}
