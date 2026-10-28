@@ -1,0 +1,28 @@
+{
+ "shard": 2,
+ "cases": 8,
+ "built": [
+  "01100dcbf8cafc35",
+  "57f14e4b9baac61e",
+  "a831a4c303e28d9a",
+  "5b5b4f75c8f026ad",
+  "eb0590317573e173",
+  "9c0a6040713f4ed1",
+  "251124e0075a8e13"
+ ],
+ "prepared": [
+  "01100dcbf8cafc35",
+  "57f14e4b9baac61e",
+  "a831a4c303e28d9a",
+  "5b5b4f75c8f026ad",
+  "eb0590317573e173",
+  "9c0a6040713f4ed1",
+  "251124e0075a8e13"
+ ],
+ "failed": [
+  {
+   "case_id": "5b9519d2b4d42915",
+   "error": "AssertionError(('6ker', 'BA'))"
+  }
+ ]
+}

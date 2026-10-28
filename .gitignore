@@ -35,3 +35,5 @@ __pycache__/
 **/*.pdbqt
 **/*.meeko.pdb
 **/*.H.pdb
+**/mmseqs_tmp/
+**/design2x2_v1/receptors

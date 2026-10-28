@@ -1,0 +1,9 @@
+{
+  "queries": 103,
+  "hit_edges": 204,
+  "components": 55,
+  "largest_component": 11,
+  "singletons": 36,
+  "cases": 233,
+  "cases_per_component_max": 27
+}

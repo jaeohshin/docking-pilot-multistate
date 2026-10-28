@@ -1,0 +1,29 @@
+{
+ "shard": 5,
+ "cases": 8,
+ "built": [
+  "8fe5eef8b13a085a",
+  "b2acea7e1fc848c1",
+  "11c1f5b69b4ea45a",
+  "ae557f538c35d329",
+  "7a229ea810e8dc50",
+  "fc2a34a663fc9271",
+  "29e6dbee9da82859",
+  "fe02a159def13cce"
+ ],
+ "prepared": [
+  "8fe5eef8b13a085a",
+  "b2acea7e1fc848c1",
+  "11c1f5b69b4ea45a",
+  "ae557f538c35d329",
+  "fc2a34a663fc9271",
+  "29e6dbee9da82859",
+  "fe02a159def13cce"
+ ],
+ "failed": [
+  {
+   "case_id": "7a229ea810e8dc50",
+   "error": "AssertionError(('7a229ea810e8dc50', 'apo', 'Meeko deleted different residues across arms', {'single_0': [], 'multi_0': [], 'multi_1': [], 'multi_2': [\"- Template matching failed for: ['A:47', 'A:51'] Ignored due to allow_bad_res.\", 'allow_bad_res after: mk_prepare_receptor.py failed: es_from_box_rad"
+  }
+ ]
+}

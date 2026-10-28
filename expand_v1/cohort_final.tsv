@@ -1,0 +1,234 @@
+apo	apo_crystal_dependence	apo_multi_chi12	case_id	holo	holo_crystal_dependence	holo_multi_chi12	ligand	ligand_heavy_atoms	ligand_name	reason	res_apo	res_holo	rscc	source_group	status	whole_pocket_rmsd
+3c0e	none	1	4c5f712812fb00e2	3c11	none	1	GDM:A:300	40	GELDANAMYCIN	eligible	1.9	1.6		01512752b886be0a	accept	0.336
+6keq	none	3	30372a946d433cc4	6ker	none	0	GSH:A:301	20	Glutathione	eligible	1.84	1.84		041a1068897ed4d1	accept	0.126
+6keq	none	0	5b9519d2b4d42915	6ker	none	1	GSH:B:301	20	Glutathione	eligible	1.84	1.84		041a1068897ed4d1	accept	0.137
+6keq	none	0	d4af200a223e98b2	6ker	none	1	GSH:A:301	20	Glutathione	eligible	1.84	1.84		041a1068897ed4d1	accept	0.131
+6keq	none	3	f59b849d6c16a993	6ker	none	1	GSH:B:301	20	Glutathione	eligible	1.84	1.84		041a1068897ed4d1	accept	0.192
+2pbr	none	0	8fe5eef8b13a085a	5xb3	none	0	TMP:A:202	21	THYMIDINE-5'-PHOSPHATE	eligible	1.96	1.77		06d1b05ef5db69ae	accept	0.627
+2pbr	none	2	2991fb5d9d642d1b	5xb3	none	3	TMP:B:202	21	THYMIDINE-5'-PHOSPHATE	eligible	1.96	1.77		06d1b05ef5db69ae	accept	0.421
+5nxz	none	0	84a6cc4cec17be6f	4izs	none	0	BMD:A:304	6	BUTYRAMIDE	eligible	1.21	1.44		071e2319538cf827	accept	0.102
+5nxz	none	0	97ea259b19814c3e	5ny7	none	0	NCA:A:302	9	NICOTINAMIDE	eligible	1.21	1.31		071e2319538cf827	accept	0.117
+5nxz	none	1	223bcc6ed7796669	5ny7	none	0	NCA:A:303	9	NICOTINAMIDE	eligible	1.21	1.31		071e2319538cf827	accept	0.072
+5nxz	major	1	1df758496479cfac	5ny7	major	0	NCA:A:304	9	NICOTINAMIDE	crystal-context dependent (0.65 of contact atoms)	1.21	1.31		071e2319538cf827	exclude	0.198
+5nxz	none	1	60e537d07177c7f6	5nyb	none	0	9EE:A:301	10	adipamide	eligible	1.21	1.88		071e2319538cf827	accept	0.123
+5gg5	major	1	071b934dfbd066d5	5gga	major	2	8GM:A:402	25	[(2R,3S,4R,5R)-5-[2-azanyl-6,8-bis(oxida	crystal-context dependent (0.29 of contact atoms)	1.64	1.75		09f35340c6f213e5	exclude	0.26
+6mg4	none	1	e7f4647779f8df99	6mg5	none	0	6ZW:B:302	17	7-(diethylamino)-4-methyl-2H-1-benzopyra	whole-pocket RMSD 0.82 A	1.75	1.8		0fdfe5dea38ecf58	backbone_change	0.824
+6mg4	none	1	28aba9c6cd751d28	6mg5	none	0	6ZW:B:302	17	7-(diethylamino)-4-methyl-2H-1-benzopyra	whole-pocket RMSD 0.82 A	1.75	1.8		0fdfe5dea38ecf58	backbone_change	0.824
+8r07	major	0	83f31153be4fe439	8r3f	none	0	XS8:A:701	12	(4~{S})-6-fluoranyl-3,4-dihydro-2~{H}-ch	eligible	1.74	1.55		14e095d6ca6b8d5a	accept	0.521
+8r07	major	0	e5cce74ed63eeb54	8r3f	minor	0	XS8:B:701	12	(4~{S})-6-fluoranyl-3,4-dihydro-2~{H}-ch	eligible	1.74	1.55		14e095d6ca6b8d5a	accept	0.432
+4qod	none	0	3cb6f9e6ad8d8368	3gam	none	2	MXX:B:231	17	5,8-dimethoxy-1,4-dimethylquinolin-2(1H)	cofactor or co-ligand absent at the apo site	1.35	1.98		18854647e014fdb5	exclude	0.547
+4qod	none	0	75c6cb1919e3410c	3gam	none	3	MXX:A:231	17	5,8-dimethoxy-1,4-dimethylquinolin-2(1H)	cofactor or co-ligand absent at the apo site	1.35	1.98		18854647e014fdb5	exclude	0.42
+4qod	none	0	4bc0799f7dadd332	3gam	none	2	MXX:B:231	17	5,8-dimethoxy-1,4-dimethylquinolin-2(1H)	cofactor or co-ligand absent at the apo site	1.35	1.98		18854647e014fdb5	exclude	0.547
+4pm8	minor	0	0c2914f1336e5905	4pm7	minor	0	CE3:A:301	30	(6R,7R)-3-(acetyloxymethyl)-7-[[(2Z)-2-(	eligible	1.17	1.28		1a79ae232ff04ee1	accept	0.197
+			bf08f05607e1d2e2							apo pose refit failed					exclude	
+			5e27728a19cfa533							apo pose refit failed					exclude	
+4eci	none	2	4cc9d8b4a0682df5	4ecj	none	1	GSH:A:301	20	Glutathione	eligible	1.76	1.76		2444ff6c6d78a11d	accept	0.219
+4eci	none	1	f8353aa25eb886ca	4ecj	none	1	GSH:B:301	20	Glutathione	eligible	1.76	1.76		2444ff6c6d78a11d	accept	0.267
+7k4t	none	2	2f558d042f16f4f7	7k4z	none	3	6NT:A:402	12	6-NITROBENZOTRIAZOLE	eligible	1.0	1.0		244ca05b311c4e65	accept	0.156
+3ik8	none	5	d3a82d2fb888560f	3jyj	none	1	JZI:A:301	26	(2R,4E)-2-[(naphthalen-2-ylcarbonyl)amin	eligible	1.85	1.87		2612fbeb41fa9b35	accept	0.19
+3ik8	none	4	b182d7f4118203f0	3jyj	major	0	JZI:B:302	26	(2R,4E)-2-[(naphthalen-2-ylcarbonyl)amin	crystal-context dependent (0.11 of contact atoms)	1.85	1.87		2612fbeb41fa9b35	exclude	0.349
+3ik8	none	5	2ff00a57af5b8142	4tyo	none	0	39X:A:201	28	3-(6-fluoro-1H-benzimidazol-2-yl)-N-(nap	eligible	1.85	1.74		2612fbeb41fa9b35	accept	0.215
+3ik8	none	5	6ec888190af3f4ab	4tyo	major	1	39X:B:201	28	3-(6-fluoro-1H-benzimidazol-2-yl)-N-(nap	crystal-context dependent (0.16 of contact atoms)	1.85	1.74		2612fbeb41fa9b35	exclude	0.324
+3hre	minor	0	fe0893e9d4e1f863	3huo	minor	1	PNN:A:302	23	PENICILLIN G	cofactor or co-ligand absent at the apo site	1.45	1.5		2cca36acff07c882	exclude	0.113
+3hre	major	0	cd901008b90ffbd4	3huo	major	0	PNN:A:304	23	PENICILLIN G	crystal-context dependent (0.23 of contact atoms)	1.45	1.5		2cca36acff07c882	exclude	0.247
+3hre	major	0	af5b3fa499286445	3huo	major	0	PNK:B:305	24	(2R,4S)-2-{(R)-carboxy[(phenylacetyl)ami	crystal-context dependent (0.40 of contact atoms)	1.45	1.5		2cca36acff07c882	exclude	0.141
+3hre	minor	3	8b520349f920f468	3huo	minor	2	PNN:B:301	23	PENICILLIN G	eligible	1.45	1.5		2cca36acff07c882	accept	0.146
+3hre	minor	3	01100dcbf8cafc35	3hvf	minor	0	PNK:B:302	24	(2R,4S)-2-{(R)-carboxy[(phenylacetyl)ami	eligible	1.45	1.5		2cca36acff07c882	accept	0.195
+3g1y	minor	1	ce8f0e29cd1dca59	3g22	none	1	U5P:B:229	21	URIDINE-5'-MONOPHOSPHATE	whole-pocket RMSD 0.94 A	1.4	1.4		31b796f7552d4625	backbone_change	0.937
+3g1y	minor	3	2248260e300938dd	3g22	none	1	U5P:A:229	21	URIDINE-5'-MONOPHOSPHATE	whole-pocket RMSD 0.90 A	1.4	1.4		31b796f7552d4625	backbone_change	0.898
+7vut	major	1	b514b0083659a0c1	7vuu	major	0	3NY:A:101	12	5-nitro-1H-benzotriazole	crystal-context dependent (0.05 of contact atoms)	1.7	1.95		32eda883f6211346	exclude	0.323
+7vut	major	0	b2acea7e1fc848c1	7vuu	minor	1	3NY:B:101	12	5-nitro-1H-benzotriazole	eligible	1.7	1.95		32eda883f6211346	accept	0.707
+7vut	major	1	954ba4d72bdc747b	7vuu	major	1	3NY:C:101	12	5-nitro-1H-benzotriazole	crystal-context dependent (0.06 of contact atoms)	1.7	1.95		32eda883f6211346	exclude	0.413
+7vut	minor	0	c3e3739c7925a67a	7vuu	minor	1	3NY:B:101	12	5-nitro-1H-benzotriazole	partner chain absent at the apo site	1.7	1.95		32eda883f6211346	exclude	0.328
+7vut	major	1	6e151ec291998a34	7vuu	minor	1	3NY:D:101	12	5-nitro-1H-benzotriazole	eligible	1.7	1.95		32eda883f6211346	accept	0.333
+3qyu	minor	2	3c9db9b0eb21fc19	4j58	minor	0	53Z:A:301	20	1-(4-aminobenzyl)-3-[2-oxo-2-(pyrrolidin	eligible	1.54	1.28		3383a3a89f3ff0b7	accept	0.219
+3qyu	minor	2	a8889923f412758b	4j59	minor	1	671:A:301	30	1-(4-aminobenzyl)-3-{2-[(2R)-2-(naphthal	eligible	1.54	1.92		3383a3a89f3ff0b7	accept	0.236
+5rg9	none	5	e71ec1febb7d05e2	5rgf	none	2	6NT:A:401	12	6-NITROBENZOTRIAZOLE	eligible	1.47	1.46		382afe191be41141	accept	0.124
+5rg9	none	3	85dc1e77a1cdb21d	5rgf	none	2	6NT:B:500	12	6-NITROBENZOTRIAZOLE	eligible	1.47	1.46		382afe191be41141	accept	0.134
+7tkw	major	0	1210d63d0b98be97	7tkx	major	1	LBL:A:201	23	(2~{R},3~{R},4~{R},5~{R})-4-[(2~{S},3~{R	crystal-context dependent (0.15 of contact atoms)	1.73	1.65		39bca17eb00d8088	exclude	0.221
+7tkw	major	0	42b5da9b8cd65ec6	7tkx	major	0	LBL:B:201	23	(2~{R},3~{R},4~{R},5~{R})-4-[(2~{S},3~{R	crystal-context dependent (0.15 of contact atoms)	1.73	1.65		39bca17eb00d8088	exclude	0.214
+3zsk	minor	2	f0b10686665b92ee	4bli	minor	0	GMK:A:2001	47	(3-Deoxy-3-(3-methoxy-benzamido)-b-D-gal	eligible	0.9	1.08		3c8b9430fb1c1112	accept	0.085
+4pm6	minor	0	129663a7f774bc71	4pm5	minor	0	CE3:A:301	30	(6R,7R)-3-(acetyloxymethyl)-7-[[(2Z)-2-(	eligible	1.56	1.26		3d7f06e74ed4ab4d	accept	0.244
+3wmy	none	1	9e0a7ef7898fbe03	3wn0	none	0	FUB:A:503	10	beta-L-arabinofuranose	eligible	1.4	1.9		3e26b9085ff92d2d	accept	0.099
+7vur	none	2	13e1b0e7b8c8ad25	7vus	major	1	3NY:A:101	12	5-nitro-1H-benzotriazole	crystal-context dependent (0.05 of contact atoms)	1.7	1.7		3fa341fcf46d1707	exclude	0.272
+7vur	none	0	e301ccceda9f0da2	7vus	major	0	3NY:C:101	12	5-nitro-1H-benzotriazole	crystal-context dependent (0.06 of contact atoms)	1.7	1.7		3fa341fcf46d1707	exclude	0.399
+7vur	none	2	758abeda63eb0a40	7vus	none	1	3NY:B:101	12	5-nitro-1H-benzotriazole	partner chain absent at the apo site	1.7	1.7		3fa341fcf46d1707	exclude	0.311
+7vur	none	0	f6598615383d635c	7vus	major	1	3NY:A:101	12	5-nitro-1H-benzotriazole	crystal-context dependent (0.05 of contact atoms)	1.7	1.7		3fa341fcf46d1707	exclude	0.272
+7vur	none	2	3b35f4005d2fae08	7vus	major	0	3NY:C:101	12	5-nitro-1H-benzotriazole	crystal-context dependent (0.06 of contact atoms)	1.7	1.7		3fa341fcf46d1707	exclude	0.399
+7vur	none	2	334a36568767f369	7vus	none	0	3NY:D:301	12	5-nitro-1H-benzotriazole	partner chain absent at the apo site	1.7	1.7		3fa341fcf46d1707	exclude	0.375
+5fsv	none	7	172d7da9c683ce21	5fsy	none	6	AR6:A:1262	36	[(2R,3S,4R,5R)-5-(6-AMINOPURIN-9-YL)-3,4	eligible	1.2	1.7		403d6c2f54b32f0f	accept	0.588
+3dps	none	0	db219b9e4c93bafe	2pga	none	0	ANU:F:7014	16	2,2'-Anhydro-(1-beta-D-arabinofuranosyl)	whole-pocket RMSD 2.43 A	1.8	1.74		4357fad1fd6385d8	backbone_change	2.431
+3dps	none	0	ccec5c8aea863078	2pga	none	0	ANU:D:7013	16	2,2'-Anhydro-(1-beta-D-arabinofuranosyl)	whole-pocket RMSD 2.47 A	1.8	1.74		4357fad1fd6385d8	backbone_change	2.468
+3dps	none	0	3501c3c7d181fc13	2pga	none	1	ANU:B:7016	16	2,2'-Anhydro-(1-beta-D-arabinofuranosyl)	whole-pocket RMSD 4.49 A	1.8	1.74		4357fad1fd6385d8	backbone_change	4.495
+4iq1	none	4	f71c2ec47cfe0b88	4iw9	none	5	GSH:A:301	20	Glutathione	eligible	1.85	1.76		43ac97e0c0012516	accept	0.386
+4iq1	none	5	240ef5cd2aed6971	4iw9	none	5	GSH:A:301	20	Glutathione	eligible	1.85	1.76		43ac97e0c0012516	accept	0.357
+6eeu	none	0	2a61e70b2504eba1	6eev	none	2	MEV:A:501	10	(R)-MEVALONATE	eligible	1.93	1.49		4819d46ca698b01c	accept	0.055
+6at8	none	1	e0f7c1ec04d845f6	6e6k	none	0	HVD:A:201	23	(1'R,2'R)-5'-methyl-6-pentyl-2'-(prop-1-	eligible	1.1	1.3		4b4303c09814c865	accept	0.704
+3pf9	none	1	57f14e4b9baac61e	3pfb	none	4	ZYC:B:264	16	ethyl (2E)-3-(4-hydroxy-3-methoxyphenyl)	eligible	1.75	1.58		5314b6d7460904a9	accept	0.279
+3pf9	none	1	3cc574829a994b7d	3pfc	none	1	FER:A:250	14	3-(4-HYDROXY-3-METHOXYPHENYL)-2-PROPENOI	eligible	1.75	1.75		5314b6d7460904a9	accept	0.25
+3pf9	none	1	ed9eb76e784c6dee	3s2z	none	0	DHC:A:259	13	CAFFEIC ACID	eligible	1.75	1.76		5314b6d7460904a9	accept	0.183
+3pf9	none	1	11c1f5b69b4ea45a	3s2z	none	0	DHC:B:257	13	CAFFEIC ACID	eligible	1.75	1.76		5314b6d7460904a9	accept	0.136
+5rg6	none	9	28cfc7bf72ea90b1	5rgc	none	1	6NT:A:401	12	6-NITROBENZOTRIAZOLE	eligible	1.35	1.39		550747e05420db0f	accept	0.226
+5rg6	none	6	ac718cff8957d4c8	5rgc	none	1	6NT:B:401	12	6-NITROBENZOTRIAZOLE	eligible	1.35	1.39		550747e05420db0f	accept	0.241
+7z2x	none	0	bbfc6b81df47c675	7z2u	none	2	FER:A:401	14	3-(4-HYDROXY-3-METHOXYPHENYL)-2-PROPENOI	eligible	1.5	1.9		5c608c5e54c3238f	accept	0.275
+7z2x	none	0	d68a40c2db10b83a	7z2u	none	0	FER:B:302	14	3-(4-HYDROXY-3-METHOXYPHENYL)-2-PROPENOI	eligible	1.5	1.9		5c608c5e54c3238f	accept	0.329
+3hmf	minor	3	989fe4a2c36a6a57	6znv	none	1	QMW:A:301	21	1-[3-azanyl-6-(2-hydroxyphenyl)pyridazin	eligible	1.63	1.14		63a478f82fe87c21	accept	0.38
+2iyt	major	2	827d8b35f26be3bf	2iys	major	0	SKM:A:201	12	(3R,4S,5R)-3,4,5-TRIHYDROXYCYCLOHEX-1-EN	crystal-context dependent (0.13 of contact atoms)	1.47	1.4		664a4fbcd0ed5242	exclude	0.103
+2zbs	none	0	5d9ec96346674656	2e2r	none	0	2OH:A:1401	17	4,4'-PROPANE-2,2-DIYLDIPHENOL	eligible	1.8	1.6		67819b2bc4f0ed90	accept	0.274
+2zbs	none	0	52ca3abc99bf0a1b	2zkc	none	1	BPZ:A:999	20	4,4'-cyclohexane-1,1-diyldiphenol	eligible	1.8	1.7		67819b2bc4f0ed90	accept	0.196
+6ppa	major	2	932be34024dea380	6v0q	major	0	EAE:A:305	17	(1~{Z})-1-(3-ethyl-5-methoxy-1,3-benzoth	crystal-context dependent (0.27 of contact atoms)	1.77	1.69		6c29aa74287c042e	exclude	0.36
+6ppa	major	0	de941ecb215ff48e	6v0q	major	0	EAE:B:301	17	(1~{Z})-1-(3-ethyl-5-methoxy-1,3-benzoth	crystal-context dependent (0.21 of contact atoms)	1.77	1.69		6c29aa74287c042e	exclude	0.452
+6ppa	major	2	ef9243df71c13c3c	6v0q	major	0	EAE:B:301	17	(1~{Z})-1-(3-ethyl-5-methoxy-1,3-benzoth	crystal-context dependent (0.21 of contact atoms)	1.77	1.69		6c29aa74287c042e	exclude	0.452
+6ppa	major	2	21e0bb0223e35f6e	6v16	major	1	QMG:B:301	25	3-(6-acetylpyrrolo[1,2-a]pyrimidin-8-yl)	crystal-context dependent (0.30 of contact atoms)	1.77	1.9		6c29aa74287c042e	exclude	0.508
+6ppa	major	2	43e4a4ac3d8c022d	6v16	major	1	QMG:B:301	25	3-(6-acetylpyrrolo[1,2-a]pyrimidin-8-yl)	crystal-context dependent (0.30 of contact atoms)	1.77	1.9		6c29aa74287c042e	exclude	0.508
+3q6l	none	2	213acad8dedf3410	4nns	none	1	75D:A:201	19	2,4,6-tri(propan-2-yl)benzenesulfonic ac	eligible	1.4	1.53		6eebf5264d7052b0	accept	0.291
+3q6l	none	2	475e5af8423e36f6	4nnt	none	1	76D:A:201	18	2,4,6-tri(propan-2-yl)benzoic acid	eligible	1.4	1.53		6eebf5264d7052b0	accept	0.262
+8fme	none	4	ca403edcbb1150e0	8fos	none	2	6NT:A:502	12	6-NITROBENZOTRIAZOLE	eligible	1.44	1.56		700d3898b127c9e7	accept	0.133
+5e8s	minor	7	a53cdf1dbf16f59c	2wot	minor	0	ZZG:A:1500	34	4-[(5,6-DIMETHYL-2,2'-BIPYRIDIN-3-YL)OXY	eligible	1.45	1.85		702b98333ea2ae36	accept	0.25
+5e8s	minor	5	d8b7852d9dc66354	5qim	minor	2	J2Y:A:601	27	N-{4-[3-(5-methoxypyridin-2-yl)-1H-pyrro	eligible	1.45	1.75		702b98333ea2ae36	accept	0.211
+3k0m	none	0	0378e9ae5d4ded85	4n1n	none	0	UNU:A:201	9	BENZAMIDE	eligible	1.25	1.5		71376b3a50a1cc06	accept	0.139
+3k0m	major	0	729e41a2f6d6b33c	4n1o	major	0	LSA:A:201	12	1,2-BENZISOTHIAZOL-3(2H)-ONE 1,1-DIOXIDE	crystal-context dependent (0.46 of contact atoms)	1.25	1.75		71376b3a50a1cc06	exclude	0.273
+3k0m	none	0	e995481874d4fb35	4n1o	minor	2	LSA:A:202	12	1,2-BENZISOTHIAZOL-3(2H)-ONE 1,1-DIOXIDE	eligible	1.25	1.75		71376b3a50a1cc06	accept	0.231
+3k0m	minor	1	3125f08512c7edeb	4n1o	none	0	LSA:A:203	12	1,2-BENZISOTHIAZOL-3(2H)-ONE 1,1-DIOXIDE	eligible	1.25	1.75		71376b3a50a1cc06	accept	0.166
+3k0m	major	0	817bc1a9a862b3aa	4n1o	major	0	LSA:A:204	12	1,2-BENZISOTHIAZOL-3(2H)-ONE 1,1-DIOXIDE	crystal-context dependent (0.25 of contact atoms)	1.25	1.75		71376b3a50a1cc06	exclude	0.184
+3k0m	major	0	3cdcf1b741d6bd6c	4n1o	major	0	LSA:A:205	12	1,2-BENZISOTHIAZOL-3(2H)-ONE 1,1-DIOXIDE	crystal-context dependent (0.67 of contact atoms)	1.25	1.75		71376b3a50a1cc06	exclude	0.367
+5rg8	none	1	fd5e7dc6163d1398	5rge	none	2	6NT:A:500	12	6-NITROBENZOTRIAZOLE	eligible	1.73	1.77		7f17224bac3686ae	accept	0.315
+3wc4	none	0	50e8aa01b7adb7e1	4rel	none	0	KMP:A:1001	21	3,5,7-TRIHYDROXY-2-(4-HYDROXYPHENYL)-4H-	cofactor or co-ligand absent at the apo site	1.85	1.75		7fe4866fecc0148a	exclude	0.312
+7key	none	2	a831a4c303e28d9a	7klx	minor	3	WOV:A:401	17	2-(2,5-dimethyl-1H-pyrrol-1-yl)-5-hydrox	eligible	1.77	1.84		8031ae95cbb25e3b	accept	0.17
+3g0j	none	5	8010f7b90b5668be	3mb4	major	0	MB3:B:1	7	1-methylpyrrolidin-2-one	crystal-context dependent (0.10 of contact atoms)	1.78	1.66		805c9b1776590634	exclude	0.411
+8ftp	none	1	3d14b6f21e8b903c	8tav	major	0	ZKR:A:302	12	[5-(trifluoromethyl)thiophen-2-yl]boroni	crystal-context dependent (0.19 of contact atoms)	1.37	1.39		806f11f1df0d798c	exclude	0.368
+8ftp	major	2	8c7d7558c0c71f80	8tav	major	1	ZKR:A:303	12	[5-(trifluoromethyl)thiophen-2-yl]boroni	crystal-context dependent (0.51 of contact atoms)	1.37	1.39		806f11f1df0d798c	exclude	0.175
+1alb	none	2	ac26f9f403e83539	3hk1	none	0	B64:A:132	22	4-{[2-(methoxycarbonyl)-5-(2-thienyl)-3-	eligible	2.5	1.7		8167dd665db7a995	accept	0.658
+6aym	none	1	b3a33fcc7a7495b2	6ayo	none	0	C1Y:B:301	20	(3R,4S)-1-[(4-amino-5H-pyrrolo[3,2-d]pyr	whole-pocket RMSD 2.22 A	1.25	1.67		836548e7a7df94aa	backbone_change	2.217
+6aym	none	1	ae557f538c35d329	6ayo	none	0	C1Y:A:301	20	(3R,4S)-1-[(4-amino-5H-pyrrolo[3,2-d]pyr	whole-pocket RMSD 2.17 A	1.25	1.67		836548e7a7df94aa	backbone_change	2.166
+6aym	none	1	c58ec64e1ac75a51	6ayq	none	1	TDI:B:301	20	(3R,4S)-1-[(4-AMINO-5H-PYRROLO[3,2-D]PYR	whole-pocket RMSD 2.19 A	1.25	1.42		836548e7a7df94aa	backbone_change	2.191
+6aym	none	1	6a0fb1f5b4c558d2	6ayq	none	0	TDI:A:301	20	(3R,4S)-1-[(4-AMINO-5H-PYRROLO[3,2-D]PYR	whole-pocket RMSD 2.26 A	1.25	1.42		836548e7a7df94aa	backbone_change	2.258
+7mne	none	1	508b07cf5adb82ae	7mnf	none	2	OTA:A:401	18	2-(OXALYL-AMINO)-4,5,6,7-TETRAHYDRO-THIE	eligible	1.6	1.7		8514b980884ec936	accept	0.146
+5e8v	minor	3	61b4330948da13fd	5qin	minor	0	J2V:A:601	27	N-{4-[3-(6-methoxypyridin-3-yl)-1H-pyrro	eligible	1.69	1.57		88b428b300fa5fe6	accept	0.612
+3uav	none	3	9d217113b12c58ef	2ac7	none	1	ADN:B:1215	19	ADENOSINE	eligible	1.4	1.7		8db9150dd2e65942	accept	0.259
+3uav	none	3	ea2aa0effa40a210	2ac7	none	1	ADN:A:1216	19	ADENOSINE	eligible	1.4	1.7		8db9150dd2e65942	accept	0.256
+3uav	none	3	d044697c9b260b63	2ac7	none	1	ADN:B:1215	19	ADENOSINE	eligible	1.4	1.7		8db9150dd2e65942	accept	0.259
+3uav	none	3	274d968ed2de6c64	3uaw	none	2	ADN:A:236	19	ADENOSINE	eligible	1.4	1.2		8db9150dd2e65942	accept	0.2
+3uav	none	3	f103150d4318d464	3uax	none	1	NOS:A:236	19	INOSINE	eligible	1.4	1.2		8db9150dd2e65942	accept	0.156
+3dai	none	5	ba701f492a20787b	4qsu	none	0	TDR:A:1210	9	THYMINE	eligible	1.95	1.9		90b947063061d4b3	accept	0.272
+6c7a	major	2	709de94af951aa44	6c79	minor	1	CE3:A:301	30	(6R,7R)-3-(acetyloxymethyl)-7-[[(2Z)-2-(	eligible	1.05	1.1		917c7916da983191	accept	0.165
+1gcg	none	8	cca206cdadff2f6a	3ga5	none	2	RGG:A:400	17	(2R)-2,3-dihydroxypropyl beta-D-galactop	eligible	1.88	1.87		9198e9842257f23d	accept	0.457
+1gcg	none	8	213e099e4d842d73	3ga5	none	2	RGG:B:401	17	(2R)-2,3-dihydroxypropyl beta-D-galactop	eligible	1.88	1.87		9198e9842257f23d	accept	0.423
+7tx4	minor	3	95ffd089bd47d70a	7tx5	minor	4	APR:A:201	36	ADENOSINE-5-DIPHOSPHORIBOSE	whole-pocket RMSD 0.76 A	1.9	1.94		92b4b8ac3490e160	backbone_change	0.761
+4igj	none	9	3bcbf53572990176	4kae	none	0	TGG:B:301	28	GAMMA-GLUTAMYL-S-(1,2-DICARBOXYETHYL)CYS	eligible	1.48	1.5		95c163abe786db07	accept	0.321
+4igj	none	9	3b94e40a9dce9848	4kae	none	1	TGG:A:301	28	GAMMA-GLUTAMYL-S-(1,2-DICARBOXYETHYL)CYS	cofactor or co-ligand absent at the apo site	1.48	1.5		95c163abe786db07	exclude	0.462
+4igj	none	8	a674a32689a1eb29	4kdy	none	2	GSH:B:301	20	Glutathione	eligible	1.48	1.5		95c163abe786db07	accept	0.29
+4igj	none	7	5b5b4f75c8f026ad	4kdy	none	0	GSH:A:301	20	Glutathione	eligible	1.48	1.5		95c163abe786db07	accept	0.412
+4zkv	major	6	c53532d2c77bf96c	8p8p	none	1	X7I:A:201	35	[(2~{R},3~{S},4~{R},5~{R})-5-imidazo[2,1	eligible	1.92	1.9		9984e70ded6153f9	accept	0.389
+4zkv	major	6	5d1802db441a2e37	8p8p	none	1	X7I:A:201	35	[(2~{R},3~{S},4~{R},5~{R})-5-imidazo[2,1	eligible	1.92	1.9		9984e70ded6153f9	accept	0.389
+4jsw	major	0	9dee19ae65cf4a3c	4jsz	major	0	FB2:A:302	10	benzenesulfonamide	crystal-context dependent (0.25 of contact atoms)	1.9	1.9		99d4f606849941f1	exclude	0.166
+7ykp	none	1	cc74cee67640cfef	7yko	none	1	9JE:A:302	7	pentane-1,5-diol	cofactor or co-ligand absent at the apo site	1.1	1.15		9d4e90aaadf87992	exclude	0.046
+6wey	minor	3	ce056305803760d9	7jme	major	0	CMP:A:401	22	ADENOSINE-3',5'-CYCLIC-MONOPHOSPHATE	crystal-context dependent (0.11 of contact atoms)	0.95	1.55		9db9ead76bb9777c	exclude	0.695
+5ipb	none	10	7a229ea810e8dc50	5ipc	none	1	6CE:A:201	35	5'-S-[(S)-hydroxy{[2-(1H-indol-3-yl)ethy	eligible	1.55	1.3		9ed897695243c135	accept	0.271
+5ipb	none	10	2e2732aad3453477	5km6	major	6	6US:A:201	34	[(2~{R},3~{S},4~{S},5~{R})-5-(6-aminopur	crystal-context dependent (0.20 of contact atoms)	1.55	1.6		9ed897695243c135	exclude	0.497
+5ipb	none	10	9cb9b97f7bb10472	5wa8	none	3	9ZA:A:201	29	[(2~{R},3~{S},4~{R},5~{R})-5-(6-aminopur	eligible	1.55	1.3		9ed897695243c135	accept	0.276
+5ipb	major	5	8eef32e99a74bb16	5wa8	none	3	9ZA:A:201	29	[(2~{R},3~{S},4~{R},5~{R})-5-(6-aminopur	eligible	1.55	1.3		9ed897695243c135	accept	0.359
+2cc9	none	0	e9783c6c31d9c5f1	2cc8	none	0	RBF:A:1067	27	RIBOFLAVIN	cofactor or co-ligand absent at the apo site	1.55	1.9		9fcf7b3d91efd544	exclude	0.287
+3ldv	none	2	df70609d885bd17f	3uwq	none	0	U5P:A:232	21	URIDINE-5'-MONOPHOSPHATE	cofactor or co-ligand absent at the apo site	1.77	1.8		a27d625f595fc38c	exclude	0.375
+3ldv	none	1	67732e6e7804abe9	3uwq	none	0	U5P:B:232	21	URIDINE-5'-MONOPHOSPHATE	eligible	1.77	1.8		a27d625f595fc38c	accept	0.371
+3ldv	none	1	55af59652d53f12e	3uwq	none	0	U5P:A:232	21	URIDINE-5'-MONOPHOSPHATE	cofactor or co-ligand absent at the apo site	1.77	1.8		a27d625f595fc38c	exclude	0.371
+3ldv	none	2	817419b8ce9f32e5	3uwq	none	0	U5P:B:232	21	URIDINE-5'-MONOPHOSPHATE	eligible	1.77	1.8		a27d625f595fc38c	accept	0.432
+5xfz	major	1	e3f6b2caa033ba2b	5xh2	major	0	NPO:A:305	10	P-NITROPHENOL	crystal-context dependent (0.35 of contact atoms)	1.55	1.2		a35701ed35a20f04	exclude	0.108
+5e8t	minor	6	d45f44ecc7c53a16	5e8w	minor	4	STU:A:601	35	STAUROSPORINE	eligible	1.7	1.86		a5952696a9244357	accept	0.378
+5e8t	minor	5	34c1b5fbf2b17dbc	5qik	minor	1	J2M:A:601	27	N-{4-[3-(6-fluoropyridin-3-yl)-4-oxo-4,5	eligible	1.7	1.58		a5952696a9244357	accept	0.342
+5e8t	minor	5	6e3ca34a688935f9	5qil	minor	2	J2V:A:601	27	N-{4-[3-(6-methoxypyridin-3-yl)-1H-pyrro	eligible	1.7	1.98		a5952696a9244357	accept	0.316
+5ng7	none	6	a362f9bc26e30b9c	8agp	none	0	M1U:A:501	12	(1~{S},2~{S},4~{R})-2-chloranyl-1-methyl	eligible	1.39	1.49		a63974568ace5ef8	accept	0.34
+5ng7	none	3	3a916dc92413651d	8agp	none	1	M1U:A:502	12	(1~{S},2~{S},4~{R})-2-chloranyl-1-methyl	eligible	1.39	1.49		a63974568ace5ef8	accept	0.598
+5ng7	none	6	4f5b98182e68d994	8agp	none	0	M1U:B:401	12	(1~{S},2~{S},4~{R})-2-chloranyl-1-methyl	eligible	1.39	1.49		a63974568ace5ef8	accept	0.267
+3d96	none	0	f9190e9f6414a773	2g78	major	0	REA:A:200	22	RETINOIC ACID	crystal-context dependent (0.18 of contact atoms)	1.71	1.7		a9ba7bf1fdba215b	exclude	0.643
+5ul8	minor	3	2dce92ef4fa9f707	5uj3	major	3	CE4:A:302	27	(2R)-2-[(R)-{[(2Z)-2-(2-amino-1,3-thiazo	crystal-context dependent (0.32 of contact atoms)	1.15	1.45		aa0aed96330391aa	exclude	0.158
+5nx0	major	1	4141d58afabd198d	3l2x	major	2	HED:A:169	8	2-HYDROXYETHYL DISULFIDE	crystal-context dependent (0.46 of contact atoms)	1.8	1.8		b0869d8a46d45b02	exclude	0.112
+5nx0	major	1	46a63609a17632ff	5lwo	major	2	HED:A:204	8	2-HYDROXYETHYL DISULFIDE	crystal-context dependent (0.38 of contact atoms)	1.8	1.18		b0869d8a46d45b02	exclude	0.088
+4lz2	major	0	6f8dcd6631f756b3	6fgg	major	1	D9B:A:1901	26	~{N}-[3-[2-(dimethylamino)ethyl]-2-oxida	crystal-context dependent (0.18 of contact atoms)	1.76	1.1		b08dfce09e26a0ce	exclude	0.232
+8tn1	none	1	3e4042944ebec322	8tn6	none	3	RPB:A:201	24	Rucaparib	eligible	1.61	1.36		b658135f14f2b435	accept	0.289
+8tn1	none	0	2554c2e878337eda	8tn6	none	1	RPB:B:201	24	Rucaparib	eligible	1.61	1.36		b658135f14f2b435	accept	0.289
+8tn1	none	0	ab769351ccfcd8b9	8tn6	none	2	RPB:C:201	24	Rucaparib	eligible	1.61	1.36		b658135f14f2b435	accept	0.431
+8tn1	none	2	3defdfd8f936876e	8tnb	none	1	IQM:A:201	22	5-fluoro-2-{4-[(methylamino)methyl]pheny	eligible	1.61	1.4		b658135f14f2b435	accept	0.253
+8tn1	none	0	69bd5aa33dfdd4f3	8tnb	none	2	IQM:B:201	22	5-fluoro-2-{4-[(methylamino)methyl]pheny	eligible	1.61	1.4		b658135f14f2b435	accept	0.258
+8tn1	none	0	02232eaff63e6f6a	8tnb	none	2	IQM:C:201	22	5-fluoro-2-{4-[(methylamino)methyl]pheny	eligible	1.61	1.4		b658135f14f2b435	accept	0.308
+8tn1	none	3	eb0590317573e173	8tnc	none	0	3JD:A:201	24	2-{4-[(3S)-piperidin-3-yl]phenyl}-2H-ind	eligible	1.61	1.4		b658135f14f2b435	accept	0.336
+8tn1	none	0	7d46addf82382500	8tnc	none	0	3JD:C:201	24	2-{4-[(3S)-piperidin-3-yl]phenyl}-2H-ind	eligible	1.61	1.4		b658135f14f2b435	accept	0.441
+3onv	none	0	17c9528f901f621e	3ut6	none	3	FMC:C:300	19	(1S)-1-(7-amino-1H-pyrazolo[4,3-d]pyrimi	eligible	1.89	1.89		b732f611bf6f7451	accept	0.486
+3onv	none	1	fc2a34a663fc9271	3ut6	none	3	FMC:B:300	19	(1S)-1-(7-amino-1H-pyrazolo[4,3-d]pyrimi	eligible	1.89	1.89		b732f611bf6f7451	accept	0.305
+3onv	none	2	cd3949e3ffc909cc	3ut6	none	4	FMC:A:300	19	(1S)-1-(7-amino-1H-pyrazolo[4,3-d]pyrimi	whole-pocket RMSD 1.35 A	1.89	1.89		b732f611bf6f7451	backbone_change	1.351
+3onv	none	0	5668adf0bf969a94	3ut6	none	3	FMC:C:300	19	(1S)-1-(7-amino-1H-pyrazolo[4,3-d]pyrimi	eligible	1.89	1.89		b732f611bf6f7451	accept	0.486
+4jn1	major	0	9c0faa81346934a1	4jn2	minor	0	4CC:L:301	35	N-[(2-{[(4-carbamimidoylphenyl)amino]met	whole-pocket RMSD 0.90 A	1.89	1.71		b7a5b5cc8c57312c	backbone_change	0.899
+7q17	major	2	7a3d43ede4c7f000	7q19	major	2	DSM:A:201	20	3-(10,11-DIHYDRO-5H-DIBENZO[B,F]AZEPIN-5	crystal-context dependent (0.24 of contact atoms)	1.8	1.55		bcbdcfbb61cb8edc	exclude	0.465
+7pwi	none	5	ed0a4d5ef664e8d7	7pwh	none	2	TYD:A:305	25	THYMIDINE-5'-DIPHOSPHATE	eligible	1.33	1.9		bf7e35e95601480a	accept	0.373
+8usg	none	3	a55370d81109dc3b	8ush	none	4	6NT:A:401	12	6-NITROBENZOTRIAZOLE	eligible	1.37	1.32		c258a8f2912b5547	accept	0.203
+8usg	none	4	f6bc7e3de3c6c8f1	8ush	none	3	6NT:B:401	12	6-NITROBENZOTRIAZOLE	eligible	1.37	1.32		c258a8f2912b5547	accept	0.185
+5ump	none	4	cbe84bf91cd93e31	5umx	minor	4	RBF:B:201	27	RIBOFLAVIN	whole-pocket RMSD 0.78 A	1.08	1.59		c291dca4bc0a989d	backbone_change	0.784
+5ump	none	6	79277c0050a8d926	5umy	none	3	TNN:A:201	36	(1aS,11S,11aR,14Z,18R)-3,8,18-trihydroxy	eligible	1.08	1.78		c291dca4bc0a989d	accept	0.262
+5ump	none	6	c3a6ae8ed5b64e59	5umy	none	3	TNN:A:201	36	(1aS,11S,11aR,14Z,18R)-3,8,18-trihydroxy	eligible	1.08	1.78		c291dca4bc0a989d	accept	0.262
+6f43	none	1	3563c69a39735473	6f4b	none	0	GSH:A:301	20	Glutathione	eligible	1.35	1.55		c50f788b8b4c3247	accept	0.168
+6f43	none	1	986fc50fe8225d6d	6f4b	none	0	GSH:B:301	20	Glutathione	eligible	1.35	1.55		c50f788b8b4c3247	accept	0.137
+6f43	none	1	ef54203ba9c16d72	6f4b	none	0	GSH:A:301	20	Glutathione	eligible	1.35	1.55		c50f788b8b4c3247	accept	0.168
+6f43	none	2	3230cc8fa7fe3dc5	6f4b	none	0	GSH:B:301	20	Glutathione	eligible	1.35	1.55		c50f788b8b4c3247	accept	0.137
+6f43	none	3	d1ef3ccf4bf68009	6f66	none	3	CUT:A:300	16	[2,4-bis(oxidanyl)phenyl]-phenyl-methano	eligible	1.35	1.75		c50f788b8b4c3247	accept	0.116
+6f43	none	0	1aa414d8b85e516d	6f66	none	2	CUT:B:300	16	[2,4-bis(oxidanyl)phenyl]-phenyl-methano	eligible	1.35	1.75		c50f788b8b4c3247	accept	0.113
+6f43	none	1	25c8f0170aaa9635	6f68	none	0	GSH:A:302	20	Glutathione	cofactor or co-ligand absent at the apo site	1.35	1.7		c50f788b8b4c3247	exclude	0.084
+6f43	none	2	e85f2d3d943e0ed1	6f68	none	2	GSH:B:303	20	Glutathione	eligible	1.35	1.7		c50f788b8b4c3247	accept	0.09
+6f43	none	0	ff4d22e8ce445a8b	6f68	none	1	4EU:B:302	17	(2,4-dihydroxyphenyl)(4-hydroxyphenyl)me	cofactor or co-ligand absent at the apo site	1.35	1.7		c50f788b8b4c3247	exclude	0.094
+6f43	none	1	1cedb7bd2f0f7199	6f68	none	0	GSH:A:302	20	Glutathione	cofactor or co-ligand absent at the apo site	1.35	1.7		c50f788b8b4c3247	exclude	0.084
+6f43	none	2	9c0a6040713f4ed1	6f68	none	2	GSH:B:303	20	Glutathione	eligible	1.35	1.7		c50f788b8b4c3247	accept	0.09
+5a9r	none	3	8b5a09ff83941c82	5a9t	none	3	YLG:A:1291	11	(1R)-1-methyl-1,2,3,4-tetrahydroisoquino	eligible	1.55	1.43		c73cfcfab42ac422	accept	0.286
+4j3y	minor	2	b0e8a7d418eb17cb	4kju	minor	2	1RH:A:502	41	N-{(3S)-5-(4-aminobenzoyl)-1-[(2-methoxy	eligible	1.45	1.6		ca8095716fae2633	accept	0.135
+4j3y	minor	2	ca3b2e41793cc920	4kjv	major	1	1RK:A:502	40	6-methoxy-5-({(3S)-3-[(N-methyl-L-alanyl	crystal-context dependent (0.13 of contact atoms)	1.45	1.7		ca8095716fae2633	exclude	0.107
+4lc2	none	1	29e6dbee9da82859	5c85	none	0	4YO:A:802	12	6-bromo-3,4-dihydroquinoxalin-2(1H)-one	eligible	1.65	1.7		cb5cf2af5e4a32c1	accept	0.412
+4lc2	none	0	9eeacbc91e3939a0	5c87	none	2	4YS:A:802	11	isoquinolin-1(2H)-one	eligible	1.65	1.55		cb5cf2af5e4a32c1	accept	0.158
+4qy4	none	2	f7ef9ded6a9dd9e2	5dkc	major	3	5BW:A:1502	24	(2E)-1-(2-hydroxyphenyl)-3-[(1R,4R)-5-(p	crystal-context dependent (0.20 of contact atoms)	1.97	1.6		cd03238a2414de62	exclude	0.281
+4qy4	none	2	e13671740bc5b5b1	5dkh	none	5	5C0:A:1503	27	(2E)-3-[(6S,9R)-4-(cyclopropylamino)-6,7	eligible	1.97	1.7		cd03238a2414de62	accept	0.322
+4qy4	none	2	fc975d2d685d16e9	5dkh	major	5	5C0:B:1505	27	(2E)-3-[(6S,9R)-4-(cyclopropylamino)-6,7	crystal-context dependent (0.14 of contact atoms)	1.97	1.7		cd03238a2414de62	exclude	0.306
+3tot	none	1	62718f2639a97e17	3tou	none	1	GSH:A:227	20	Glutathione	eligible	1.76	1.75		cfc24a2d24256ba4	accept	0.079
+3tot	none	0	d5980bbac18b83b2	3tou	none	1	GSH:B:227	20	Glutathione	eligible	1.76	1.75		cfc24a2d24256ba4	accept	0.07
+3tot	none	1	6bc9c40eeaf7f37d	3tou	none	1	GSH:A:227	20	Glutathione	eligible	1.76	1.75		cfc24a2d24256ba4	accept	0.181
+3tot	none	1	f218b9072a4763ff	3tou	none	1	GSH:B:227	20	Glutathione	eligible	1.76	1.75		cfc24a2d24256ba4	accept	0.187
+3kr7	none	1	f1aee3276de636f9	3p0n	none	0	BPU:C:1163	15	7-bromopyrrolo[1,2-a]quinoxalin-4(5H)-on	eligible	1.95	1.9		d0a1e5c0d8513a55	accept	0.223
+3kr7	none	2	7cfb58f2948f7b8b	3p0q	none	2	NNL:A:1163	20	N-[2-(4-chlorophenyl)ethyl]-6-methyl[1,2	eligible	1.95	1.84		d0a1e5c0d8513a55	accept	0.186
+2wyu	none	1	ac4609eed42760d7	2wyw	none	1	TCL:A:1261	17	TRICLOSAN	cofactor or co-ligand absent at the apo site	1.5	1.9		d7b10ead1052a8de	exclude	0.407
+2wyu	none	1	169e40ddaed42efc	2wyw	none	4	TCL:B:1260	17	TRICLOSAN	cofactor or co-ligand absent at the apo site	1.5	1.9		d7b10ead1052a8de	exclude	0.407
+2wyu	none	1	cdb554d7c5589c57	2wyw	none	1	TCL:C:1260	17	TRICLOSAN	cofactor or co-ligand absent at the apo site	1.5	1.9		d7b10ead1052a8de	exclude	0.467
+2wyu	none	1	b18fd2e3f40c1574	2wyw	none	0	TCL:D:1260	17	TRICLOSAN	cofactor or co-ligand absent at the apo site	1.5	1.9		d7b10ead1052a8de	exclude	0.457
+6gks	none	2	348c2c6f2540b39e	6qrn	none	0	RIP:A:500	10	beta-D-ribopyranose	eligible	1.34	1.4		d8d1334344d63ee9	accept	0.257
+5f6e	none	1	35e1ea353db1a647	5f6v	minor	2	5VL:A:201	14	2-(2-hydroxyphenyl)phenol	eligible	1.12	1.49		dbb121c7884fdb03	accept	0.077
+5rji	none	1	f9ccfa98a229b7b6	5rjj	none	2	HH8:A:1501	11	4-bromanyl-1,8-naphthyridine	eligible	1.24	1.15		dc87e8f2b0bee50d	accept	0.116
+4ouf	major	2	823c8f2ed951e940	7kpy	none	5	WU1:A:1202	34	2-[2-(3-chloranyl-4-methoxy-phenyl)ethyl	eligible	1.4	1.7		e02e08587ae80693	accept	0.41
+4ouf	major	2	95378ab3e701972d	7kpy	none	2	WU1:B:1203	34	2-[2-(3-chloranyl-4-methoxy-phenyl)ethyl	eligible	1.4	1.7		e02e08587ae80693	accept	0.428
+4ouf	major	1	9d75ba09f0e9031e	7ugl	major	1	N6I:A:1201	34	(3M)-4-{[(2S)-2-(3-chlorophenyl)-2-hydro	crystal-context dependent (0.59 of contact atoms)	1.4	1.5		e02e08587ae80693	exclude	0.323
+4ouf	major	0	cc47496ca46c634a	7ugl	major	1	N6I:A:1201	34	(3M)-4-{[(2S)-2-(3-chlorophenyl)-2-hydro	crystal-context dependent (0.59 of contact atoms)	1.4	1.5		e02e08587ae80693	exclude	0.323
+4ouf	major	1	2234fa1aa45f90f5	7ugl	major	0	N6I:B:1201	34	(3M)-4-{[(2S)-2-(3-chlorophenyl)-2-hydro	crystal-context dependent (0.53 of contact atoms)	1.4	1.5		e02e08587ae80693	exclude	0.287
+4ouf	major	2	dab541902152fe42	8fup	major	1	JHL:A:1202	39	(6S)-1-[3,4-bis(fluoranyl)phenyl]-6-[5-(	crystal-context dependent (0.15 of contact atoms)	1.4	1.7		e02e08587ae80693	exclude	0.711
+4ouf	major	1	076d5a03d891f7fc	8fup	major	1	N6I:A:1201	34	(3M)-4-{[(2S)-2-(3-chlorophenyl)-2-hydro	crystal-context dependent (0.53 of contact atoms)	1.4	1.7		e02e08587ae80693	exclude	0.366
+4ouf	major	2	597f8ea9adfe3c83	8fup	none	2	JHL:B:1201	39	(6S)-1-[3,4-bis(fluoranyl)phenyl]-6-[5-(	eligible	1.4	1.7		e02e08587ae80693	accept	0.71
+3h47	none	2	7be46ac29d63323a	4qnb	none	0	1B0:A:301	32	N-METHYL-NALPHA-[(2-METHYL-1H-INDOL-3-YL	eligible	1.9	2.0		e20bca20e849d9f3	accept	0.249
+6cji	none	3	738e457d15c4733b	6cjl	none	3	RDC:A:301	25	RADICICOL	eligible	1.64	1.7		e38f8594dc1f307a	accept	0.406
+6cji	none	3	251124e0075a8e13	6cjl	none	5	RDC:B:301	25	RADICICOL	whole-pocket RMSD 0.76 A	1.64	1.7		e38f8594dc1f307a	backbone_change	0.755
+4ptt	major	0	5f75c2dbf263bd0f	4ptu	major	0	RAM:B:301	11	alpha-L-rhamnopyranose	crystal-context dependent (0.41 of contact atoms)	1.78	1.51		e735289db27815ef	exclude	0.2
+4ptt	major	0	5bb2e4b8677242e0	4ptu	major	0	RAM:B:301	11	alpha-L-rhamnopyranose	crystal-context dependent (0.41 of contact atoms)	1.78	1.51		e735289db27815ef	exclude	0.2
+6lfv	minor	4	ac8fcccd7adbf7f1	6lfw	minor	1	OMF:A:301	18	1,2,3-tris(chloranyl)-5-(3-chloranyl-4-m	eligible	1.9	1.41		e8e96be624f145c2	accept	0.162
+6lfv	minor	4	be00f01c3e7508e7	6lfx	minor	3	OM4:A:301	17	1,2-bis(chloranyl)-4-(3-chloranyl-4-meth	eligible	1.9	1.43		e8e96be624f145c2	accept	0.266
+5hih	minor	12	fe02a159def13cce	5hol	minor	7	APR:A:201	36	ADENOSINE-5-DIPHOSPHORIBOSE	eligible	1.66	1.59		eacc428c48829bfb	accept	0.48
+4o0q	none	6	49c5f721f3de17e9	4o1e	none	8	C2F:A:3000	33	5-METHYL-5,6,7,8-TETRAHYDROFOLIC ACID	eligible	1.92	1.61		ede0725f19ffe150	accept	0.451
+4o0q	none	6	c3e0fe3e564a9d8b	4o1e	none	7	C2F:B:4000	33	5-METHYL-5,6,7,8-TETRAHYDROFOLIC ACID	eligible	1.92	1.61		ede0725f19ffe150	accept	0.434
+4o0q	none	7	6b4ba3dfe4dc408b	4o1f	none	5	THG:A:3000	32	(6S)-5,6,7,8-TETRAHYDROFOLATE	eligible	1.92	1.8		ede0725f19ffe150	accept	0.434
+4o0q	none	6	b4a1e39a2fcf1e0c	4o1f	none	4	THG:B:4000	32	(6S)-5,6,7,8-TETRAHYDROFOLATE	eligible	1.92	1.8		ede0725f19ffe150	accept	0.441
+3g6l	none	1	7968c75e320af942	3g6m	none	1	CFF:A:1	14	CAFFEINE	cofactor or co-ligand absent at the apo site	1.8	1.65		ee1463f68f4452fc	exclude	0.202
+3g6l	none	1	28df252a153e6e16	3g6m	none	1	CFF:A:427	14	CAFFEINE	cofactor or co-ligand absent at the apo site	1.8	1.65		ee1463f68f4452fc	exclude	0.188
+8sh6	major	0	49e6f53ebc0b9814	8sh8	minor	0	AR6:A:201	36	[(2R,3S,4R,5R)-5-(6-AMINOPURIN-9-YL)-3,4	eligible	0.9	0.9		f3e0eacf95a8556b	accept	0.566
+1ofn	none	4	8ec051785e59eb5b	1oi6	none	1	TMP:A:1204	21	THYMIDINE-5'-PHOSPHATE	eligible	1.5	1.4		f44483b2d65dea51	accept	0.098
+1ofn	major	1	06f8ca4f58af2891	1oi6	major	3	TMP:B:1203	21	THYMIDINE-5'-PHOSPHATE	crystal-context dependent (0.15 of contact atoms)	1.5	1.4		f44483b2d65dea51	exclude	0.22
+1ofn	major	1	2a6070389276a7a4	1oi6	none	1	TMP:A:1204	21	THYMIDINE-5'-PHOSPHATE	eligible	1.5	1.4		f44483b2d65dea51	accept	0.435
+1ofn	none	4	3f291c9437c562a0	1oi6	major	3	TMP:B:1203	21	THYMIDINE-5'-PHOSPHATE	crystal-context dependent (0.15 of contact atoms)	1.5	1.4		f44483b2d65dea51	exclude	0.367
+4j9y	none	5	4e2004374c441952	4g27	none	5	PHU:R:1006	10	1-phenylurea	eligible	1.51	1.65		f72bc0f83a7538f3	accept	0.461
+4j9y	none	5	19069630a8847847	4g27	none	5	PHU:R:1006	10	1-phenylurea	eligible	1.51	1.65		f72bc0f83a7538f3	accept	0.461
+3dlm	none	3	0e42ec06efb3483d	5ke2	none	2	6S4:A:501	17	(3~{S})-~{N}-~{tert}-butyl-1,2,3,4-tetra	eligible	1.77	1.56		f8698fb4d3e2465a	accept	0.139
+3dwy	none	0	18983ddef7bd1791	3p1d	none	2	MB3:A:1198	7	1-methylpyrrolidin-2-one	eligible	1.98	1.86		fad0d613c720bf69	accept	0.104
+2oss	major	0	d752e877322cc2e3	2yel	major	0	WSH:A:1170	32	BENZYL [(4R)-1-METHYL-6-PHENYL-4H-[1,2,4	crystal-context dependent (0.20 of contact atoms)	1.35	1.65		fbf3f5c695a3b8c4	exclude	0.238
+2oss	major	0	d015aadc99a5fa16	3mxf	major	0	JQ1:A:1	31	(6S)-6-(2-tert-butoxy-2-oxoethyl)-4-(4-c	crystal-context dependent (0.22 of contact atoms)	1.35	1.6		fbf3f5c695a3b8c4	exclude	0.249
+2oss	major	0	539e1bde5b2617eb	3p5o	major	0	EAM:A:1	30	2-[(4S)-6-(4-chlorophenyl)-8-methoxy-1-m	crystal-context dependent (0.21 of contact atoms)	1.35	1.6		fbf3f5c695a3b8c4	exclude	0.184
+6fnl	minor	1	88c5041cdb0042d0	6fnk	minor	2	DXK:A:1001	17	1-methyl-6-pyridin-3-yl-pyrazolo[3,4-d]p	eligible	1.27	1.05		fc61385f31c3df04	accept	0.135

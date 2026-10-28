@@ -1,0 +1,32 @@
+{
+ "shard": 7,
+ "cases": 8,
+ "built": [
+  "84a6cc4cec17be6f",
+  "3c9db9b0eb21fc19",
+  "ac718cff8957d4c8",
+  "6a0fb1f5b4c558d2",
+  "8eef32e99a74bb16",
+  "5668adf0bf969a94",
+  "e13671740bc5b5b1",
+  "c3e0fe3e564a9d8b"
+ ],
+ "prepared": [
+  "84a6cc4cec17be6f",
+  "3c9db9b0eb21fc19",
+  "ac718cff8957d4c8",
+  "6a0fb1f5b4c558d2",
+  "8eef32e99a74bb16",
+  "e13671740bc5b5b1"
+ ],
+ "failed": [
+  {
+   "case_id": "5668adf0bf969a94",
+   "error": "RuntimeError('mk_prepare_receptor.py failed: m_pdb_string( | ^^^^^^^^^^^^^^^^^^^^^^^^ | File \"/gpfs/jaeohshin/work/envs/dock-vina/lib/python3.11/site-packages/meeko/polymer.py\", line 1653, in from_pdb_string | tmp_raw_input_mols = cls._pdb_to_residue_mols( | ^^^^^^^^^^^^^^^^^^^^^^^^^ | File \"/gpfs/j"
+  },
+  {
+   "case_id": "c3e0fe3e564a9d8b",
+   "error": "AssertionError(('c3e0fe3e564a9d8b', 'holo', 'non-pocket atoms differ between arms', 1.6381172119234964))"
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+  "audited": 1209,
+  "passed_geometry": 247,
+  "excluded_as_buffer": 14,
+  "cohort": 233,
+  "source_groups": 101,
+  "structures": 238,
+  "buffer_ccds": [
+    "B3P",
+    "BTB",
+    "FLC"
+  ],
+  "note": "homology_component is not assigned yet; it is only needed for the analysis bootstrap unit."
+}

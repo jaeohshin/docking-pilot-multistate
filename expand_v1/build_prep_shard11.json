@@ -1,0 +1,29 @@
+{
+ "shard": 11,
+ "cases": 8,
+ "built": [
+  "e7f4647779f8df99",
+  "f0b10686665b92ee",
+  "5d9ec96346674656",
+  "ea2aa0effa40a210",
+  "34c1b5fbf2b17dbc",
+  "f6bc7e3de3c6c8f1",
+  "f218b9072a4763ff",
+  "8ec051785e59eb5b"
+ ],
+ "prepared": [
+  "e7f4647779f8df99",
+  "5d9ec96346674656",
+  "ea2aa0effa40a210",
+  "34c1b5fbf2b17dbc",
+  "f6bc7e3de3c6c8f1",
+  "f218b9072a4763ff",
+  "8ec051785e59eb5b"
+ ],
+ "failed": [
+  {
+   "case_id": "f0b10686665b92ee",
+   "error": "AssertionError(('f0b10686665b92ee', 'apo', 'Meeko deleted different residues across arms', {'single_0': [\"- Template matching failed for: ['A:184', 'A:186'] Ignored due to allow_bad_res.\", 'allow_bad_res after: mk_prepare_receptor.py failed: s_from_box_radius=8.0000 A). | Bad res A:186 is within rad"
+  }
+ ]
+}

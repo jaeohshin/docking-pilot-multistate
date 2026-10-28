@@ -1,0 +1,5956 @@
+{
+ "cases": [
+  {
+   "case_id": "01100dcbf8cafc35",
+   "holo": {
+    "box_center": [
+     28.599,
+     19.631,
+     -7.299
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     22.728,
+     -17.258,
+     11.374
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "02232eaff63e6f6a",
+   "holo": {
+    "box_center": [
+     -24.429,
+     51.436,
+     -23.046
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     56.584,
+     4.636,
+     -10.921
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "0c2914f1336e5905",
+   "holo": {
+    "box_center": [
+     10.572,
+     -5.742,
+     10.895
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     10.398,
+     -6.039,
+     10.833
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "0e42ec06efb3483d",
+   "holo": {
+    "box_center": [
+     17.596,
+     44.49,
+     11.772
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     17.471,
+     44.388,
+     11.389
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "11c1f5b69b4ea45a",
+   "holo": {
+    "box_center": [
+     17.354,
+     14.03,
+     5.169
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -21.596,
+     -5.109,
+     -16.779
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "129663a7f774bc71",
+   "holo": {
+    "box_center": [
+     10.559,
+     -5.851,
+     11.196
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     10.216,
+     -6.215,
+     11.089
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "172d7da9c683ce21",
+   "holo": {
+    "box_center": [
+     27.51,
+     5.113,
+     10.916
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.509
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     27.559,
+     5.009,
+     10.894
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "18983ddef7bd1791",
+   "holo": {
+    "box_center": [
+     -19.163,
+     26.822,
+     -0.513
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     32.8,
+     3.142,
+     39.861
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "19069630a8847847",
+   "holo": {
+    "box_center": [
+     34.732,
+     51.276,
+     50.741
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     34.29,
+     51.339,
+     50.324
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "1aa414d8b85e516d",
+   "holo": {
+    "box_center": [
+     -2.222,
+     4.449,
+     12.797
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -2.227,
+     4.572,
+     12.884
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "213acad8dedf3410",
+   "holo": {
+    "box_center": [
+     -4.603,
+     6.982,
+     -19.115
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -4.613,
+     6.888,
+     -19.054
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "213e099e4d842d73",
+   "holo": {
+    "box_center": [
+     0.912,
+     -4.598,
+     -43.297
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     82.549,
+     28.436,
+     84.772
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "223bcc6ed7796669",
+   "holo": {
+    "box_center": [
+     39.003,
+     26.805,
+     4.718
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     38.843,
+     26.796,
+     4.836
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "2248260e300938dd",
+   "holo": {
+    "box_center": [
+     20.868,
+     -0.81,
+     8.919
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     8.32,
+     1.084,
+     3.078
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "240ef5cd2aed6971",
+   "holo": {
+    "box_center": [
+     -29.263,
+     9.338,
+     47.959
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -29.337,
+     9.383,
+     47.976
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "251124e0075a8e13",
+   "holo": {
+    "box_center": [
+     55.393,
+     70.677,
+     108.323
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     19.8,
+     -33.292,
+     102.32
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "2554c2e878337eda",
+   "holo": {
+    "box_center": [
+     -36.409,
+     -4.403,
+     -23.777
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     36.123,
+     4.172,
+     -23.877
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "274d968ed2de6c64",
+   "holo": {
+    "box_center": [
+     43.386,
+     16.805,
+     41.472
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     43.715,
+     16.907,
+     42.048
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "28aba9c6cd751d28",
+   "holo": {
+    "box_center": [
+     -1.831,
+     -21.064,
+     35.798
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -2.204,
+     20.186,
+     -36.271
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "28cfc7bf72ea90b1",
+   "holo": {
+    "box_center": [
+     15.238,
+     1.132,
+     27.396
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     15.23,
+     1.077,
+     27.364
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "2991fb5d9d642d1b",
+   "holo": {
+    "box_center": [
+     -18.266,
+     22.848,
+     18.94
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -19.741,
+     19.334,
+     17.726
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "29e6dbee9da82859",
+   "holo": {
+    "box_center": [
+     13.992,
+     2.293,
+     -5.168
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     6.149,
+     12.929,
+     15.653
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "2a6070389276a7a4",
+   "holo": {
+    "box_center": [
+     14.129,
+     13.623,
+     12.507
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     44.74,
+     2.162,
+     23.345
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "2a61e70b2504eba1",
+   "holo": {
+    "box_center": [
+     19.314,
+     20.967,
+     25.077
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -8.515,
+     27.286,
+     25.073
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "2f558d042f16f4f7",
+   "holo": {
+    "box_center": [
+     11.537,
+     4.206,
+     12.117
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     11.867,
+     4.36,
+     12.198
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "2ff00a57af5b8142",
+   "holo": {
+    "box_center": [
+     12.9,
+     4.046,
+     0.872
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     12.754,
+     4.342,
+     1.016
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "3230cc8fa7fe3dc5",
+   "holo": {
+    "box_center": [
+     -11.584,
+     1.483,
+     11.956
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -11.627,
+     1.545,
+     11.915
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "348c2c6f2540b39e",
+   "holo": {
+    "box_center": [
+     -19.858,
+     6.367,
+     14.387
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -18.816,
+     6.074,
+     14.368
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "34c1b5fbf2b17dbc",
+   "holo": {
+    "box_center": [
+     4.088,
+     8.46,
+     5.058
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     4.05,
+     8.41,
+     5.125
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "3501c3c7d181fc13",
+   "holo": {
+    "box_center": [
+     11.655,
+     0.1,
+     92.209
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     48.359,
+     46.703,
+     -10.876
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "3563c69a39735473",
+   "holo": {
+    "box_center": [
+     -0.929,
+     -13.073,
+     28.37
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -0.941,
+     -13.242,
+     28.383
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "35e1ea353db1a647",
+   "holo": {
+    "box_center": [
+     12.62,
+     9.357,
+     110.792
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     56.271,
+     11.496,
+     3.4
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "3a916dc92413651d",
+   "holo": {
+    "box_center": [
+     -12.607,
+     -0.752,
+     18.707
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     22.428,
+     46.222,
+     22.914
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "3bcbf53572990176",
+   "holo": {
+    "box_center": [
+     -21.736,
+     -5.588,
+     7.684
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -21.712,
+     -5.636,
+     7.516
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "3c9db9b0eb21fc19",
+   "holo": {
+    "box_center": [
+     3.764,
+     18.494,
+     19.261
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -18.629,
+     3.671,
+     -2.472
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "3cc574829a994b7d",
+   "holo": {
+    "box_center": [
+     -21.229,
+     -4.759,
+     -16.741
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -21.691,
+     -4.716,
+     -16.815
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "3defdfd8f936876e",
+   "holo": {
+    "box_center": [
+     -14.297,
+     33.515,
+     -9.483
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     24.055,
+     27.138,
+     -9.405
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "3e4042944ebec322",
+   "holo": {
+    "box_center": [
+     -23.849,
+     -27.325,
+     -9.854
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     23.549,
+     27.056,
+     -9.862
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "475e5af8423e36f6",
+   "holo": {
+    "box_center": [
+     -4.274,
+     6.864,
+     -19.214
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -4.321,
+     6.773,
+     -19.14
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "49e6f53ebc0b9814",
+   "holo": {
+    "box_center": [
+     45.64,
+     26.308,
+     -9.079
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     17.824,
+     1.642,
+     -0.102
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "4c5f712812fb00e2",
+   "holo": {
+    "box_center": [
+     22.871,
+     -34.147,
+     -4.828
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     22.713,
+     -33.961,
+     -4.786
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "4cc9d8b4a0682df5",
+   "holo": {
+    "box_center": [
+     12.284,
+     -28.018,
+     -1.566
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     12.023,
+     -28.038,
+     -1.423
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "4e2004374c441952",
+   "holo": {
+    "box_center": [
+     34.732,
+     51.276,
+     50.741
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     34.29,
+     51.339,
+     50.324
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "4f5b98182e68d994",
+   "holo": {
+    "box_center": [
+     7.796,
+     -6.29,
+     28.521
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     19.533,
+     46.447,
+     14.139
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "508b07cf5adb82ae",
+   "holo": {
+    "box_center": [
+     30.731,
+     13.092,
+     40.365
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -26.576,
+     20.088,
+     16.221
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "52ca3abc99bf0a1b",
+   "holo": {
+    "box_center": [
+     -16.219,
+     -3.799,
+     -27.756
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -16.371,
+     -3.844,
+     -27.526
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "57f14e4b9baac61e",
+   "holo": {
+    "box_center": [
+     52.988,
+     36.749,
+     39.228
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -22.27,
+     -5.37,
+     -17.013
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "597f8ea9adfe3c83",
+   "holo": {
+    "box_center": [
+     1.36,
+     -19.716,
+     39.096
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     31.144,
+     1.337,
+     3.48
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "5b5b4f75c8f026ad",
+   "holo": {
+    "box_center": [
+     -11.299,
+     -18.456,
+     17.871
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -18.564,
+     -5.397,
+     7.75
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "5d1802db441a2e37",
+   "holo": {
+    "box_center": [
+     5.678,
+     6.495,
+     4.492
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     25.713
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -5.347,
+     -0.921,
+     3.989
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     25.307
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "5d9ec96346674656",
+   "holo": {
+    "box_center": [
+     -16.227,
+     -4.115,
+     -28.332
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -16.351,
+     -3.983,
+     -27.901
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "60e537d07177c7f6",
+   "holo": {
+    "box_center": [
+     26.086,
+     13.538,
+     -7.847
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     25.719,
+     13.709,
+     -7.73
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "61b4330948da13fd",
+   "holo": {
+    "box_center": [
+     14.575,
+     -2.688,
+     8.979
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     13.965,
+     -2.41,
+     7.894
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "62718f2639a97e17",
+   "holo": {
+    "box_center": [
+     27.425,
+     28.579,
+     31.898
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     27.437,
+     28.59,
+     31.887
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "67732e6e7804abe9",
+   "holo": {
+    "box_center": [
+     -18.285,
+     -7.994,
+     -15.996
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     19.467,
+     56.778,
+     45.797
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "69bd5aa33dfdd4f3",
+   "holo": {
+    "box_center": [
+     11.152,
+     33.893,
+     -24.272
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     36.176,
+     4.551,
+     -24.24
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "6a0fb1f5b4c558d2",
+   "holo": {
+    "box_center": [
+     15.938,
+     -8.088,
+     30.895
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -9.428,
+     23.655,
+     -28.172
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "6b4ba3dfe4dc408b",
+   "holo": {
+    "box_center": [
+     -16.079,
+     13.456,
+     -3.48
+    ],
+    "box_size": [
+     26.349,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -16.495,
+     13.564,
+     -3.494
+    ],
+    "box_size": [
+     26.299,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "6bc9c40eeaf7f37d",
+   "holo": {
+    "box_center": [
+     27.425,
+     28.579,
+     31.898
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     20.72,
+     17.393,
+     40.024
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "6e151ec291998a34",
+   "holo": {
+    "box_center": [
+     18.101,
+     -8.306,
+     40.171
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     7.223,
+     5.527,
+     25.765
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "6e3ca34a688935f9",
+   "holo": {
+    "box_center": [
+     4.202,
+     8.626,
+     4.772
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     4.025,
+     8.678,
+     4.824
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "709de94af951aa44",
+   "holo": {
+    "box_center": [
+     33.525,
+     -27.532,
+     -11.615
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     42.85,
+     -20.097,
+     4.395
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "738e457d15c4733b",
+   "holo": {
+    "box_center": [
+     15.934,
+     70.085,
+     99.02
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     19.73,
+     -33.26,
+     102.229
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "79277c0050a8d926",
+   "holo": {
+    "box_center": [
+     -2.821,
+     4.979,
+     -17.109
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -2.68,
+     4.915,
+     -17.032
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "7a229ea810e8dc50",
+   "holo": {
+    "box_center": [
+     -30.653,
+     6.183,
+     -27.997
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -30.79,
+     5.207,
+     -28.164
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "7be46ac29d63323a",
+   "holo": {
+    "box_center": [
+     16.638,
+     25.329,
+     -0.119
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     16.641,
+     25.184,
+     -0.071
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "7cfb58f2948f7b8b",
+   "holo": {
+    "box_center": [
+     -6.772,
+     -11.648,
+     -10.859
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.573
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     11.963,
+     2.904,
+     18.593
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.584
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "7d46addf82382500",
+   "holo": {
+    "box_center": [
+     -25.27,
+     51.532,
+     -22.593
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     56.651,
+     3.904,
+     -11.663
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "817419b8ce9f32e5",
+   "holo": {
+    "box_center": [
+     -18.285,
+     -7.994,
+     -15.996
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     22.431,
+     54.927,
+     13.251
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "823c8f2ed951e940",
+   "holo": {
+    "box_center": [
+     -7.857,
+     2.499,
+     42.08
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     31.236,
+     1.221,
+     3.621
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "83f31153be4fe439",
+   "holo": {
+    "box_center": [
+     -0.966,
+     -10.051,
+     23.951
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -9.446,
+     19.433,
+     -6.964
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "84a6cc4cec17be6f",
+   "holo": {
+    "box_center": [
+     26.372,
+     15.561,
+     -6.558
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     26.349,
+     15.61,
+     -6.468
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "85dc1e77a1cdb21d",
+   "holo": {
+    "box_center": [
+     -10.887,
+     -0.314,
+     13.25
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -10.884,
+     -0.407,
+     13.282
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "88c5041cdb0042d0",
+   "holo": {
+    "box_center": [
+     10.059,
+     8.127,
+     11.567
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     34.193,
+     6.824,
+     69.721
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "8b520349f920f468",
+   "holo": {
+    "box_center": [
+     28.403,
+     19.713,
+     -7.107
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     22.884,
+     -17.083,
+     11.376
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "8b5a09ff83941c82",
+   "holo": {
+    "box_center": [
+     2.879,
+     11.773,
+     34.371
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     3.383,
+     33.081,
+     -34.295
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "8ec051785e59eb5b",
+   "holo": {
+    "box_center": [
+     14.129,
+     13.623,
+     12.507
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     14.151,
+     13.729,
+     12.478
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "8eef32e99a74bb16",
+   "holo": {
+    "box_center": [
+     -30.434,
+     5.543,
+     -27.893
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -21.601,
+     7.229,
+     -2.372
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "8fe5eef8b13a085a",
+   "holo": {
+    "box_center": [
+     -22.36,
+     44.81,
+     0.716
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -5.82,
+     -4.932,
+     -0.975
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "95378ab3e701972d",
+   "holo": {
+    "box_center": [
+     12.282,
+     18.73,
+     -1.201
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     31.079,
+     1.122,
+     3.571
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "95ffd089bd47d70a",
+   "holo": {
+    "box_center": [
+     20.225,
+     12.668,
+     9.323
+    ],
+    "box_size": [
+     24.168,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     9.221,
+     -12.832,
+     9.804
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     23.357
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "97ea259b19814c3e",
+   "holo": {
+    "box_center": [
+     26.007,
+     14.977,
+     -7.391
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     25.952,
+     14.952,
+     -7.375
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "986fc50fe8225d6d",
+   "holo": {
+    "box_center": [
+     -11.584,
+     1.483,
+     11.956
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -11.627,
+     1.545,
+     11.915
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "989fe4a2c36a6a57",
+   "holo": {
+    "box_center": [
+     18.858,
+     -1.665,
+     14.069
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     19.69,
+     -1.733,
+     14.12
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "9c0a6040713f4ed1",
+   "holo": {
+    "box_center": [
+     -11.687,
+     1.516,
+     11.905
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -11.649,
+     1.582,
+     11.865
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "9c0faa81346934a1",
+   "holo": {
+    "box_center": [
+     -60.522,
+     18.578,
+     -47.284
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     16.554,
+     33.406,
+     -17.786
+    ],
+    "box_size": [
+     22.927,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "9cb9b97f7bb10472",
+   "holo": {
+    "box_center": [
+     -30.434,
+     5.543,
+     -27.893
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -30.266,
+     4.667,
+     -27.815
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "9d217113b12c58ef",
+   "holo": {
+    "box_center": [
+     43.758,
+     16.984,
+     -4.925
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     36.454,
+     29.423,
+     59.982
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "9e0a7ef7898fbe03",
+   "holo": {
+    "box_center": [
+     30.356,
+     43.21,
+     11.11
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     30.191,
+     42.302,
+     11.213
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "9eeacbc91e3939a0",
+   "holo": {
+    "box_center": [
+     7.703,
+     -13.073,
+     2.541
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     7.504,
+     13.186,
+     13.102
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "a362f9bc26e30b9c",
+   "holo": {
+    "box_center": [
+     -10.417,
+     6.291,
+     13.594
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     19.62,
+     46.421,
+     14.385
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "a53cdf1dbf16f59c",
+   "holo": {
+    "box_center": [
+     3.443,
+     8.115,
+     4.851
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     2.989,
+     7.786,
+     4.811
+    ],
+    "box_size": [
+     22.508,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "a55370d81109dc3b",
+   "holo": {
+    "box_center": [
+     -3.104,
+     1.339,
+     11.328
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -3.152,
+     1.417,
+     11.288
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "a674a32689a1eb29",
+   "holo": {
+    "box_center": [
+     -20.278,
+     -4.321,
+     7.576
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -20.332,
+     -4.333,
+     7.429
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "a831a4c303e28d9a",
+   "holo": {
+    "box_center": [
+     36.93,
+     32.485,
+     23.36
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     36.751,
+     32.585,
+     23.238
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "a8889923f412758b",
+   "holo": {
+    "box_center": [
+     4.623,
+     20.332,
+     17.882
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -20.402,
+     4.612,
+     -3.845
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ab769351ccfcd8b9",
+   "holo": {
+    "box_center": [
+     -57.419,
+     -4.557,
+     -11.086
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     57.072,
+     4.428,
+     -11.195
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ac26f9f403e83539",
+   "holo": {
+    "box_center": [
+     12.545,
+     19.731,
+     -7.431
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     12.457,
+     -6.224,
+     97.014
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ac718cff8957d4c8",
+   "holo": {
+    "box_center": [
+     -10.711,
+     -0.537,
+     13.344
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -10.723,
+     -0.603,
+     13.312
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ac8fcccd7adbf7f1",
+   "holo": {
+    "box_center": [
+     2.856,
+     24.756,
+     -1.586
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -2.347,
+     25.02,
+     -6.085
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ae557f538c35d329",
+   "holo": {
+    "box_center": [
+     -32.991,
+     7.336,
+     95.468
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -9.496,
+     23.689,
+     -28.454
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "b0e8a7d418eb17cb",
+   "holo": {
+    "box_center": [
+     29.67,
+     34.947,
+     11.872
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     29.449,
+     34.296,
+     11.702
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "b2acea7e1fc848c1",
+   "holo": {
+    "box_center": [
+     10.481,
+     6.367,
+     37.546
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -2.135,
+     28.691,
+     34.948
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "b3a33fcc7a7495b2",
+   "holo": {
+    "box_center": [
+     -17.645,
+     8.647,
+     117.943
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -21.688,
+     10.297,
+     -50.991
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "b4a1e39a2fcf1e0c",
+   "holo": {
+    "box_center": [
+     -16.838,
+     -16.415,
+     -25.559
+    ],
+    "box_size": [
+     26.594,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -16.533,
+     13.631,
+     -3.524
+    ],
+    "box_size": [
+     26.326,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ba701f492a20787b",
+   "holo": {
+    "box_center": [
+     25.744,
+     44.709,
+     -11.218
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -26.041,
+     44.929,
+     11.453
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "bbfc6b81df47c675",
+   "holo": {
+    "box_center": [
+     14.957,
+     29.563,
+     17.906
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     18.765,
+     -26.408,
+     -22.916
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "be00f01c3e7508e7",
+   "holo": {
+    "box_center": [
+     24.88,
+     -2.579,
+     5.888
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -2.595,
+     24.803,
+     -6.192
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "c3a6ae8ed5b64e59",
+   "holo": {
+    "box_center": [
+     -2.821,
+     4.979,
+     -17.109
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -2.68,
+     4.915,
+     -17.032
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "c53532d2c77bf96c",
+   "holo": {
+    "box_center": [
+     5.678,
+     6.495,
+     4.492
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     25.713
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -5.347,
+     -0.921,
+     3.989
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     25.307
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "c58ec64e1ac75a51",
+   "holo": {
+    "box_center": [
+     1.479,
+     -9.534,
+     53.793
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -21.573,
+     10.292,
+     -50.722
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ca403edcbb1150e0",
+   "holo": {
+    "box_center": [
+     -11.506,
+     4.354,
+     -12.114
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     11.895,
+     4.449,
+     11.914
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "cbe84bf91cd93e31",
+   "holo": {
+    "box_center": [
+     9.434,
+     -4.061,
+     5.883
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -12.072,
+     -1.561,
+     8.985
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "cca206cdadff2f6a",
+   "holo": {
+    "box_center": [
+     -0.196,
+     -3.697,
+     2.007
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     82.59,
+     28.446,
+     84.731
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ccec5c8aea863078",
+   "holo": {
+    "box_center": [
+     -6.018,
+     -14.032,
+     89.054
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     49.034,
+     47.113,
+     -11.123
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ce8f0e29cd1dca59",
+   "holo": {
+    "box_center": [
+     -1.887,
+     0.056,
+     22.02
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     27.224,
+     19.916,
+     -2.83
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "d044697c9b260b63",
+   "holo": {
+    "box_center": [
+     43.758,
+     16.984,
+     -4.925
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     43.708,
+     16.859,
+     42.018
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "d1ef3ccf4bf68009",
+   "holo": {
+    "box_center": [
+     -10.226,
+     -11.844,
+     31.63
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -10.161,
+     -11.712,
+     31.692
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "d3a82d2fb888560f",
+   "holo": {
+    "box_center": [
+     12.689,
+     3.757,
+     0.729
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     12.486,
+     4.042,
+     0.845
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "d45f44ecc7c53a16",
+   "holo": {
+    "box_center": [
+     2.871,
+     7.758,
+     6.18
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     2.593,
+     7.452,
+     6.136
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "d5980bbac18b83b2",
+   "holo": {
+    "box_center": [
+     20.76,
+     17.323,
+     40.077
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     20.705,
+     17.353,
+     40.053
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "d68a40c2db10b83a",
+   "holo": {
+    "box_center": [
+     22.035,
+     40.536,
+     41.3
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     18.784,
+     -26.399,
+     -22.943
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "d8b7852d9dc66354",
+   "holo": {
+    "box_center": [
+     4.129,
+     9.14,
+     5.046
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     4.219,
+     8.961,
+     4.973
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "db219b9e4c93bafe",
+   "holo": {
+    "box_center": [
+     -10.808,
+     26.8,
+     70.211
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     49.025,
+     47.069,
+     -11.097
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "e0f7c1ec04d845f6",
+   "holo": {
+    "box_center": [
+     -10.705,
+     2.91,
+     17.809
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -10.568,
+     2.757,
+     17.884
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "e13671740bc5b5b1",
+   "holo": {
+    "box_center": [
+     -12.609,
+     37.995,
+     7.784
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     33.128,
+     32.003,
+     22.392
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "e5cce74ed63eeb54",
+   "holo": {
+    "box_center": [
+     14.825,
+     25.772,
+     20.291
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -9.397,
+     19.26,
+     -6.838
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "e71ec1febb7d05e2",
+   "holo": {
+    "box_center": [
+     15.402,
+     1.173,
+     27.356
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     15.323,
+     1.115,
+     27.378
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "e7f4647779f8df99",
+   "holo": {
+    "box_center": [
+     -1.831,
+     -21.064,
+     35.798
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -2.204,
+     20.186,
+     -36.271
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "e85f2d3d943e0ed1",
+   "holo": {
+    "box_center": [
+     -11.687,
+     1.516,
+     11.905
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -11.649,
+     1.582,
+     11.865
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ea2aa0effa40a210",
+   "holo": {
+    "box_center": [
+     36.574,
+     29.418,
+     13.006
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     36.446,
+     29.419,
+     59.978
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "eb0590317573e173",
+   "holo": {
+    "box_center": [
+     -14.982,
+     33.41,
+     -10.413
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     23.443,
+     27.446,
+     -10.142
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ed0a4d5ef664e8d7",
+   "holo": {
+    "box_center": [
+     11.262,
+     -14.301,
+     -8.6
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     11.072,
+     -14.321,
+     -8.761
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ed9eb76e784c6dee",
+   "holo": {
+    "box_center": [
+     16.669,
+     4.134,
+     38.869
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -21.625,
+     -5.087,
+     -16.824
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "ef54203ba9c16d72",
+   "holo": {
+    "box_center": [
+     -0.929,
+     -13.073,
+     28.37
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -0.941,
+     -13.242,
+     28.383
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "f0b10686665b92ee",
+   "holo": {
+    "box_center": [
+     -20.924,
+     9.237,
+     -0.501
+    ],
+    "box_size": [
+     27.223,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -20.709,
+     9.27,
+     -0.433
+    ],
+    "box_size": [
+     27.279,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "f103150d4318d464",
+   "holo": {
+    "box_center": [
+     43.983,
+     17.052,
+     42.181
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     43.609,
+     16.873,
+     42.145
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "f1aee3276de636f9",
+   "holo": {
+    "box_center": [
+     9.409,
+     -42.989,
+     -16.539
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     11.938,
+     3.302,
+     16.697
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "f218b9072a4763ff",
+   "holo": {
+    "box_center": [
+     20.76,
+     17.323,
+     40.077
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     27.453,
+     28.63,
+     31.859
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "f6bc7e3de3c6c8f1",
+   "holo": {
+    "box_center": [
+     5.019,
+     15.058,
+     37.145
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     4.926,
+     15.079,
+     37.128
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "f71c2ec47cfe0b88",
+   "holo": {
+    "box_center": [
+     -29.263,
+     9.338,
+     47.959
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -38.066,
+     -8.572,
+     54.313
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "multi_4": "apo_multi_4.pdbqt",
+     "multi_5": "apo_multi_5.pdbqt",
+     "multi_6": "apo_multi_6.pdbqt",
+     "multi_7": "apo_multi_7.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "f8353aa25eb886ca",
+   "holo": {
+    "box_center": [
+     6.044,
+     -15.004,
+     -18.187
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     5.468,
+     -15.127,
+     -18.33
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "f9ccfa98a229b7b6",
+   "holo": {
+    "box_center": [
+     -21.256,
+     12.878,
+     26.384
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -21.294,
+     12.658,
+     26.371
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "fc2a34a663fc9271",
+   "holo": {
+    "box_center": [
+     -11.35,
+     110.995,
+     59.262
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -11.383,
+     110.86,
+     59.337
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "fd5e7dc6163d1398",
+   "holo": {
+    "box_center": [
+     15.177,
+     5.954,
+     13.174
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     15.255,
+     6.026,
+     13.165
+    ],
+    "box_size": [
+     22.5,
+     22.5,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  },
+  {
+   "case_id": "fe02a159def13cce",
+   "holo": {
+    "box_center": [
+     -3.974,
+     4.925,
+     20.634
+    ],
+    "box_size": [
+     22.5,
+     24.347,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "holo_multi_0.pdbqt",
+     "multi_1": "holo_multi_1.pdbqt",
+     "multi_2": "holo_multi_2.pdbqt",
+     "multi_3": "holo_multi_3.pdbqt",
+     "multi_4": "holo_multi_4.pdbqt",
+     "multi_5": "holo_multi_5.pdbqt",
+     "multi_6": "holo_multi_6.pdbqt",
+     "multi_7": "holo_multi_7.pdbqt",
+     "single_0": "holo_single_0.pdbqt"
+    }
+   },
+   "apo": {
+    "box_center": [
+     -19.637,
+     4.313,
+     -24.599
+    ],
+    "box_size": [
+     22.5,
+     24.229,
+     22.5
+    ],
+    "receptors": {
+     "multi_0": "apo_multi_0.pdbqt",
+     "multi_1": "apo_multi_1.pdbqt",
+     "multi_2": "apo_multi_2.pdbqt",
+     "multi_3": "apo_multi_3.pdbqt",
+     "single_0": "apo_single_0.pdbqt"
+    }
+   }
+  }
+ ],
+ "incomplete": [
+  "0378e9ae5d4ded85",
+  "17c9528f901f621e",
+  "3125f08512c7edeb",
+  "49c5f721f3de17e9",
+  "5668adf0bf969a94",
+  "c3e0fe3e564a9d8b",
+  "cd3949e3ffc909cc",
+  "e995481874d4fb35"
+ ]
+}

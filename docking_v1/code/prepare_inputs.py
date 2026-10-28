@@ -111,12 +111,16 @@ def relax_rotatable_h(pdb):
     st = gemmi.read_structure(str(pdb)); st.setup_entities()
     ns = gemmi.NeighborSearch(st[0], st.cell, 4).populate()
 
-    def clearance(ch, r, points):
+    def clearance(ch, r, points, own=()):
+        """Smallest clearance of `points` to any atom that is not one of this group's own atoms.
+        Atoms of the same residue count too, except the rotating hydrogens and the pivot they hang from:
+        PDB2PQR can place an NH3 hydrogen 0.89 A from its own CE, which Meeko then reads as a bond."""
         best = 9.0
         for x in points:
             for m in ns.find_atoms(gemmi.Position(*x), '\0', radius=3.0):
                 c = m.to_cra(st[0])
-                if (c.chain.name, c.residue.seqid.num) == (ch.name, r.seqid.num):
+                same = (c.chain.name, c.residue.seqid.num) == (ch.name, r.seqid.num)
+                if same and c.atom.name in own:
                     continue
                 best = min(best, c.atom.pos.dist(gemmi.Position(*x)) - (0.0 if c.atom.element.name == 'H' else 0.35))
         return best
@@ -132,11 +136,12 @@ def relax_rotatable_h(pdb):
                     continue
                 a, b = np.array(A_.pos.tolist()), np.array(B_.pos.tolist())
                 x0 = [np.array(h.pos.tolist()) for _, h in hs]
-                if clearance(ch, r, x0) >= 1.6:
+                own = set(names) | {pivot}
+                if clearance(ch, r, x0, own) >= 1.6:
                     continue
                 planar = (r.name, hs[0][0]) in PLANAR
                 angles = [0.0, np.pi] if planar else np.radians(np.arange(0, 360, 10))
-                best = max(angles, key=lambda t: clearance(ch, r, [rotate(x, a, b, t) for x in x0]))
+                best = max(angles, key=lambda t: clearance(ch, r, [rotate(x, a, b, t) for x in x0], own))
                 if abs(best) < 1e-9:
                     continue
                 for (_, h), x in zip(hs, x0):

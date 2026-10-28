@@ -1,0 +1,35 @@
+{
+ "shard": 6,
+ "cases": 8,
+ "built": [
+  "2991fb5d9d642d1b",
+  "6e151ec291998a34",
+  "28cfc7bf72ea90b1",
+  "c58ec64e1ac75a51",
+  "9cb9b97f7bb10472",
+  "cd3949e3ffc909cc",
+  "9eeacbc91e3939a0",
+  "49c5f721f3de17e9"
+ ],
+ "prepared": [
+  "2991fb5d9d642d1b",
+  "6e151ec291998a34",
+  "28cfc7bf72ea90b1",
+  "c58ec64e1ac75a51",
+  "9eeacbc91e3939a0"
+ ],
+ "failed": [
+  {
+   "case_id": "9cb9b97f7bb10472",
+   "error": "AssertionError(('9cb9b97f7bb10472', 'apo', 'Meeko deleted different residues across arms', {'single_0': [], 'multi_0': [], 'multi_1': [], 'multi_2': [\"- Template matching failed for: ['A:47', 'A:51'] Ignored due to allow_bad_res.\", 'allow_bad_res after: mk_prepare_receptor.py failed: es_from_box_rad"
+  },
+  {
+   "case_id": "cd3949e3ffc909cc",
+   "error": "RuntimeError('mk_prepare_receptor.py failed: m_pdb_string( | ^^^^^^^^^^^^^^^^^^^^^^^^ | File \"/gpfs/jaeohshin/work/envs/dock-vina/lib/python3.11/site-packages/meeko/polymer.py\", line 1653, in from_pdb_string | tmp_raw_input_mols = cls._pdb_to_residue_mols( | ^^^^^^^^^^^^^^^^^^^^^^^^^ | File \"/gpfs/j"
+  },
+  {
+   "case_id": "49c5f721f3de17e9",
+   "error": "AssertionError(('49c5f721f3de17e9', 'holo', 'non-pocket atoms differ between arms', 1.7447535642605803))"
+  }
+ ]
+}

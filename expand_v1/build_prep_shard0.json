@@ -1,0 +1,27 @@
+{
+ "shard": 0,
+ "cases": 8,
+ "built": [
+  "2ff00a57af5b8142",
+  "2a61e70b2504eba1",
+  "3125f08512c7edeb",
+  "3bcbf53572990176",
+  "69bd5aa33dfdd4f3",
+  "1aa414d8b85e516d",
+  "7be46ac29d63323a"
+ ],
+ "prepared": [
+  "2ff00a57af5b8142",
+  "2a61e70b2504eba1",
+  "3bcbf53572990176",
+  "69bd5aa33dfdd4f3",
+  "1aa414d8b85e516d",
+  "7be46ac29d63323a"
+ ],
+ "failed": [
+  {
+   "case_id": "3125f08512c7edeb",
+   "error": "RuntimeError('mk_prepare_receptor.py failed: m_pdb_string( | ^^^^^^^^^^^^^^^^^^^^^^^^ | File \"/gpfs/jaeohshin/work/envs/dock-vina/lib/python3.11/site-packages/meeko/polymer.py\", line 1653, in from_pdb_string | tmp_raw_input_mols = cls._pdb_to_residue_mols( | ^^^^^^^^^^^^^^^^^^^^^^^^^ | File \"/gpfs/j"
+  }
+ ]
+}
