@@ -1,0 +1,499 @@
+{
+ "accept": {
+  "cases": 128,
+  "components": 39,
+  "with_multiple_states": 116,
+  "holo_single": {
+   "mean_rmsd_top": 3.721,
+   "median_rmsd_top": 2.726,
+   "mean_rmsd_top5": 2.127,
+   "median_rmsd_top5": 1.032,
+   "success_top": 56,
+   "success_top5": 85,
+   "success_any": 109,
+   "mean_n_distinct": 4.92,
+   "success_curve": {
+    "top1": 56,
+    "top2": 58,
+    "top3": 59,
+    "top4": 59,
+    "top5": 60,
+    "top6": 60,
+    "top7": 61,
+    "top8": 61,
+    "top9": 61,
+    "top10": 63
+   },
+   "mean_rmsd_oracle": 1.193,
+   "mean_frac_good": 0.1647,
+   "mean_calls_good": 38.15,
+   "median_rank_best": 113.5,
+   "mean_poses": 434.3,
+   "generated_good": 109,
+   "buried": 53
+  },
+  "holo_multi": {
+   "mean_rmsd_top": 3.594,
+   "median_rmsd_top": 2.726,
+   "mean_rmsd_top5": 2.175,
+   "median_rmsd_top5": 1.044,
+   "success_top": 58,
+   "success_top5": 85,
+   "success_any": 107,
+   "mean_n_distinct": 4.91,
+   "success_curve": {
+    "top1": 58,
+    "top2": 60,
+    "top3": 60,
+    "top4": 60,
+    "top5": 61,
+    "top6": 61,
+    "top7": 61,
+    "top8": 61,
+    "top9": 61,
+    "top10": 61
+   },
+   "mean_rmsd_oracle": 1.2,
+   "mean_frac_good": 0.1641,
+   "mean_calls_good": 37.42,
+   "median_rank_best": 97.5,
+   "mean_poses": 434.2,
+   "generated_good": 107,
+   "buried": 49
+  },
+  "apo_single": {
+   "mean_rmsd_top": 5.643,
+   "median_rmsd_top": 6.114,
+   "mean_rmsd_top5": 4.295,
+   "median_rmsd_top5": 4.212,
+   "success_top": 18,
+   "success_top5": 36,
+   "success_any": 60,
+   "mean_n_distinct": 5.0,
+   "success_curve": {
+    "top1": 18,
+    "top2": 19,
+    "top3": 19,
+    "top4": 19,
+    "top5": 20,
+    "top6": 20,
+    "top7": 20,
+    "top8": 20,
+    "top9": 21,
+    "top10": 22
+   },
+   "mean_rmsd_oracle": 2.839,
+   "mean_frac_good": 0.0643,
+   "mean_calls_good": 15.6,
+   "median_rank_best": 238.0,
+   "mean_poses": 444.2,
+   "generated_good": 60,
+   "buried": 42
+  },
+  "apo_multi": {
+   "mean_rmsd_top": 5.68,
+   "median_rmsd_top": 6.197,
+   "mean_rmsd_top5": 4.097,
+   "median_rmsd_top5": 3.807,
+   "success_top": 18,
+   "success_top5": 40,
+   "success_any": 68,
+   "mean_n_distinct": 5.0,
+   "success_curve": {
+    "top1": 18,
+    "top2": 19,
+    "top3": 20,
+    "top4": 20,
+    "top5": 20,
+    "top6": 21,
+    "top7": 21,
+    "top8": 21,
+    "top9": 23,
+    "top10": 23
+   },
+   "mean_rmsd_oracle": 2.579,
+   "mean_frac_good": 0.0608,
+   "mean_calls_good": 15.68,
+   "median_rank_best": 216.0,
+   "mean_poses": 444.7,
+   "generated_good": 68,
+   "buried": 50
+  },
+  "P1_apo_multi_minus_single_top1": {
+   "mean_of_component_means": -0.0172,
+   "ci95": [
+    -0.274,
+    0.2773
+   ],
+   "components": 39,
+   "cases": 128,
+   "ci975_bonferroni": [
+    -0.306,
+    0.3179
+   ],
+   "decided_on": "ci975_bonferroni"
+  },
+  "P2_apo_multi_minus_single_top5": {
+   "mean_of_component_means": 0.1916,
+   "ci95": [
+    -0.108,
+    0.4984
+   ],
+   "components": 39,
+   "cases": 128,
+   "ci975_bonferroni": [
+    -0.1435,
+    0.5447
+   ],
+   "decided_on": "ci975_bonferroni"
+  },
+  "apo_top5_raw": {
+   "mean_of_component_means": -0.0788,
+   "ci95": [
+    -0.3943,
+    0.2637
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "holo_multi_minus_single_top1": {
+   "mean_of_component_means": 0.1031,
+   "ci95": [
+    -0.1134,
+    0.3607
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "holo_multi_minus_single_top5": {
+   "mean_of_component_means": -0.118,
+   "ci95": [
+    -0.3211,
+    0.0612
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "apo_oracle": {
+   "mean_of_component_means": 0.3262,
+   "ci95": [
+    0.1234,
+    0.5803
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "holo_oracle": {
+   "mean_of_component_means": -0.0083,
+   "ci95": [
+    -0.0941,
+    0.0514
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "apo_frac_good": {
+   "mean_of_component_means": -0.007,
+   "ci95": [
+    -0.0209,
+    0.003
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "holo_frac_good": {
+   "mean_of_component_means": -0.0014,
+   "ci95": [
+    -0.0062,
+    0.003
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "apo_calls_good": {
+   "mean_of_component_means": -0.3555,
+   "ci95": [
+    -2.5852,
+    1.8251
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "holo_calls_good": {
+   "mean_of_component_means": -1.2786,
+   "ci95": [
+    -2.8471,
+    -0.1812
+   ],
+   "components": 39,
+   "cases": 128
+  },
+  "apo_top1_states_only": {
+   "mean_of_component_means": -0.0207,
+   "ci95": [
+    -0.2916,
+    0.2791
+   ],
+   "components": 37,
+   "cases": 116
+  },
+  "apo_top5_states_only": {
+   "mean_of_component_means": 0.2028,
+   "ci95": [
+    -0.1081,
+    0.5061
+   ],
+   "components": 37,
+   "cases": 116
+  }
+ },
+ "backbone_change": {
+  "cases": 15,
+  "components": 7,
+  "with_multiple_states": 12,
+  "holo_single": {
+   "mean_rmsd_top": 1.126,
+   "median_rmsd_top": 0.648,
+   "mean_rmsd_top5": 0.785,
+   "median_rmsd_top5": 0.648,
+   "success_top": 12,
+   "success_top5": 14,
+   "success_any": 14,
+   "mean_n_distinct": 4.47,
+   "success_curve": {
+    "top1": 12,
+    "top2": 12,
+    "top3": 12,
+    "top4": 12,
+    "top5": 12,
+    "top6": 12,
+    "top7": 12,
+    "top8": 12,
+    "top9": 12,
+    "top10": 12
+   },
+   "mean_rmsd_oracle": 0.694,
+   "mean_frac_good": 0.2843,
+   "mean_calls_good": 46.33,
+   "median_rank_best": 21.0,
+   "mean_poses": 315.5,
+   "generated_good": 14,
+   "buried": 2
+  },
+  "holo_multi": {
+   "mean_rmsd_top": 1.18,
+   "median_rmsd_top": 0.648,
+   "mean_rmsd_top5": 0.798,
+   "median_rmsd_top5": 0.648,
+   "success_top": 12,
+   "success_top5": 14,
+   "success_any": 15,
+   "mean_n_distinct": 4.47,
+   "success_curve": {
+    "top1": 12,
+    "top2": 12,
+    "top3": 12,
+    "top4": 12,
+    "top5": 12,
+    "top6": 12,
+    "top7": 12,
+    "top8": 12,
+    "top9": 12,
+    "top10": 12
+   },
+   "mean_rmsd_oracle": 0.657,
+   "mean_frac_good": 0.2859,
+   "mean_calls_good": 46.53,
+   "median_rank_best": 38.0,
+   "mean_poses": 315.4,
+   "generated_good": 15,
+   "buried": 3
+  },
+  "apo_single": {
+   "mean_rmsd_top": 4.626,
+   "median_rmsd_top": 4.679,
+   "mean_rmsd_top5": 4.342,
+   "median_rmsd_top5": 4.679,
+   "success_top": 3,
+   "success_top5": 5,
+   "success_any": 7,
+   "mean_n_distinct": 5.0,
+   "success_curve": {
+    "top1": 3,
+    "top2": 3,
+    "top3": 3,
+    "top4": 3,
+    "top5": 3,
+    "top6": 3,
+    "top7": 3,
+    "top8": 3,
+    "top9": 3,
+    "top10": 3
+   },
+   "mean_rmsd_oracle": 3.007,
+   "mean_frac_good": 0.0423,
+   "mean_calls_good": 17.87,
+   "median_rank_best": 307.0,
+   "mean_poses": 448.0,
+   "generated_good": 7,
+   "buried": 4
+  },
+  "apo_multi": {
+   "mean_rmsd_top": 4.943,
+   "median_rmsd_top": 5.21,
+   "mean_rmsd_top5": 4.066,
+   "median_rmsd_top5": 4.679,
+   "success_top": 3,
+   "success_top5": 6,
+   "success_any": 8,
+   "mean_n_distinct": 5.0,
+   "success_curve": {
+    "top1": 3,
+    "top2": 3,
+    "top3": 4,
+    "top4": 4,
+    "top5": 4,
+    "top6": 4,
+    "top7": 4,
+    "top8": 4,
+    "top9": 4,
+    "top10": 4
+   },
+   "mean_rmsd_oracle": 2.912,
+   "mean_frac_good": 0.0428,
+   "mean_calls_good": 18.2,
+   "median_rank_best": 233.0,
+   "mean_poses": 448.1,
+   "generated_good": 8,
+   "buried": 5
+  },
+  "P1_apo_multi_minus_single_top1": {
+   "mean_of_component_means": -0.3348,
+   "ci95": [
+    -0.8863,
+    -0.0251
+   ],
+   "components": 7,
+   "cases": 15,
+   "ci975_bonferroni": [
+    -0.9147,
+    -0.0115
+   ],
+   "decided_on": "ci975_bonferroni"
+  },
+  "P2_apo_multi_minus_single_top5": {
+   "mean_of_component_means": 0.5893,
+   "ci95": [
+    0.0013,
+    1.6472
+   ],
+   "components": 7,
+   "cases": 15,
+   "ci975_bonferroni": [
+    -0.0022,
+    1.7103
+   ],
+   "decided_on": "ci975_bonferroni"
+  },
+  "apo_top5_raw": {
+   "mean_of_component_means": 0.0122,
+   "ci95": [
+    -0.0681,
+    0.1134
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "holo_multi_minus_single_top1": {
+   "mean_of_component_means": -0.1135,
+   "ci95": [
+    -0.3511,
+    0.0123
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "holo_multi_minus_single_top5": {
+   "mean_of_component_means": -0.0498,
+   "ci95": [
+    -0.2273,
+    0.0692
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "apo_oracle": {
+   "mean_of_component_means": 0.2033,
+   "ci95": [
+    -0.0132,
+    0.5449
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "holo_oracle": {
+   "mean_of_component_means": 0.0823,
+   "ci95": [
+    -0.003,
+    0.2372
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "apo_frac_good": {
+   "mean_of_component_means": 0.004,
+   "ci95": [
+    -0.0046,
+    0.017
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "holo_frac_good": {
+   "mean_of_component_means": 0.0033,
+   "ci95": [
+    0.0003,
+    0.0076
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "apo_calls_good": {
+   "mean_of_component_means": 1.9643,
+   "ci95": [
+    -1.6071,
+    7.6071
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "holo_calls_good": {
+   "mean_of_component_means": 0.4286,
+   "ci95": [
+    0.1429,
+    0.7143
+   ],
+   "components": 7,
+   "cases": 15
+  },
+  "apo_top1_states_only": {
+   "mean_of_component_means": -0.35,
+   "ci95": [
+    -0.8996,
+    -0.0252
+   ],
+   "components": 7,
+   "cases": 12
+  },
+  "apo_top5_states_only": {
+   "mean_of_component_means": 0.5897,
+   "ci95": [
+    0.0015,
+    1.6461
+   ],
+   "components": 7,
+   "cases": 12
+  }
+ },
+ "note": "Positive gain means the multiple-state receptor did better. Bootstrap unit is the homology component. Two CO-PRIMARY tests in stratum accept (followup_v1/PLAN.md, fixed before any 50-call pose existed): P1 on the rank-1 pose and P2 on the best of the top-5 distinct poses (>1 A apart). Each is decided on ci975_bonferroni, whose lower bound must exceed zero, keeping the family-wise error at 5%; ci95 is printed beside it for transparency and is not the decision rule. Everything else is secondary or exploratory and is reported whatever it shows. Oracle, top5 and success counts depend on the call budget, so they are never compared across the 8-call and 50-call runs."
+}
