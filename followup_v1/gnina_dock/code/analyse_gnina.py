@@ -35,10 +35,15 @@ PRIMARY = 'cnnscore'
 def read_sdf(path, ref):
     """[(scores dict, rmsd, conf_id, mol)] for one gnina output file, in file order."""
     out, mols = [], []
-    for m in Chem.SDMolSupplier(str(path), removeHs=True):
+    for m in Chem.SDMolSupplier(str(path), removeHs=False):
         if m is None:
             continue
-        mols.append(m)
+        # RemoveAllHs, not the supplier's removeHs: the supplier keeps a hydrogen that defines
+        # double-bond stereochemistry, which left one amidine ligand with 36 heavy atoms against the
+        # reference's 35 and made CalcRMS fail to match. Checked on the 1440 poses that already
+        # matched: every RMSD is identical to the supplier-stripped value, so this only adds the
+        # case that could not be read before.
+        mols.append(Chem.RemoveAllHs(m))
     if not mols:
         return []
     # gnina writes each pose as its own record; merge them into one mol so CalcRMS can use conformer ids
