@@ -1,0 +1,389 @@
+{
+ "accept": {
+  "cases": 128,
+  "components": 39,
+  "mean_poses_per_arm": 444.2,
+  "oracle_success_any_apo_single": 60,
+  "oracle_success_any_apo_multi": 68,
+  "vina": {
+   "holo_single": {
+    "success_top": 56,
+    "success_top5_raw": 60,
+    "mean_rmsd_top": 3.721,
+    "median_rmsd_top": 2.726
+   },
+   "holo_multi": {
+    "success_top": 58,
+    "success_top5_raw": 61,
+    "mean_rmsd_top": 3.594,
+    "median_rmsd_top": 2.726
+   },
+   "apo_single": {
+    "success_top": 18,
+    "success_top5_raw": 20,
+    "mean_rmsd_top": 5.643,
+    "median_rmsd_top": 6.114
+   },
+   "apo_multi": {
+    "success_top": 18,
+    "success_top5_raw": 20,
+    "mean_rmsd_top": 5.68,
+    "median_rmsd_top": 6.197
+   },
+   "holo_multi_minus_single_top1": {
+    "mean_of_component_means": 0.1031,
+    "ci95": [
+     -0.1185,
+     0.3584
+    ],
+    "components": 39,
+    "cases": 128
+   },
+   "holo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": 0.0334,
+    "ci95": [
+     -0.2275,
+     0.3049
+    ],
+    "components": 39,
+    "cases": 128
+   },
+   "apo_multi_minus_single_top1": {
+    "mean_of_component_means": -0.0172,
+    "ci95": [
+     -0.2743,
+     0.2753
+    ],
+    "components": 39,
+    "cases": 128
+   },
+   "apo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": -0.0788,
+    "ci95": [
+     -0.3928,
+     0.2506
+    ],
+    "components": 39,
+    "cases": 128
+   }
+  },
+  "vinardo": {
+   "holo_single": {
+    "success_top": 57,
+    "success_top5_raw": 60,
+    "mean_rmsd_top": 3.683,
+    "median_rmsd_top": 2.429
+   },
+   "holo_multi": {
+    "success_top": 57,
+    "success_top5_raw": 60,
+    "mean_rmsd_top": 3.602,
+    "median_rmsd_top": 2.322
+   },
+   "apo_single": {
+    "success_top": 20,
+    "success_top5_raw": 25,
+    "mean_rmsd_top": 5.703,
+    "median_rmsd_top": 5.736
+   },
+   "apo_multi": {
+    "success_top": 17,
+    "success_top5_raw": 22,
+    "mean_rmsd_top": 5.736,
+    "median_rmsd_top": 5.531
+   },
+   "holo_multi_minus_single_top1": {
+    "mean_of_component_means": -0.1182,
+    "ci95": [
+     -0.4406,
+     0.0762
+    ],
+    "components": 39,
+    "cases": 128
+   },
+   "holo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": -0.0867,
+    "ci95": [
+     -0.4021,
+     0.1086
+    ],
+    "components": 39,
+    "cases": 128
+   },
+   "apo_multi_minus_single_top1": {
+    "mean_of_component_means": -0.003,
+    "ci95": [
+     -0.2844,
+     0.2684
+    ],
+    "components": 39,
+    "cases": 128
+   },
+   "apo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": 0.0369,
+    "ci95": [
+     -0.2362,
+     0.2886
+    ],
+    "components": 39,
+    "cases": 128
+   }
+  },
+  "gnina": {
+   "holo_single": {
+    "success_top": 82,
+    "success_top5_raw": 90,
+    "mean_rmsd_top": 2.204,
+    "median_rmsd_top": 1.113
+   },
+   "holo_multi": {
+    "success_top": 83,
+    "success_top5_raw": 89,
+    "mean_rmsd_top": 2.164,
+    "median_rmsd_top": 1.082
+   },
+   "apo_single": {
+    "success_top": 40,
+    "success_top5_raw": 42,
+    "mean_rmsd_top": 4.422,
+    "median_rmsd_top": 3.646
+   },
+   "apo_multi": {
+    "success_top": 43,
+    "success_top5_raw": 49,
+    "mean_rmsd_top": 4.274,
+    "median_rmsd_top": 3.344
+   },
+   "holo_multi_minus_single_top1": {
+    "mean_of_component_means": 0.0435,
+    "ci95": [
+     -0.0512,
+     0.1703
+    ],
+    "components": 39,
+    "cases": 128
+   },
+   "holo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": -0.0045,
+    "ci95": [
+     -0.1389,
+     0.1158
+    ],
+    "components": 39,
+    "cases": 128
+   },
+   "apo_multi_minus_single_top1": {
+    "mean_of_component_means": 0.1262,
+    "ci95": [
+     -0.1854,
+     0.4887
+    ],
+    "components": 39,
+    "cases": 128
+   },
+   "apo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": 0.0976,
+    "ci95": [
+     -0.2252,
+     0.4686
+    ],
+    "components": 39,
+    "cases": 128
+   }
+  }
+ },
+ "backbone_change": {
+  "cases": 15,
+  "components": 7,
+  "mean_poses_per_arm": 448.0,
+  "oracle_success_any_apo_single": 7,
+  "oracle_success_any_apo_multi": 8,
+  "vina": {
+   "holo_single": {
+    "success_top": 12,
+    "success_top5_raw": 12,
+    "mean_rmsd_top": 1.126,
+    "median_rmsd_top": 0.648
+   },
+   "holo_multi": {
+    "success_top": 12,
+    "success_top5_raw": 12,
+    "mean_rmsd_top": 1.18,
+    "median_rmsd_top": 0.648
+   },
+   "apo_single": {
+    "success_top": 3,
+    "success_top5_raw": 3,
+    "mean_rmsd_top": 4.626,
+    "median_rmsd_top": 4.679
+   },
+   "apo_multi": {
+    "success_top": 3,
+    "success_top5_raw": 4,
+    "mean_rmsd_top": 4.943,
+    "median_rmsd_top": 5.21
+   },
+   "holo_multi_minus_single_top1": {
+    "mean_of_component_means": -0.1135,
+    "ci95": [
+     -0.3508,
+     0.0117
+    ],
+    "components": 7,
+    "cases": 15
+   },
+   "holo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": -0.1077,
+    "ci95": [
+     -0.336,
+     0.0135
+    ],
+    "components": 7,
+    "cases": 15
+   },
+   "apo_multi_minus_single_top1": {
+    "mean_of_component_means": -0.3348,
+    "ci95": [
+     -0.8881,
+     -0.0252
+    ],
+    "components": 7,
+    "cases": 15
+   },
+   "apo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": 0.0122,
+    "ci95": [
+     -0.0673,
+     0.1129
+    ],
+    "components": 7,
+    "cases": 15
+   }
+  },
+  "vinardo": {
+   "holo_single": {
+    "success_top": 11,
+    "success_top5_raw": 12,
+    "mean_rmsd_top": 1.803,
+    "median_rmsd_top": 0.664
+   },
+   "holo_multi": {
+    "success_top": 12,
+    "success_top5_raw": 12,
+    "mean_rmsd_top": 1.168,
+    "median_rmsd_top": 0.664
+   },
+   "apo_single": {
+    "success_top": 2,
+    "success_top5_raw": 2,
+    "mean_rmsd_top": 5.468,
+    "median_rmsd_top": 6.151
+   },
+   "apo_multi": {
+    "success_top": 2,
+    "success_top5_raw": 3,
+    "mean_rmsd_top": 5.477,
+    "median_rmsd_top": 6.151
+   },
+   "holo_multi_minus_single_top1": {
+    "mean_of_component_means": 1.3624,
+    "ci95": [
+     0.0186,
+     3.7193
+    ],
+    "components": 7,
+    "cases": 15
+   },
+   "holo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": 0.0498,
+    "ci95": [
+     0.0,
+     0.1343
+    ],
+    "components": 7,
+    "cases": 15
+   },
+   "apo_multi_minus_single_top1": {
+    "mean_of_component_means": -0.0085,
+    "ci95": [
+     -0.0281,
+     0.0082
+    ],
+    "components": 7,
+    "cases": 15
+   },
+   "apo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": 0.7069,
+    "ci95": [
+     -0.0175,
+     2.1387
+    ],
+    "components": 7,
+    "cases": 15
+   }
+  },
+  "gnina": {
+   "holo_single": {
+    "success_top": 14,
+    "success_top5_raw": 14,
+    "mean_rmsd_top": 0.976,
+    "median_rmsd_top": 0.669
+   },
+   "holo_multi": {
+    "success_top": 14,
+    "success_top5_raw": 14,
+    "mean_rmsd_top": 0.95,
+    "median_rmsd_top": 0.669
+   },
+   "apo_single": {
+    "success_top": 5,
+    "success_top5_raw": 6,
+    "mean_rmsd_top": 4.682,
+    "median_rmsd_top": 6.348
+   },
+   "apo_multi": {
+    "success_top": 5,
+    "success_top5_raw": 6,
+    "mean_rmsd_top": 4.681,
+    "median_rmsd_top": 6.348
+   },
+   "holo_multi_minus_single_top1": {
+    "mean_of_component_means": 0.0556,
+    "ci95": [
+     0.0001,
+     0.1521
+    ],
+    "components": 7,
+    "cases": 15
+   },
+   "holo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": -0.1122,
+    "ci95": [
+     -0.3606,
+     0.0212
+    ],
+    "components": 7,
+    "cases": 15
+   },
+   "apo_multi_minus_single_top1": {
+    "mean_of_component_means": -0.0198,
+    "ci95": [
+     -0.0854,
+     0.0229
+    ],
+    "components": 7,
+    "cases": 15
+   },
+   "apo_multi_minus_single_top5_raw": {
+    "mean_of_component_means": 0.3913,
+    "ci95": [
+     -0.0532,
+     0.936
+    ],
+    "components": 7,
+    "cases": 15
+   }
+  }
+ },
+ "note": "EXPLORATORY. Only the selection step differs between scoring functions; the pose set and every RMSD are fixed and shared. Positive gain means the multiple-state receptor did better. Bootstrap unit is the homology component. Read each function's absolute success_top first: a function that picks poses worse than vina cannot settle the receptor question whatever its contrast says. gnina was trained on PDBbind-like complexes and our holo structures may be in that training set, so its absolute numbers are assumed optimistic; the paired contrast is unaffected because the leak enters both arms equally. top5_raw has no distinctness filter -- budget50 applies that."
+}
