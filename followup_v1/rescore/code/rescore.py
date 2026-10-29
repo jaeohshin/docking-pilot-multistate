@@ -48,13 +48,21 @@ def run_vinardo(receptor, ligand):
 
 
 def run_gnina(receptor, ligand):
+    """gnina's pose-ranking quantity is CNNscore; CNNaffinity is its affinity prediction.
+
+    Both are recorded. CNNscore is the primary selector (gnina_dock/PLAN.md), CNNaffinity is kept because
+    the first pass of this experiment selected on it and that result stands as reported. Both are
+    higher-is-better, so both are negated to keep "lower score is better" everywhere downstream.
+    """
     r = subprocess.run([str(GNINA), '--receptor', str(receptor), '--ligand', str(ligand),
                         '--score_only', '--cnn_scoring', 'rescore'], capture_output=True, text=True)
     if r.returncode:
         raise RuntimeError(r.stderr[-600:])
-    # CNNaffinity is higher-is-better, so negate it to keep "lower score is better" everywhere downstream.
+    sc = [float(x) for x in re.findall(r'^CNNscore:\s+(-?\d+\.?\d*)', r.stdout, re.M)]
     aff = [float(x) for x in re.findall(r'^CNNaffinity:\s+(-?\d+\.?\d*)', r.stdout, re.M)]
-    return [-x for x in aff]
+    if len(sc) != len(aff):
+        raise RuntimeError(f'{len(sc)} CNNscore vs {len(aff)} CNNaffinity')
+    return [-x for x in sc], [-x for x in aff]
 
 
 def main():
@@ -77,12 +85,15 @@ def main():
             if call['returncode']:
                 continue
             n = to_sdf(armdir/call['out'], sdf)
-            scores = fn(run/'inputs'/a.case/call['receptor'], sdf)
-            if len(scores) != n:
-                raise RuntimeError(f"{armdir/call['out']}: {n} poses, {len(scores)} {a.scoring} scores")
-            rows += [(call['run'], i, round(s, 4)) for i, s in enumerate(scores)]
+            got = fn(run/'inputs'/a.case/call['receptor'], sdf)
+            cols = got if isinstance(got, tuple) else (got,)
+            for c in cols:
+                if len(c) != n:
+                    raise RuntimeError(f"{armdir/call['out']}: {n} poses, {len(c)} {a.scoring} scores")
+            rows += [(call['run'], i) + tuple(round(c[i], 4) for c in cols) for i in range(n)]
+    head = ['call', 'pose', 'score'] + (['score_alt'] if a.scoring == 'gnina' else [])
     with open(out/f'{a.case}__{a.arm}.tsv', 'w', newline='') as h:
-        w = csv.writer(h, delimiter='\t'); w.writerow(['call', 'pose', 'score']); w.writerows(rows)
+        w = csv.writer(h, delimiter='\t'); w.writerow(head); w.writerows(rows)
     print('rescored', a.case, a.arm, a.scoring, len(rows), 'poses', flush=True)
 
 
