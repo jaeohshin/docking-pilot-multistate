@@ -1,0 +1,78 @@
+{
+  "logs_checked": 1716,
+  "failed_calls": 0,
+  "first8_pose_rows_identical": 39676,
+  "b50_rescore_pose_table_identical": true,
+  "apo_one_receptor_controls_exact": 21,
+  "rounded_score_tie_differences": [
+    {
+      "engine": "GNINA8",
+      "case_id": "2248260e300938dd",
+      "arm": "holo_single",
+      "metric": "top",
+      "from_rounded_pose_table": 0.89,
+      "frozen_full_precision": 0.866
+    },
+    {
+      "engine": "GNINA8",
+      "case_id": "2248260e300938dd",
+      "arm": "holo_multi",
+      "metric": "top",
+      "from_rounded_pose_table": 0.89,
+      "frozen_full_precision": 0.866
+    },
+    {
+      "engine": "GNINA8",
+      "case_id": "2991fb5d9d642d1b",
+      "arm": "holo_single",
+      "metric": "top",
+      "from_rounded_pose_table": 0.847,
+      "frozen_full_precision": 0.837
+    },
+    {
+      "engine": "GNINA8",
+      "case_id": "52ca3abc99bf0a1b",
+      "arm": "holo_single",
+      "metric": "top5_raw",
+      "from_rounded_pose_table": 0.684,
+      "frozen_full_precision": 0.687
+    },
+    {
+      "engine": "GNINA8",
+      "case_id": "b3a33fcc7a7495b2",
+      "arm": "apo_multi",
+      "metric": "top",
+      "from_rounded_pose_table": 1.636,
+      "frozen_full_precision": 1.628
+    },
+    {
+      "engine": "GNINA8",
+      "case_id": "bbfc6b81df47c675",
+      "arm": "apo_single",
+      "metric": "top5_raw",
+      "from_rounded_pose_table": 5.426,
+      "frozen_full_precision": 5.42
+    },
+    {
+      "engine": "GNINA8",
+      "case_id": "bbfc6b81df47c675",
+      "arm": "apo_multi",
+      "metric": "top5_raw",
+      "from_rounded_pose_table": 5.426,
+      "frozen_full_precision": 5.42
+    },
+    {
+      "engine": "GNINA8",
+      "case_id": "e71ec1febb7d05e2",
+      "arm": "holo_single",
+      "metric": "top5_raw",
+      "from_rounded_pose_table": 0.44,
+      "frozen_full_precision": 0.441
+    }
+  ],
+  "total_logged_seconds_by_run": {
+    "expand_v1": 101400.7,
+    "followup_v1/budget50": 640709.7,
+    "followup_v1/gnina_dock": 94198.2
+  }
+}

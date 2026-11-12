@@ -1,0 +1,195 @@
+{
+ "case_id": "a362f9bc26e30b9c",
+ "holo": {
+  "chains": [
+   "A0"
+  ],
+  "chain_names_in_pdb": {
+   "A0": "A"
+  },
+  "pocket_residues": [
+   "A0:ASP101",
+   "A0:TRP102",
+   "A0:ILE105",
+   "A0:ASN125",
+   "A0:ALA126",
+   "A0:PRO127",
+   "A0:TYR132",
+   "A0:TYR148",
+   "A0:TYR209",
+   "A0:LEU213",
+   "A0:ALA243",
+   "A0:ILE244",
+   "A0:HIS270"
+  ],
+  "multi_state_residues": {},
+  "combinations_total": 1,
+  "multi_receptors": 1,
+  "rejected_for_clash": 0,
+  "combos": [
+   {}
+  ],
+  "max_graft_chi_deviation_deg": 0.0,
+  "single_clashes": [],
+  "background_switched": {},
+  "background_stripped": [],
+  "residual_clashes": []
+ },
+ "apo": {
+  "chains": [
+   "A0"
+  ],
+  "chain_names_in_pdb": {
+   "A0": "A"
+  },
+  "pocket_residues": [
+   "A0:ASP101",
+   "A0:TRP102",
+   "A0:ILE105",
+   "A0:ASN125",
+   "A0:ALA126",
+   "A0:PRO127",
+   "A0:TYR132",
+   "A0:TYR148",
+   "A0:TYR209",
+   "A0:LEU213",
+   "A0:ALA243",
+   "A0:ILE244",
+   "A0:HIS270"
+  ],
+  "multi_state_residues": {
+   "A0:ILE105": [
+    [
+     "mt",
+     0.6,
+     "A"
+    ],
+    [
+     "mm",
+     0.4,
+     "B"
+    ]
+   ],
+   "A0:ASN125": [
+    [
+     "mb1",
+     0.58,
+     "B"
+    ],
+    [
+     "mb4",
+     0.42,
+     "A"
+    ]
+   ],
+   "A0:PRO127": [
+    [
+     "p",
+     0.66,
+     "A"
+    ],
+    [
+     "m",
+     0.34,
+     "B"
+    ]
+   ],
+   "A0:TYR132": [
+    [
+     "pb1",
+     0.58,
+     "B"
+    ],
+    [
+     "tb1",
+     0.42,
+     "A"
+    ]
+   ],
+   "A0:ILE244": [
+    [
+     "mm",
+     0.56,
+     "A"
+    ],
+    [
+     "mt",
+     0.44,
+     "B"
+    ]
+   ],
+   "A0:HIS270": [
+    [
+     "tb1",
+     0.68,
+     "A"
+    ],
+    [
+     "tb0",
+     0.32,
+     "B"
+    ]
+   ]
+  },
+  "combinations_total": 64,
+  "multi_receptors": 6,
+  "rejected_for_clash": 2,
+  "combos": [
+   {},
+   {
+    "A0:ILE105": "mt",
+    "A0:ASN125": "mb1",
+    "A0:PRO127": "p",
+    "A0:TYR132": "pb1",
+    "A0:ILE244": "mt",
+    "A0:HIS270": "tb1"
+   },
+   {
+    "A0:ILE105": "mt",
+    "A0:ASN125": "mb1",
+    "A0:PRO127": "m",
+    "A0:TYR132": "pb1",
+    "A0:ILE244": "mt",
+    "A0:HIS270": "tb0"
+   },
+   {
+    "A0:ILE105": "mt",
+    "A0:ASN125": "mb4",
+    "A0:PRO127": "m",
+    "A0:TYR132": "pb1",
+    "A0:ILE244": "mm",
+    "A0:HIS270": "tb1"
+   },
+   {
+    "A0:ILE105": "mt",
+    "A0:ASN125": "mb1",
+    "A0:PRO127": "p",
+    "A0:TYR132": "tb1",
+    "A0:ILE244": "mm",
+    "A0:HIS270": "tb0"
+   },
+   {
+    "A0:ILE105": "mt",
+    "A0:ASN125": "mb1",
+    "A0:PRO127": "m",
+    "A0:TYR132": "tb1",
+    "A0:ILE244": "mm",
+    "A0:HIS270": "tb0"
+   }
+  ],
+  "max_graft_chi_deviation_deg": 0.85,
+  "single_clashes": [
+   "A0:TYR132"
+  ],
+  "background_switched": {
+   "A0:ILE249": "A",
+   "A0:GLU8": "A",
+   "A0:ASN73": "B",
+   "A0:TRP237": "A"
+  },
+  "background_stripped": [],
+  "residual_clashes": [
+   "A0:TYR132"
+  ]
+ }
+}

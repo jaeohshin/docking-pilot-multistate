@@ -1,0 +1,7 @@
+side	metric	both_fail	gain	loss	both_success	single_success	multi_success
+apo	top	108	2	2	16	18	18
+apo	top5	86	6	2	34	36	40
+apo	oracle	59	9	1	59	60	68
+holo	top	69	3	1	55	56	58
+holo	top5	42	1	1	84	85	85
+holo	oracle	19	0	2	107	109	107

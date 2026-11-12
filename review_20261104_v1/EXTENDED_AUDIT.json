@@ -1,0 +1,190 @@
+{
+  "checks": [
+    {
+      "check": "accept apo_multi_minus_single",
+      "passed": true,
+      "mean": -0.0835,
+      "ci": [
+        -0.3833,
+        0.2401
+      ]
+    },
+    {
+      "check": "accept holo_multi_minus_single",
+      "passed": true,
+      "mean": 0.3008,
+      "ci": [
+        -0.1091,
+        0.9282
+      ]
+    },
+    {
+      "check": "accept apo_oracle",
+      "passed": true,
+      "mean": 0.3637,
+      "ci": [
+        0.1288,
+        0.6568
+      ]
+    },
+    {
+      "check": "accept holo_oracle",
+      "passed": true,
+      "mean": -0.0093,
+      "ci": [
+        -0.0497,
+        0.0233
+      ]
+    },
+    {
+      "check": "accept states_only",
+      "passed": true,
+      "mean": -0.0864,
+      "ci": [
+        -0.4032,
+        0.2552
+      ]
+    },
+    {
+      "check": "backbone_change apo_multi_minus_single",
+      "passed": true,
+      "mean": -0.0209,
+      "ci": [
+        -0.0661,
+        0.0073
+      ]
+    },
+    {
+      "check": "backbone_change holo_multi_minus_single",
+      "passed": true,
+      "mean": -0.025,
+      "ci": [
+        -0.0597,
+        -0.0017
+      ]
+    },
+    {
+      "check": "backbone_change apo_oracle",
+      "passed": true,
+      "mean": 0.4603,
+      "ci": [
+        0.0034,
+        1.3356
+      ]
+    },
+    {
+      "check": "backbone_change holo_oracle",
+      "passed": true,
+      "mean": -0.0283,
+      "ci": [
+        -0.1233,
+        0.0443
+      ]
+    },
+    {
+      "check": "backbone_change states_only",
+      "passed": true,
+      "mean": -0.0209,
+      "ci": [
+        -0.0661,
+        0.007
+      ]
+    },
+    {
+      "check": "pilot main apo_multi_minus_single",
+      "passed": true,
+      "mean": 0.5645,
+      "ci": [
+        -0.0932,
+        1.4342
+      ]
+    },
+    {
+      "check": "pilot main holo_multi_minus_single",
+      "passed": true,
+      "mean": 0.2576,
+      "ci": [
+        -0.0181,
+        0.7883
+      ]
+    },
+    {
+      "check": "pilot main apo_minus_holo_single",
+      "passed": true,
+      "mean": 2.8851,
+      "ci": [
+        1.4336,
+        4.5391
+      ]
+    },
+    {
+      "check": "pilot main interaction",
+      "passed": true,
+      "mean": 0.3069,
+      "ci": [
+        -0.6004,
+        1.3183
+      ]
+    },
+    {
+      "check": "pilot main apo_multi_minus_single_states_only",
+      "passed": true,
+      "mean": 0.6116,
+      "ci": [
+        -0.1039,
+        1.5232
+      ]
+    },
+    {
+      "check": "pilot backbone_change apo_multi_minus_single",
+      "passed": true,
+      "mean": -0.0198,
+      "ci": [
+        -0.069,
+        0.0103
+      ]
+    },
+    {
+      "check": "pilot backbone_change holo_multi_minus_single",
+      "passed": true,
+      "mean": -0.0315,
+      "ci": [
+        -0.0915,
+        0.0
+      ]
+    },
+    {
+      "check": "pilot backbone_change apo_minus_holo_single",
+      "passed": true,
+      "mean": 3.2625,
+      "ci": [
+        1.1205,
+        5.4045
+      ]
+    },
+    {
+      "check": "pilot backbone_change interaction",
+      "passed": true,
+      "mean": 0.0118,
+      "ci": [
+        -0.0625,
+        0.0907
+      ]
+    },
+    {
+      "check": "pilot backbone_change apo_multi_minus_single_states_only",
+      "passed": true,
+      "mean": -0.0198,
+      "ci": [
+        -0.069,
+        0.0103
+      ]
+    }
+  ],
+  "passed": true,
+  "leave_one_component_oracle_range": [
+    0.2486283359914939,
+    0.3381546517809676
+  ],
+  "note": "Pilot oracle interval is reported in RESULTS.md but was not exported by frozen analysis; exploratory rebootstrap provided separately."
+}

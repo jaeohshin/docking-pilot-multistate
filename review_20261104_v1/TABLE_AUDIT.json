@@ -1,0 +1,10 @@
+{
+  "exploratory": true,
+  "checks": 2524,
+  "all_passed": true,
+  "threshold_boundary_rows": 26,
+  "pilot_cases_in_main": 13,
+  "apo_one": 21,
+  "apo_multiple": 107,
+  "note": "New CIs 20,000 component resamples, seed 20261104; frozen CI exact reproduction uses 10,000 and original sequential RNG. Raw-pose null is conditional on saved candidate lists, not a claim of independent biological samples."
+}

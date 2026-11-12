@@ -1,0 +1,6 @@
+contrast	component_mean	ci_type	ci_low	ci_high	cases	components
+Vina50 P1 top1	-0.0172	ci975_bonferroni	-0.306	0.3179	128	39
+Vina50 P2 distinct top5	0.1916	ci975_bonferroni	-0.1435	0.5447	128	39
+Vina50 oracle	0.3262	ci95	0.1234	0.5803	128	39
+Vina50 CNNscore rescoring top1	0.1262	ci95	-0.1854	0.4887	128	39
+GNINA8 default rescore top1	-0.2804	ci95	-0.9313	0.2735	128	39

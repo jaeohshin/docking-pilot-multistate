@@ -1,0 +1,493 @@
+% Concise manuscript; independent editable source.
+% Three-seed control update 2026-11-04; audited existing runs, unchanged scoring and selection.
+% Build from this folder with ../../tools/tectonic -X compile --keep-logs main.tex.
+\documentclass[10pt,twocolumn,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[margin=2.0cm,columnsep=0.65cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{tcolorbox}
+\usepackage{dblfloatfix}              % two-column floats may sit at the bottom too
+\renewcommand{\topfraction}{0.9}\renewcommand{\dbltopfraction}{0.9}
+\renewcommand{\bottomfraction}{0.6}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.8}\renewcommand{\dblfloatpagefraction}{0.8}
+
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\setlength{\parskip}{0pt}
+\renewcommand{\arraystretch}{1.08}
+\bibliographystyle{unsrtnat}
+
+\definecolor{keyfill}{HTML}{EEF3F5}
+\definecolor{keyline}{HTML}{C3D2D9}
+
+\date{}
+
+\input{../restructure/afcomparison_numbers.tex}
+\input{si_refs.tex}
+\begin{document}
+
+\twocolumn[{%
+\centering
+{\LARGE\bfseries Evaluating whether a side-chain packer learns the minor rotamer in multiconformer crystal structures\par}
+\vspace{0.9em}
+{\large Jaeoh Shin\par}
+\vspace{0.4em}
+{\small School of Computational Sciences, Korea Institute for Advanced Study,
+Seoul 02455, Korea\par}
+\vspace{0.25em}
+{\small Correspondence: \href{mailto:jaeohshin@kias.re.kr}{jaeohshin@kias.re.kr}\par}
+\vspace{1.4em}
+\begin{minipage}{0.93\textwidth}
+\small
+\noindent
+\textbf{Abstract.}
+\emph{Motivation.} Multiconformer crystal models assign fractional occupancies to alternative side-chain conformations. Agreement with those occupancies does not, by itself, show whether a predictor better identifies an occupied minor rotamer, a less-populated rotational state.
+
+\emph{Results.} We trained the same side-chain packer on identical structures with single-state, occupancy-weighted and perturbed alternative-state labels. On residues occupying multiple rotamer wells, the Brier score (squared probability error) favours a shuffled-label control over occupancy training (0.154 versus 0.217). Temperature scaling adjusts probability concentration; fitted on validation data, it reverses that ordering. The three-seed Brier difference after scaling between occupancy and single-state training is unresolved. Occupancy labels improve pooled minor-well discrimination, measured by the area under the receiver operating characteristic curve (AUC), by 0.0195 and within-residue identification by 0.024. A preregistered independent test on 3\,008 chains confirms the AUC gain ($+0.0183$). Its secondary identification estimate is also positive, but the interval for that three-seed mean was not reported. These findings distinguish agreement, detection of residues with alternatives, and identification of the occupied alternative. The label effect is small; its downstream utility is untested. We recommend reporting all three aspects rather than interpreting an agreement gain alone as better minor-state identification.
+
+\emph{Availability and implementation.} Benchmark, labels, controls and scoring code at
+\url{https://github.com/jaeohshin/sidechain-multistate}.
+
+
+\end{minipage}
+\vspace{1.6em}
+}]
+
+
+\section{Introduction}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{../figures/fig0_schematic.pdf}
+\caption{\textbf{Why agreement and discrimination are different questions.}
+(a) One residue modelled in two states in a single crystal: Lys43 of PDB 8AP3
+(chain C) in its qFit model, on residues 41--45 of the backbone. Its side chain
+is refined at two $\chi_1$ angles, 0.70 at 66$^\circ$ (dark) and 0.30 at
+$-165^\circ$ (grey, drawn from the shared C$\beta$). The dial shows the two angles
+as the dihedral N--C$\alpha$--C$\beta$--C$\gamma$ seen down the C$\alpha$--C$\beta$
+bond, N at the top and angles clockwise, with the three rotamer wells p, t and m as
+sectors: the states lie in p and t, and the occupancies over the three wells are
+the refined occupancy target. (b) Three
+predictions, chosen, scored against that target. Brier asks how closely the predicted distribution resembles the
+target; a discrimination measure asks whether the occupied minor well is given
+more probability than the empty one: below each prediction, its Brier score and
+whether that within-residue ranking is correct, tied (chance) or incorrect. The
+flattened prediction attains the best Brier while ranking the two off-major
+wells at chance; the prediction that ranks them correctly has a worse Brier.
+The lower Brier and the correct alternative ranking are different properties of the forecast; only the latter identifies the occupied alternative. The target comes from the refined crystal model; the predictions are
+chosen, and their scores follow from the definitions. This figure illustrates well-level evaluation; the angular-bin construction of training controls is shown separately in Appendix Figure~\ref{fig:bincontrols}.}
+\label{fig:schematic}
+\end{figure*}
+
+
+
+Side chains pack a protein's core and form its binding pockets and interfaces. A side-chain packer places their atoms on a supplied protein backbone, the repeating chain of main-chain atoms. Side-chain torsions are angles describing rotation about bonds; the first, $\chi_1$, describes rotation about the C$\alpha$--C$\beta$ bond. Its preferred angular regions are called rotamer wells. A side chain can occupy more than one such region, so packing need not have a single correct answer~\citep{dunbrack1997bayesian,miao2016sidechain}.
+
+Crystal models can represent alternative conformations with fractional occupancies---the modelled fractions assigned to each conformation. Here we sum these fractions within each of three $\chi_1$ wells. The well with the largest sum is the \emph{major} state; other occupied wells are \emph{minor} states. A well absent from the filtered reference is called \emph{empty}, without implying that it is physically inaccessible. For example, reference occupancies $(0.70,0.30,0)$ specify one major well, one minor well and one empty well. A model identifies the minor state when it prefers the second well to the third (Figure~\ref{fig:schematic}). These are refined crystal-model occupancies, not directly measured equilibrium probabilities.
+
+Alternative conformations can matter for ligand binding and docking~\citep{fischer2014flexibility,wankowicz2022ligand,gutermuth2023altloc}. Learning them therefore requires more than placing the most likely side chain correctly: the model must also distinguish a supported alternative from an unsupported one.
+
+Packing has nevertheless usually been posed as a single-answer problem. Rotamer libraries describe preferred side-chain torsions~\citep{ponder1987tertiary,shapovalov2011rotamer};
+SCWRL4 and FASPR search libraries for a favourable assignment
+\citep{krivov2009scwrl4,huang2020faspr}. Neural packers instead predict densities,
+coordinates or torsions from crystal structures
+\citep{misiura2022dlpacker,mcpartlon2023attnpacker,zhang2023diffpack,lee2025flowpacker,visani2024hpacker},
+with PIPPack returning explicit angular probabilities~\citep{randolph2024pippack}.
+Training and benchmarking commonly retain one conformer
+\citep{misiura2022dlpacker,randolph2024pippack,vangaru2025packbench}. A prediction
+matching a genuine alternative can then be scored as wrong, and top-1 accuracy
+cannot report whether a model knows the second state. The convention that makes this
+unavoidable is the scoring rule itself: rotamer recovery counts a $\chi$ angle correct
+when it falls within a fixed tolerance of the one deposited angle, but a window centred on a single reference angle does not credit all supported alternatives or evaluate the complete probability distribution. Asking whether a model knows the second state therefore requires both a reference
+that records more than one and a score defined over distributions.
+
+qFit-at-scale, a collection of crystal structures modelled with alternative atomic conformations, provides these models and occupancies for about 60\,000
+structures~\citep{wankowicz2026qfitatscale}, addressing the shortage of reference
+ensembles~\citep{wankowicz2026perspective}. Distribution-oriented methods such as
+AF2$\chi$ (a predictor of side-chain angle distributions from AlphaFold2 outputs)~\citep{cagiada2025af2chi} make the evaluation question immediate. Agreement
+between a predicted distribution and a reference can be measured by Brier (squared probability error), Kullback--Leibler (KL) divergence or Jensen--Shannon divergence (two measures of distribution difference); ensemble predictors also use coverage and free-energy
+errors~\citep{lewis2025bioemu}. These scores respond both to probability concentration and to where probability is placed. At a multiconformer residue, spreading probability away from an overconfident single-state prediction can reduce error without identifying the occupied alternative. Moving probability specifically toward that alternative is a different change. Agreement alone cannot distinguish them (Figure~\ref{fig:schematic}). This does not imply that broader predictions always score better.
+
+We test this distinction by training PIPPack on identical structures with single-state labels, occupancy labels and controls that perturb alternative-state locations. The benchmark used during development is exploratory. A separate holdout---a test set whose predictions were not used to choose the analysis or model---tests a prespecified occupancy-versus-single-state AUC contrast. Our question is whether multiconformer supervision improves identification, and how that improvement should be measured. Appendix~\ref{app:labels}--\ref{app:inference} supplies the technical definitions needed to reproduce this comparison; the separate Supplementary Information retains independent analyses and the full numerical record.
+\section{Materials and methods}
+\label{sec:methods}
+\subsection{Reference and controlled comparison}
+We derive the labels from qFit-at-scale refined occupancies~\citep{wankowicz2026qfitatscale}. Retained conformers have mean heavy-atom occupancy at least 0.10; their occupancies are renormalised and summed into three $\chi_1$ wells. The well of greatest summed occupancy is major; other occupied wells are minor. Here ``multiconformer'' means at least two occupied wells, not simply multiple alternate-location letters (identifiers of modelled alternatives in a structure file). Different conformations can remain inside the same well; our analysis intentionally omits that within-well flexibility. Historical composition statistics are in Supplementary Section~\siref{sec:historicalcontext}. An empty well is absent from the filtered reference, not necessarily physically inaccessible.
+
+PIPPack~\citep{randolph2024pippack} predicts probabilities for 72 angular bins (5$^\circ$ intervals) for each side-chain torsion. Single-state training places all target mass in the bin of greatest summed occupancy; occupancy training retains the complete distribution. Both train all four $\chi$ angles with the same likelihood objective, which assigns equivalent symmetric atom arrangements to the same physical state; evaluation focuses on $\chi_1$. The bin with the greatest summed occupancy is the modal bin. It need not lie in the well with the greatest summed occupancy; single-state is therefore a modal-bin baseline, not a major-well-preserving intervention. A control is an otherwise matched training condition used to test a specific explanation. All controls are constructed over angular bins before aggregation into the three wells used for evaluation (Appendix Figure~\ref{fig:bincontrols}). Smoothed keeps most probability on the modal bin and spreads the remainder uniformly over the other 71 bins. Shuffled keeps the modal-bin contribution and randomly reassigns all other occupied-bin contributions. Mirrored reflects those other bin positions about the modal-bin centre. These controls test whether agreement improvements require the observed alternative locations; they need not preserve well multiplicity or move each alternative into an empty well.
+
+Alongside the models trained here, we evaluate the public pretrained PIPPack model 1 supplied by its authors~\citep{randolph2024pippack}, without training its weights on our qFit labels. We call this reference the public PIPPack model.
+
+The data split separates structures used to train weights, choose settings (validation), and evaluate predictions (the benchmark). To reduce exposure to closely related proteins, the split screens for sequence homology (similarity consistent with common ancestry). The corrected split contains 21\,420 training, 1\,511 validation and 316 benchmark chains. Screening of complete protein sequences excludes cross-split hits at identity $\geq30\%$ and coverage $\geq0.50$ on either sequence, with exact-sequence groups kept together. The benchmark has 55\,355 scored residues, including 3\,535 multiconformer residues, in 292 sequence groups. It remains exploratory despite the corrected split. All five conditions were trained from scratch and evaluated at the same three random seeds: 20260928, 20261007 and 20261008. Each seed sets initial weights and random-number streams. Condition means average separately evaluated models, not their probabilities. Saved model states, or checkpoints, were selected by validation minor-well AUC before corrected benchmark prediction.
+
+Raw Brier can improve when probabilities become less concentrated, without better identification. We therefore applied \emph{temperature scaling} to every model to test whether agreement differences persist after adjusting concentration. After summing angular-bin probabilities into the three wells, we selected one positive parameter $T$ per model, shared across its residues, to minimise sequence-group-averaged Brier on validation multiconformer residues. That $T$ was fixed for benchmark evaluation; weights were not retrained and benchmark results did not select $T$. Appendix~\ref{app:training} records selection, correction and exposure details.
+
+\subsection{Three distinct evaluation questions}
+AUC denotes the area under the receiver operating characteristic curve: 0.5 is chance discrimination and 1 is perfect separation. Here $p_w$ is predicted probability and $y_w$ is refined occupancy in well $w$.
+\textbf{Agreement} is the Brier score $\sum_w(p_w-y_w)^2$ between predicted well probabilities and reference occupancies, primarily at multiconformer residues; lower is better. \textbf{Detection} is the AUC of $1-\max_w p_w$ for distinguishing multiconformer from single-well residues. \textbf{Identification} is within-residue ranking: when exactly one off-major well is occupied and the other empty, score 1 for preferring the occupied well, 0 for the reverse and 0.5 for a tie.
+
+The primary endpoint, \emph{minor-well AUC}, pools every off-major well of every residue and discriminates occupied from empty wells using predicted probability. It combines sensitivity to detection and identification, without being their sum. We therefore report within-residue ranking alongside it. Chance is 0.5 for these discrimination measures. Residue-level measures are averaged by sequence group; AUC is pooled. Bootstrap intervals estimate sampling uncertainty by repeatedly resampling groups. Paired bootstrap intervals use 20\,000 group resamples and shared draws across conditions and seeds. Intervals for seed means condition on the three fixed seeds, rather than estimating uncertainty for a new training seed.
+
+Temperature scaling uses $p_w(T)\propto p_w^{1/T}$ after aggregation into wells. Values $T>1$ spread probability more evenly and $0<T<1$ concentrate it. The positive-power step preserves within-residue well ordering, but pooled AUC can change because probabilities from different residues can exchange order. The implementation first raises probabilities below a fixed minimum to that minimum, which can create ties (Appendix~\ref{app:inference}). This one-parameter adjustment does not remove every effect of distribution width; $T$ is not a physical temperature.
+
+\subsection{Independent confirmation}
+The original benchmark had informed the development of our analyses. We therefore used a separate holdout to test whether occupancy supervision improves minor-well AUC over single-state supervision on additional structures.
+
+We froze 3\,008 chains in 445 homology components, six validation-selected checkpoints and a verdict rule before prediction. A homology component groups chains connected by qualifying sequence-similarity hits and is the unit resampled for the holdout interval. These chains have no qualifying hits to corrected training, validation or benchmark. They belonged to historical training, so independence applies only to the corrected models. Confirmation required a positive three-seed mean occupancy-minus-single-state AUC difference with a 95\% component-bootstrap interval excluding zero. Within-residue ranking was a secondary endpoint. Thus the registered confirmatory claim concerns pooled discrimination; it is not a separate confirmatory test of within-residue identification. Neither model selection nor temperature selection used the holdout.
+\section{Results}
+\begin{figure*}[tb]
+\centering
+\includegraphics[width=0.92\textwidth]{../figures/fig5_temperature.pdf}
+\caption{\textbf{Temperature scaling moves agreement without adding information.}
+The public PIPPack model's three-well distributions raised to the power $1/T$ and
+renormalised (temperature scaling; $T$ is a fitted parameter, not a physical temperature), scored on the 3\,535 multiconformer residues of the 316
+benchmark chains the corrected split keeps. (a) Brier falls past the occupancy-trained
+models, whose mean over three seeds is the red line (shaded $\pm$1 SD, $0.217 \pm
+0.002$), and is lowest near the $T$ fitted on the corrected validation split (dashed,
+$T = 4.78$). (b) Minor-state precision, the fraction of off-major probability assigned to occupied alternatives, falls towards 0.5 as the distribution flattens,
+from 0.725 to 0.622. (c) Within-residue ranking is flat across the sweep---0.739 at both $T=1$ and $T=4.78$---because changing positive $T$ preserves the well ordering after the same fixed numerical floor. Relative to the raw probabilities, that floor changes the score by only $-0.00012$ (Appendix~\ref{app:inference}); minor-well AUC, which pools wells across residues and so can be
+reordered in principle, moves by 0.002. Within this temperature sweep, panels (a) and (b) change with
+probability spread, while panel (c) retains the same within-residue ordering throughout the sweep.}
+\label{fig:temperature}
+\end{figure*}\begin{table*}[t]
+\centering
+\caption{Agreement and discrimination on the corrected exploratory benchmark. All five trained conditions are three-seed means; the public PIPPack model is one reference model. Brier is scored at multiconformer residues, with temperature fitted separately on validation. Paired Brier intervals after temperature scaling in the text use the same three seeds and shared group resamples. Full metrics and individual runs remain in Supplementary Sections~\siref{sec:traindetails} and \siref{sec:correctedagreement}.}
+\label{tab:experiment}
+\begin{tabular}{lrrrr}\toprule
+Model & Minor-well AUC & Within-residue ranking & Raw Brier & Brier after scaling\\\midrule
+Public PIPPack & 0.819 & 0.739 & 0.263 & 0.110 \\
+Single-state & 0.826 & 0.761 & 0.225 & 0.111 \\
+Occupancy & 0.845 & 0.785 & 0.217 & 0.111 \\
+Smoothed & 0.814 & 0.763 & 0.194 & 0.115 \\
+Shuffled & 0.805 & 0.749 & 0.154 & 0.125 \\
+Mirrored & 0.827 & 0.730 & 0.209 & 0.125 \\\bottomrule
+\end{tabular}
+\end{table*}
+\begin{figure*}[tb]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_paired_controls3.pdf}
+\caption{\textbf{What the labels change, as paired differences.}
+Each point is the mean of three seed-matched differences between conditions trained from random initialisation on the corrected split and evaluated on its 316 benchmark chains. The 95\% intervals use 20\,000 paired sequence-group bootstrap draws, shared across conditions and seeds; the vertical line is no difference. (a)
+\emph{Detection}: whether a residue with two occupied wells receives a lower top-well
+probability than a single-state one. (b) \emph{Identification}: at residues with one
+occupied and one empty off-major well, whether the occupied one receives more
+probability. (c) Minor-well AUC pools both over every off-major well. (d) Brier on
+multiconformer residues, where lower is better. Occupancy labels raise both abilities;
+smoothed and shuffled show no resolved improvement in either ability; mirrored
+labels raise detection and lower identification in the three-seed mean; Brier improves for every row, the wrong labels included---which is the
+paper's point, since two of those rows perturb the observed alternative-bin locations.
+The perturbations need not move every conformer into an empty rotamer well, and
+their effects on well multiplicity are not assumed to be identical. Every row uses all three seeds; intervals condition on these fixed trained seeds and do not estimate uncertainty at an unseen training seed. The full table, with minor-state precision and the public PIPPack model after temperature scaling, is Supplementary Table~\siref{tab:pairedfull}; historical fine-tuning and direction-term evidence is indexed in Supplementary Section~\siref{sec:historicalcontext}.}
+\label{fig:paired}
+\end{figure*}\begin{table*}[tb]
+\centering
+\caption{Independent confirmation of the label effect. Compare paired differences within each population, not absolute scores between populations. Intervals condition on three fixed seeds. The holdout confirms only this label contrast; its secondary mean ranking interval was not exported.}
+\label{tab:holdoutmain}
+\small\setlength{\tabcolsep}{6pt}
+\begin{tabular}{@{}lll@{}}
+\toprule
+ & exploratory benchmark & independent holdout \\
+\midrule
+chains & 316 & 3\,008 \\
+sequence units & 292 groups & 445 homology components \\
+scored $\chi_1$ residues & 55\,355 & 651\,972 \\
+multiconformer residues & 3\,535 & 60\,128 \\
+\midrule
+minor-well AUC, single-state & 0.826 & 0.8293 \\
+minor-well AUC, occupancy & 0.845 & 0.8476 \\
+\textbf{occupancy $-$ single-state} & \textbf{$+0.0195$ [$+0.0171$, $+0.0218$]} & \textbf{$+0.0183$ [$+0.0175$, $+0.0191$]} \\
+\quad per seed & $+0.0199$, $+0.0200$, $+0.0185$ & $+0.0184$, $+0.0187$, $+0.0179$ \\
+\midrule
+within-residue ranking, difference & $+0.024$ [$+0.011$, $+0.038$] & $+0.0183$ (mean interval not reported) \\
+\quad per seed & $+0.033$, $+0.014$, $+0.026$ & $+0.0208$, $+0.0152$, $+0.0189$ \\
+\midrule
+status & exploratory; shaped the analysis & preregistered; one read, criterion met \\
+\bottomrule
+\end{tabular}
+\end{table*}\subsection{Temperature scaling improves agreement without improving identification}
+\label{sec:agreement}
+Agreement compares the whole predicted distribution with reference occupancy; identification asks whether an occupied minor well is preferred to an empty alternative. Spreading probability away from an overconfident major-well prediction can improve agreement without identifying the correct alternative (Figure~\ref{fig:schematic}). This is not a universal advantage of broad distributions.
+
+Temperature scaling provides a direct test (Figure~\ref{fig:temperature}). Raising each well probability to $1/T$ and renormalising makes a distribution flatter when $T>1$. For the public PIPPack model, the temperature chosen on validation data is $T=4.78$. It reduces benchmark Brier from 0.263 to 0.110, below the raw score of every trained model. Within-residue ranking remains 0.739 at the reported precision; only the fixed numerical floor changes its value slightly (Appendix~\ref{app:inference}). Pooled minor-well AUC can change because probabilities from different residues can exchange order; it changes by 0.002 in this sweep. The fitted constant therefore improves agreement without adding information about which alternative this residue prefers.
+
+\subsection{Perturbed labels separate agreement from identification}
+The training controls test whether agreement and identification can also rank learned models differently (Table~\ref{tab:experiment}). Training on shuffled alternative-bin locations yields a lower raw Brier score than occupancy training, 0.154 versus 0.217, although its minor-well AUC and within-residue ranking are lower. Smoothed and mirrored targets also improve raw Brier relative to single-state training. These controls change the supervision while retaining the architecture and training structures. They do not prove that every perturbed state is physically wrong, nor do they isolate all aspects of width, distance and well multiplicity. What they show is narrower: a model with better raw agreement can have worse minor-state identification. They do not establish that a perturbed-label model learned no information about the original alternatives.
+
+Using the same temperature-scaling procedure for every model, with a separate validation-selected $T$ for each, all three controls trail single-state training. In the three-seed mean, shuffled and mirrored Brier differences after temperature scaling from single-state are $+0.0132$ [$+0.0107$, $+0.0156$] and $+0.0136$ [$+0.0115$, $+0.0157$], respectively, where positive means worse. The occupancy-minus-single-state contrast is unresolved: $-0.0005$ [$-0.0025$, $+0.0012$]. These intervals use the same three seeds as the ranking comparison (Supplementary Table~\siref{tab:calibrated3}). An unresolved agreement difference is not evidence of equivalence or, by itself, a formal comparison of the statistical power of the two metrics.
+
+The scored population also matters. Most benchmark residues have only one retained well, so an all-residue agreement score gives those residues most of its weight. We report multiconformer agreement to examine alternative states, while retaining all-residue scores in the Supplementary Information. Neither scope alone separates probability spread from correct allocation. Temperature scaling is a useful diagnostic and one-parameter probability adjustment, not a complete statistical adjustment for every possible width effect.
+
+\subsection{Occupancy labels improve detection and identification modestly}
+\label{sec:discrimination}
+To ask directly which state a model prefers, we compare probabilities within each eligible residue. With one occupied and one empty off-major well, the model is correct when it assigns more probability to the occupied one. For the 15 trained models evaluated here, this ranking is unchanged after temperature scaling. Minor-well AUC instead pools off-major wells across residues: it can improve through recognising which residues have alternatives, through choosing their correct wells, or through both. Figure~\ref{fig:paired} separates these components.
+
+Across three paired training seeds, occupancy labels improve minor-well AUC by $+0.0195$ [$+0.0171$, $+0.0218$] over single-state labels. The per-seed differences are $+0.0199$, $+0.0200$ and $+0.0185$. Within-residue ranking improves by $+0.024$ [$+0.011$, $+0.038$], with per-seed differences $+0.033$, $+0.014$ and $+0.026$. Detection also improves, by 0.022 in the three-seed mean. These are small changes, despite their consistent direction. The paired intervals resample sequence groups with the same draws for every seed; they do not estimate the uncertainty of retraining at an unseen seed.
+
+Detection alone would not establish better identification. The mirrored-label control illustrates the distinction: in the three-seed mean, detection improves by 0.017 relative to single-state training, while within-residue ranking changes by $-0.031$ [$-0.047$, $-0.015$]. Occupancy supervision improves both. All five conditions now have three evaluated seeds, but the benchmark influenced development; these comparisons remain exploratory.
+
+We retain minor-state precision in the full results as a caution about metric interpretation. It measures the fraction of off-major probability placed on occupied alternatives. Although it sounds like a pure identification measure, flattening changes it: for the public PIPPack model it falls from 0.725 to 0.622 during temperature scaling while within-residue ranking stays 0.739 at the reported precision. A measure's name is therefore insufficient to establish what information it isolates. Its mathematical definition and response to a controlled transformation must be considered.
+
+\subsection{An independent holdout confirms the pooled discrimination gain}
+\label{sec:holdoutmain}
+The corrected benchmark cannot independently confirm a hypothesis it helped generate. We therefore froze the holdout chain list, checkpoints and decision rule before predicting its 3\,008 chains (Table~\ref{tab:holdoutmain}). The single read contains 651\,972 scored $\chi_1$ residues, including 60\,128 multiconformer residues, in 445 homology components. No model or temperature was chosen using these results.
+
+Mean minor-well AUC is 0.8293 for single-state training and 0.8476 for occupancy training. The paired difference is $+0.0183$ [$+0.0175$, $+0.0191$], meeting the registered criterion. Each seed has a positive difference: $+0.0184$, $+0.0187$ and $+0.0179$. The secondary within-residue ranking difference averages $+0.0183$, with per-seed values $+0.0208$, $+0.0152$ and $+0.0189$. The frozen scorer did not export a confidence interval for that secondary mean; we do not infer one from the individual intervals.
+
+The two populations have different compositions, so their absolute AUC levels should not be directly compared. The similar positive paired AUC effects support reproducibility of pooled discrimination, without establishing equality of effect sizes. The secondary ranking estimates support the same direction for identification, but the absent mean interval limits the corresponding inferential claim. Confirmation applies only to these corrected models: the holdout chains belonged to historical training and cannot independently validate historical experiments. The frozen chain list was unchanged, although actual scored residue counts differ from older selection metadata in the registration (Supplementary Section~\siref{sec:holdout}).
+
+\section{Discussion}
+Occupancy supervision gives this packer a small improvement in minor-state prediction. On the exploratory benchmark, both pooled discrimination and within-residue identification improve across three training seeds. The independent holdout confirms the registered pooled-AUC gain; its secondary identification estimates are positive, without a reported interval for their three-seed mean. These statements have different evidential scopes and should not be collapsed into a general claim that every aspect of minor-state prediction has been independently confirmed.
+
+The evaluation experiments explain why agreement alone cannot establish that conclusion. Temperature scaling sharply lowers the public PIPPack model's Brier while its ranking stays 0.739 at the reported precision. Perturbed-label training can also improve raw Brier while giving worse identification than occupancy training. Per-model temperature scaling reverses the raw agreement ordering of the shuffled and occupancy conditions. With the same three seeds, the Brier label contrast after temperature scaling remains unresolved, whereas the ranking comparison shows a gain. This does not establish equivalence in agreement or a formal difference in statistical power between the metrics. It establishes the need to distinguish the questions the measures answer.
+
+Agreement and identification can also improve together. In the separate exploratory comparison, AF2$\chi$ reweighting improves both agreement and pooled minor-well AUC. A residue-type prior---probabilities determined only by amino-acid identity---illustrates the converse, attaining better raw Brier than the occupancy-trained packer while discriminating minor states less well. Complete results and the different temperature-selection, training and backbone procedures are in Supplementary Section~\siref{sec:afcomparison}. These comparisons constrain the interpretation: the finding is not that proper probability scores ignore location, or that wider distributions are always better. Nor can a cross-method gap isolate the causal effect of occupancy supervision.
+
+The reference and input impose further limits. Refined occupancies depend on crystal conditions, detection, filtering and modelling. Variability between independent determinations therefore does not define a prediction ceiling. The packer receives a crystal backbone; performance need not transfer to predicted backbones. Historical backbone perturbations demonstrate coordinate sensitivity but are not geometry-preserving interventions, and they do not establish a physically attainable improvement. Replicate-reference, backbone, other-predictor and $\chi_2$ analyses remain exploratory supporting material in the Supplementary Information, not additional confirmations of the corrected label contrast.
+
+The benchmark influenced development, and corrected training cannot turn it into an untouched test. The holdout was recovered from pruning rather than randomly sampled, is independent only of the corrected models, and uses component-bootstrap intervals conditional on fixed training seeds. Training comparisons use one architecture and three fixed seeds per condition; the intervals do not include uncertainty from arbitrary new training seeds. The 4\,000-bin AUC approximation has no exported exact-versus-binned error audit. These limitations restrict generalisation without erasing the small, consistently positive label effect. Downstream gains in docking, design or binding-associated conformations remain untested.
+
+We recommend reporting agreement after temperature scaling, detection of residues with alternatives, and within-residue identification together, with explicit reference and exposure definitions. The central result is that occupancy labels provide some additional minor-state information under this protocol, while an improvement in agreement alone does not identify what a predictor has learned.
+
+\section*{Data availability}
+Benchmark definitions, occupancy-weighted labels and scoring and training scripts are available at \url{https://github.com/jaeohshin/sidechain-multistate}. qFit-at-scale models are obtained from the original release~\citep{wankowicz2026qfitatscale}.
+\clearpage
+\appendix
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{A\arabic{figure}}
+\section{Reference construction and label semantics}\label{app:labels}
+
+
+Our copy of qFit-at-scale~\citep{wankowicz2026qfitatscale} contains 60\,463 entries
+(against the 60\,549 reported), read with gemmi~\citep{wojdyr2022gemmi}. For each
+residue we take the alternate-location letters whose mean heavy-atom occupancy is at
+least 0.10, ties included, and compute $\chi_1$ for each; retained occupancies are
+renormalised. For $\chi_1\bmod 360$, wells p, t and m are [0,120), [120,240) and
+[240,360) degrees. The well with greatest summed occupancy is major; other occupied wells are minor. In a tie, corrected exploratory scoring retains the stored reference-well order, whereas the frozen independent-holdout scorer uses p, t, m order. Both implemented conventions are preserved. This is not the same as the
+highest-occupancy individual conformer, nor as the modal 5$^\circ$ bin that serves as
+the single-bin training target: a residue whose two conformers sit in one well has one
+well and two bins. Here an \emph{empty} or \emph{unoccupied} well means that no
+conformer in that well survives the stated reference and occupancy filters. It does not
+establish that the physical state is inaccessible or absent from the crystal or solution.
+The reference is the refined qFit model, rather than a direct observation of an
+equilibrium probability distribution.
+
+A residue is \emph{multiconformer} when its side chain occupies at least two wells.
+Alternate locations that differ only in the backbone, or only within a single well, do
+not count, so the term is narrower here than in a qFit multiconformer model, and the
+difference is substantial, as illustrated by the reported letter and well counts
+(Supplementary Section~\siref{sec:historicalcontext}). A numerical fold difference additionally requires
+the same eligible residues and torsion scope in both denominators; the reported
+all-$\chi$ and $\chi_1$ percentages alone do not establish a six-fold ratio. For joint rotamers, sp$^3$ $\chi_2$ (R, Q, E, I,
+L, K, M) uses the same three wells and symmetric sp$^2$ $\chi_2$ (D, F, Y) three
+60$^\circ$ bins of $\chi_2\bmod 180$. Composition was measured over the 30\,325 chains
+of the historical training split, and the joint ($\chi_1$, $\chi_2$) composition over a random 400
+of them. Reproducibility uses pairs of independent determinations of the same
+construct, grouped by exact sequence.
+
+\paragraph{Why the input backbone is chosen by a path.} qFit assigns alternate-location
+letters to segments: a stretch of residues can share a letter, which records
+compatible modelled alternatives rather than independent choices at every residue.
+Shared labels do not by themselves demonstrate correlated motions, a transition
+pathway, or the population of a joint dynamical state. Taking the
+highest-occupancy letter independently at each residue therefore crosses segment
+boundaries wherever occupancies are near-tied, and joins residues that were never
+modelled together. The resulting inputs can contain implausible peptide connections: 1\,829
+of 148\,124 C($i$)--N($i{+}1$) links fall outside 1.20--1.50\,\AA, in 190 of 761 chains.
+Treating the choice as a path reduces this defect. Occupancy is the emission score,
+and a transition between consecutive residues is allowed only when the resulting
+C--N distance is in range. Viterbi decoding, a dynamic-programming algorithm for selecting the best connected sequence of choices, selects an occupancy-favoured path
+subject to that connectivity criterion; off-spec links fall to 11. This checks one
+aspect of backbone connectivity, not complete geometric validity or physical
+realisability.
+% AUTHOR CHECK: Explain the cause and handling of the 11 remaining off-spec links.
+ The same idea underlies
+AltLocEnumerator~\citep{gutermuth2023altloc}. For inference the defect would be local,
+but in a training label it would pair one residue's $\chi$ with a neighbour's
+alternative state, introducing inconsistent local context for a side-chain target.
+The selected input backbones and the aligned label records use the Viterbi path (Supplementary Section~\siref{sec:viterbi}); wells and label sensitivity checks
+are in the Supplementary.
+
+\paragraph{Control targets.} All five are
+trained on the same structures with the same objective and differ in the $\chi$ target
+alone. The evaluation's \emph{major well} is the well of largest summed occupancy;
+the single-state target instead uses the \emph{modal bin} of largest summed occupancy.
+These anchors do not always agree: over a random 800 of the 31\,929 labelled chains,
+the modal bin falls outside the major well at 0.9\% of labelled $\chi_1$ residues
+and at 9.3\% of the multiconformer ones. These definitions therefore describe the
+bin-level construction, not a guarantee that every condition preserves the major well.
+Conformer occupancies are first summed within each angular bin. The corrected single-state, smoothed, shuffled and mirrored conditions all use the resulting modal bin as their anchor; ties choose the lower canonical bin index. The highest-individual-conformer flag stored in the label file is not used to select this anchor. For $\pi$-periodic torsions, equivalent half-turn bins are summed before anchor selection (Appendix~\ref{app:training}); Figure~\ref{fig:bincontrols} illustrates nonperiodic $\chi_1$.
+
+Smoothed assigns probability $1-\varepsilon$ to the modal bin and $\varepsilon/71$ to each other bin. The corrected runs use $\varepsilon=0.052208$, chosen to match occupancy's \emph{mean target entropy}, $-\sum_b y_b\ln y_b$, over 131\,459 labelled angles in a 300-chain training sample. This matches an average over residue--angle distributions, not each residue's entropy or its three-well distribution. Shuffled preserves the modal-bin contribution and samples distinct destinations for all other occupied-bin contributions from the 71 non-modal bins, keeping their weights. Original alternative positions remain eligible, so a contribution can be assigned its original position. No well boundary enters this sampling rule. Mirrored maps each non-modal bin $b$ to $(2b_*-b)\bmod72$, where $b_*$ is the modal bin; the modal contribution stays fixed. It preserves angular distance from the anchor at bin resolution while changing direction. A shuffled state lands a median 18 bins from the anchor where an observed state sits 3 bins away in the historical diagnostic, so the occupancy--shuffled gap mixes location and distance changes; mirrored addresses the distance component. Neither transformation guarantees movement into a reference-empty well. For every model, evaluation compares aggregated predictions with the original occupancy reference, not with the perturbed training targets.
+% VERIFIED 2026-11-04: corrected-run frozen source/multistate/dataset.py
+% lines 237--280, label aggregation in source/scripts/73_build_labels.py:165--175.
+% Snapshot hashes and evidence: BIN_FIGURE_INTEGRATION.md.
+
+\clearpage
+\begin{figure*}[p]
+\centering
+\includegraphics[width=\textwidth]{figures/bin_control_schematic.pdf}
+\caption{\textbf{Bin-level training controls and well-level evaluation.}
+(A) A synthetic example for one residue's $\chi_1$, with original bin probabilities 0.60, 0.25 and 0.15. Colours track these contributions. Single-state keeps only the maximum summed-occupancy bin; smoothed assigns it $1-\varepsilon$ and each of the other 71 bins $\varepsilon/71$, with $\varepsilon=0.052208$. Shuffled preserves the modal contribution and assigns the others to distinct random non-modal bins; one possible draw is shown. Mirrored reflects the non-modal bin positions around the modal-bin centre. These operations do not use rotamer-well boundaries: the reflected 82.5$^\circ$ to 42.5$^\circ$ contribution remains in well p. The smoothed inset magnifies only non-modal probabilities by 1\,000.
+(B) After training, model-predicted bin probabilities are summed within p, t and m wells and scored against the original qFit occupancy reference aggregated into the same wells. Panel A shows training targets, not model predictions or condition-specific evaluation references. Displayed angles are modulo 360$^\circ$; intervals exclude their upper boundary.}
+\label{fig:bincontrols}
+\end{figure*}
+\clearpage
+\section{Corrected training and independent exposure}\label{app:training}
+
+
+PIPPack~\citep{randolph2024pippack} predicts 72 bins of 5$^\circ$ per angle. The occupancy
+target $y_{ib}$ sums retained conformer occupancy in each bin; single-state labels
+put all mass on the bin of greatest summed occupancy. That bin is not always inside the
+summed-occupancy major well: over a random 800 of the 31\,929 labelled chains it lies in
+another well at 0.9\% of labelled $\chi_1$ residues and at 9.3\% of the multiconformer
+ones, so the single-state condition is a modal-bin baseline rather than a major-well one. The loss trained in the corrected runs is
+\begin{equation}
+\mathcal L=-\frac 1N\sum_{i=1}^{N}\sum_{b=1}^{B_i}\bar y_{ib}\ln \bar q_{ib},
+\label{eq:loss}
+\end{equation}
+Here $N$ is the number of scored training angles, $y_{ib}$ is target occupancy and $q_{ib}$ is predicted probability for angle $i$ and bin $b$. For an angle that is not $\pi$-periodic, $B_i=72$ with $\bar y_{ib}=y_{ib}$ and
+$\bar q_{ib}=q_{ib}$, and for a $\pi$-periodic angle the two half-turn images are summed
+first: $B_i=36$, $\bar y_{ib}=y_{ib}+y_{i,b+36}$ and $\bar q_{ib}=q_{ib}+q_{i,b+36}$.
+Aspartate, glutamate, phenylalanine and tyrosine have a $\chi$ angle whose two half-turn
+images describe the same physical side chain, because the two terminal atoms are
+interchangeable. A loss that treats the two images as different targets therefore scores a
+correct prediction as wrong whenever the deposited naming happens to differ, and when a
+residue carries two conformers each can be named independently, so rotating the whole
+target does not fix it. Folding both target and prediction onto the same 36 orbits makes
+the loss invariant to how the symmetric atoms of each conformer were named. The
+corrected orbit likelihood deliberately differs from PIPPack's upstream objective
+at $\pi$-periodic angles: summing equivalent probabilities before taking the
+logarithm is not generally identical to choosing one equivalent image. The bitwise
+one-hot parity check applies to the historical soft-target implementation, which
+rotated the whole target, not to this corrected orbit loss. The corrected single-state
+and occupancy conditions nevertheless share exactly the same orbit objective, so
+their comparison changes the labels within that common implementation. Nonperiodic
+angles retain ordinary cross-entropy. Conditions otherwise share training; all four $\chi$
+angles are trained and $\chi_1$ is scored. Checkpoints use highest validation minor-well
+AUC, a rule fixed before any corrected benchmark prediction was made, so the benchmark
+takes no part in model selection. Schedules, controls and historical objective experiments
+are in Supplementary Sections~\siref{sec:traindetails} and~\siref{sec:historicalcontext}. The separate FlowPacker sampling-schedule
+experiment is described in Supplementary Section~\siref{sec:historicalcontext}.
+
+ An audit of the
+historical runs found three defects, each of which produced plausible numbers rather
+than an error. First, chains whose full sequence was never retrieved were treated as
+passing the homology screen, so they were never actually searched. Second, the screen
+required coverage on \emph{both} sequences, which lets a short chain pass against a long
+homolog, leaving cross-split homologs behind. Third, the training loss applied its
+$\pi$-periodic symmetry by rotating the whole target, which is not invariant to renaming
+each conformer's symmetric atoms independently, so the loss depended on an arbitrary
+naming choice. Rebuilding from full SEQRES sequences (the complete sequence records, including residues absent from the coordinates), excluding every cross-split hit at
+identity at least 30\% and coverage at least 0.50 on \emph{either} sequence with MMseqs sensitivity 7.5 and E-value at most $10^{-3}$, and replacing the loss with the orbit likelihood in Equation~\ref{eq:loss},
+leaves 21\,420 training, 1\,511 validation and 316 benchmark chains. Exact-sequence groups
+cannot straddle splits. The benchmark has 55\,355 scored $\chi_1$ residues, 3\,535
+multiconformer, in 292 sequence groups. All five conditions were trained from scratch and evaluated at each of the same three seeds. The
+principal label results use these corrected runs. Fine-tuning, direction-term, $\chi_2$,
+replicate-model and backbone-counterfactual analyses use historical runs and are
+explicitly exploratory (Supplementary Section~\siref{sec:historicalcontext}). Because the benchmark
+had already shaped the analysis before the correction, results on it remain exploratory
+whatever the split; that is what the holdout below is for.
+
+\paragraph{Independent holdout.} The benchmark had already shaped the analysis.
+We therefore froze 3\,008 previously quarantined chains in 445 homology components,
+without qualifying hits to corrected training, validation or benchmark under the
+30\%/0.50-either-side screen, and excluded historical validation/test chains.
+These chains had belonged to historical training, so their independence applies to
+the corrected checkpoints and their selection; historical models are ineligible.
+Before prediction, we registered the chain-list hash, six validation-selected
+checkpoints and a verdict rule: confirm only if the three-seed mean occupancy-minus-
+single-state minor-well AUC difference is positive with a 95\% interval excluding zero.
+Within-residue ranking was secondary. Neither temperature selection nor model selection used this set. The single read covered 651\,972 scored $\chi_1$ residues, including 60\,128
+multiconformer residues, and met the criterion. These are actual scored counts;
+older selection counts in the registration differ, without a change to the chain
+list (Supplementary Section~\siref{sec:holdout}; Supplementary Table~\siref{tab:holdout}).
+
+\paragraph{Checkpoint schedule.} The public PIPPack reference uses the authors' supplied \path{pippack_model_1_ckpt.pt}; it is distinct from the checkpoints trained here. Single-state and occupancy were retrained from scratch at seeds 20260928, 20261007 and
+20261008 with the historical architecture and schedule (stopping after 30 epochs
+without a $10^{-3}$ improvement of validation loss, cap 400): single-state stopped at
+epochs 109, 87 and 90, occupancy at 140, 114 and 126. Epoch 1, every fifth epoch and the
+five epochs around the best validation loss (161 checkpoints) were scored on the 1\,511
+validation chains, and the epoch of highest validation minor-well AUC was chosen
+(single-state 88, 85, 74; occupancy 111, 98, 115) before any prediction was made on the
+316 chains. Each model's temperature was fitted on validation Brier at multiconformer
+residues (public PIPPack 4.78; single-state 3.74--3.86; occupancy 3.21--3.41). All random-number
+streams, optimizer, schedule and stopping state are saved with each checkpoint and
+restored on resume; no corrected run needed a resume. The three perturbed-label controls were trained and evaluated at the same three seeds. In seed order, smoothed stopped at epochs 126, 123 and 107 and selected 40, 50 and 40; shuffled stopped at 101, 121 and 107 and selected 45, 45 and 50; mirrored stopped at 114, 93 and 126 and selected 84, 62 and 90. The same candidate rule scored 245 control checkpoints in total and chose the highest validation minor-well AUC, with earlier-epoch tie breaking. Validation temperatures were 2.51 for all smoothed runs, 1.58--1.73 for shuffled and 2.84--2.92 for mirrored (individual values in Supplementary Table~\siref{tab:v2runs}). Smoothed used $\varepsilon=0.052208$, matched to mean training-target entropy. The six additional control evaluations reproduced the original-seed selections and scores; no benchmark result selected a checkpoint or temperature.
+\section{Scoring, temperature scaling and inference}\label{app:inference}
+\begin{itemize}\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}
+\item \textbf{Single answer.} \emph{Major-state accuracy}: top-1 in the major well, over
+  all residues and over multiconformer residues. \emph{Lenient accuracy}: top-1 in any
+  occupied well. \emph{Error destination}: of top-1 predictions that miss the major well
+  at a multiconformer residue, the share landing in an occupied well; chance is the share
+  of occupied wells among the two remaining.
+\item \textbf{Agreement.} \emph{Brier score}~\citep{brier1950verification} summed over the
+  three wells, with KL divergence from the occupancies to the model beside it, and
+  Jensen--Shannon divergence in the external comparison; on multiconformer residues unless
+  stated otherwise, and over all residues with the single state as target where a residue
+  has one. The Murphy decomposition~\citep{murphy1973partition} uses (residue, well) pairs
+  weighted so that each sequence group counts once, in ten probability bins.
+\item \textbf{Discrimination.} \emph{Minor-well AUC}: over every off-major well of every
+  residue, the ROC AUC of the model's probability against whether that well is occupied.
+  \emph{Within-residue ranking}: at residues with exactly one occupied and one empty
+  off-major well, 1 if the occupied one receives more probability, 0.5 on a tie.
+  \emph{Detection AUC}: over all residues, the ROC AUC of one minus the top-well
+  probability against whether the residue has at least two retained occupied wells.
+\end{itemize}
+
+Detection AUC therefore asks whether multiconformer residues receive lower top-well
+confidence, and within-residue ranking asks, where the question is well posed, which of
+two off-major wells the model prefers. Minor-well AUC pools off-major wells across
+residues and so responds to both abilities at once, without being their sum: a model can
+raise it by spreading probability at the right residues, by putting it in the right wells,
+or by either alone. Chance is 0.5 for all three. This is why the paper reports ranking
+beside minor-well AUC rather than in place of it.
+
+\emph{Minor-state precision}, the measure we used first, is kept as a contrast:
+$\sum_{w \in S} p_w / \sum_{w \neq M} p_w$, with $M$ the major well and $S$ the occupied
+minor wells, at residues where at least one non-major well is unoccupied. It is invariant
+to rescaling the off-major probabilities by a common factor but not to temperature
+scaling, and it tracks predicted entropy, which is why it is reported as a contrast and
+not as a discrimination measure.
+
+\paragraph{Temperature scaling: implementation.} We adjust probability concentration after summing the 72 angular-bin probabilities into the three wells. For each checkpoint, including the public PIPPack model, one positive $T$ is shared across all residues. For numerical stability, probabilities below $10^{-6}$ are first set to that minimum. The implemented rule is
+\[
+ p_w(T)=\frac{\tilde p_w^{\,1/T}}{\sum_v\tilde p_v^{\,1/T}},
+ \qquad \tilde p_w=\max(p_w,10^{-6}).
+\]
+We choose $T$ by the lowest sequence-group-averaged Brier on validation multiconformer residues, then apply it unchanged to benchmark predictions without retraining weights. The existing search uses 121 values equally spaced on a logarithmic scale from 0.25 to 10, rounded to four decimals, with $T=1$ added explicitly. Figure~\ref{fig:temperature} sweeps $T$ for the public PIPPack model only; Table~\ref{tab:experiment} instead uses each model's own validation-selected value.
+
+Values $T>1$ spread probability more evenly and $0<T<1$ concentrate it. Changing positive $T$ preserves the ordering of the floored probabilities; the floor can turn unequal near-zero values into ties, without reversing their order. In the existing benchmark report, the public model's ranking changes by $-0.000123$ relative to the raw probabilities (both round to 0.739); ranking is unchanged for all 15 trained models. The Figure~\ref{fig:temperature} sweep applies the same floor at every $T$, including $T=1$. Guo et al.~\citep{guo2017calibration} apply temperature scaling to network logits; here it acts on the aggregated well probabilities. $T$ is not a physical temperature. Definitions and the ten-bin Brier decomposition are in Supplementary Section~\siref{sec:protocol}.
+
+Residue-level measures are macro-averaged by sequence group, so that a group with many
+chains does not dominate; AUC is pooled over residues or off-major wells. Comparisons use
+paired group bootstrap resampling over 20\,000 resamples, sharing draws across conditions
+and seeds so that a difference is read on the same groups. The holdout instead resamples
+its 445 homology components 20\,000 times (seed 20261031). Its intervals condition on three
+fixed training seeds, as do the benchmark's group-bootstrap intervals for seed means;
+they do not cover the variation a new seed would add. Seed-to-seed standard deviations
+are separate descriptive summaries, not components of these intervals. The
+registered primary mean interval is reported, whereas the frozen scorer omitted the
+secondary-mean interval. Main corrected-run temperatures are fitted on the corrected
+validation set, never on the benchmark. AUC uses the existing 4\,000-bin
+log-probability approximation, which discretises the score before ranking and is retained
+so that every reported AUC is computed the same way. The frozen holdout report
+does not export an exact-versus-binned comparison; its approximation error is therefore
+not quantified here, and the remaining reporting limitations are in the Supplementary.
+% AUTHOR CHECK: Supply an explicitly labelled post-hoc exact-versus-binned audit if available;
+% do not imply that the frozen report contains an unreported numerical verification.
+ Intervals appear inline where needed to
+interpret an uncertain contrast and otherwise in tables.
+
+
+\clearpage
+{\small\bibliography{../refs}}
+\end{document}

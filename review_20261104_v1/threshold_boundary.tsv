@@ -1,0 +1,27 @@
+case_id	arm	call	pose	vina_score	rmsd	engine	cnnscore	cnnaffinity	minaffinity
+18983ddef7bd1791	holo_single	6	5	-3.745	2.0	vina50			
+213acad8dedf3410	apo_single	7	3	-7.309	2.0	vina50			
+2f558d042f16f4f7	holo_multi	1	2	-6.777	2.0	vina50			
+3cc574829a994b7d	holo_single	45	1	-5.886	2.0	vina50			
+57f14e4b9baac61e	apo_single	27	4	-5.099	2.0	vina50			
+60e537d07177c7f6	holo_single	38	0	-5.735	2.0	vina50			
+60e537d07177c7f6	holo_multi	38	0	-5.735	2.0	vina50			
+69bd5aa33dfdd4f3	holo_multi	27	7	-7.426	2.0	vina50			
+95ffd089bd47d70a	holo_multi	28	4	-8.64	2.0	vina50			
+989fe4a2c36a6a57	holo_single	20	6	-6.902	2.0	vina50			
+989fe4a2c36a6a57	holo_multi	20	6	-6.902	2.0	vina50			
+a55370d81109dc3b	holo_multi	39	3	-5.923	2.0	vina50			
+ca403edcbb1150e0	holo_single	4	2	-5.523	2.0	vina50			
+ca403edcbb1150e0	holo_single	12	2	-5.52	2.0	vina50			
+ca403edcbb1150e0	holo_single	26	2	-5.514	2.0	vina50			
+ca403edcbb1150e0	holo_single	30	2	-5.53	2.0	vina50			
+ca403edcbb1150e0	holo_single	44	2	-5.527	2.0	vina50			
+ca403edcbb1150e0	holo_multi	12	2	-5.52	2.0	vina50			
+ca403edcbb1150e0	holo_multi	30	2	-5.53	2.0	vina50			
+ca403edcbb1150e0	holo_multi	49	2	-5.516	2.0	vina50			
+e13671740bc5b5b1	apo_single	43	0	-8.356	2.0	vina50			
+fd5e7dc6163d1398	holo_multi	45	3	-6.525	2.0	vina50			
+fe02a159def13cce	apo_single	48	2	-8.768	2.0	vina50			
+fe02a159def13cce	apo_multi	48	2	-8.768	2.0	vina50			
+ccec5c8aea863078	holo_single	0	4		2.0	gnina8	-0.5395	-4.4231	-7.7969
+ccec5c8aea863078	holo_multi	0	4		2.0	gnina8	-0.5395	-4.4231	-7.7969

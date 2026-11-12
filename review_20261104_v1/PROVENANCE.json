@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-11-04",
+  "exploratory": true,
+  "local_parent": "/data/work/sidechain-multistate",
+  "local_parent_head": "193c6c5",
+  "remote_parent": "/gpfs/jaeohshin/work/sidechain-multistate",
+  "remote_parent_head": "1c139d0",
+  "docking_root": "/gpfs/jaeohshin/work/sidechain-multistate/experiments/docking_pilot_20261028",
+  "docking_head": "8b6814b97fe28e75f38bf0f7ddd923d645401e4d",
+  "docking_status_before": "clean",
+  "remote_parent_untracked_preserved": [
+    "paper/short_20261104 build outputs",
+    "reviews/manuscript_integration_20261101/",
+    "runs/2026-10-19_scratch-v2_01/jobs/*controls_seeds.sbatch"
+  ],
+  "local_parent_untracked_preserved": [
+    "experiments/",
+    "paper/FOLLOWUP_BINDING_SITES_2026-10-25.md"
+  ],
+  "executed_new_docking": false,
+  "executed_model_inference": false,
+  "executed_training": false,
+  "installed_dependencies": false,
+  "commit_push": false,
+  "python_tables": "/home/jaeohshin/miniconda3/envs/pythia-ppi/bin/python",
+  "python_geometry": "/home/jaeohshin/miniconda3/envs/dock/bin/python",
+  "remote_python_read_existing": "/gpfs/jaeohshin/work/envs/dock-vina/bin/python",
+  "gnina_runtime_only": [
+    "--version",
+    "--help"
+  ],
+  "transfers": "existing archive/read-only selected files; no source repository changes",
+  "official_gnina_sources": [
+    "https://github.com/gnina/gnina/tree/v1.1#usage",
+    "https://github.com/gnina/gnina/blob/v1.1/gninasrc/main/main.cpp"
+  ]
+}

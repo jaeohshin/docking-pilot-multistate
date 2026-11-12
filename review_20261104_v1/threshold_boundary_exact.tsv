@@ -1,0 +1,27 @@
+engine	case_id	arm	call	pose	cnnscore	cnnaffinity	minaffinity	rmsd_exact_boundary	exact_good
+Vina50	18983ddef7bd1791	holo_single	6	5				1.999876329409884	True
+Vina50	213acad8dedf3410	apo_single	7	3				2.0003655571104906	False
+Vina50	2f558d042f16f4f7	holo_multi	1	2				2.0001764375160818	False
+Vina50	3cc574829a994b7d	holo_single	45	1				2.0004683998538426	False
+Vina50	57f14e4b9baac61e	apo_single	27	4				1.9996808036536835	True
+Vina50	60e537d07177c7f6	holo_single	38	0				1.999965262493508	True
+Vina50	60e537d07177c7f6	holo_multi	38	0				1.999965262493508	True
+Vina50	69bd5aa33dfdd4f3	holo_multi	27	7				1.9996502952834443	True
+Vina50	95ffd089bd47d70a	holo_multi	28	4				1.9995745993143883	True
+Vina50	989fe4a2c36a6a57	holo_single	20	6				2.000097920894622	False
+Vina50	989fe4a2c36a6a57	holo_multi	20	6				2.000097920894622	False
+Vina50	a55370d81109dc3b	holo_multi	39	3				2.0000756897059526	False
+Vina50	ca403edcbb1150e0	holo_single	4	2				2.000082136959782	False
+Vina50	ca403edcbb1150e0	holo_single	12	2				1.9995845952155653	True
+Vina50	ca403edcbb1150e0	holo_single	26	2				2.000277422636101	False
+Vina50	ca403edcbb1150e0	holo_single	30	2				2.000379561409576	False
+Vina50	ca403edcbb1150e0	holo_single	44	2				2.000374646902027	False
+Vina50	ca403edcbb1150e0	holo_multi	12	2				1.9995845952155653	True
+Vina50	ca403edcbb1150e0	holo_multi	30	2				2.000379561409576	False
+Vina50	ca403edcbb1150e0	holo_multi	49	2				2.0001788521295176	False
+Vina50	e13671740bc5b5b1	apo_single	43	0				2.0003008386078447	False
+Vina50	fd5e7dc6163d1398	holo_multi	45	3				2.000460810857609	False
+Vina50	fe02a159def13cce	apo_single	48	2				1.9998847492042708	True
+Vina50	fe02a159def13cce	apo_multi	48	2				1.9998847492042708	True
+GNINA8	ccec5c8aea863078	holo_single	0	4				1.999854008265353	True
+GNINA8	ccec5c8aea863078	holo_multi	0	4				1.999854008265353	True

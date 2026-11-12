@@ -1,0 +1,176 @@
+{
+ "case_id": "f103150d4318d464",
+ "holo": {
+  "chains": [
+   "A0",
+   "A1"
+  ],
+  "chain_names_in_pdb": {
+   "A0": "A",
+   "A1": "B"
+  },
+  "pocket_residues": [
+   "A0:MET64",
+   "A0:ARG87",
+   "A0:THR90",
+   "A0:CYS91",
+   "A0:GLY92",
+   "A0:PHE159",
+   "A0:VAL178",
+   "A0:GLU179",
+   "A0:MET180",
+   "A0:GLU181",
+   "A0:SER203",
+   "A0:ILE206",
+   "A1:HIS4",
+   "A1:ARG43",
+   "A1:ILE71"
+  ],
+  "multi_state_residues": {
+   "A0:VAL178": [
+    [
+     "t",
+     0.52,
+     "A"
+    ],
+    [
+     "p",
+     0.48,
+     "B"
+    ]
+   ]
+  },
+  "combinations_total": 2,
+  "multi_receptors": 2,
+  "rejected_for_clash": 0,
+  "combos": [
+   {
+    "A0:VAL178": "t"
+   },
+   {
+    "A0:VAL178": "p"
+   }
+  ],
+  "max_graft_chi_deviation_deg": 1.83,
+  "single_clashes": [],
+  "background_switched": {},
+  "background_stripped": [],
+  "residual_clashes": []
+ },
+ "apo": {
+  "chains": [
+   "A0",
+   "A1"
+  ],
+  "chain_names_in_pdb": {
+   "A0": "A",
+   "A1": "B"
+  },
+  "pocket_residues": [
+   "A0:MET64",
+   "A0:ARG87",
+   "A0:THR90",
+   "A0:CYS91",
+   "A0:GLY92",
+   "A0:PHE159",
+   "A0:VAL178",
+   "A0:GLU179",
+   "A0:MET180",
+   "A0:GLU181",
+   "A0:SER203",
+   "A0:ASP204",
+   "A0:ILE206",
+   "A1:HIS4",
+   "A1:ARG43",
+   "A1:ILE71"
+  ],
+  "multi_state_residues": {
+   "A0:VAL178": [
+    [
+     "t",
+     0.703,
+     "A"
+    ],
+    [
+     "p",
+     0.297,
+     "D"
+    ]
+   ],
+   "A0:SER203": [
+    [
+     "p",
+     0.56,
+     "C"
+    ],
+    [
+     "m",
+     0.44,
+     "A"
+    ]
+   ],
+   "A0:ILE206": [
+    [
+     "mp",
+     0.51,
+     "A"
+    ],
+    [
+     "pt",
+     0.49,
+     "B"
+    ]
+   ]
+  },
+  "combinations_total": 8,
+  "multi_receptors": 8,
+  "rejected_for_clash": 0,
+  "combos": [
+   {
+    "A0:VAL178": "t",
+    "A0:SER203": "p",
+    "A0:ILE206": "mp"
+   },
+   {
+    "A0:VAL178": "t",
+    "A0:SER203": "p",
+    "A0:ILE206": "pt"
+   },
+   {
+    "A0:VAL178": "t",
+    "A0:SER203": "m",
+    "A0:ILE206": "mp"
+   },
+   {
+    "A0:VAL178": "t",
+    "A0:SER203": "m",
+    "A0:ILE206": "pt"
+   },
+   {
+    "A0:VAL178": "p",
+    "A0:SER203": "p",
+    "A0:ILE206": "mp"
+   },
+   {
+    "A0:VAL178": "p",
+    "A0:SER203": "p",
+    "A0:ILE206": "pt"
+   },
+   {
+    "A0:VAL178": "p",
+    "A0:SER203": "m",
+    "A0:ILE206": "mp"
+   },
+   {
+    "A0:VAL178": "p",
+    "A0:SER203": "m",
+    "A0:ILE206": "pt"
+   }
+  ],
+  "max_graft_chi_deviation_deg": 0.5,
+  "single_clashes": [],
+  "background_switched": {},
+  "background_stripped": [],
+  "residual_clashes": []
+ }
+}

@@ -1,0 +1,702 @@
+% Supplementary material. Built with the same toolchain as main.tex:
+%   tectonic -X compile si.tex
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage[section]{placeins}
+\setlength{\emergencystretch}{2em}
+\makeatletter
+\renewcommand*\l@section{\@dottedtocline{1}{0em}{3.2em}}
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{12pt}
+\makeatother
+\raggedbottom
+\usepackage[hidelinks]{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\renewcommand{\arraystretch}{1.08}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\bibliographystyle{unsrtnat}
+
+\title{\bfseries Supplementary material\\[0.3em]
+\large Evaluating whether a side-chain packer learns the minor rotamer in multiconformer crystal structures}
+\author{Jaeoh Shin}
+\date{}
+
+\begin{document}
+\maketitle
+\noindent\textbf{Scope and reading guide.} Sections S1--S4 provide settings, full numerical comparisons and the independent holdout for the central label experiment. Section S5 supplies the external distribution-predictor comparison. Sections S6--S8 retain the limited historical context, input checks and score conventions needed to interpret the main text. The main Appendix defines the model objectives, inputs and principal evaluation procedures.
+
+A \emph{major} well has the greatest summed reference occupancy; a \emph{minor} well is another retained occupied well. An \emph{empty} well is absent after filtering, not necessarily physically inaccessible. Agreement measures probability error; identification asks which alternative is occupied. AUC is the area under the receiver operating characteristic curve. Historical runs used an earlier split and objective and are not independent confirmation of corrected results.
+
+\noindent\textbf{Extended record.} The preceding complete supplement is preserved as a repository analysis record, \href{archive/pre_si_compression/si.pdf}{the complete analysis record}, with its editable source and original S-numbering. It contains historical model inventories, additional packer comparisons, exploratory interventions and implementation audits. These records are not additional confirmatory evidence. The repository index \texttt{SI\_COMPRESSION.md} maps retained and archived material; unresolved author checks remain in \texttt{AUTHOR\_CHECKS.json}.
+
+\tableofcontents
+\clearpage
+\section{Corrected runs: split audit, settings and selected checkpoints}
+\label{sec:traindetails}
+
+This section supports the corrected 316-chain comparison. The public PIPPack model is the authors' supplied pretrained model 1, used without training its weights on our qFit labels; it is distinct from our validation-selected, from-scratch checkpoints. Main Appendix B gives the objective and selection logic. Historical scope is summarised in Section~\ref{sec:historicalcontext}; their results are not pooled with the corrected runs.
+
+\paragraph{Corrected split and objective (v2 runs).} Representative MMseqs
+clustering did not guarantee the stated split separation, and missing full
+sequences had been passed without screening. The corrected manifests quarantine
+these chains and remove conflicting training groups using reciprocal searches
+at identity $\geq0.30$, E-value $\leq10^{-3}$ and
+$\max(qcov,tcov)\geq0.50$, followed by fresh searches on the retained sets:
+21\,420 training chains (7\,956 sampling clusters, one chain per cluster per epoch),
+1\,511 validation chains and 316 of the 338 benchmark chains (292 sequence groups),
+with 9\,020 chains quarantined (298 for lacking a full sequence). The final searches in
+all six directions found no hit and no identical sequence across sets; MMseqs is a
+heuristic, so this is not a proof of separation, and it does not certify the sets
+against the public packers' training data.
+The corrected symmetry-aware likelihood and modal-bin target are defined in main Appendix B. They differ from the historical whole-target rotation loss; all corrected conditions use the same orbit likelihood and physical-bin offset mask. The input, label and control definitions are in Appendix A. The following records the exact run schedule and selections, so that the per-seed table is interpretable without mixing corrected and historical settings.
+
+\paragraph{Architecture and optimisation.} Corrected runs use PIPPack's published stage-one architecture and schedule: Noam learning-rate schedule with 4\,000 warm-up steps, crops of 512 residues, batch size 32 and 0--3 random recycles. The corrected loss, stopping rule, seeds and checkpoint selection are specified below and in Appendix B; the historical objective is not reused. The complete historical run inventory is retained in the repository analysis record, Sections S15--S18.
+
+Single-state and occupancy were retrained from scratch at seeds 20260928, 20261007 and
+20261008 with the historical architecture and schedule (stopping after 30 epochs
+without a $10^{-3}$ improvement of validation loss, cap 400): single-state stopped at
+epochs 109, 87 and 90, occupancy at 140, 114 and 126. Epoch 1, every fifth epoch and the
+five epochs around the best validation loss (161 checkpoints) were scored on the 1\,511
+validation chains, and the epoch of highest validation minor-well AUC was chosen
+(single-state 88, 85, 74; occupancy 111, 98, 115) before any prediction was made on the
+316 chains. For temperature scaling, each model uses one positive $T$ shared across residues, chosen by the lowest sequence-group-averaged Brier on validation multiconformer residues and then fixed for benchmark evaluation (main Appendix C). This checks agreement after adjusting probability concentration, without retraining weights. Selected values were 4.78 for public PIPPack, 3.74--3.86 for single-state and 3.21--3.41 for occupancy. All random-number
+streams, optimizer, schedule and stopping state are saved with each checkpoint and
+restored on resume; no corrected run needed a resume. All three controls were trained and evaluated at these same seeds. In seed order, stopping epochs were 126/123/107 for smoothed, 101/121/107 for shuffled and 114/93/126 for mirrored. The 245 scored control candidates followed the same checkpoint schedule; ties in validation minor-well AUC chose the earlier epoch. Selected epochs were 40/50/40, 45/45/50 and 84/62/90, respectively. Table~\ref{tab:v2runs} gives all 15 evaluated runs and their separate validation temperatures. Smoothed used $\varepsilon=0.052208$, matched to mean training-target entropy. The additional-control evaluation reproduced the original-seed choices and estimates before incorporating the six new benchmark predictions. Training used deterministic CUDA
+on A100 (single-state) and A40 (occupancy) GPUs, so bitwise identity across GPU types
+is not claimed. Smoothed matches the mean training-target entropy, not each
+residue's entropy or the entropy of the trained predictions. Shuffled and mirrored
+act on angular bins; their bin-level properties do not by themselves guarantee
+preservation of major-well identity or of the number of occupied wells after
+aggregation. The 316 chains belong to the benchmark analysed before the correction,
+so results on them remain exploratory. The later preregistered independent holdout
+confirms the occupancy-versus-single-state comparison only (Section~\ref{sec:holdout}).
+
+\begin{table}[!htbp]\centering
+\caption{The corrected (v2) runs included in the reported numerical comparisons on the 316 benchmark chains kept by the corrected split
+(exploratory, not a holdout). Epoch: chosen by validation minor-well AUC (val.\ AUC); $T$:
+fitted on validation Brier at multiconformer residues. Exploratory columns: minor-well AUC,
+detection AUC, within-residue ranking, minor-state precision and Brier at multiconformer
+residues (before temperature scaling). Below the rule: occupancy minus single-state, paired within sequence
+group (95\% bootstrap intervals, 20\,000 draws; the seed mean uses the same draws for every seed).}
+\label{tab:v2runs}
+\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrrrrrrrr@{}}
+\toprule
+condition & seed & epoch & val.\ AUC & $T$ & minor-well AUC & detection AUC & ranking & precision & Brier \\
+\midrule
+single-state & 20260928 & 88 & 0.825 & 3.86 & 0.826 & 0.770 & 0.754 & 0.732 & 0.230 \\
+single-state & 20261007 & 85 & 0.823 & 3.74 & 0.825 & 0.769 & 0.768 & 0.737 & 0.218 \\
+single-state & 20261008 & 74 & 0.823 & 3.86 & 0.826 & 0.771 & 0.760 & 0.731 & 0.227 \\
+occupancy & 20260928 & 111 & 0.843 & 3.21 & 0.846 & 0.793 & 0.787 & 0.738 & 0.215 \\
+occupancy & 20261007 & 98 & 0.840 & 3.31 & 0.845 & 0.791 & 0.781 & 0.738 & 0.218 \\
+occupancy & 20261008 & 115 & 0.841 & 3.41 & 0.844 & 0.792 & 0.786 & 0.738 & 0.218 \\
+smoothed & 20260928 & 40 & 0.816 & 2.51 & 0.816 & 0.763 & 0.761 & 0.689 & 0.192 \\
+smoothed & 20261007 & 50 & 0.810 & 2.51 & 0.813 & 0.755 & 0.762 & 0.694 & 0.196 \\
+smoothed & 20261008 & 40 & 0.811 & 2.51 & 0.813 & 0.758 & 0.768 & 0.695 & 0.194 \\
+shuffled & 20260928 & 45 & 0.807 & 1.68 & 0.806 & 0.759 & 0.737 & 0.627 & 0.154 \\
+shuffled & 20261007 & 45 & 0.808 & 1.58 & 0.806 & 0.756 & 0.765 & 0.625 & 0.148 \\
+shuffled & 20261008 & 50 & 0.804 & 1.73 & 0.804 & 0.756 & 0.746 & 0.632 & 0.161 \\
+mirrored & 20260928 & 84 & 0.825 & 2.92 & 0.828 & 0.787 & 0.731 & 0.666 & 0.208 \\
+mirrored & 20261007 & 62 & 0.826 & 2.84 & 0.827 & 0.788 & 0.735 & 0.666 & 0.203 \\
+mirrored & 20261008 & 90 & 0.827 & 2.84 & 0.825 & 0.785 & 0.723 & 0.663 & 0.215 \\
+\midrule
+\multicolumn{10}{@{}l}{occupancy $-$ single-state, seed 20260928: minor-well AUC +0.0199 [+0.0167, +0.0232], ranking +0.0328 [+0.0149, +0.0514]} \\
+\multicolumn{10}{@{}l}{occupancy $-$ single-state, seed 20261007: minor-well AUC +0.0200 [+0.0171, +0.0230], ranking +0.0137 [-0.0031, +0.0303]} \\
+\multicolumn{10}{@{}l}{occupancy $-$ single-state, seed 20261008: minor-well AUC +0.0185 [+0.0154, +0.0217], ranking +0.0261 [+0.0040, +0.0484]} \\
+\multicolumn{10}{@{}l}{mean of three seeds: minor-well AUC +0.0195 [+0.0171, +0.0218], ranking +0.0242 [+0.0109, +0.0378]} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Corrected paired effects: full metrics}
+\label{sec:pairedfull}
+
+The main paired-difference figure shows the corrected from-scratch comparisons.
+Table~\ref{tab:pairedfull} gives three-seed mean corrected-run contrasts and the individual principal-label contrasts. Table~\ref{tab:scratchcontrols} gives each control seed separately. Historical fine-tuning and direction-term results are reported separately.
+
+\begin{table}[!htbp]
+\centering
+\caption{Paired differences of the corrected runs on the 316 benchmark chains kept by the corrected split (main Figure~3 shows four three-seed mean rows). All trained-condition contrasts labelled as means average three matched seeds; the public PIPPack temperature-scaling row concerns one model. The 20\,000 shared group-bootstrap draws give intervals conditional on the fixed training seeds, not uncertainty for an arbitrary new seed. Brier on multiconformer residues. Historical comparisons are indexed in Section~\ref{sec:historicalcontext}; they are not pooled with these corrected runs.}
+\label{tab:pairedfull}
+\scriptsize\setlength{\tabcolsep}{2pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+comparison & minor-well AUC & detection AUC & ranking & precision & Brier \\
+\midrule
+occupancy $-$ single-state, seed 20260928 & $+0.020$ [$+0.017$, $+0.023$] & $+0.023$ [$+0.019$, $+0.027$] & $+0.033$ [$+0.015$, $+0.051$] & $+0.007$ [$-0.002$, $+0.016$] & $-0.016$ [$-0.024$, $-0.008$] \\
+occupancy $-$ single-state, seed 20261007 & $+0.020$ [$+0.017$, $+0.023$] & $+0.022$ [$+0.018$, $+0.026$] & $+0.014$ [$-0.003$, $+0.030$] & $+0.001$ [$-0.007$, $+0.009$] & $-0.001$ [$-0.008$, $+0.006$] \\
+occupancy $-$ single-state, seed 20261008 & $+0.019$ [$+0.015$, $+0.022$] & $+0.021$ [$+0.017$, $+0.025$] & $+0.026$ [$+0.004$, $+0.048$] & $+0.007$ [$-0.003$, $+0.017$] & $-0.009$ [$-0.017$, $-0.001$] \\
+occupancy $-$ single-state, 3-seed mean & $+0.019$ [$+0.017$, $+0.022$] & $+0.022$ [$+0.019$, $+0.025$] & $+0.024$ [$+0.011$, $+0.038$] & $+0.005$ [$-0.002$, $+0.012$] & $-0.008$ [$-0.013$, $-0.004$] \\
+smoothed $-$ single-state, 3-seed mean & $-0.012$ [$-0.014$, $-0.009$] & $-0.011$ [$-0.014$, $-0.009$] & $+0.003$ [$-0.010$, $+0.015$] & $-0.040$ [$-0.047$, $-0.033$] & $-0.032$ [$-0.036$, $-0.027$] \\
+shuffled $-$ single-state, 3-seed mean & $-0.021$ [$-0.026$, $-0.015$] & $-0.013$ [$-0.019$, $-0.007$] & $-0.011$ [$-0.023$, $+0.000$] & $-0.105$ [$-0.115$, $-0.096$] & $-0.071$ [$-0.077$, $-0.065$] \\
+mirrored $-$ single-state, 3-seed mean & $+0.001$ [$-0.002$, $+0.003$] & $+0.017$ [$+0.014$, $+0.019$] & $-0.031$ [$-0.047$, $-0.015$] & $-0.068$ [$-0.077$, $-0.059$] & $-0.016$ [$-0.021$, $-0.011$] \\
+occupancy $-$ smoothed, 3-seed mean & $+0.031$ [$+0.028$, $+0.034$] & $+0.033$ [$+0.030$, $+0.037$] & $+0.021$ [$+0.009$, $+0.034$] & $+0.045$ [$+0.039$, $+0.051$] & $+0.023$ [$+0.019$, $+0.027$] \\
+occupancy $-$ shuffled, 3-seed mean & $+0.040$ [$+0.034$, $+0.046$] & $+0.035$ [$+0.029$, $+0.041$] & $+0.036$ [$+0.021$, $+0.050$] & $+0.110$ [$+0.101$, $+0.119$] & $+0.063$ [$+0.058$, $+0.068$] \\
+occupancy $-$ mirrored, 3-seed mean & $+0.019$ [$+0.016$, $+0.021$] & $+0.005$ [$+0.003$, $+0.008$] & $+0.055$ [$+0.037$, $+0.074$] & $+0.073$ [$+0.064$, $+0.081$] & $+0.008$ [$+0.004$, $+0.012$] \\
+public PIPPack at $T$ $-$ public PIPPack & $-0.002$ [$-0.003$, $-0.001$] & $+0.005$ [$+0.003$, $+0.006$] & $-0.000$ [$-0.001$, $+0.000$] & $-0.103$ [$-0.114$, $-0.093$] & $-0.153$ [$-0.162$, $-0.144$] \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+
+The evaluation audit checked all 55\,355 residue keys, 3\,535 multiconformer labels, 292 groups and 316 chains, with no missing predictions or residue-name mismatches, and reproduced the original estimates. Independent reconstruction reproduced the same 4\,000 log-score-bin AUC and paired mean intervals. A reference tie audit found 83 equal-occupancy cases whose stored major differs from a first-p/t/m argmax; each selected well attains the maximum. The existing exploratory choices were retained; this is a documentation correction, not a rescoring. The frozen holdout uses its original p/t/m tie rule.
+
+The main control estimates average three seed-matched comparisons. Table~\ref{tab:scratchcontrols} retains the individual effects. Seed spread and group-sampling uncertainty answer different questions: the intervals resample sequence groups while holding the three trained seeds fixed. Probabilities are not ensembled. For precision, whose eligible groups can differ by seed, the same group draws are renormalised separately over each seed's eligible groups.
+
+\begin{table}[!htbp]
+\centering
+\caption{Each control seed minus its seed-matched single-state run on the corrected 316-chain benchmark; 95\% sequence-group bootstrap intervals, 20\,000 shared draws. Brier is scored at multiconformer residues. The main figure uses the three-seed means in Table~\ref{tab:pairedfull}, not these separate intervals.}
+\label{tab:scratchcontrols}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+comparison & minor-well AUC & ranking & precision & Brier \\
+\midrule
+smoothed, seed 20260928 & $-0.010$ [$-0.013$, $-0.006$] & $+0.007$ [$-0.013$, $+0.027$] & $-0.042$ [$-0.052$, $-0.032$] & $-0.039$ [$-0.047$, $-0.031$] \\
+smoothed, seed 20261007 & $-0.013$ [$-0.016$, $-0.009$] & $-0.006$ [$-0.029$, $+0.016$] & $-0.043$ [$-0.053$, $-0.034$] & $-0.023$ [$-0.030$, $-0.016$] \\
+smoothed, seed 20261008 & $-0.013$ [$-0.016$, $-0.009$] & $+0.007$ [$-0.010$, $+0.025$] & $-0.035$ [$-0.044$, $-0.027$] & $-0.033$ [$-0.041$, $-0.026$] \\
+shuffled, seed 20260928 & $-0.020$ [$-0.026$, $-0.014$] & $-0.017$ [$-0.038$, $+0.004$] & $-0.105$ [$-0.116$, $-0.093$] & $-0.077$ [$-0.086$, $-0.068$] \\
+shuffled, seed 20261007 & $-0.020$ [$-0.026$, $-0.014$] & $-0.003$ [$-0.025$, $+0.018$] & $-0.112$ [$-0.123$, $-0.102$] & $-0.070$ [$-0.077$, $-0.063$] \\
+shuffled, seed 20261008 & $-0.022$ [$-0.029$, $-0.015$] & $-0.014$ [$-0.036$, $+0.007$] & $-0.099$ [$-0.111$, $-0.088$] & $-0.066$ [$-0.074$, $-0.058$] \\
+mirrored, seed 20260928 & $+0.002$ [$-0.002$, $+0.005$] & $-0.023$ [$-0.044$, $-0.003$] & $-0.065$ [$-0.076$, $-0.055$] & $-0.022$ [$-0.029$, $-0.015$] \\
+mirrored, seed 20261007 & $+0.002$ [$-0.001$, $+0.005$] & $-0.033$ [$-0.056$, $-0.011$] & $-0.071$ [$-0.081$, $-0.061$] & $-0.015$ [$-0.024$, $-0.007$] \\
+mirrored, seed 20261008 & $-0.001$ [$-0.005$, $+0.002$] & $-0.037$ [$-0.061$, $-0.012$] & $-0.068$ [$-0.080$, $-0.056$] & $-0.012$ [$-0.019$, $-0.004$] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Corrected agreement: scoring population and temperature scaling}
+\label{sec:correctedagreement}
+
+Table~\ref{tab:calibrated3} supports the main agreement comparison with all three seeds for every trained condition. Brier is squared probability error. Temperature scaling uses each model's own validation-selected $T$ to adjust probability concentration (main Appendix C). Tables~\ref{tab:allres} and~\ref{tab:calibrated} retain the original seed-20260928 scoring-population diagnostic, including temperature selection on all residues; they are not three-seed estimates. An interval crossing zero does not establish equivalence.
+
+
+\begin{table}[!htbp]
+\centering
+\caption{Brier contrasts on multiconformer residues, averaged over the same three matched seeds for all five trained conditions. Positive means worse than single-state. Each checkpoint uses its own validation-selected temperature. Intervals are 95\% paired group-bootstrap intervals conditional on these fixed seeds, constructed from shared resamples rather than averages of individual interval endpoints. The unresolved occupancy contrast is not an equivalence test.}
+\label{tab:calibrated3}
+\small\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+comparison & raw Brier difference & Brier difference after scaling \\
+\midrule
+occupancy $-$ single-state & $-0.0084$ [$-0.0132$, $-0.0038$] & $-0.0005$ [$-0.0025$, $+0.0012$] \\
+smoothed $-$ single-state & $-0.0316$ [$-0.0363$, $-0.0271$] & $+0.0039$ [$+0.0019$, $+0.0058$] \\
+shuffled $-$ single-state & $-0.0710$ [$-0.0769$, $-0.0653$] & $+0.0132$ [$+0.0107$, $+0.0156$] \\
+mirrored $-$ single-state & $-0.0164$ [$-0.0214$, $-0.0114$] & $+0.0136$ [$+0.0115$, $+0.0157$] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Agreement over all residues (single-state residues scored against a single-state target) and over multiconformer residues, on the 316 benchmark chains kept by the corrected split (corrected runs, seed 20260928), with the public PIPPack model's temperature-scaling constant $T$ fitted on the corrected validation split either way. Over multiconformer residues the public PIPPack model at its fitted $T$ is ahead of every trained model; over all residues, at the $T$ fitted there, it is ahead again. 95\% group-bootstrap intervals.}
+\label{tab:allres}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+model & Brier, all & Brier, multiconf. & KL, all & KL, multiconf. \\
+\midrule
+% generated by scripts/176_v2_supp.py from supp/table_allres_v2.tex
+uniform & 0.635 [0.632, 0.638] & 0.225 [0.220, 0.229] & 1.053 [1.048, 1.058] & 0.465 [0.460, 0.471] \\
+public PIPPack & 0.127 [0.121, 0.133] & 0.263 [0.251, 0.274] & 0.263 [0.250, 0.276] & 0.979 [0.930, 1.029] \\
+public PIPPack, $T=4.78$ (multiconformer fit) & 0.200 [0.195, 0.206] & 0.110 [0.105, 0.115] & 0.412 [0.404, 0.420] & 0.274 [0.266, 0.282] \\
+public PIPPack, $T=1.58$ (all-residue fit) & 0.121 [0.116, 0.127] & 0.198 [0.189, 0.208] & 0.229 [0.219, 0.238] & 0.544 [0.517, 0.572] \\
+single-state, e88 & 0.130 [0.125, 0.135] & 0.230 [0.219, 0.243] & 0.248 [0.238, 0.259] & 0.689 [0.651, 0.728] \\
+smoothed, e40 & 0.133 [0.127, 0.138] & 0.192 [0.182, 0.202] & 0.256 [0.247, 0.265] & 0.445 [0.424, 0.467] \\
+occupancy, e111 & 0.128 [0.123, 0.133] & 0.215 [0.204, 0.225] & 0.239 [0.229, 0.249] & 0.553 [0.523, 0.585] \\
+shuffled, e45 & 0.155 [0.149, 0.160] & 0.154 [0.147, 0.161] & 0.329 [0.320, 0.338] & 0.353 [0.340, 0.367] \\
+mirrored, e84 & 0.130 [0.124, 0.135] & 0.208 [0.198, 0.218] & 0.246 [0.237, 0.255] & 0.541 [0.514, 0.569] \\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[!htbp]
+\centering
+\caption{Agreement after temperature scaling of each corrected run (seed 20260928), with
+its own $T$ fitted on the corrected validation split by Brier, on multiconformer residues
+and over all residues, on the 316 benchmark chains. The main agreement table and Table~\ref{tab:calibrated3} average three seeds for every trained condition; this table retains seed 20260928 throughout for comparison of scoring populations. Below the rule: paired Brier differences after temperature scaling
+against single-state (95\% intervals). Temperature scaling reverses the
+multiconformer ordering of the wrong-label controls and single-state. The
+occupancy-versus-single-state interval includes zero; this is not an equivalence
+test or a complete control for forecast width.}
+\label{tab:calibrated}
+\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+ & \multicolumn{3}{c}{multiconformer residues} & \multicolumn{3}{c}{all residues} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+model & $T$ & Brier before & after scaling & $T$ & Brier before & after scaling \\
+\midrule
+% generated by scripts/176_v2_supp.py from supp/table_calibrated_v2.tex
+public PIPPack & 4.78 & 0.263 & 0.110 & 1.58 & 0.127 & 0.121 \\
+single-state & 3.86 & 0.230 & 0.112 & 1.27 & 0.130 & 0.128 \\
+smoothed & 2.51 & 0.192 & 0.115 & 0.97 & 0.133 & 0.132 \\
+occupancy & 3.21 & 0.215 & 0.112 & 1.20 & 0.128 & 0.127 \\
+shuffled & 1.68 & 0.154 & 0.124 & 0.63 & 0.155 & 0.137 \\
+mirrored & 2.92 & 0.208 & 0.124 & 1.06 & 0.130 & 0.129 \\
+\midrule
+occupancy $-$ single-state & \multicolumn{3}{c}{$-0.0000$ [$-0.0023$, $+0.0023$]} & \multicolumn{3}{c}{$-0.0013$ [$-0.0032$, $+0.0007$]} \\
+smoothed $-$ single-state & \multicolumn{3}{c}{$+0.0032$ [$+0.0004$, $+0.0060$]} & \multicolumn{3}{c}{$+0.0041$ [$+0.0025$, $+0.0058$]} \\
+shuffled $-$ single-state & \multicolumn{3}{c}{$+0.0120$ [$+0.0085$, $+0.0154$]} & \multicolumn{3}{c}{$+0.0087$ [$+0.0064$, $+0.0109$]} \\
+mirrored $-$ single-state & \multicolumn{3}{c}{$+0.0121$ [$+0.0091$, $+0.0151$]} & \multicolumn{3}{c}{$+0.0011$ [$-0.0008$, $+0.0030$]} \\
+public PIPPack $-$ single-state & \multicolumn{3}{c}{$-0.0020$ [$-0.0054$, $+0.0013$]} & \multicolumn{3}{c}{$-0.0073$ [$-0.0098$, $-0.0046$]} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Independent holdout: frozen protocol and first read}
+\label{sec:holdout}
+
+\paragraph{Population and registration.} The corrected 316-chain benchmark had already
+informed the analysis and was not an independent test. Screening the 9\,020 quarantined
+chains against corrected training, validation and benchmark sequences retained 3\,086
+without qualifying hits. Removing five historical test chains and 73 historical
+validation chains left 3\,008 chains in 445 connected components (largest: 212 chains).
+The screen used MMseqs2 sensitivity 7.5, E-value at most $10^{-3}$, identity at least
+30\% and coverage at least 0.50 on either sequence; exact duplicates were excluded
+independently. These are families without a representative passing that screen in the
+corrected training set, not a random sample of the release. Their recovery reflects
+non-backtracking, greedy split pruning: training chains discarded for conflicts were
+not restored when the conflicting validation chains were later removed. All 3\,008
+were in historical training, so historical models are ineligible for this read.
+
+The protocol was committed as \texttt{0420c4f} on 31 October 2026 before any prediction;
+the scoring implementation was fixed in \texttt{daf820f}. The chain list, components,
+six validation-selected checkpoints and the sole primary endpoint were frozen. The
+chain-list SHA256 is recorded in \path{results/holdout_v1/PREREGISTRATION.md} and verified
+by the scorer. Occupancy epochs were 111, 98 and 115; single-state epochs were 88, 85
+and 74 for seeds 20260928, 20261007 and 20261008, respectively. No temperature selection, checkpoint selection or threshold tuning used the holdout. The occupancy floor remained
+0.10 and the $\chi_1$ well boundaries 120/240/360 degrees.
+
+\paragraph{Analysis and result.} Minor-well AUC pooled off-major wells across residues;
+within-residue ranking was macro-averaged over components. The primary endpoint was the
+three-seed mean AUC difference, occupancy minus single-state. Its 95\% interval used
+20\,000 paired bootstrap resamples of the 445 components, with the same draws across
+models and seeds (bootstrap seed 20261031). These intervals condition on the trained
+seeds and do not estimate uncertainty over arbitrary new training seeds. The registered
+rule required a positive mean with an interval excluding zero. It was met: the verdict
+of the unchanged scorer is \textbf{CONFIRMED} (Table~\ref{tab:holdout}). The effect had
+the same sign at every seed. Secondary ranking also improved at each seed but did not
+enter the verdict. No wrong-label control or other packer was evaluated on this set;
+in particular it was not screened against the public packers' training data.
+
+\begin{table}[!htbp]
+\centering
+\caption{The preregistered holdout read. Differences are occupancy minus single-state;
+intervals are 95\% paired component-bootstrap intervals (20\,000 draws). The final row
+is the mean over the three fixed seeds, not an ensemble prediction. Seed standard
+deviations are 0.0004 for the AUC difference and 0.0029 for the ranking difference.
+The frozen scorer did not output a secondary-mean interval; none is inferred from the
+individual intervals.}
+\label{tab:holdout}
+\small\setlength{\tabcolsep}{4pt}
+\input{../supp/table_holdout.tex}
+\end{table}
+
+\paragraph{Coverage and reporting audit.} All six prediction directories contain the
+same 3\,008 chains, with no missing or extra chain. Each model and their common
+intersection cover 651\,972 scored $\chi_1$ residues, including 60\,128 with multiple
+occupied wells. The registration instead quoted 583\,120 and 50\,099 from historical
+selection metadata propagated by \path{scripts/184_holdout_freeze.py}; scoring reads the
+stored training-label files through \path{scripts/94_validation_precision.py}.
+The old selection parser and the label generator differ in alternate-location and
+shared-atom handling, occupancy treatment and residue support. The contribution of
+each difference to the count discrepancy has not been quantified. We report the actual
+scored counts and preserve the original registration: the chain list, label source,
+scoring code and thresholds were not changed after the read.
+
+The frozen implementation reports individual secondary intervals, the secondary mean
+and seed standard deviation, but omits the interval for that mean requested by the
+protocol. This reporting shortfall does not affect the primary interval or verdict.
+AUC uses the pre-existing 4\,000-bin log-probability histogram calculation; although its
+helper computes exact AUC internally, the holdout report does not export that
+comparison, so an exact-versus-binned agreement check is not claimed here. No revised
+scoring pass was made. The original \path{results/holdout_v1/RESULT.md} and
+\path{results/holdout_v1/RESULT.json} are preserved unchanged; the separate
+\path{results/holdout_v1/EVALUATION_AUDIT_20261031.json} records coverage and file hashes.
+This read confirms the specified label comparison, not the other exploratory claims
+or a practical benefit of the predictions.
+
+% BEGIN AF2CHI INTEGRATION 20261101
+
+\FloatBarrier
+
+\section{External distribution predictors: AF2$\chi$ and a residue-type prior}
+\label{sec:afcomparison}
+
+\paragraph{Scope and timing.} The existing benchmark had already shaped this study;
+this comparison is exploratory and does not extend the independent holdout. Before
+production predictions, protocol commit \texttt{b033bfe} fixed the arms, three primary
+contrasts, common-residue rule and temperature-scaling procedure. The scorer was frozen in
+\texttt{ac4b159} before the full read. A structural dry run had already exposed partial
+results on 13 chains (1\,156 residues); this is disclosed in the coverage record and is
+another reason not to call the comparison an independent confirmation. The final
+report is the one complete 312-chain read; neither it nor the holdout was rescored
+for manuscript preparation. Subsequent contrasts are explicitly post hoc.
+
+\paragraph{Arms and permitted information.} The six conditions are corrected occupancy
+and single-state PIPPack (three fixed seeds each), AF2$\chi$ prior and posterior,
+Top8000, and uniform. Packer checkpoints are those in Section~\ref{sec:holdout}.
+AF2$\chi$ uses code \texttt{ee99be97}, original AF2 model-1/model-2 pTM parameters,
+and a template containing N, C$\alpha$, C and O with derived C$\beta$ only. The pipeline
+checks absence of the original side-chain features and zero processed $\chi$ atom
+masks. Experimental side-chain coordinates, occupancies and B factors are not supplied.
+Production ran on NVIDIA A10 GPUs, with 16 CPU workers per chain. A GPU architecture
+change altered AF2 outputs in a timing pilot; architecture-independent numerical
+identity is not claimed. The packer uses the supplied crystal backbone, whereas AF2
+can move it (about 2.0--2.2\,\AA{} in the initial smoke test, not a benchmark-wide
+summary). Architecture, training and backbone pathways are therefore not controlled
+across methods. Top8000 is a residue-type $\chi_1$ marginal, without the target's local
+structure; uniform assigns one third to each well. The benchmark postdates AF2's
+reported training cutoff, which is a date check, not proof against homologous exposure.
+
+\paragraph{Coverage and alignment.} The template-feature audit retained 312 of 316
+chains before production. The exclusions are 8ap3\_C, 8j5u\_A, 8ju8\_A and 8jv4\_A:
+their custom-template alignments lack the backbone N at internal positions 114, 526,
+131 and 352, respectively. Both AF2$\chi$ arms completed all 312 retained chains.
+The common scoring set contains 54\,497 $\chi_1$ residues, including 3\,487 with
+multiple wells, in 288 sequence groups; 68\,571 in the preparation manifest counts
+input residues rather than scored $\chi_1$ residues. Residue keys preserve chain,
+author numbering, insertion code and residue name; duplicate keys, name mismatches
+and invalid probabilities are rejected. PIPPack's 72-bin and AF2$\chi$'s 36-bin
+distributions are folded into the same p/t/m wells after checking angular origins.
+
+\paragraph{Temperature scaling and uncertainty.} All arms use the same two-half group
+cross-fitting rule: fit $T$ by Brier on one half's multiconformer residues and apply it
+only to the other half, then reverse the roles. Each half has 144 groups, assigned
+with seed 20261101. This replaces the initial plan for a separate external set for selecting temperatures; the change was fixed before production. No scored group supplies its own
+temperature. Unlike the main corrected-run table, these are not temperatures fitted
+on the 1\,511-chain validation set. The frozen report exports raw and cross-fitted
+results, not the additional validation-temperature arm contemplated in the protocol;
+that reporting omission is not silently filled by a new scoring pass. Table~\ref{tab:aftemperatures}
+gives the temperatures. Temperature scaling can change cross-residue AUC but leaves the order
+of wells within each residue unchanged; within-residue ranking is numerically identical
+before and after it in every arm. AUC pools off-major wells; ranking and agreement
+are sequence-group means. The same 20\,000 group-bootstrap draws are used for paired
+arms (seed 20261101); intervals condition on the trained seeds and selected temperatures and do not include new-seed or temperature-fit uncertainty. They are not simultaneous
+multiple-comparison intervals.
+
+\paragraph{Prespecified results.} Tables~\ref{tab:afarmsraw}--\ref{tab:afsecondarycal}
+report all arms and all three primary contrasts with their specified secondary
+comparisons. Posterior reweighting improves minor-well AUC, Brier and JS together;
+it does not provide an example of their dissociation. Its within-residue ranking
+contrast remains uncertain. The context-free Top8000 prior has lower raw Brier than
+the occupancy-trained packer, yet lower minor-well AUC and worse JS. After cross-fitting,
+Brier also favours the packer. The small occupancy-label AUC difference on these 312
+chains is close to the 316-chain result; exclusions did not materially change that
+point estimate, although this is not a formal selection-bias test.
+
+\paragraph{Post-hoc results and their limits.} Tables~\ref{tab:afposthoc} and
+\ref{tab:aflabelposthoc} come from the separate post-hoc summary, whose reconstruction
+matched the 20 saved arm/variant rows. Packer-versus-AF2$\chi$ contrasts were not
+prespecified. Both packers perform better on this reference, but only their controlled
+within-PIPPack difference isolates the occupancy-label contrast. The remaining gap
+cannot be assigned to supervision, architecture or geometry from this comparison.
+Brier and JS after temperature scaling differences between the two labels include zero at all three
+seeds; this does not establish equality. Within-residue ranking favours occupancy
+on average, with one seed's interval including zero. The frozen primary scorer omitted
+these label-comparison secondary quantities, so they remain post hoc rather than
+being retroactively added to its prespecified outputs. Individual intervals are not
+averaged to manufacture missing mean intervals.
+
+\paragraph{Scope limit.} Proposed solution-ensemble extensions had training homologs and were not independent tests (repository analysis record, Section S5). No solution-population, timescale, transition-rate or $\chi_2$ performance is established by this crystal comparison.
+
+\begin{table}[!htbp]
+\centering
+\caption{All arms, raw. AUC is pooled; ranking and agreement are group means. Each trained seed is shown separately; lower Brier/JS is better. No interval for a seed mean is constructed by averaging individual limits.}
+\label{tab:afarmsraw}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Arm & minor AUC & detect. AUC & ranking & Brier & JS \\
+\midrule
+uniform & 0.5000 & 0.5000 & 0.5000 & 0.2242 & 0.1446 \\
+Top8000 & 0.6406 & 0.5434 & 0.6765 & 0.1954 & 0.1137 \\
+AF2$\chi$ prior & 0.6919 & 0.5353 & 0.7158 & 0.4228 & 0.1700 \\
+AF2$\chi$ posterior & 0.7289 & 0.6626 & 0.7291 & 0.3016 & 0.1289 \\
+single-state seed 20260928 & 0.8260 & 0.7699 & 0.7555 & 0.2307 & 0.1063 \\
+single-state seed 20261007 & 0.8250 & 0.7688 & 0.7675 & 0.2188 & 0.1024 \\
+single-state seed 20261008 & 0.8255 & 0.7705 & 0.7607 & 0.2272 & 0.1052 \\
+occupancy seed 20260928 & 0.8457 & 0.7926 & 0.7875 & 0.2151 & 0.0993 \\
+occupancy seed 20261007 & 0.8450 & 0.7908 & 0.7821 & 0.2182 & 0.1004 \\
+occupancy seed 20261008 & 0.8440 & 0.7912 & 0.7866 & 0.2189 & 0.1008 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{All arms, cross-fitted $T$. AUC is pooled; ranking and agreement are group means. Each trained seed is shown separately; lower Brier/JS is better. No interval for a seed mean is constructed by averaging individual limits.}
+\label{tab:afarmscal}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Arm & minor AUC & detect. AUC & ranking & Brier & JS \\
+\midrule
+uniform & 0.5000 & 0.5000 & 0.5000 & 0.2242 & 0.1446 \\
+Top8000 & 0.6449 & 0.5177 & 0.6765 & 0.1768 & 0.1138 \\
+AF2$\chi$ prior & 0.6937 & 0.5007 & 0.7158 & 0.1610 & 0.1082 \\
+AF2$\chi$ posterior & 0.7264 & 0.6087 & 0.7291 & 0.1449 & 0.0987 \\
+single-state seed 20260928 & 0.8235 & 0.7703 & 0.7555 & 0.1119 & 0.0815 \\
+single-state seed 20261007 & 0.8236 & 0.7715 & 0.7675 & 0.1113 & 0.0819 \\
+single-state seed 20261008 & 0.8233 & 0.7734 & 0.7607 & 0.1111 & 0.0821 \\
+occupancy seed 20260928 & 0.8441 & 0.7922 & 0.7875 & 0.1119 & 0.0812 \\
+occupancy seed 20261007 & 0.8431 & 0.7926 & 0.7821 & 0.1107 & 0.0812 \\
+occupancy seed 20261008 & 0.8425 & 0.7927 & 0.7866 & 0.1103 & 0.0810 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{The three prespecified minor-well AUC contrasts. Trained-model effects average paired differences over the same three seeds. Intervals use 20\,000 paired sequence-group bootstrap draws and condition on the fitted models and selected temperatures.}
+\label{tab:afprimary}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+Contrast & Raw difference [95\% CI] & Cross-fitted difference [95\% CI] \\
+\midrule
+occupancy $-$ single-state & $+0.0194$ [$+0.0171$, $+0.0218$] & $+0.0198$ [$+0.0174$, $+0.0223$] \\
+AF2$\chi$ posterior $-$ prior & $+0.0371$ [$+0.0309$, $+0.0436$] & $+0.0327$ [$+0.0265$, $+0.0392$] \\
+occupancy $-$ Top8000 & $+0.2043$ [$+0.1932$, $+0.2151$] & $+0.1983$ [$+0.1875$, $+0.2089$] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Prespecified secondary comparisons, raw. The stored summary supplies per-seed intervals for occupancy minus Top8000; these are not intervals for the three-seed mean.}
+\label{tab:afsecondaryraw}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrc@{}}
+\toprule
+Contrast & Metric & Seed & Difference [95\% CI] \\
+\midrule
+posterior $-$ prior & ranking & --- & $+0.0133$ [$-0.0032$, $+0.0296$] \\
+occupancy $-$ Top8000 & ranking & 20260928 & $+0.1110$ [$+0.0814$, $+0.1407$] \\
+occupancy $-$ Top8000 & ranking & 20261007 & $+0.1056$ [$+0.0779$, $+0.1343$] \\
+occupancy $-$ Top8000 & ranking & 20261008 & $+0.1101$ [$+0.0805$, $+0.1402$] \\
+posterior $-$ prior & Brier & --- & $-0.1211$ [$-0.1321$, $-0.1107$] \\
+occupancy $-$ Top8000 & Brier & 20260928 & $+0.0197$ [$+0.0058$, $+0.0335$] \\
+occupancy $-$ Top8000 & Brier & 20261007 & $+0.0228$ [$+0.0086$, $+0.0367$] \\
+occupancy $-$ Top8000 & Brier & 20261008 & $+0.0235$ [$+0.0100$, $+0.0367$] \\
+posterior $-$ prior & JS & --- & $-0.0411$ [$-0.0452$, $-0.0372$] \\
+occupancy $-$ Top8000 & JS & 20260928 & $-0.0144$ [$-0.0201$, $-0.0088$] \\
+occupancy $-$ Top8000 & JS & 20261007 & $-0.0133$ [$-0.0189$, $-0.0078$] \\
+occupancy $-$ Top8000 & JS & 20261008 & $-0.0129$ [$-0.0183$, $-0.0076$] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Prespecified secondary comparisons, cross-fitted $T$. The stored summary supplies per-seed intervals for occupancy minus Top8000; these are not intervals for the three-seed mean.}
+\label{tab:afsecondarycal}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrc@{}}
+\toprule
+Contrast & Metric & Seed & Difference [95\% CI] \\
+\midrule
+posterior $-$ prior & ranking & --- & $+0.0133$ [$-0.0032$, $+0.0296$] \\
+occupancy $-$ Top8000 & ranking & 20260928 & $+0.1110$ [$+0.0814$, $+0.1407$] \\
+occupancy $-$ Top8000 & ranking & 20261007 & $+0.1056$ [$+0.0779$, $+0.1343$] \\
+occupancy $-$ Top8000 & ranking & 20261008 & $+0.1101$ [$+0.0805$, $+0.1402$] \\
+posterior $-$ prior & Brier & --- & $-0.0161$ [$-0.0193$, $-0.0129$] \\
+occupancy $-$ Top8000 & Brier & 20260928 & $-0.0649$ [$-0.0719$, $-0.0580$] \\
+occupancy $-$ Top8000 & Brier & 20261007 & $-0.0662$ [$-0.0731$, $-0.0594$] \\
+occupancy $-$ Top8000 & Brier & 20261008 & $-0.0666$ [$-0.0733$, $-0.0599$] \\
+posterior $-$ prior & JS & --- & $-0.0095$ [$-0.0109$, $-0.0081$] \\
+occupancy $-$ Top8000 & JS & 20260928 & $-0.0326$ [$-0.0354$, $-0.0298$] \\
+occupancy $-$ Top8000 & JS & 20261007 & $-0.0326$ [$-0.0354$, $-0.0299$] \\
+occupancy $-$ Top8000 & JS & 20261008 & $-0.0328$ [$-0.0356$, $-0.0301$] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Post-hoc model contrasts on the raw predictions. These comparisons were not among the three prespecified primary contrasts. Differences average the three packer seeds. They cannot identify the causal contribution of architecture, training data or input geometry.}
+\label{tab:afposthoc}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llc@{}}
+\toprule
+Contrast & Metric & Difference [95\% CI] \\
+\midrule
+occupancy $-$ AF2$\chi$ posterior & minor AUC & $+0.1160$ [$+0.1065$, $+0.1253$] \\
+occupancy $-$ AF2$\chi$ posterior & detection AUC & $+0.1289$ [$+0.1184$, $+0.1392$] \\
+occupancy $-$ AF2$\chi$ prior & minor AUC & $+0.1530$ [$+0.1426$, $+0.1637$] \\
+occupancy $-$ AF2$\chi$ prior & detection AUC & $+0.2562$ [$+0.2411$, $+0.2710$] \\
+single-state $-$ AF2$\chi$ posterior & minor AUC & $+0.0966$ [$+0.0872$, $+0.1059$] \\
+single-state $-$ AF2$\chi$ posterior & detection AUC & $+0.1072$ [$+0.0964$, $+0.1176$] \\
+single-state $-$ AF2$\chi$ prior & minor AUC & $+0.1337$ [$+0.1230$, $+0.1444$] \\
+single-state $-$ AF2$\chi$ prior & detection AUC & $+0.2345$ [$+0.2192$, $+0.2496$] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Post-hoc occupancy minus single-state secondary comparisons. All individual seed intervals are retained. The frozen primary report did not export these quantities; they were computed separately after its read. Brier and JS after temperature scaling intervals include zero at every seed, which is not an equivalence test.}
+\label{tab:aflabelposthoc}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrc@{}}
+\toprule
+Metric [variant] & Seed & Difference [95\% CI] \\
+\midrule
+ranking [raw] & 20260928 & $+0.0321$ [$+0.0139$, $+0.0509$] \\
+ranking [raw] & 20261007 & $+0.0146$ [$-0.0023$, $+0.0313$] \\
+ranking [raw] & 20261008 & $+0.0259$ [$+0.0030$, $+0.0485$] \\
+Brier [raw] & 20260928 & $-0.0156$ [$-0.0235$, $-0.0076$] \\
+Brier [raw] & 20261007 & $-0.0006$ [$-0.0077$, $+0.0067$] \\
+Brier [raw] & 20261008 & $-0.0083$ [$-0.0166$, $-0.0003$] \\
+JS [raw] & 20260928 & $-0.0070$ [$-0.0098$, $-0.0042$] \\
+JS [raw] & 20261007 & $-0.0019$ [$-0.0047$, $+0.0008$] \\
+JS [raw] & 20261008 & $-0.0044$ [$-0.0079$, $-0.0012$] \\
+ranking [cross-fitted $T$] & 20260928 & $+0.0321$ [$+0.0139$, $+0.0509$] \\
+ranking [cross-fitted $T$] & 20261007 & $+0.0146$ [$-0.0023$, $+0.0313$] \\
+ranking [cross-fitted $T$] & 20261008 & $+0.0259$ [$+0.0030$, $+0.0485$] \\
+Brier [cross-fitted $T$] & 20260928 & $+0.0000$ [$-0.0023$, $+0.0024$] \\
+Brier [cross-fitted $T$] & 20261007 & $-0.0006$ [$-0.0037$, $+0.0023$] \\
+Brier [cross-fitted $T$] & 20261008 & $-0.0008$ [$-0.0040$, $+0.0022$] \\
+JS [cross-fitted $T$] & 20260928 & $-0.0003$ [$-0.0012$, $+0.0007$] \\
+JS [cross-fitted $T$] & 20261007 & $-0.0007$ [$-0.0019$, $+0.0005$] \\
+JS [cross-fitted $T$] & 20261008 & $-0.0011$ [$-0.0025$, $+0.0002$] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Cross-fitted temperatures. Each half contains 144 sequence groups. The grid spans 0.25--10 and includes 1. Uniform probabilities are unchanged at every temperature; its returned 0.25 is a tie-breaking grid value, not a fitted shape change.}
+\label{tab:aftemperatures}
+\small\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Arm & Fit half 0, score half 1 & Fit half 1, score half 0 \\
+\midrule
+AF2$\chi$ posterior & 3.5163 & 3.8560 \\
+AF2$\chi$ prior & 4.4966 & 4.9310 \\
+Top8000 & 1.9014 & 2.2173 \\
+uniform & 0.2500 & 0.2500 \\
+occupancy seed 20260928 & 3.2065 & 3.3066 \\
+occupancy seed 20261007 & 3.3066 & 3.3066 \\
+occupancy seed 20261008 & 3.4098 & 3.3066 \\
+single-state seed 20260928 & 3.8560 & 3.9764 \\
+single-state seed 20261007 & 3.7392 & 3.7392 \\
+single-state seed 20261008 & 3.7392 & 3.8560 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% END AF2CHI INTEGRATION 20261101
+
+\section{Historical analyses: scope and repository evidence}
+\label{sec:historicalcontext}
+\label{sec:compositiondetail}
+\label{sec:joint}
+
+These analyses explain the study's development and limitations; they do not extend the corrected holdout verdict. The earlier split used 30\,325 training and 1\,604 validation chains and failed the later full-sequence separation audit. Its whole-target symmetry rotation also differs from the corrected orbit likelihood. Historical fine-tuning did not seed all random streams or save their state; exact resumed trajectories are therefore not reproducible. Full settings, selection history and run tables are in the repository analysis record, Sections S15--S18, rather than pooled with corrected estimates.
+
+\paragraph{Conformers are not necessarily different wells.} Among historical labelled $\chi_1$ angles, 41.3\% had every state inside one 5$^\circ$ bin, 48.9\% occupied distinct bins within one well and 9.9\% crossed wells (record Section S9, Figure S1). The 12.9-million-angle count spans all torsions and has a different denominator. These quantities cannot support a fold ratio or a corrected-holdout prevalence estimate.
+
+\paragraph{Beyond the first torsion.} The historical joint-angle analysis included 27\,162 residues with an sp$^3$ $\chi_2$: 1\,241 were multiconformer by $\chi_1$, 2\,620 jointly and 1\,379 only through $\chi_2$. For 9\,644 symmetric sp$^2$ residues the corresponding counts were 180, 1\,002 and 822. Joint probabilities were products of marginal probabilities, so they did not represent torsion correlations. The complete paired results and scoring rules are in record Section S13, Table S24. They were not repeated with the corrected models.
+
+\paragraph{Other exploratory evidence.} Historical fine-tuning and direction-term comparisons are in record Sections S16--S18, Tables S26 and S30. The direction term rewards a labelled occupied alternative over an empty well; its pair-label source and eligibility mask still require author verification. In that record, sampling-width experiments are in Section S14; replicate references, alternative-backbone and structure-predictor analyses are in Sections S10--S12. These analyses do not identify a causal ceiling on recoverable conformational information. Single-answer packer comparisons and tolerance sensitivity (record Sections S6--S8) are not substitutes for the controlled label comparison.
+% AUTHOR CHECK: Confirm the implemented pair-label source and mask for the historical direction term; retain the unresolved original checks in AUTHOR_CHECKS.json.
+
+\paragraph{Why the corrected comparison is separate.} The historical audit found missing full sequences passed without screening, a coverage rule requiring both sequences rather than either, and the non-invariant whole-target loss. Corrected runs exclude cross-split hits and use the common orbit objective (Section~\ref{sec:traindetails}). The full defect log and test inventory remain in record Sections S24--S25. Archiving those details does not resolve them by editorial action.
+% AUTHOR CHECK: Verify exact control maps, shuffled-bin collisions and anchor conventions against the implemented adapter; mean-entropy matching does not establish residue-wise invariants.
+
+
+\section{Input geometry audit and remaining exceptions}
+\label{sec:viterbi}
+
+Main Appendix A describes selection of a connected alternate-location path. Shared letters record compatible modelled alternatives; they do not by themselves establish correlated dynamics. The audit found 1\,829 of 148\,124 neighbouring C--N distances outside 1.20--1.50\,\AA{} in 190 of 761 chains under independent highest-occupancy choices. The connectivity-constrained path reduced that count to 11. This is a bond-length check, not proof of complete geometric validity or physical realisability.
+% AUTHOR CHECK: Document the cause and handling of the 11 retained off-spec links.
+
+AltLocEnumerator~\citep{gutermuth2023altloc} also seeks compatible paths but additionally checks clashes between alternatives; our path enforces connectivity, not that clash condition. Excluding affected residues changes inference major-state accuracy by 0.1--0.3 percentage points. In training, selecting inconsistent local alternatives could instead pair a torsion label with the wrong neighbouring context. All inputs and labels use the path described in Appendix A.
+
+\paragraph{Independent input--label agreement.}
+\label{sec:consistency}
+
+Two pipelines computed $\chi$ independently---ours with gemmi, PIPPack's with its
+own featurizer---providing a direct consistency check on label
+construction. Over a random 300 chains and 123\,868 labelled angles, the conformer
+in the input file is one of the states its label describes at 99.99\% of angles,
+and at 100.0000\% of single-conformer residues, where there is nothing to choose.
+
+All 13 exceptions are accounted for: 12 are states below the labels' 0.10
+occupancy floor, which the altloc path may select because it has no such floor,
+and one is an angle sitting exactly on a bin boundary. None reaches a target: every
+condition is built from the label file alone, the model is never
+conditioned on input side chains, and the offset mask---the one loss that reads
+the structure's $\chi$---excludes every one of them.
+
+\section{Supplementary score definitions and decomposition limits}
+\label{sec:protocol}
+
+Main Appendix C defines the principal scores and temperature scaling. This section retains the target conventions and decomposition details needed for the historical diagnostic analyses. It does not introduce another confirmatory endpoint. The occupied/empty support label used by AUC differs from the fractional occupancy target used by Brier.
+
+\paragraph{Targets and score scope.} Let $y_{rw}$ be retained, renormalised
+reference occupancy and $q_{rw}$ predicted probability for residue $r$ and well
+$w$. The agreement score is the soft-target Brier loss
+\[
+ B_r=\sum_{w=1}^{3}(q_{rw}-y_{rw})^2.
+\]
+Minor-well AUC instead uses the binary support label
+$z_{rw}=\mathbf{1}\{y_{rw}>0\}$ on all off-major wells. Within-residue ranking
+compares the occupied and unoccupied off-major well only where both exist,
+counting a tie as one half. Detection AUC uses $1-\max_w q_{rw}$ against whether
+at least two wells have retained support. Thus the agreement and support metrics
+have different targets. ``Unoccupied'' here means absent from the retained qFit
+labels, not proof of zero physical population. KL is directed from reference to
+prediction; it is infinite when a supported reference well receives exactly zero
+predicted probability. Any finite implementation value in that case depends on
+the numerical zero-handling rule.
+% AUTHOR CHECK: State the actual probability floor/clipping and renormalisation
+% used for KL, including the finite major-only value retained in the archived full manuscript.
+
+\paragraph{The Brier decomposition.} Here \emph{calibration} names a property of the probabilities, not another adjustment procedure: it asks whether stated probabilities match mean reference occupancy. Temperature scaling is the procedure used above to adjust probability confidence. The calibration, resolution (also called
+discrimination) and uncertainty summary~\citep{murphy1973partition} uses
+(residue, well) pairs weighted so that each sequence group counts once, with ten
+probability bins. Its target is fractional occupancy. To state the interpretation
+precisely, let $Q$ be the predicted probability and $Y$ the reference occupancy
+of a weighted residue--well pair, and let $m(Q)=E[Y\mid Q]$. With equal weight for
+the three wells within a residue, the population identity is
+\[
+ B=3E[(Q-Y)^2]
+  =3E[(Q-m(Q))^2]-3\operatorname{Var}(m(Q))
+   +3\operatorname{Var}(Y).
+\]
+Calibration therefore compares stated probability with mean occupancy, not with
+how often a well has any nonzero occupancy. Resolution describes variation in
+conditional mean occupancy; it is not the within-residue minor-state ranking.
+Finite probability bins approximate conditioning on the exact forecast. If the
+binned reliability, resolution and uncertainty are denoted $\mathrm{REL}$,
+$\mathrm{RES}$ and $\mathrm{UNC}$ on the summed three-well scale, the residual is
+\[
+ R=B-(\mathrm{REL}-\mathrm{RES}+\mathrm{UNC}).
+\]
+It must not be silently assigned to a calibration or resolution component. The
+decomposition is descriptive and does not uniquely separate changes in forecast
+width from changes in minor-state identification.
+% AUTHOR CHECK: Supply the implementation's numerical residuals and the promised
+% bin-sensitivity results before claiming that they are reported or negligible.
+% The supplied source contains no such residual table or numerical sensitivity audit.
+\FloatBarrier
+\bibliography{../refs}
+\end{document}

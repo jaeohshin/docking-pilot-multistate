@@ -1,0 +1,12 @@
+subset	metric	definition	cases	components	component_mean	ci95_low	ci95_high
+all128	top	apo gain minus holo gain	128	39	-0.12033686868686867	-0.4792	0.2477
+all128	top5	apo gain minus holo gain	128	39	0.309536272986273	0.0017	0.6228
+all128	oracle	apo gain minus holo gain	128	39	0.33448036778036777	0.1317	0.5722
+apo_one	top	apo gain minus holo gain	21	12	-0.2584722222222222	-0.8378	0.0463
+apo_one	top5	apo gain minus holo gain	21	12	0.02883333333333334	-0.0023	0.0786
+apo_one	oracle	apo gain minus holo gain	21	12	-0.017041666666666667	-0.0608	0.0085
+apo_multiple	top	apo gain minus holo gain	107	35	-0.04362391156462585	-0.3957	0.3314
+apo_multiple	top5	apo gain minus holo gain	107	35	0.34402252834467123	0.0004	0.6888
+apo_multiple	oracle	apo gain minus holo gain	107	35	0.38206555555555555	0.1615	0.642
+pilot13	top	apo gain	13	13	0.5645384615384615	-0.09600192307692308	1.4233096153846152
+pilot13	oracle	apo gain	13	13	0.45292307692307693	-0.007692307692307693	1.1516173076923073

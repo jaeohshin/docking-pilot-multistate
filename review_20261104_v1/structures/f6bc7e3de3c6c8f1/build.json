@@ -1,0 +1,227 @@
+{
+ "case_id": "f6bc7e3de3c6c8f1",
+ "holo": {
+  "chains": [
+   "B0"
+  ],
+  "chain_names_in_pdb": {
+   "B0": "A"
+  },
+  "pocket_residues": [
+   "B0:ALA21",
+   "B0:TRP44",
+   "B0:PRO45",
+   "B0:GLU46",
+   "B0:GLN50",
+   "B0:GLY83",
+   "B0:CYS84",
+   "B0:TRP87",
+   "B0:ASP127",
+   "B0:MET172",
+   "B0:LEU236",
+   "B0:MET237",
+   "B0:THR265",
+   "B0:VAL266",
+   "B0:MET267"
+  ],
+  "multi_state_residues": {
+   "B0:GLU46": [
+    [
+     "tt",
+     0.54,
+     "B"
+    ],
+    [
+     "pt",
+     0.46,
+     "C"
+    ]
+   ],
+   "B0:MET172": [
+    [
+     "tm",
+     0.54,
+     "A"
+    ],
+    [
+     "pt",
+     0.46,
+     "B"
+    ]
+   ],
+   "B0:VAL266": [
+    [
+     "m",
+     0.83,
+     "A"
+    ],
+    [
+     "p",
+     0.17,
+     "B"
+    ]
+   ]
+  },
+  "combinations_total": 8,
+  "multi_receptors": 8,
+  "rejected_for_clash": 0,
+  "combos": [
+   {
+    "B0:GLU46": "tt",
+    "B0:MET172": "tm",
+    "B0:VAL266": "m"
+   },
+   {
+    "B0:GLU46": "tt",
+    "B0:MET172": "tm",
+    "B0:VAL266": "p"
+   },
+   {
+    "B0:GLU46": "tt",
+    "B0:MET172": "pt",
+    "B0:VAL266": "m"
+   },
+   {
+    "B0:GLU46": "tt",
+    "B0:MET172": "pt",
+    "B0:VAL266": "p"
+   },
+   {
+    "B0:GLU46": "pt",
+    "B0:MET172": "tm",
+    "B0:VAL266": "m"
+   },
+   {
+    "B0:GLU46": "pt",
+    "B0:MET172": "tm",
+    "B0:VAL266": "p"
+   },
+   {
+    "B0:GLU46": "pt",
+    "B0:MET172": "pt",
+    "B0:VAL266": "m"
+   },
+   {
+    "B0:GLU46": "pt",
+    "B0:MET172": "pt",
+    "B0:VAL266": "p"
+   }
+  ],
+  "max_graft_chi_deviation_deg": 0.71,
+  "single_clashes": [],
+  "background_switched": {},
+  "background_stripped": [],
+  "residual_clashes": []
+ },
+ "apo": {
+  "chains": [
+   "B0"
+  ],
+  "chain_names_in_pdb": {
+   "B0": "A"
+  },
+  "pocket_residues": [
+   "B0:ALA21",
+   "B0:TRP44",
+   "B0:PRO45",
+   "B0:GLU46",
+   "B0:GLN50",
+   "B0:GLY83",
+   "B0:CYS84",
+   "B0:ASP127",
+   "B0:MET172",
+   "B0:LEU236",
+   "B0:MET237",
+   "B0:THR265",
+   "B0:VAL266"
+  ],
+  "multi_state_residues": {
+   "B0:GLU46": [
+    [
+     "tt",
+     0.51,
+     "D"
+    ],
+    [
+     "mt",
+     0.49,
+     "B"
+    ]
+   ],
+   "B0:LEU236": [
+    [
+     "tp",
+     0.62,
+     "A"
+    ],
+    [
+     "mt",
+     0.38,
+     "B"
+    ]
+   ],
+   "B0:MET237": [
+    [
+     "mm",
+     0.62,
+     "A"
+    ],
+    [
+     "mt",
+     0.38,
+     "B"
+    ]
+   ]
+  },
+  "combinations_total": 8,
+  "multi_receptors": 8,
+  "rejected_for_clash": 0,
+  "combos": [
+   {
+    "B0:GLU46": "tt",
+    "B0:LEU236": "tp",
+    "B0:MET237": "mm"
+   },
+   {
+    "B0:GLU46": "tt",
+    "B0:LEU236": "tp",
+    "B0:MET237": "mt"
+   },
+   {
+    "B0:GLU46": "tt",
+    "B0:LEU236": "mt",
+    "B0:MET237": "mm"
+   },
+   {
+    "B0:GLU46": "tt",
+    "B0:LEU236": "mt",
+    "B0:MET237": "mt"
+   },
+   {
+    "B0:GLU46": "mt",
+    "B0:LEU236": "tp",
+    "B0:MET237": "mm"
+   },
+   {
+    "B0:GLU46": "mt",
+    "B0:LEU236": "tp",
+    "B0:MET237": "mt"
+   },
+   {
+    "B0:GLU46": "mt",
+    "B0:LEU236": "mt",
+    "B0:MET237": "mm"
+   },
+   {
+    "B0:GLU46": "mt",
+    "B0:LEU236": "mt",
+    "B0:MET237": "mt"
+   }
+  ],
+  "max_graft_chi_deviation_deg": 1.64,
+  "single_clashes": [],
+  "background_switched": {},
+  "background_stripped": [],
+  "residual_clashes": []
+ }
+}

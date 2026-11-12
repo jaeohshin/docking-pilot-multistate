@@ -1,0 +1,24 @@
+{
+  "exploratory": true,
+  "table_assertions": 2524,
+  "table_assertions_passed": true,
+  "additional_frozen_bootstrap_checks": 20,
+  "case_arm_logs_checked": 1716,
+  "selected_source_file_hashes_checked": 3111,
+  "source_hash_mismatches": [],
+  "structure_cases": 10,
+  "geometry_distinct_top5_arm_checks": 20,
+  "python_scripts_syntax_checked": 7,
+  "local_markdown_links_checked": 5,
+  "figures_visually_inspected": [
+    "generation_selection.png",
+    "first_good_rank.png",
+    "structure_examples.png"
+  ],
+  "new_docking_calls": 0,
+  "model_forward_calls": 0,
+  "training_runs": 0,
+  "commit_push": false,
+  "preserved_frozen_sources": true,
+  "note": "Raw table ranks were refined using exact GNINA output score properties and 26 coordinate-based threshold checks. Remaining score export tie uncertainty is reported."
+}

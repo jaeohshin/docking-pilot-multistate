@@ -1,0 +1,136 @@
+{
+ "case_id": "88c5041cdb0042d0",
+ "holo": {
+  "chains": [
+   "A0"
+  ],
+  "chain_names_in_pdb": {
+   "A0": "A"
+  },
+  "pocket_residues": [
+   "A0:ILE621",
+   "A0:GLY622",
+   "A0:ALA623",
+   "A0:GLY624",
+   "A0:VAL629",
+   "A0:ALA645",
+   "A0:LYS647",
+   "A0:ILE677",
+   "A0:THR693",
+   "A0:GLU694",
+   "A0:PHE695",
+   "A0:MET696",
+   "A0:GLY699",
+   "A0:LEU747"
+  ],
+  "multi_state_residues": {
+   "A0:ILE621": [
+    [
+     "pp",
+     0.65,
+     "A"
+    ],
+    [
+     "pt",
+     0.35,
+     "B"
+    ]
+   ],
+   "A0:ILE677": [
+    [
+     "tp",
+     0.55,
+     "A"
+    ],
+    [
+     "mm",
+     0.45,
+     "B"
+    ]
+   ]
+  },
+  "combinations_total": 4,
+  "multi_receptors": 4,
+  "rejected_for_clash": 0,
+  "combos": [
+   {
+    "A0:ILE621": "pp",
+    "A0:ILE677": "tp"
+   },
+   {
+    "A0:ILE621": "pp",
+    "A0:ILE677": "mm"
+   },
+   {
+    "A0:ILE621": "pt",
+    "A0:ILE677": "tp"
+   },
+   {
+    "A0:ILE621": "pt",
+    "A0:ILE677": "mm"
+   }
+  ],
+  "max_graft_chi_deviation_deg": 0.88,
+  "single_clashes": [],
+  "background_switched": {
+   "A0:ARG633": "A",
+   "A0:ARG763": "B"
+  },
+  "background_stripped": [],
+  "residual_clashes": []
+ },
+ "apo": {
+  "chains": [
+   "A0"
+  ],
+  "chain_names_in_pdb": {
+   "A0": "A"
+  },
+  "pocket_residues": [
+   "A0:ILE621",
+   "A0:GLY622",
+   "A0:ALA623",
+   "A0:GLY624",
+   "A0:VAL629",
+   "A0:ALA645",
+   "A0:LYS647",
+   "A0:ILE677",
+   "A0:THR693",
+   "A0:GLU694",
+   "A0:PHE695",
+   "A0:MET696",
+   "A0:GLY699",
+   "A0:LEU747"
+  ],
+  "multi_state_residues": {
+   "A0:ILE621": [
+    [
+     "pt",
+     0.53,
+     "B"
+    ],
+    [
+     "pp",
+     0.47,
+     "A"
+    ]
+   ]
+  },
+  "combinations_total": 2,
+  "multi_receptors": 2,
+  "rejected_for_clash": 0,
+  "combos": [
+   {
+    "A0:ILE621": "pt"
+   },
+   {
+    "A0:ILE621": "pp"
+   }
+  ],
+  "max_graft_chi_deviation_deg": 0.35,
+  "single_clashes": [],
+  "background_switched": {},
+  "background_stripped": [],
+  "residual_clashes": []
+ }
+}

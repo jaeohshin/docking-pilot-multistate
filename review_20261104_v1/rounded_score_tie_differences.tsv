@@ -1,0 +1,9 @@
+engine	case_id	arm	metric	from_rounded_pose_table	frozen_full_precision
+GNINA8	2248260e300938dd	holo_single	top	0.89	0.866
+GNINA8	2248260e300938dd	holo_multi	top	0.89	0.866
+GNINA8	2991fb5d9d642d1b	holo_single	top	0.847	0.837
+GNINA8	52ca3abc99bf0a1b	holo_single	top5_raw	0.684	0.687
+GNINA8	b3a33fcc7a7495b2	apo_multi	top	1.636	1.628
+GNINA8	bbfc6b81df47c675	apo_single	top5_raw	5.426	5.42
+GNINA8	bbfc6b81df47c675	apo_multi	top5_raw	5.426	5.42
+GNINA8	e71ec1febb7d05e2	holo_single	top5_raw	0.44	0.441

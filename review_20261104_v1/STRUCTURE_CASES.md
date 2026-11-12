@@ -1,0 +1,42 @@
+# All ten Vina50 oracle-success switches — exploratory
+
+Cases were selected solely by the requested pre-existing success transition (single vs multi oracle ≤2 Å). These are post-outcome examples, not an independent mechanism-validation set. All ten were inspected computationally from actual stored receptor coordinates and all their saved apo docking poses. No structure was relaxed or docked again.
+
+`structure_case_summary.tsv` records best call/pose/receptor, three-dimensional heavy-atom contacts and successful call counts. `changed_residues.tsv` gives actual source-copy and PDB residue IDs, major/selected joint wells, qFit occupancies and altlocs, mapping to holo where uniquely available, and local side-chain coordinates relative to holo. `receptor_call_results.tsv` covers **every** retained receptor combination in the ten cases, not only the winner. `matched_seed_calls.tsv` gives all 1,000 apo call outcomes (10×2×50).
+
+Source labels such as `B0:MET237` are qFit chain/copy labels, **not necessarily the output PDB chain**. The latter is explicitly recorded in `build.json` and `changed_residues.tsv`; for the 8USG case, source B0 maps to output chain A. Author numbering, insertion code and residue names were parsed from the stored build mapping, not inferred from source sequence indices.
+
+## Complete case inventory
+
+Here “good calls” counts calls producing at least one pose ≤2 Å; “clashes” is the number of heavy-atom pairs <2.2 Å between the **same winning ligand pose** and the prepared major/selected receptors. This is a static geometric diagnostic, not a rescored energy or proof of causal necessity.
+
+| Case ID / ligand | Oracle RMSD single→multi (Å) | Best multi receptor / call / pose (0-based) | Changed states in the best combination | Good multi calls | Structural reading |
+|---|---|---|---|---:|---|
+| `28cfc7bf72ea90b1`, 5RG6→5RGC, 6NT:A:401 | 3.871→1.421 | multi_3 / 27 / 3 | TRP44 mb1→tb4; ASP127 mb2→mb0; LEU236 mt→tp; MET237 mm→mt | 7 | 7→0 clashes with the winning pose. Met237 minimum distance 0.295→3.080 Å and its selected mt well matches holo major; the other three changed wells do not. Two receptor combinations produce good poses. |
+| `3a916dc92413651d`, 5NG7→8AGP, M1U:A:502 | 7.227→1.287 | multi_2 / 42 / 4 | MET173 tt→mm (occupancy .55/.45) | 17 | One-residue change; 4→0 clashes with winning pose, 11→0 against reference. Selected well mm differs from holo major mt, although local coordinate RMSD decreases modestly. Supports steric opening without an exact holo-well match. |
+| `4f5b98182e68d994`, 5NG7→8AGP, M1U:B:401 | 2.540→1.370 | multi_2 / 20 / 7 | PRO127 p→m; ILE244 mm→mt; HIS270 tb1→tb0 | 7 | No severe-clash relief (0→0). Ile244 mt matches holo major and local side-chain RMSD decreases 1.306→0.141 Å; other changes remain confounded. |
+| `6e3ca34a688935f9`, 5E8T→5QIL, J2V:A:601 | 2.446→1.580 | multi_3 / 43 / 7 | LYS232 tt→mt; SER280 p→m; ASP351 mb1→mb2 | 19 | No severe-clash relief (0→0), none of the three selected joint bins matches holo major. Asp351 coordinate RMSD improves, but bin/coordinate agreement is not identical and atom-name symmetry is uncorrected. Mechanism unresolved. |
+| `88c5041cdb0042d0`, 6FNL→6FNK, DXK:A:1001 | 2.078→1.341 | multi_1 / 35 / 5 | ILE621 pt→pp (occupancy .53/.47) | 22 | Only one altered residue. Selected pp matches holo major; local side-chain RMSD 0.957→0.117 Å. Winning ligand has no <2.2 Å clash in either receptor. A plausible holo-like alternative example, not proof that the rotamer is uniquely required. |
+| `a362f9bc26e30b9c`, 5NG7→8AGP, M1U:A:501 | 2.592→1.446 | multi_1 / 19 / 7 | ILE244 mm→mt (.56/.44) | 11 | No severe-clash relief. Holo-like Ile244; local RMSD 1.283→0.154 Å. Shares the same homology component and apo/holo structures as the two other M1U examples. |
+| `a831a4c303e28d9a`, 7KEY→7KLX, WOV:A:401, **loss** | 1.891→2.067 | multi_0 / 4 / 8 | Best multi pose uses unchanged all-major receptor | 0 | Single good calls 10 and 25 produced 1.980 and 1.891 Å; multi assigned those exact seeds to receptors 2 and 1. Multi_0 gets only 13 calls and has the same outcomes as single at those matched seeds. Receptors 1/2 change LEU172/ASP148; none yields a good pose. Supports budget-allocation loss, not destruction of the original major geometry. |
+| `f103150d4318d464`, 3UAV→3UAX, NOS:A:236 | 2.154→0.699 | multi_3 / 27 / 7 | SER203 p→m; ILE206 mp→pt | 5 | No severe-clash relief. Ser203 alternative does not match holo major; a reliable holo joint-well entry for Ile206 is absent in the available qFit state table. Coordinate comparison does not show holo approach. Mechanism unresolved. |
+| `f6bc7e3de3c6c8f1`, 8USG→8USH, 6NT:B:401 | 3.929→0.750 | multi_7 / 31 / 0 | Source B0: GLU46 tt→mt; LEU236 tp→mt; MET237 mm→mt | 23 | 2→0 winning-pose clashes; Met237 distance 1.443→3.288 Å, selected mt matches holo major. Four combinations succeed. Same component as 5RG6→5RGC, so not an independent protein-level example. |
+| `f71c2ec47cfe0b88`, 4IQ1→4IW9, GSH:A:301 | 3.592→1.781 | multi_6 / 46 / 8 | Partner copy B1: ARG36 mt→mm (.58/.42) | 4 | No severe-clash relief against winning pose (0→0); Arg36 moves closer (6.681→3.123 Å). Reference gets a severe contact in selected geometry. Unique holo partner mapping was not established, so no holo-like claim. |
+
+The 9 gains span **6 homology components**. Five winning combinations include at least one mapped holo-major-matching altered joint well, but several also contain other altered residues. Three gained cases have relief of severe clashes for the winning ligand. These categories overlap and were derived after observing outcomes. No formal enrichment or causal population claim is made.
+
+## What distinguishes receptor effects from seed fluctuation
+
+All-major multi_0 and single receptors have identical prepared heavy atoms in the ten cases. Their outputs are identical at matched seeds (including coordinates and scores), and the changed combinations keep the same backbone. Every gained case has zero successful single calls across all 50 seeds but 4–23 successful multi calls at the same seed values, with successful receptors identified in the tables. Thus the stored results cannot be explained by simply assigning the multi arm a different random-seed list. Altered receptor geometry changes the search outcome for these seeds.
+
+However, receptor identity and seed-slot allocation are coupled by the round-robin design. There is no full receptor×seed factorial, no independent resampling of ensembles, and no matched generic-diversity control. Repeated successes are evidence within this retained ensemble/seed schedule; they do not prove physical conformational selection, residue-level causality, qFit specificity, or seed-independent population improvement.
+
+For the lost case, the alternative combinations are multi_1 = LEU172 mp, multi_2 = ASP148 tb2 and multi_3 = both. Single-state successes occur precisely at calls reassigned to multi_2 and multi_1. The unchanged receptor remains available, with fewer opportunities. This is a concrete tradeoff of fixed-budget ensemble docking.
+
+## Coordinate materials and viewing
+
+`structures/<case_id>/` contains the original built major and winning receptor PDBs, holo major PDB, reference ligand PDB, saved single/multi oracle poses as SDF and `build.json`. The loss case also retains all its alternative receptor PDBs. `view.pml` loads apo-coordinate materials; run PyMOL from that case directory if already installed. No viewer was installed or launched in this review. Holo is deliberately not loaded into the apo view without alignment because its native coordinate frame differs.
+
+`structure_examples.png` shows Met237 steric relief and Ile621 holo approach. It uses coordinate projections only for display; all reported distances are three-dimensional. Holo side chains are locally fitted through N/CA/C for that display. Residue atom-name RMSDs do not resolve equivalent atom names, and a matching χ1/χ2 well does not prove full side-chain identity. The file is an illustrative figure, not an electron-density validation.
+
+Available coordinates were sufficient for these limited checks. To make stronger mechanisms defensible would require receptor-specific repeated seeds, one-residue counterfactuals, a matched rotamer-prior ensemble and, for partner Arg36, an audited holo partner-chain mapping/source qFit conformer. Raw electron-density maps were not retrieved; density support of each altered conformer was not revalidated. No missing evidence was replaced with a structural story.

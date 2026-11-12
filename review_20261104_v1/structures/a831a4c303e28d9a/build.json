@@ -1,0 +1,195 @@
+{
+ "case_id": "a831a4c303e28d9a",
+ "holo": {
+  "chains": [
+   "A0"
+  ],
+  "chain_names_in_pdb": {
+   "A0": "A"
+  },
+  "pocket_residues": [
+   "A0:SER146",
+   "A0:GLU147",
+   "A0:ASP148",
+   "A0:LYS150",
+   "A0:VAL155",
+   "A0:ARG156",
+   "A0:GLN157",
+   "A0:LEU172",
+   "A0:PHE174",
+   "A0:LYS197",
+   "A0:SER201"
+  ],
+  "multi_state_residues": {
+   "A0:SER146": [
+    [
+     "p",
+     0.53,
+     "D"
+    ],
+    [
+     "t",
+     0.47,
+     "B"
+    ]
+   ],
+   "A0:GLU147": [
+    [
+     "tt",
+     0.7,
+     "B"
+    ],
+    [
+     "pt",
+     0.3,
+     "D"
+    ]
+   ],
+   "A0:ASP148": [
+    [
+     "tb0",
+     0.77,
+     "B"
+    ],
+    [
+     "tb2",
+     0.23,
+     "A"
+    ]
+   ]
+  },
+  "combinations_total": 8,
+  "multi_receptors": 8,
+  "rejected_for_clash": 0,
+  "combos": [
+   {
+    "A0:SER146": "p",
+    "A0:GLU147": "tt",
+    "A0:ASP148": "tb0"
+   },
+   {
+    "A0:SER146": "p",
+    "A0:GLU147": "tt",
+    "A0:ASP148": "tb2"
+   },
+   {
+    "A0:SER146": "p",
+    "A0:GLU147": "pt",
+    "A0:ASP148": "tb0"
+   },
+   {
+    "A0:SER146": "p",
+    "A0:GLU147": "pt",
+    "A0:ASP148": "tb2"
+   },
+   {
+    "A0:SER146": "t",
+    "A0:GLU147": "tt",
+    "A0:ASP148": "tb0"
+   },
+   {
+    "A0:SER146": "t",
+    "A0:GLU147": "tt",
+    "A0:ASP148": "tb2"
+   },
+   {
+    "A0:SER146": "t",
+    "A0:GLU147": "pt",
+    "A0:ASP148": "tb0"
+   },
+   {
+    "A0:SER146": "t",
+    "A0:GLU147": "pt",
+    "A0:ASP148": "tb2"
+   }
+  ],
+  "max_graft_chi_deviation_deg": 3.9,
+  "single_clashes": [],
+  "background_switched": {
+   "A0:ALA217": "C",
+   "A0:ASN162": "A",
+   "A0:ASP48": "A",
+   "A0:ASN68": "C",
+   "A0:SER55": "C",
+   "A0:TYR124": "A"
+  },
+  "background_stripped": [
+   "A0:GLU26"
+  ],
+  "residual_clashes": []
+ },
+ "apo": {
+  "chains": [
+   "A0"
+  ],
+  "chain_names_in_pdb": {
+   "A0": "A"
+  },
+  "pocket_residues": [
+   "A0:SER146",
+   "A0:GLU147",
+   "A0:ASP148",
+   "A0:LYS150",
+   "A0:VAL155",
+   "A0:ARG156",
+   "A0:GLN157",
+   "A0:LEU172",
+   "A0:PHE174",
+   "A0:SER201"
+  ],
+  "multi_state_residues": {
+   "A0:ASP148": [
+    [
+     "tb0",
+     0.67,
+     "B"
+    ],
+    [
+     "tb2",
+     0.33,
+     "A"
+    ]
+   ],
+   "A0:LEU172": [
+    [
+     "mt",
+     0.79,
+     "B"
+    ],
+    [
+     "mp",
+     0.21,
+     "A"
+    ]
+   ]
+  },
+  "combinations_total": 4,
+  "multi_receptors": 4,
+  "rejected_for_clash": 0,
+  "combos": [
+   {
+    "A0:ASP148": "tb0",
+    "A0:LEU172": "mt"
+   },
+   {
+    "A0:ASP148": "tb0",
+    "A0:LEU172": "mp"
+   },
+   {
+    "A0:ASP148": "tb2",
+    "A0:LEU172": "mt"
+   },
+   {
+    "A0:ASP148": "tb2",
+    "A0:LEU172": "mp"
+   }
+  ],
+  "max_graft_chi_deviation_deg": 0.0,
+  "single_clashes": [],
+  "background_switched": {
+   "A0:ARG254": "A"
+  },
+  "background_stripped": [],
+  "residual_clashes": []
+ }
+}
